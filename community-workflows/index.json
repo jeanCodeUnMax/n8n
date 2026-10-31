@@ -1,0 +1,64 @@
+{
+  "generated": "2026-10-31",
+  "count": 4,
+  "workflows": [
+    {
+      "name": "Chattrigger Workflow",
+      "path": "community-workflows/Zie619/workflows/Airtable/0756_Airtable_Create_Triggered.json",
+      "source": "https://github.com/Zie619/n8n-workflows/blob/main/workflows/Airtable/0756_Airtable_Create_Triggered.json",
+      "license": "MIT (collection; origine individuelle à vérifier)",
+      "node_count": 13,
+      "nodes": [
+        "n8n-nodes-base.manualTrigger",
+        "n8n-nodes-base.noOp",
+        "n8n-nodes-base.set",
+        "n8n-nodes-base.airtable",
+        "n8n-nodes-base.stopAndError"
+      ],
+      "connections": true
+    },
+    {
+      "name": "Production Workflow",
+      "path": "community-workflows/Zie619/workflows/Airtable/1120_Airtable_Mindee_Automate_Webhook.json",
+      "source": "https://github.com/Zie619/n8n-workflows/blob/main/workflows/Airtable/1120_Airtable_Mindee_Automate_Webhook.json",
+      "license": "MIT (collection; origine individuelle à vérifier)",
+      "node_count": 5,
+      "nodes": [
+        "n8n-nodes-base.webhook",
+        "n8n-nodes-base.mindee",
+        "n8n-nodes-base.airtable",
+        "n8n-nodes-base.set",
+        "n8n-nodes-base.stopAndError"
+      ],
+      "connections": true
+    },
+    {
+      "name": "If Workflow",
+      "path": "community-workflows/Zie619/workflows/Asana/0241_Asana_Notion_Create_Triggered.json",
+      "source": "https://github.com/Zie619/n8n-workflows/blob/main/workflows/Asana/0241_Asana_Notion_Create_Triggered.json",
+      "license": "MIT (collection; origine individuelle à vérifier)",
+      "node_count": 11,
+      "nodes": [
+        "n8n-nodes-base.if",
+        "n8n-nodes-base.notion",
+        "n8n-nodes-base.asana",
+        "n8n-nodes-base.function",
+        "n8n-nodes-base.asanaTrigger",
+        "n8n-nodes-base.stopAndError"
+      ],
+      "connections": true
+    },
+    {
+      "name": "Receive updates when an event occurs in Asana",
+      "path": "community-workflows/Zie619/workflows/Asana/0967_Asana_Update_Triggered.json",
+      "source": "https://github.com/Zie619/n8n-workflows/blob/main/workflows/Asana/0967_Asana_Update_Triggered.json",
+      "license": "MIT (collection; origine individuelle à vérifier)",
+      "node_count": 2,
+      "nodes": [
+        "n8n-nodes-base.asanaTrigger",
+        "n8n-nodes-base.stopAndError"
+      ],
+      "connections": true
+    }
+  ]
+}
