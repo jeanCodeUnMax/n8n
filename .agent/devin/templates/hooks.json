@@ -1,0 +1,38 @@
+{
+  "_comment": "Bloc 'hooks' à fusionner dans %USERPROFILE%/.config/devin/config.json. Les hooks beacon existants sont conservés : ajouter les entrées 'awareness' dans les mêmes tableaux d'événements.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node '%USERPROFILE%\\.config\\devin\\scripts\\awareness.mjs' session-start",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node '%USERPROFILE%\\.config\\devin\\scripts\\awareness.mjs' prompt-submit",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node '%USERPROFILE%\\.config\\devin\\scripts\\awareness.mjs' stop",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}

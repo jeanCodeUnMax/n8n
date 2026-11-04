@@ -1,0 +1,101 @@
+{
+  "name": "SWAT - Telegram Image",
+  "nodes": [
+    {
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "name": "Webhook",
+      "position": [ 250, 300 ],
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "swat-telegram-image",
+        "responseMode": "lastNode"
+      }
+    },
+    {
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 2,
+      "name": "Fetch Image",
+      "position": [ 500, 300 ],
+      "parameters": {
+        "url": "={{$json[\"imageUrl\"]}}",
+        "method": "GET",
+        "responseFormat": "file",
+        "outputPropertyName": "data"
+      }
+    },
+    {
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 2,
+      "name": "Write Binary File",
+      "position": [ 750, 300 ],
+      "parameters": {
+        "operation": "write",
+        "filePath": ".agent/tmp/baboon.jpg",
+        "binaryProperty": "data"
+      }
+    },
+    {
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 2,
+      "name": "Telegram Send",
+      "position": [ 1000, 300 ],
+      "parameters": {
+        "url": "http://127.0.0.1:5680/x-run",
+        "method": "POST",
+        "jsonParameters": true,
+        "options": {},
+        "bodyParametersJson": {
+          "command": "cli-anything-telegram",
+          "args": [
+            "--chat",
+            "7361415944",
+            "send-file",
+            "--path",
+            "C:/Program Files/Projet-complet/hephaistos2-kit/.agent/tmp/baboon.jpg",
+            "--caption",
+            "{{ caption }}",
+            "--kind",
+            "photo",
+            "--as-user"
+          ]
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Fetch Image",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Fetch Image": {
+      "main": [
+        [
+          {
+            "node": "Write Binary File",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Write Binary File": {
+      "main": [
+        [
+          {
+            "node": "Telegram Send",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  }
+}

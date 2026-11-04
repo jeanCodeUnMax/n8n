@@ -1,0 +1,168 @@
+{
+  "name": "swat-faisabilite",
+  "desc": "Flux d'étude de faisabilité et d'architecture : exploration de la surface d'attaque, analyse des APIs, évaluation des risques et cadrage technique avant lancement d'un gros chantier ou nouveau composant.",
+  "graph": {
+    "version": 1,
+    "name": "swat-faisabilite",
+    "entrySessionId": "acp/devin-cli/ionian-helicopter",
+    "nodes": [
+      {
+        "sessionId": "acp/devin-cli/ionian-helicopter",
+        "role": "Orchestrateur",
+        "task": "Cadrage de l'étude : définit le périmètre du composant à évaluer et lance les 3 études parallèles.",
+        "skills": [
+          "orchestrator",
+          "plan-writing"
+        ],
+        "title": "ionian-helicopter",
+        "position": {
+          "x": -440,
+          "y": 0
+        }
+      },
+      {
+        "sessionId": "chat-mvmw59wa",
+        "role": "Analyste-Architecture",
+        "task": "Étude Architecture & Code : cartographie composants, faisabilité technique, API et dépendances.",
+        "skills": [
+          "architecture",
+          "api-patterns"
+        ],
+        "title": "keen-agent",
+        "position": {
+          "x": -110,
+          "y": -220
+        }
+      },
+      {
+        "sessionId": "chat-mvmtldvy",
+        "role": "Analyste-Securite",
+        "task": "Étude Sécurité & Risques : surface d'attaque, secrets, sandboxing, modèle de menaces et conformité.",
+        "skills": [
+          "vulnerability-scanner",
+          "mcp-security-audit"
+        ],
+        "title": "urban-agent",
+        "position": {
+          "x": -110,
+          "y": 0
+        }
+      },
+      {
+        "sessionId": "chat-mvpfinfra",
+        "role": "Analyste-Infra-Perf",
+        "task": "Étude Infra & Ressources : impact CPU/mémoire, faisabilité d'hébergement et contraintes runtime.",
+        "skills": [
+          "performance-profiling",
+          "observability-specialist"
+        ],
+        "title": "steady-agent",
+        "position": {
+          "x": -110,
+          "y": 220
+        }
+      },
+      {
+        "sessionId": "chat-mvfqytbz",
+        "role": "Synthese-Faisabilite",
+        "task": "Consolidation & Verdict GO/NO-GO : fédère les 3 études en un rapport de décision stratégique.",
+        "skills": [
+          "plan-writing",
+          "architecture"
+        ],
+        "title": "keen-agent",
+        "position": {
+          "x": 330,
+          "y": 0
+        }
+      },
+      {
+        "sessionId": "chat-mvflr6cn",
+        "role": "Documentaliste-Vault",
+        "task": "Note d'étude Obsidian : rédige la fiche de faisabilité dans le Vault Obsidian.",
+        "skills": [
+          "obsidian",
+          "vault-ingest"
+        ],
+        "title": "rapid-agent",
+        "position": {
+          "x": 660,
+          "y": -154
+        }
+      },
+      {
+        "sessionId": "chat-mvp0beacon",
+        "role": "Feedback-Beacon-Knowledge",
+        "task": "Mémorisation des arbitrages : enregistre les options retenues dans agentmemory et knowledge/decisions/.",
+        "skills": [
+          "vault-ingest"
+        ],
+        "title": "beacon-agent",
+        "position": {
+          "x": 660,
+          "y": 0
+        }
+      },
+      {
+        "sessionId": "acp/devin-cli/sugary-shoemaker",
+        "role": "Integrateur-Git",
+        "task": "Commit de l'étude : versionne le rapport d'étude et le push sur origin et personal.",
+        "skills": [
+          "lint-and-validate"
+        ],
+        "title": "sugary-shoemaker",
+        "position": {
+          "x": 660,
+          "y": 154
+        }
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge:feas-orch->archi",
+        "source": "acp/devin-cli/ionian-helicopter",
+        "target": "chat-mvmw59wa"
+      },
+      {
+        "id": "edge:feas-orch->secu",
+        "source": "acp/devin-cli/ionian-helicopter",
+        "target": "chat-mvmtldvy"
+      },
+      {
+        "id": "edge:feas-orch->infra",
+        "source": "acp/devin-cli/ionian-helicopter",
+        "target": "chat-mvpfinfra"
+      },
+      {
+        "id": "edge:feas-archi->synthese",
+        "source": "chat-mvmw59wa",
+        "target": "chat-mvfqytbz"
+      },
+      {
+        "id": "edge:feas-secu->synthese",
+        "source": "chat-mvmtldvy",
+        "target": "chat-mvfqytbz"
+      },
+      {
+        "id": "edge:feas-infra->synthese",
+        "source": "chat-mvpfinfra",
+        "target": "chat-mvfqytbz"
+      },
+      {
+        "id": "edge:feas-synthese->doc",
+        "source": "chat-mvfqytbz",
+        "target": "chat-mvflr6cn"
+      },
+      {
+        "id": "edge:feas-synthese->beacon",
+        "source": "chat-mvfqytbz",
+        "target": "chat-mvp0beacon"
+      },
+      {
+        "id": "edge:feas-synthese->git",
+        "source": "chat-mvfqytbz",
+        "target": "acp/devin-cli/sugary-shoemaker"
+      }
+    ]
+  }
+}

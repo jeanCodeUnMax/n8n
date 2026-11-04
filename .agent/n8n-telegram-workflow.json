@@ -1,0 +1,41 @@
+{
+  "name": "SWAT - Telegram Post",
+  "nodes": [
+    {
+      "id": "1",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [100, 300],
+      "name": "Webhook",
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "swat-telegram",
+        "responseMode": "lastNode"
+      }
+    },
+    {
+      "id": "2",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [300, 300],
+      "name": "Send Telegram",
+      "parameters": {
+        "command": "cli-anything-telegram --chat 7361415944 send --text \"{{$json.body.text}}\" --as-user"
+      }
+    }
+  ],
+  "connections": {
+    "1": {
+      "main": [
+        {
+          "node": "2",
+          "type": "main",
+          "index": 0
+        }
+      ]
+    }
+  },
+  "active": 0,
+  "settings": {},
+  "id": "workflow-swat-telegram"
+}

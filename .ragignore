@@ -1,0 +1,37 @@
+# .ragignore — exclusions d'ingestion Hephaistos (syntaxe gitignore)
+# Le filet SAFETY (embarque dans hphe-kit) couvre deja : .git, .env, *.key/pem/pfx,
+# *.db*, .venv, node_modules, __pycache__, memory-database, *.usearch, *.exe/dll/vsix.
+
+# Artefacts de build Rust (Go de fichiers objets)
+hphe/target/
+hphe/**/target/
+
+# Worktrees d'agents (checkouts isoles .kilo)
+.kilo/worktrees/
+
+# Extension : binaires + deps + artefacts vsix
+extension/server/*.exe
+extension/node_modules/
+*.vsix
+
+# Donnees d'index (on n'ingere pas ses propres index)
+migrated-vec/
+data/
+semantic-cache-data/
+bench/
+
+# Etats/logs d'ingestion
+.agent/logs/
+.agent/scripts/ingestion.log
+.agent/scripts/ingestion.state.json
+.agent/scripts/.ingestion-state.json
+.agent/rag/index-state.json
+.agent/tmp/
+.agent/test-global/
+
+# Caches/outils
+__pycache__/
+_obsolete/
+_archive/
+agent-scripts-memory-database/
+*.pyc

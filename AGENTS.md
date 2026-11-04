@@ -455,3 +455,13 @@ names (e.g. `Acme Corp`) in tests and examples.
   description using `https://linear.app/n8n/issue/[TICKET-ID]`. Do not
   create a Linear ticket on your own — ask first.
 - always link to the github issue if mentioned in the linear ticket.
+
+## Méthode "scan-service" — inventaire des workflows n8n par service (GRAVÉE)
+
+Pour lister tous les workflows n8n touchant un service (github, telegram, slack, openai…) de près ou de loin, TOUJOURS utiliser la base SQLite directe, JAMAIS l'API REST (paginée, incomplète) :
+
+- Source : `C:/Users/webma/.n8n/database.sqlite` en lecture seule (`mode=ro`), table `workflow_entity`, colonnes `name, id, active, nodes` (JSON).
+- Scan : pour chaque nœud, chercher `<service>` dans `type` ET dans `parameters` sérialisés ; catégoriser :
+  - `<service>` = nœud natif | `<service>Trigger` | `<service>Tool` (outil IA) | `api-<service>` (domaine api.X.org/com dans les params) | `mention` (reste).
+- Sortie : tableau markdown `| # | Workflow | Actif | Type d'usage | ID |` écrit dans `.agent/reports/<service>-workflows-table.md` + synthèse des comptages par catégorie à l'utilisateur.
+- Échelle de référence : ~6385 workflows dans la base. Scripts réutilisables : pattern dans `.agent/reports/github-workflows-table.md` et `telegram-workflows-table.md` (données : `data/gh-db.json`).

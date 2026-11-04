@@ -1,0 +1,170 @@
+{
+  "name": "swat-code-review",
+  "desc": "Flux d'audit qualité et revue de code : analyse statique, détection d'antipatrons, conformité de code, contrôle de sécurité et vérification git. À utiliser avant toute fusion de branche ou pour une inspection approfondie sans modification de code.",
+  "graph": {
+    "version": 1,
+    "name": "swat-code-review",
+    "entrySessionId": "acp/devin-cli/ionian-helicopter",
+    "nodes": [
+      {
+        "sessionId": "acp/devin-cli/ionian-helicopter",
+        "role": "Orchestrateur",
+        "task": "Cadrage de l'inspection : cible la branche, PR ou diff, distribue aux 3 auditeurs parallèles.",
+        "skills": [
+          "orchestrator",
+          "plan-writing"
+        ],
+        "title": "ionian-helicopter",
+        "position": {
+          "x": -660,
+          "y": 0
+        }
+      },
+      {
+        "sessionId": "chat-mvmw5chd",
+        "role": "Reviewer",
+        "task": "Audit Qualité & Lisibilité : maintenabilité, antipatrons, clarté et conformité clean-code.",
+        "skills": [
+          "code-review-checklist",
+          "clean-code"
+        ],
+        "title": "amber-agent",
+        "position": {
+          "x": -220,
+          "y": -220
+        }
+      },
+      {
+        "sessionId": "chat-mvmtldvy",
+        "role": "Auditeur-securite",
+        "task": "Audit Sécurité : analyse statique OWASP, détection de secrets, injections et codepoints suspects.",
+        "skills": [
+          "vulnerability-scanner",
+          "mcp-security-audit"
+        ],
+        "title": "urban-agent",
+        "position": {
+          "x": -220,
+          "y": 0
+        }
+      },
+      {
+        "sessionId": "chat-mvpfinfra",
+        "role": "Sentinelle-Infra-Perf",
+        "task": "Audit Performance : analyse dépendances, consommation mémoire/CPU et latence MCP.",
+        "skills": [
+          "performance-profiling",
+          "observability-specialist"
+        ],
+        "title": "steady-agent",
+        "position": {
+          "x": -220,
+          "y": 220
+        }
+      },
+      {
+        "sessionId": "chat-mvfqytbz",
+        "role": "Sentinelle",
+        "task": "Arbitrage d'audit central : centralise les 3 conclusions et émet le verdict officiel.",
+        "skills": [
+          "vulnerability-scanner",
+          "code-review-checklist"
+        ],
+        "title": "keen-agent",
+        "position": {
+          "x": 220,
+          "y": 0
+        }
+      },
+      {
+        "sessionId": "chat-mvfj773t",
+        "role": "Verif-Submodules",
+        "task": "Audit Git & Sous-modules : cohérence des commits et intégrité de l'arbre git.",
+        "skills": [
+          "git-history",
+          "lint-and-validate"
+        ],
+        "title": "xenial-agent",
+        "position": {
+          "x": 550,
+          "y": 0
+        }
+      },
+      {
+        "sessionId": "chat-mvflr6cn",
+        "role": "Documentaliste-Vault",
+        "task": "Rapport d'audit Obsidian : rédige la fiche de synthèse dans le Vault Obsidian.",
+        "skills": [
+          "obsidian",
+          "vault-ingest"
+        ],
+        "title": "rapid-agent",
+        "position": {
+          "x": 880,
+          "y": -110
+        }
+      },
+      {
+        "sessionId": "chat-mvp0beacon",
+        "role": "Feedback-Beacon-Knowledge",
+        "task": "Enregistrement des antipatrons : consigne les défauts récurrents dans agentmemory.",
+        "skills": [
+          "vault-ingest",
+          "obsidian"
+        ],
+        "title": "beacon-agent",
+        "position": {
+          "x": 880,
+          "y": 110
+        }
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge:rev-orch->reviewer",
+        "source": "acp/devin-cli/ionian-helicopter",
+        "target": "chat-mvmw5chd"
+      },
+      {
+        "id": "edge:rev-orch->secu",
+        "source": "acp/devin-cli/ionian-helicopter",
+        "target": "chat-mvmtldvy"
+      },
+      {
+        "id": "edge:rev-orch->infra",
+        "source": "acp/devin-cli/ionian-helicopter",
+        "target": "chat-mvpfinfra"
+      },
+      {
+        "id": "edge:rev-reviewer->sentinelle",
+        "source": "chat-mvmw5chd",
+        "target": "chat-mvfqytbz"
+      },
+      {
+        "id": "edge:rev-secu->sentinelle",
+        "source": "chat-mvmtldvy",
+        "target": "chat-mvfqytbz"
+      },
+      {
+        "id": "edge:rev-infra->sentinelle",
+        "source": "chat-mvpfinfra",
+        "target": "chat-mvfqytbz"
+      },
+      {
+        "id": "edge:rev-sentinelle->git",
+        "source": "chat-mvfqytbz",
+        "target": "chat-mvfj773t"
+      },
+      {
+        "id": "edge:rev-git->doc",
+        "source": "chat-mvfj773t",
+        "target": "chat-mvflr6cn"
+      },
+      {
+        "id": "edge:rev-git->feedback",
+        "source": "chat-mvfj773t",
+        "target": "chat-mvp0beacon"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+[submodule "hphe"]
+	path = hphe
+	url = https://github.com/projet-temporaire/hephaistos2-engine.git
+[submodule "extension"]
+	path = extensions/search-ext
+	url = https://github.com/projet-temporaire/hephaistos2-search-ext.git
+[submodule "extensions/orchestrator-monitor"]
+	path = extensions/orchestrator-monitor
+	url = https://github.com/projet-temporaire/hephaistos2-monitor-ext.git
+[submodule "extensions/search-ext"]
+	path = extensions/search-ext
+	url = https://github.com/projet-temporaire/hephaistos2-search-ext.git

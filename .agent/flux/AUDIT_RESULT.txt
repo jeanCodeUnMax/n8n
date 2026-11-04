@@ -1,0 +1,8 @@
+AUDIT: FAIL
+Findings:
+1. Hors workspace : extension.ts surveille ~/.hephaistos-workflow-schemas.json via fs.watch() avec USERPROFILE/homedir() — fichier en dehors du workspace controlled.
+2. Roster : Ajout de champs "hidden" sur 4 membres sans validation (workspace-roster.json) — permet exposition/cachage arbitraire d'agents.
+3. Workflow : activeSchema/activeSchemaId persistés sans vérification d'entrée (saveWorkflow/loadSchema).
+4. CLI : commande schema rename non restreinte, lecture/modification de SCHEMAS_FILE sans autorisation.
+
+Aucun secret/token/code injection eval/exec détecté directement, mais 4 findings de surface/security justifiant FAIL.

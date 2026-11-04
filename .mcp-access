@@ -1,0 +1,97 @@
+# .mcp-access — contrôle d'accès par agent (style .gitignore)
+#
+# Le profil actif = variable d'env EVERYTHING_MCP_AGENT passée par la config
+# MCP de l'agent ; absent ou inconnu => profil [default].
+#
+# Syntaxe : <action>:<pattern-glob>   (une règle par ligne, dernier match gagne)
+#   allow:       accorde lecture ET écriture
+#   read:        accorde la lecture seule (read/list/info/tree/multi-read/search)
+#   write:       accorde l'écriture (implique la lecture)
+#   deny-write:  refuse l'écriture (write_file/edit_file/create_directory/move/delete)
+#   deny:        refuse tout
+#
+# Patterns : glob sur chemin absolu normalisé (forward-slash, insensible casse)
+#   <INGEST_SCAN_ROOT>/**     = tout le sous-arbre de la racine de scan
+#   **/.env*                  = n'importe quel .env où qu'il soit
+#
+# Tokens <...> : remplacés par install.ps1 au déploiement (voir ci-dessous).
+# En dev (copie brute du repo), les tokens ne matchent rien => profils
+# bornés = fail-closed, c'est voulu.
+#
+# Un agent profilé sans règle correspondante = refusé (whitelist).
+
+# Devin, Antigravity : aucune restriction (pas de EVERYTHING_MCP_AGENT set)
+[default]
+allow: **
+
+# Agents externes muxés (EVERYTHING_MCP_AGENT=external) : lecture bornée, pas d'écriture
+[external]
+read: <INGEST_SCAN_ROOT>/**
+read: <INSTALL_ROOT>/**
+read: <PROJECT_ROOT>/**
+read: <USER_PROFILE>/Desktop/**
+
+# secrets et zones sensibles : toujours refusés, en priorité sur les grants
+deny: **/.ssh/**
+deny: **/.gnupg/**
+deny: **/.aws/**
+deny: **/.azure/**
+deny: **/.env
+deny: **/.env.**
+deny: **/*.pem
+deny: **/*.key
+deny: **/*credential*
+deny: **/id_rsa*
+deny: **/token*.json
+deny: **/secrets.*
+deny: <USER_PROFILE>/AppData/**
+# écriture : jamais
+deny-write: **
+
+# Bleubites (fenetres chat-* hephaistos-chats) : lecture+écriture sur les zones
+# de travail déclarées. En dev brut les tokens ne matchent rien → workspace
+# seul (fail-closed). install.ps1 substitue les tokens → portabilité garantie.
+[bleubite]
+allow: <PROJECT_ROOT>/**
+allow: <INGEST_SCAN_ROOT>/**
+allow: <INSTALL_ROOT>/**
+deny: **/.ssh/**
+deny: **/.gnupg/**
+deny: **/.aws/**
+deny: **/.azure/**
+deny: **/.env
+deny: **/.env.**
+deny: **/*.pem
+deny: **/*.key
+deny: **/*credential*
+deny: **/id_rsa*
+deny: **/token*.json
+deny: **/secrets.*
+deny: <USER_PROFILE>/AppData/**
+
+# hphe-rest (passerelle HTTP locale) : lecture bornée aux zones utiles,
+# écriture uniquement dans les données hphe. Secrets refusés EN DERNIER
+# (dernier match gagne) — prioritaires même sur les grants data ci-dessus.
+[rest]
+read: <INGEST_SCAN_ROOT>/**
+read: <PROJECT_ROOT>/**
+read: <INSTALL_ROOT>/**
+read: <USER_PROFILE>/Desktop/**
+read: <MEMORY_ROOT>/**
+deny-write: **
+allow: <INSTALL_ROOT>/data/**
+allow: <INSTALL_ROOT>/migrated-vec/**
+deny: **/*.token
+deny: **/token*.json
+deny: **/.ssh/**
+deny: **/.gnupg/**
+deny: **/.aws/**
+deny: **/.azure/**
+deny: **/.env
+deny: **/.env.**
+deny: **/*.pem
+deny: **/*.key
+deny: **/*credential*
+deny: **/id_rsa*
+deny: **/secrets.*
+deny: <USER_PROFILE>/AppData/**

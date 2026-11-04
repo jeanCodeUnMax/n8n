@@ -1,0 +1,152 @@
+{
+  "name": "Concile",
+  "mode": "council",
+  "graph": {
+    "version": 1,
+    "name": "Concile",
+    "entrySessionId": "acp/devin-cli/ionian-helicopter",
+    "nodes": [
+      {
+        "sessionId": "acp/devin-cli/ionian-helicopter",
+        "role": "President-Concil",
+        "task": "QUESTION AU CONCILE : Faut-il migrer le stockage des sessions de l extension Hephaistos Chats (sessions.json + workspaceState) vers SQLite/hphe ? Tranchez sur la viabilite, le plan de migration et les risques.",
+        "skills": [
+          "orchestrator"
+        ],
+        "title": "ionian-helicopter",
+        "position": {
+          "x": 0,
+          "y": -440
+        }
+      },
+      {
+        "sessionId": "chat-mvmw59wa",
+        "role": "Expert-Architecture",
+        "task": "Vision structurelle et long terme : coherence d'architecture, scalabilite, evolutivite, patterns. Defend la solution la plus propre conceptuellement.",
+        "skills": [
+          "architecture",
+          "api-patterns"
+        ],
+        "title": "keen-agent",
+        "position": {
+          "x": -330,
+          "y": -110
+        }
+      },
+      {
+        "sessionId": "chat-mvmtldvy",
+        "role": "Expert-Securite-Risques",
+        "task": "Analyse des risques : surface d'attaque, secrets, sandboxing, blast radius, conformite. Challenge toute option fragile.",
+        "skills": [
+          "vulnerability-scanner",
+          "mcp-security-audit"
+        ],
+        "title": "urban-agent",
+        "position": {
+          "x": 0,
+          "y": -110
+        }
+      },
+      {
+        "sessionId": "chat-mvpfinfra",
+        "role": "Expert-Perf-Pragmatisme",
+        "task": "Pragmatisme operationnel : cout, performance, complexite d'implementation, time-to-market. Defend la solution la plus efficace a court terme.",
+        "skills": [
+          "performance-profiling",
+          "observability-specialist"
+        ],
+        "title": "steady-agent",
+        "position": {
+          "x": 330,
+          "y": -110
+        }
+      },
+      {
+        "sessionId": "chat-mvmw5chd",
+        "role": "Expert-Qualite-Maintenabilite",
+        "task": "Maintenabilite : lisibilite, dette technique, testabilite, conventions du code. Defend la solution la plus durable.",
+        "skills": [
+          "code-review-checklist",
+          "clean-code"
+        ],
+        "title": "amber-agent",
+        "position": {
+          "x": -330,
+          "y": 110
+        }
+      },
+      {
+        "sessionId": "chat-de8acfde-0423-4480-ad11-aa4519daeee6",
+        "role": "Avocat-du-Diable",
+        "task": "Contre-expertise : challenge systematique de toutes les positions, recherche des angles morts, hypotheses implicites et scenarios d'echec. Ne converge pas par complaisance.",
+        "skills": [
+          "systematic-debugging"
+        ],
+        "title": "keen-nova",
+        "position": {
+          "x": 0,
+          "y": 110
+        }
+      },
+      {
+        "sessionId": "chat-58bb1bda-11b7-4f4d-9ade-5b9bf43820e3",
+        "role": "Expert-Faisabilite-Implementation",
+        "task": "Faisabilite concrete : effort reel de migration, compatibilite descendante, plan de transition et risques d'implementation. Defend la solution la plus realiste a executer — ni la plus elegante ni la plus rapide sur le papier.",
+        "skills": [
+          "database-design",
+          "plan-writing"
+        ],
+        "title": "brave-ibis",
+        "position": {
+          "x": 330,
+          "y": 110
+        }
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge:concil->1->chat-mvmtldvy",
+        "source": "acp/devin-cli/ionian-helicopter",
+        "target": "chat-mvmtldvy",
+        "sourceHandle": "source-bottom",
+        "targetHandle": "target-top"
+      },
+      {
+        "id": "xy-edge__acp/devin-cli/ionian-helicoptersource-bottom-chat-mvpfinfratarget-top",
+        "source": "acp/devin-cli/ionian-helicopter",
+        "target": "chat-mvpfinfra",
+        "sourceHandle": "source-bottom",
+        "targetHandle": "target-top"
+      },
+      {
+        "id": "xy-edge__acp/devin-cli/ionian-helicoptersource-bottom-chat-mvmw59watarget-top",
+        "source": "acp/devin-cli/ionian-helicopter",
+        "target": "chat-mvmw59wa",
+        "sourceHandle": "source-bottom",
+        "targetHandle": "target-top"
+      },
+      {
+        "id": "xy-edge__acp/devin-cli/ionian-helicoptersource-bottom-chat-mvmw5chdtarget-top",
+        "source": "acp/devin-cli/ionian-helicopter",
+        "target": "chat-mvmw5chd",
+        "sourceHandle": "source-bottom",
+        "targetHandle": "target-top"
+      },
+      {
+        "id": "xy-edge__acp/devin-cli/ionian-helicoptersource-bottom-chat-58bb1bda-11b7-4f4d-9ade-5b9bf43820e3target-top",
+        "source": "acp/devin-cli/ionian-helicopter",
+        "target": "chat-58bb1bda-11b7-4f4d-9ade-5b9bf43820e3",
+        "sourceHandle": "source-bottom",
+        "targetHandle": "target-top"
+      },
+      {
+        "id": "xy-edge__acp/devin-cli/ionian-helicoptersource-bottom-chat-de8acfde-0423-4480-ad11-aa4519daeee6target-top",
+        "source": "acp/devin-cli/ionian-helicopter",
+        "target": "chat-de8acfde-0423-4480-ad11-aa4519daeee6",
+        "sourceHandle": "source-bottom",
+        "targetHandle": "target-top"
+      }
+    ],
+    "mode": "council"
+  }
+}

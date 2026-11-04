@@ -1,0 +1,4 @@
+PING SWAT task 751 -> Tango
+Cible : acp/antigravity-acp/2d2e0c5d-3160-44b2-a5cf-fb246e3a605e
+Route : ws-bridge 7477 -> agy-hub (sans --model)
+Preuve PONG (comms.jsonl 2026-10-28T19:59:03Z) : agy->devin reply: PONG — Tango (Antigravity) cascade=2d2e0c5d-3160-44b2-a5cf-fb246e3a605e task=751 schema=swat-comfyui-models

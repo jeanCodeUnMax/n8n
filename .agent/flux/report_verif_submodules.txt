@@ -1,0 +1,21 @@
+Rapport de vérification des sous-modules du kit
+================================================
+
+**État global** :
+- Le commit principal du kit, `c5ad002`, est déjà poussé vers les deux dépôts : `origin` et `personal`.
+- Les trois sous-modules interrogés sont en état *clean* : aucune modification locale n’est détectée.
+
+**Sous-modules**
+----------------
+| Sous-module          | Ref local | Ref distant | Status (clean / dirty) | Action requise |
+|----------------------|-----------|-------------|-----------------------|----------------|
+| orchestrator-monitor | c4b308f   | c4b308f     | clean                 | Aucun |
+| search-ext           | 5ab29cb   | 5ab29cb     | clean                 | Aucun |
+| hphe                 | 196851f   | 196851f     | clean                 | Aucun |
+
+**Conclusion**
+--------------
+Tous les sous-modules pointent sur le même commit que dans le dépôt distant, et aucune modification locale n’est en attente. Le commit du kit principal est à jour sur les deux dépôts. Aucun push supplémentaire n’est nécessaire.
+
+-----
+Rapport généré le 2026-10-25 par l'agent Bleubite.

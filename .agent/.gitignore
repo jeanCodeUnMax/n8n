@@ -1,0 +1,15 @@
+*-dispatch.log
+task-events.log
+comms.jsonl
+ws-bridge.token
+hphe-rest.token
+*.token
+logs/
+**/ingestion.state.json
+**/.ingestion-state.json
+**/.*-state.json
+**/watch-state.json
+**/.*-learn-state.json
+**/.beacon-offset-state.json.lock
+queue/
+agent-bridge/local-paths.json

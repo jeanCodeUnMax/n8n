@@ -1,0 +1,2286 @@
+[2026-10-25T00:51:33.284Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,ollama-cloud,openrouter]
+[2026-10-25T00:51:35.913Z] send session=chat-mvn43uwi provider=nim model=deepseek/deepseek-v4-pro
+[2026-10-25T00:51:35.916Z] → completeTurn provider=nim model=deepseek/deepseek-v4-pro mode=agent messages=1
+[2026-10-25T00:51:35.973Z] ✗ completeTurn provider=nim model=deepseek/deepseek-v4-pro erreur=NVIDIA NIM : NVIDIA NIM HTTP 404: 404 page not found
+
+[2026-10-25T00:51:35.974Z] persisté session=chat-mvn43uwi msgs=2
+[2026-10-25T00:51:39.913Z] acp connect provider=hermes pid=7876
+[2026-10-25T00:51:47.438Z] acp session/new ok 5984de4c-8a13-41ea-aae4-d0763c6a8c7e
+[2026-10-25T00:51:49.788Z] acp connect provider=mistral-vibe pid=29672
+[2026-10-25T00:51:58.412Z] acp session/new ok 870b7338-f1be-3f76-7c59-63b4f9aa7491
+[2026-10-25T00:51:58.421Z] sync devin-cli: pas de transport ACP local (0 repli)
+[2026-10-25T00:51:58.421Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-25T00:51:58.422Z] sync nim: 57 modèles
+[2026-10-25T00:51:58.422Z] sync nim2: 57 modèles
+[2026-10-25T00:51:58.423Z] sync ollama: 5 modèles
+[2026-10-25T00:51:58.423Z] sync ollama-cloud: 0 modèles
+[2026-10-25T00:51:58.423Z] sync openrouter: 17 modèles
+[2026-10-25T00:51:58.424Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-25T00:51:58.424Z] sync hermes: 64 modèles
+[2026-10-25T00:51:58.424Z] sync opencode: 1 modèles
+[2026-10-25T00:51:58.425Z] sync mistral-vibe: 5 modèles
+[2026-10-25T00:51:58.425Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-25T00:52:00.395Z] send session=chat-mvn44i35 provider=devin-cli model=swe-2-high
+[2026-10-25T00:52:00.397Z] → completeTurn provider=devin-cli model=swe-2-high mode=agent messages=1
+[2026-10-25T00:52:00.398Z] ✗ completeTurn provider=devin-cli model=swe-2-high erreur=Le provider "devin-cli" n'a pas de transport ACP local (agent externe / cloud) — choisis un agent installé ou un provider routé.
+[2026-10-25T00:52:00.405Z] persisté session=chat-mvn44i35 msgs=2
+[2026-10-25T00:52:03.213Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,ollama-cloud,openrouter]
+[2026-10-25T00:52:07.190Z] acp connect provider=hermes pid=27884
+[2026-10-25T00:52:09.652Z] acp session/new ok 80e112d9-f5f8-48de-829b-15fba8d5f225
+[2026-10-25T00:52:11.762Z] acp connect provider=mistral-vibe pid=23412
+[2026-10-25T00:52:13.722Z] acp session/new ok 13ea435d-0950-daf9-d534-989022e4ab11
+[2026-10-25T00:52:13.728Z] sync devin-cli: pas de transport ACP local (0 repli)
+[2026-10-25T00:52:13.728Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-25T00:52:13.729Z] sync nim: 57 modèles
+[2026-10-25T00:52:13.729Z] sync nim2: 57 modèles
+[2026-10-25T00:52:13.730Z] sync ollama: 5 modèles
+[2026-10-25T00:52:13.730Z] sync ollama-cloud: 0 modèles
+[2026-10-25T00:52:13.730Z] sync openrouter: 17 modèles
+[2026-10-25T00:52:13.730Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-25T00:52:13.731Z] sync hermes: 64 modèles
+[2026-10-25T00:52:13.731Z] sync opencode: 1 modèles
+[2026-10-25T00:52:13.731Z] sync mistral-vibe: 5 modèles
+[2026-10-25T00:52:13.731Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-25T00:53:20.371Z] send session=chat-mvn4671e provider=gemini model=auto
+[2026-10-25T00:53:20.374Z] → completeTurn provider=gemini model=auto mode=agent messages=1
+[2026-10-25T00:53:20.418Z] ✗ completeTurn provider=gemini model=auto erreur=agent gemini terminé
+[2026-10-25T00:53:20.421Z] persisté session=chat-mvn4671e msgs=2
+[2026-10-25T01:10:37.612Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,openrouter]
+[2026-10-25T01:10:40.132Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,openrouter]
+[2026-10-25T01:10:51.025Z] acp connect provider=hermes pid=25224
+[2026-10-25T01:10:53.631Z] acp connect provider=hermes pid=8668
+[2026-10-25T01:11:06.842Z] acp session/new ok 978d0f6f-1b0d-4d9b-a7de-e2a2e28861b2
+[2026-10-25T01:11:06.878Z] acp session/new ok 6eae56a5-1a57-4687-858b-11af519a3b19
+[2026-10-25T01:11:09.743Z] acp connect provider=mistral-vibe pid=16544
+[2026-10-25T01:11:09.745Z] acp connect provider=mistral-vibe pid=3284
+[2026-10-25T01:11:15.937Z] acp session/new ok 60a3203a-0f49-5dc4-c4dd-79fa09fc92b5
+[2026-10-25T01:11:15.943Z] sync devin-cli: pas de transport ACP local (0 repli)
+[2026-10-25T01:11:15.944Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-25T01:11:15.944Z] sync nim: 0 modèles
+[2026-10-25T01:11:15.944Z] sync nim2: 0 modèles
+[2026-10-25T01:11:15.945Z] sync ollama: 0 modèles
+[2026-10-25T01:11:15.945Z] sync openrouter: 4 modèles
+[2026-10-25T01:11:15.945Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-25T01:11:15.946Z] sync hermes: 64 modèles
+[2026-10-25T01:11:15.946Z] sync opencode: 1 modèles
+[2026-10-25T01:11:15.946Z] sync mistral-vibe: 5 modèles
+[2026-10-25T01:11:15.946Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-25T01:11:17.099Z] acp session/new ok 5afc0834-e92b-c242-0368-0170a42c6f38
+[2026-10-25T01:11:17.108Z] sync devin-cli: pas de transport ACP local (0 repli)
+[2026-10-25T01:11:17.108Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-25T01:11:17.109Z] sync nim: 0 modèles
+[2026-10-25T01:11:17.109Z] sync nim2: 0 modèles
+[2026-10-25T01:11:17.109Z] sync ollama: 0 modèles
+[2026-10-25T01:11:17.110Z] sync openrouter: 4 modèles
+[2026-10-25T01:11:17.110Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-25T01:11:17.110Z] sync hermes: 64 modèles
+[2026-10-25T01:11:17.111Z] sync opencode: 1 modèles
+[2026-10-25T01:11:17.111Z] sync mistral-vibe: 5 modèles
+[2026-10-25T01:11:17.111Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-25T01:15:35.296Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,openrouter]
+[2026-10-25T01:15:37.490Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,openrouter]
+[2026-10-25T01:15:50.208Z] acp connect provider=hermes pid=27984
+[2026-10-25T01:15:51.734Z] acp connect provider=hermes pid=31140
+[2026-10-25T01:15:54.694Z] acp session/new ok dabd2492-dc6d-4d13-9185-2c73ccb25c2f
+[2026-10-25T01:15:57.024Z] acp session/new ok d0b0fb6a-6525-474a-a32d-6da381066792
+[2026-10-25T01:15:58.670Z] acp connect provider=mistral-vibe pid=12556
+[2026-10-25T01:16:00.395Z] acp connect provider=mistral-vibe pid=14268
+[2026-10-25T01:16:01.834Z] acp session/new ok d2ad2d86-23e0-c726-ce76-38dbafcb52f1
+[2026-10-25T01:16:01.845Z] sync devin-cli: pas de transport ACP local (0 repli)
+[2026-10-25T01:16:01.846Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-25T01:16:01.847Z] sync nim: 0 modèles
+[2026-10-25T01:16:01.847Z] sync nim2: 0 modèles
+[2026-10-25T01:16:01.847Z] sync ollama: 0 modèles
+[2026-10-25T01:16:01.848Z] sync openrouter: 4 modèles
+[2026-10-25T01:16:01.848Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-25T01:16:01.848Z] sync hermes: 64 modèles
+[2026-10-25T01:16:01.849Z] sync opencode: 1 modèles
+[2026-10-25T01:16:01.849Z] sync mistral-vibe: 5 modèles
+[2026-10-25T01:16:01.849Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-25T01:16:04.664Z] acp session/new ok 1bd96b73-f6f0-f56a-601c-f1034f975515
+[2026-10-25T01:16:04.674Z] sync devin-cli: pas de transport ACP local (0 repli)
+[2026-10-25T01:16:04.675Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-25T01:16:04.675Z] sync nim: 0 modèles
+[2026-10-25T01:16:04.676Z] sync nim2: 0 modèles
+[2026-10-25T01:16:04.677Z] sync ollama: 0 modèles
+[2026-10-25T01:16:04.677Z] sync openrouter: 4 modèles
+[2026-10-25T01:16:04.678Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-25T01:16:04.679Z] sync hermes: 64 modèles
+[2026-10-25T01:16:04.679Z] sync opencode: 1 modèles
+[2026-10-25T01:16:04.679Z] sync mistral-vibe: 5 modèles
+[2026-10-25T01:16:04.680Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-25T01:29:23.984Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,openrouter]
+[2026-10-25T01:29:25.973Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,openrouter]
+[2026-10-25T01:29:37.310Z] acp connect provider=hermes pid=1048
+[2026-10-25T01:29:39.368Z] acp connect provider=hermes pid=28752
+[2026-10-25T01:29:46.775Z] acp session/new ok 9897b78a-359d-4e11-a6ef-7b75e550118c
+[2026-10-25T01:29:46.810Z] acp session/new ok f9246125-0b7c-4955-bb2d-faee6596fe5c
+[2026-10-25T01:29:49.189Z] acp connect provider=mistral-vibe pid=23232
+[2026-10-25T01:29:49.200Z] acp connect provider=mistral-vibe pid=4356
+[2026-10-25T01:29:57.916Z] acp session/new ok 494cc364-bef9-35e5-88c4-57943368388b
+[2026-10-25T01:29:57.925Z] sync devin-cli: pas de transport ACP local (0 repli)
+[2026-10-25T01:29:57.925Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-25T01:29:57.926Z] sync nim: 0 modèles
+[2026-10-25T01:29:57.926Z] sync nim2: 0 modèles
+[2026-10-25T01:29:57.926Z] sync ollama: 0 modèles
+[2026-10-25T01:29:57.927Z] sync openrouter: 4 modèles
+[2026-10-25T01:29:57.927Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-25T01:29:57.927Z] sync hermes: 64 modèles
+[2026-10-25T01:29:57.927Z] sync opencode: 1 modèles
+[2026-10-25T01:29:57.928Z] sync mistral-vibe: 5 modèles
+[2026-10-25T01:29:57.928Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-25T01:29:58.031Z] acp session/new ok 41bcfa41-c9c8-e788-7ea5-f980655fa023
+[2026-10-25T01:29:58.038Z] sync devin-cli: pas de transport ACP local (0 repli)
+[2026-10-25T01:29:58.039Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-25T01:29:58.039Z] sync nim: 0 modèles
+[2026-10-25T01:29:58.040Z] sync nim2: 0 modèles
+[2026-10-25T01:29:58.040Z] sync ollama: 0 modèles
+[2026-10-25T01:29:58.040Z] sync openrouter: 4 modèles
+[2026-10-25T01:29:58.041Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-25T01:29:58.041Z] sync hermes: 64 modèles
+[2026-10-25T01:29:58.041Z] sync opencode: 1 modèles
+[2026-10-25T01:29:58.042Z] sync mistral-vibe: 5 modèles
+[2026-10-25T01:29:58.042Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-25T01:31:32.007Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,openrouter]
+[2026-10-25T01:31:32.904Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,openrouter]
+[2026-10-25T01:31:45.965Z] acp connect provider=hermes pid=21840
+[2026-10-25T01:31:46.678Z] acp connect provider=hermes pid=6148
+[2026-10-25T01:31:49.345Z] acp session/new ok c6238a73-8327-4312-ab85-55d4ee1641e0
+[2026-10-25T01:31:50.200Z] acp session/new ok c9cee923-2736-413f-8e27-a81619e28e39
+[2026-10-25T01:31:52.296Z] acp connect provider=mistral-vibe pid=4104
+[2026-10-25T01:31:52.884Z] acp connect provider=mistral-vibe pid=5244
+[2026-10-25T01:31:54.798Z] acp session/new ok 18df9b39-3e4d-7e3e-a5ac-0cb194a71e76
+[2026-10-25T01:31:54.805Z] sync devin-cli: pas de transport ACP local (0 repli)
+[2026-10-25T01:31:54.805Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-25T01:31:54.805Z] sync nim: 0 modèles
+[2026-10-25T01:31:54.806Z] sync nim2: 0 modèles
+[2026-10-25T01:31:54.806Z] sync ollama: 0 modèles
+[2026-10-25T01:31:54.806Z] sync openrouter: 4 modèles
+[2026-10-25T01:31:54.807Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-25T01:31:54.807Z] sync hermes: 64 modèles
+[2026-10-25T01:31:54.807Z] sync opencode: 1 modèles
+[2026-10-25T01:31:54.808Z] sync mistral-vibe: 5 modèles
+[2026-10-25T01:31:54.808Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-25T01:31:56.382Z] acp session/new ok c40eb8ba-ef89-cbf0-b791-2444b68db3c1
+[2026-10-25T01:31:56.391Z] sync devin-cli: pas de transport ACP local (0 repli)
+[2026-10-25T01:31:56.392Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-25T01:31:56.392Z] sync nim: 0 modèles
+[2026-10-25T01:31:56.392Z] sync nim2: 0 modèles
+[2026-10-25T01:31:56.393Z] sync ollama: 0 modèles
+[2026-10-25T01:31:56.393Z] sync openrouter: 4 modèles
+[2026-10-25T01:31:56.393Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-25T01:31:56.393Z] sync hermes: 64 modèles
+[2026-10-25T01:31:56.394Z] sync opencode: 1 modèles
+[2026-10-25T01:31:56.394Z] sync mistral-vibe: 5 modèles
+[2026-10-25T01:31:56.394Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-25T01:32:03.165Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,ollama-cloud,openrouter]
+[2026-10-25T01:32:06.774Z] send session=chat-mvn5k55a provider=hermes model=nous:deepseek/deepseek-v4-flash-0731
+[2026-10-25T01:32:06.777Z] → completeTurn provider=hermes model=nous:deepseek/deepseek-v4-flash-0731 mode=agent messages=1
+[2026-10-25T01:32:10.204Z] acp connect provider=hermes pid=27232
+[2026-10-25T01:32:14.753Z] acp connect provider=hermes pid=3280
+[2026-10-25T01:32:15.395Z] acp session/new ok 16701bf9-c1f3-4b66-8f30-9e2058bbbdd9
+[2026-10-25T01:32:18.517Z] acp session/new ok 6eff571f-ba13-4993-936c-f22bfa9d26d3
+[2026-10-25T01:32:20.568Z] ← completeTurn provider=hermes model=nous:deepseek/deepseek-v4-flash-0731 réponse=454 car.
+[2026-10-25T01:32:20.578Z] persisté session=chat-mvn5k55a msgs=2
+[2026-10-25T01:32:21.126Z] acp connect provider=mistral-vibe pid=25864
+[2026-10-25T01:32:24.210Z] acp session/new ok c9509e42-e685-be23-6d0e-6d02ae7927df
+[2026-10-25T01:32:24.217Z] sync devin-cli: pas de transport ACP local (0 repli)
+[2026-10-25T01:32:24.218Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-25T01:32:24.218Z] sync nim: 57 modèles
+[2026-10-25T01:32:24.218Z] sync nim2: 57 modèles
+[2026-10-25T01:32:24.219Z] sync ollama: 5 modèles
+[2026-10-25T01:32:24.219Z] sync ollama-cloud: 0 modèles
+[2026-10-25T01:32:24.219Z] sync openrouter: 17 modèles
+[2026-10-25T01:32:24.220Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-25T01:32:24.220Z] sync hermes: 64 modèles
+[2026-10-25T01:32:24.220Z] sync opencode: 1 modèles
+[2026-10-25T01:32:24.220Z] sync mistral-vibe: 5 modèles
+[2026-10-25T01:32:24.221Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-25T01:32:42.053Z] send session=chat-mvn5kwbo provider=devin-cli model=swe-2-high
+[2026-10-25T01:32:42.055Z] → completeTurn provider=devin-cli model=swe-2-high mode=agent messages=1
+[2026-10-25T01:32:42.056Z] ✗ completeTurn provider=devin-cli model=swe-2-high erreur=Le provider "devin-cli" n'a pas de transport ACP local (agent externe / cloud) — choisis un agent installé ou un provider routé.
+[2026-10-25T01:32:42.065Z] persisté session=chat-mvn5kwbo msgs=2
+[2026-10-25T01:33:12.204Z] send session=chat-mvn5lk7o provider=opencode model=opencode/nemotron-3.5-super-vl-free
+[2026-10-25T01:33:12.206Z] → completeTurn provider=opencode model=opencode/nemotron-3.5-super-vl-free mode=agent messages=1
+[2026-10-25T01:33:13.817Z] acp connect provider=opencode pid=29832
+[2026-10-25T01:33:15.047Z] acp session/new ok ses_e8f4f3c78ffeLKUR5SffF4OM62
+[2026-10-25T01:33:32.783Z] ← completeTurn provider=opencode model=opencode/nemotron-3.5-super-vl-free réponse=50 car.
+[2026-10-25T01:33:32.791Z] persisté session=chat-mvn5lk7o msgs=2
+[2026-10-25T01:38:39.451Z] sync start enabled=[antigravity-acp,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,ollama-cloud,openrouter]
+[2026-10-25T01:38:44.140Z] acp connect provider=hermes pid=20008
+[2026-10-25T01:38:51.886Z] sync start enabled=[antigravity-acp,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,ollama-cloud,openrouter]
+[2026-10-25T01:38:52.737Z] acp session/new ok bfbaf5b1-4404-4d6f-86d1-1f4d7e181b45
+[2026-10-25T01:38:53.633Z] sync start enabled=[antigravity-acp,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,ollama-cloud,openrouter]
+[2026-10-25T01:39:03.204Z] acp connect provider=hermes pid=10464
+[2026-10-25T01:39:03.637Z] acp connect provider=hermes pid=23980
+[2026-10-25T01:39:09.673Z] acp connect provider=antigravity-acp pid=8756
+[2026-10-25T01:39:13.971Z] acp session/new ok fd954cc4-6917-4b64-8a65-ffa368e34c6a
+[2026-10-25T01:39:15.332Z] acp session/new ok 56d7a09d-3291-4506-a4cf-f3ec70a40256
+[2026-10-25T01:39:27.418Z] acp connect provider=mistral-vibe pid=28832
+[2026-10-25T01:39:30.719Z] acp connect provider=antigravity-acp pid=33172
+[2026-10-25T01:39:30.874Z] acp connect provider=antigravity-acp pid=26844
+[2026-10-25T01:39:31.897Z] acp session/new ok 31b6d90f-1404-347c-cecb-5000f0359afb
+[2026-10-25T01:39:31.905Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-25T01:39:31.905Z] sync nim: 57 modèles
+[2026-10-25T01:39:31.905Z] sync nim2: 57 modèles
+[2026-10-25T01:39:31.906Z] sync ollama: 5 modèles
+[2026-10-25T01:39:31.906Z] sync ollama-cloud: 0 modèles
+[2026-10-25T01:39:31.906Z] sync openrouter: 17 modèles
+[2026-10-25T01:39:31.907Z] sync antigravity-acp: aucun modèle annoncé (1 repli)
+[2026-10-25T01:39:31.907Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-25T01:39:31.907Z] sync hermes: 64 modèles
+[2026-10-25T01:39:31.907Z] sync opencode: 1 modèles
+[2026-10-25T01:39:31.908Z] sync mistral-vibe: 5 modèles
+[2026-10-25T01:39:31.908Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-25T01:39:46.288Z] acp session/new ok 4fd37df6-c3a0-4ff2-8e6b-e32e98dc0a76
+[2026-10-25T01:39:46.315Z] acp session/new ok 87d79adb-5e5e-40f8-be2f-d415edb54c2d
+[2026-10-25T01:39:48.809Z] acp connect provider=mistral-vibe pid=17100
+[2026-10-25T01:39:48.828Z] acp connect provider=mistral-vibe pid=30420
+[2026-10-25T01:39:50.844Z] acp session/new ok df7dda84-97f0-3761-53e4-c263f24c37f4
+[2026-10-25T01:39:50.854Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-25T01:39:50.855Z] sync nim: 57 modèles
+[2026-10-25T01:39:50.855Z] sync nim2: 57 modèles
+[2026-10-25T01:39:50.856Z] sync ollama: 5 modèles
+[2026-10-25T01:39:50.856Z] sync ollama-cloud: 0 modèles
+[2026-10-25T01:39:50.857Z] sync openrouter: 17 modèles
+[2026-10-25T01:39:50.857Z] sync antigravity-acp: 6 modèles
+[2026-10-25T01:39:50.858Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-25T01:39:50.858Z] sync hermes: 64 modèles
+[2026-10-25T01:39:50.858Z] sync opencode: 1 modèles
+[2026-10-25T01:39:50.858Z] sync mistral-vibe: 5 modèles
+[2026-10-25T01:39:50.859Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-25T01:39:51.846Z] acp session/new ok e411ea2f-952f-49d7-c6f9-fd8bdc374422
+[2026-10-25T01:39:51.853Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-25T01:39:51.854Z] sync nim: 57 modèles
+[2026-10-25T01:39:51.854Z] sync nim2: 57 modèles
+[2026-10-25T01:39:51.854Z] sync ollama: 5 modèles
+[2026-10-25T01:39:51.855Z] sync ollama-cloud: 0 modèles
+[2026-10-25T01:39:51.855Z] sync openrouter: 17 modèles
+[2026-10-25T01:39:51.855Z] sync antigravity-acp: 6 modèles
+[2026-10-25T01:39:51.856Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-25T01:39:51.856Z] sync hermes: 64 modèles
+[2026-10-25T01:39:51.856Z] sync opencode: 1 modèles
+[2026-10-25T01:39:51.856Z] sync mistral-vibe: 5 modèles
+[2026-10-25T01:39:51.857Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-25T01:41:40.325Z] sync start enabled=[antigravity-acp,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,openrouter]
+[2026-10-25T01:41:54.423Z] acp connect provider=hermes pid=24748
+[2026-10-25T01:42:11.330Z] acp connect provider=antigravity-acp pid=23464
+[2026-10-25T01:42:11.436Z] acp session/new ok 73f494e6-1bed-4866-8e4e-3a447b866878
+[2026-10-25T01:42:18.160Z] acp session/new ok 74e44da5-5220-437f-a752-2b0f3ab2e2a4
+[2026-10-25T01:42:20.750Z] acp connect provider=mistral-vibe pid=31704
+[2026-10-25T01:42:25.259Z] acp session/new ok 5a33a8fa-d46a-dc06-b170-b85f8bc49695
+[2026-10-25T01:42:25.267Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-25T01:42:25.268Z] sync nim: 0 modèles
+[2026-10-25T01:42:25.268Z] sync nim2: 0 modèles
+[2026-10-25T01:42:25.269Z] sync ollama: 0 modèles
+[2026-10-25T01:42:25.269Z] sync openrouter: 4 modèles
+[2026-10-25T01:42:25.270Z] sync antigravity-acp: 6 modèles
+[2026-10-25T01:42:25.270Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-25T01:42:25.270Z] sync hermes: 64 modèles
+[2026-10-25T01:42:25.271Z] sync opencode: 1 modèles
+[2026-10-25T01:42:25.271Z] sync mistral-vibe: 5 modèles
+[2026-10-25T01:42:25.271Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-25T01:43:35.680Z] sync start enabled=[antigravity-acp,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,ollama-cloud,openrouter]
+[2026-10-25T01:43:38.215Z] sync start enabled=[antigravity-acp,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,ollama-cloud,openrouter]
+[2026-10-25T01:43:41.087Z] acp connect provider=hermes pid=14816
+[2026-10-25T01:43:42.088Z] acp connect provider=hermes pid=28640
+[2026-10-25T01:43:48.102Z] acp session/new ok f2e37e67-d76a-4743-8929-fe050b83ebe9
+[2026-10-25T01:43:52.829Z] acp session/new ok f3ec7b7e-a4a3-4a5f-8fec-8042ac5dd183
+[2026-10-25T01:44:04.180Z] acp connect provider=antigravity-acp pid=33060
+[2026-10-25T01:44:04.732Z] acp connect provider=antigravity-acp pid=11320
+[2026-10-25T01:44:08.104Z] acp session/new ok ab08ccaf-6a2c-473d-acf4-e2b08b99b529
+[2026-10-25T01:44:08.783Z] acp session/new ok 07784dff-2e01-4eae-99ce-9c3df362ac1c
+[2026-10-25T01:44:10.457Z] acp connect provider=mistral-vibe pid=29504
+[2026-10-25T01:44:11.017Z] acp connect provider=mistral-vibe pid=16144
+[2026-10-25T01:44:13.541Z] acp session/new ok 0f870fa1-a5dd-0c86-5733-554c4f75ca41
+[2026-10-25T01:44:13.546Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-25T01:44:13.547Z] sync nim: 57 modèles
+[2026-10-25T01:44:13.547Z] sync nim2: 57 modèles
+[2026-10-25T01:44:13.548Z] sync ollama: 5 modèles
+[2026-10-25T01:44:13.548Z] sync ollama-cloud: 0 modèles
+[2026-10-25T01:44:13.549Z] sync openrouter: 17 modèles
+[2026-10-25T01:44:13.549Z] sync antigravity-acp: 6 modèles
+[2026-10-25T01:44:13.549Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-25T01:44:13.549Z] sync hermes: 64 modèles
+[2026-10-25T01:44:13.550Z] sync opencode: 1 modèles
+[2026-10-25T01:44:13.550Z] sync mistral-vibe: 5 modèles
+[2026-10-25T01:44:13.551Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-25T01:44:14.154Z] acp session/new ok a3ae4eb5-8d99-f9d9-76c8-05b2498107ca
+[2026-10-25T01:44:14.163Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-25T01:44:14.164Z] sync nim: 57 modèles
+[2026-10-25T01:44:14.164Z] sync nim2: 57 modèles
+[2026-10-25T01:44:14.166Z] sync ollama: 5 modèles
+[2026-10-25T01:44:14.168Z] sync ollama-cloud: 0 modèles
+[2026-10-25T01:44:14.168Z] sync openrouter: 17 modèles
+[2026-10-25T01:44:14.169Z] sync antigravity-acp: 6 modèles
+[2026-10-25T01:44:14.169Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-25T01:44:14.169Z] sync hermes: 64 modèles
+[2026-10-25T01:44:14.170Z] sync opencode: 1 modèles
+[2026-10-25T01:44:14.170Z] sync mistral-vibe: 5 modèles
+[2026-10-25T01:44:14.171Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-25T02:49:18.463Z] sync start enabled=[antigravity-acp,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,openrouter]
+[2026-10-25T02:49:37.372Z] send session=chat-mvn8brzg provider=omniroute model=groq/openai/gpt-oss-120b
+[2026-10-25T02:49:37.375Z] → completeTurn provider=omniroute model=groq/openai/gpt-oss-120b mode=agent messages=1
+[2026-10-25T02:49:37.742Z] acp indisponible (agent omniroute terminé) → fallback HTTP direct
+[2026-10-25T02:49:41.305Z] sync start enabled=[antigravity-acp,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,ollama-cloud,openrouter,omniroute]
+[2026-10-25T02:49:48.125Z] acp connect provider=hermes pid=27272
+[2026-10-25T02:50:02.971Z] acp connect provider=antigravity-acp pid=26284
+[2026-10-25T02:50:15.605Z] acp connect provider=hermes pid=30488
+[2026-10-25T02:50:19.958Z] acp connect provider=antigravity-acp pid=16144
+[2026-10-25T02:50:20.232Z] ← completeTurn provider=omniroute model=groq/openai/gpt-oss-120b réponse=50 car.
+[2026-10-25T02:50:20.236Z] persisté session=chat-mvn8brzg msgs=2
+[2026-10-25T02:50:33.893Z] acp session/new ok 118ddc7a-2c21-4ae8-809f-836706209644
+[2026-10-25T02:50:33.966Z] acp session/new ok d770ce31-64e6-42f1-8f68-ba9db3c36e52
+[2026-10-25T02:50:38.467Z] acp connect provider=mistral-vibe pid=21432
+[2026-10-25T02:50:38.474Z] acp connect provider=mistral-vibe pid=10800
+[2026-10-25T02:50:51.204Z] sync start enabled=[antigravity-acp,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,ollama-cloud,openrouter,omniroute]
+[2026-10-25T02:50:56.000Z] acp session/new ok 28d9359e-0ae1-cc7c-9eec-4ed25ad78b48
+[2026-10-25T02:50:56.014Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-25T02:50:56.014Z] sync nim: 0 modèles
+[2026-10-25T02:50:56.015Z] sync nim2: 0 modèles
+[2026-10-25T02:50:56.015Z] sync ollama: 5 modèles
+[2026-10-25T02:50:56.016Z] sync openrouter: 17 modèles
+[2026-10-25T02:50:56.016Z] sync antigravity-acp: aucun modèle annoncé (1 repli)
+[2026-10-25T02:50:56.017Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-25T02:50:56.017Z] sync hermes: 64 modèles
+[2026-10-25T02:50:56.018Z] sync opencode: 1 modèles
+[2026-10-25T02:50:56.018Z] sync mistral-vibe: 5 modèles
+[2026-10-25T02:50:56.018Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-25T02:50:56.022Z] acp session/new ok 0d67ec72-0fe1-a5bf-b4ca-5a781f16731c
+[2026-10-25T02:50:56.033Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-25T02:50:56.033Z] sync nim: 0 modèles
+[2026-10-25T02:50:56.034Z] sync nim2: 0 modèles
+[2026-10-25T02:50:56.034Z] sync ollama: 0 modèles
+[2026-10-25T02:50:56.035Z] sync ollama-cloud: 0 modèles
+[2026-10-25T02:50:56.035Z] sync openrouter: 4 modèles
+[2026-10-25T02:50:56.036Z] sync omniroute: 0 modèles
+[2026-10-25T02:50:56.036Z] sync antigravity-acp: aucun modèle annoncé (1 repli)
+[2026-10-25T02:50:56.037Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-25T02:50:56.037Z] sync hermes: 64 modèles
+[2026-10-25T02:50:56.038Z] sync opencode: 1 modèles
+[2026-10-25T02:50:56.038Z] sync mistral-vibe: 5 modèles
+[2026-10-25T02:50:56.038Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-25T02:51:04.976Z] acp connect provider=hermes pid=29412
+[2026-10-25T02:51:16.083Z] acp session/new ok 669c67da-3860-4eb1-8c81-dc5720360197
+[2026-10-25T02:51:29.819Z] acp connect provider=antigravity-acp pid=25292
+[2026-10-25T02:51:47.910Z] acp connect provider=mistral-vibe pid=26432
+[2026-10-25T02:51:53.751Z] acp session/new ok 36150221-ac3f-0d5c-39b4-569e14f19e85
+[2026-10-25T02:51:53.762Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-25T02:51:53.763Z] sync nim: 57 modèles
+[2026-10-25T02:51:53.763Z] sync nim2: 57 modèles
+[2026-10-25T02:51:53.764Z] sync ollama: 5 modèles
+[2026-10-25T02:51:53.764Z] sync ollama-cloud: 0 modèles
+[2026-10-25T02:51:53.765Z] sync openrouter: 17 modèles
+[2026-10-25T02:51:53.765Z] sync omniroute: 0 modèles
+[2026-10-25T02:51:53.766Z] sync antigravity-acp: aucun modèle annoncé (1 repli)
+[2026-10-25T02:51:53.766Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-25T02:51:53.767Z] sync hermes: 64 modèles
+[2026-10-25T02:51:53.767Z] sync opencode: 1 modèles
+[2026-10-25T02:51:53.768Z] sync mistral-vibe: 5 modèles
+[2026-10-25T02:51:53.768Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-25T03:23:23.461Z] sync start enabled=[antigravity-acp,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,openrouter,omniroute]
+[2026-10-25T03:23:26.197Z] sync start enabled=[antigravity-acp,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,ollama-cloud,openrouter,omniroute]
+[2026-10-25T03:23:40.985Z] acp connect provider=hermes pid=24104
+[2026-10-25T03:23:44.705Z] acp connect provider=hermes pid=31996
+[2026-10-25T03:24:04.210Z] acp session/new ok 85992641-06be-4c9a-a32f-ccea993bd42e
+[2026-10-25T03:24:13.771Z] acp connect provider=antigravity-acp pid=7804
+[2026-10-25T03:24:13.915Z] acp session/new ok c65353cf-88cd-4c9c-a2da-a5991e8a909b
+[2026-10-25T03:24:14.976Z] acp connect provider=antigravity-acp pid=32684
+[2026-10-25T03:24:41.975Z] acp session/new ok 3dfc1040-6a57-4065-b2b5-c8f729be0b6b
+[2026-10-25T03:24:42.022Z] acp session/new ok 61f9ca0e-ca85-4db5-aa92-526e5ad4539e
+[2026-10-25T03:24:45.427Z] acp connect provider=mistral-vibe pid=24060
+[2026-10-25T03:24:45.486Z] acp connect provider=mistral-vibe pid=21536
+[2026-10-25T03:24:51.042Z] acp session/new ok 013fc377-0230-7d7c-eedb-7d69655065bf
+[2026-10-25T03:24:51.052Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-25T03:24:51.052Z] sync nim: 0 modèles
+[2026-10-25T03:24:51.053Z] sync nim2: 0 modèles
+[2026-10-25T03:24:51.053Z] sync ollama: 0 modèles
+[2026-10-25T03:24:51.054Z] sync openrouter: 4 modèles
+[2026-10-25T03:24:51.054Z] sync omniroute: 914 modèles
+[2026-10-25T03:24:51.061Z] sync antigravity-acp: 6 modèles
+[2026-10-25T03:24:51.061Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-25T03:24:51.062Z] sync hermes: 64 modèles
+[2026-10-25T03:24:51.063Z] sync opencode: 1 modèles
+[2026-10-25T03:24:51.064Z] sync mistral-vibe: 5 modèles
+[2026-10-25T03:24:51.064Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-25T03:24:52.177Z] acp session/new ok 2867e365-f5bc-d899-a64f-3abc89a5aee2
+[2026-10-25T03:24:52.189Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-25T03:24:52.190Z] sync nim: 0 modèles
+[2026-10-25T03:24:52.190Z] sync nim2: 0 modèles
+[2026-10-25T03:24:52.191Z] sync ollama: 0 modèles
+[2026-10-25T03:24:52.191Z] sync ollama-cloud: 0 modèles
+[2026-10-25T03:24:52.191Z] sync openrouter: 4 modèles
+[2026-10-25T03:24:52.192Z] sync omniroute: 914 modèles
+[2026-10-25T03:24:52.197Z] sync antigravity-acp: 6 modèles
+[2026-10-25T03:24:52.198Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-25T03:24:52.198Z] sync hermes: 64 modèles
+[2026-10-25T03:24:52.199Z] sync opencode: 1 modèles
+[2026-10-25T03:24:52.200Z] sync mistral-vibe: 5 modèles
+[2026-10-25T03:24:52.200Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-25T04:07:32.021Z] sync start enabled=[antigravity-acp,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,ollama-cloud,openrouter,omniroute]
+[2026-10-25T04:07:33.273Z] sync start enabled=[antigravity-acp,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,ollama-cloud,openrouter,omniroute]
+[2026-10-25T04:07:35.208Z] sync start enabled=[antigravity-acp,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,ollama-cloud,openrouter,omniroute]
+[2026-10-25T04:07:36.244Z] sync start enabled=[antigravity-acp,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,ollama-cloud,openrouter,omniroute]
+[2026-10-25T04:07:37.264Z] sync start enabled=[antigravity-acp,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,ollama-cloud,openrouter,omniroute]
+[2026-10-25T04:07:48.240Z] acp connect provider=hermes pid=20828
+[2026-10-25T04:07:48.965Z] acp connect provider=hermes pid=29956
+[2026-10-25T04:07:49.379Z] acp connect provider=hermes pid=32424
+[2026-10-25T04:07:59.195Z] acp connect provider=hermes pid=26540
+[2026-10-25T04:08:01.765Z] acp connect provider=hermes pid=19768
+[2026-10-25T04:08:04.746Z] acp session/new ok 0d2458bd-046a-4f28-a420-7afcce513bc8
+[2026-10-25T04:08:05.187Z] acp session/new ok 0d43658e-73f9-4ce5-88d3-f60fc06431d7
+[2026-10-25T04:08:20.544Z] acp session/new ok 116b9576-b1a7-400f-946a-4d8b854e1e02
+[2026-10-25T04:08:49.996Z] acp connect provider=antigravity-acp pid=28312
+[2026-10-25T04:08:50.192Z] acp connect provider=antigravity-acp pid=25064
+[2026-10-25T04:08:50.836Z] acp connect provider=antigravity-acp pid=30876
+[2026-10-25T04:08:50.875Z] acp connect provider=antigravity-acp pid=28576
+[2026-10-25T04:08:50.876Z] acp connect provider=antigravity-acp pid=23408
+[2026-10-25T04:08:54.929Z] acp session/new ok 512ddec3-a23b-4242-b4a2-4c9ba76879af
+[2026-10-25T04:08:54.988Z] acp session/new ok dcf59582-76b3-49f8-8149-1bb366bd8927
+[2026-10-25T04:09:10.175Z] acp connect provider=mistral-vibe pid=29092
+[2026-10-25T04:09:10.176Z] acp connect provider=mistral-vibe pid=24560
+[2026-10-25T04:09:10.276Z] acp connect provider=mistral-vibe pid=1580
+[2026-10-25T04:09:11.105Z] acp connect provider=mistral-vibe pid=8100
+[2026-10-25T04:09:11.400Z] acp connect provider=mistral-vibe pid=24648
+[2026-10-25T04:09:18.488Z] acp session/new ok f8016dd5-9b12-3b78-16ff-7d32463e0104
+[2026-10-25T04:09:18.501Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-25T04:09:18.502Z] sync nim: 57 modèles
+[2026-10-25T04:09:18.502Z] sync nim2: 57 modèles
+[2026-10-25T04:09:18.503Z] sync ollama: 5 modèles
+[2026-10-25T04:09:18.503Z] sync ollama-cloud: 0 modèles
+[2026-10-25T04:09:18.504Z] sync openrouter: 17 modèles
+[2026-10-25T04:09:18.505Z] sync omniroute: 1051 modèles
+[2026-10-25T04:09:18.515Z] sync antigravity-acp: aucun modèle annoncé (1 repli)
+[2026-10-25T04:09:18.515Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-25T04:09:18.515Z] sync hermes: 64 modèles
+[2026-10-25T04:09:18.517Z] sync opencode: 1 modèles
+[2026-10-25T04:09:18.517Z] sync mistral-vibe: 5 modèles
+[2026-10-25T04:09:18.517Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-25T04:09:18.596Z] acp session/new ok bb424341-5385-ffc6-8f12-9bca27637de0
+[2026-10-25T04:09:18.607Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-25T04:09:18.608Z] sync nim: 57 modèles
+[2026-10-25T04:09:18.609Z] sync nim2: 57 modèles
+[2026-10-25T04:09:18.610Z] sync ollama: 5 modèles
+[2026-10-25T04:09:18.611Z] sync ollama-cloud: 0 modèles
+[2026-10-25T04:09:18.612Z] sync openrouter: 17 modèles
+[2026-10-25T04:09:18.613Z] sync omniroute: 1051 modèles
+[2026-10-25T04:09:18.622Z] sync antigravity-acp: aucun modèle annoncé (1 repli)
+[2026-10-25T04:09:18.623Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-25T04:09:18.624Z] sync hermes: 64 modèles
+[2026-10-25T04:09:18.625Z] sync opencode: 1 modèles
+[2026-10-25T04:09:18.626Z] sync mistral-vibe: 5 modèles
+[2026-10-25T04:09:18.627Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-25T04:09:19.335Z] acp session/new ok 8ea55def-7063-3dd7-0f51-5cfa13a27d05
+[2026-10-25T04:09:19.345Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-25T04:09:19.345Z] sync nim: 57 modèles
+[2026-10-25T04:09:19.346Z] sync nim2: 57 modèles
+[2026-10-25T04:09:19.346Z] sync ollama: 5 modèles
+[2026-10-25T04:09:19.346Z] sync ollama-cloud: 0 modèles
+[2026-10-25T04:09:19.346Z] sync openrouter: 17 modèles
+[2026-10-25T04:09:19.347Z] sync omniroute: 1051 modèles
+[2026-10-25T04:09:19.353Z] sync antigravity-acp: aucun modèle annoncé (1 repli)
+[2026-10-25T04:09:19.354Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-25T04:09:19.354Z] sync hermes: 64 modèles
+[2026-10-25T04:09:19.356Z] sync opencode: 1 modèles
+[2026-10-25T04:09:19.356Z] sync mistral-vibe: 5 modèles
+[2026-10-25T04:09:19.357Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-25T04:09:20.455Z] acp session/new ok 3905f03e-b1f5-1e08-f623-4d70b0b160a0
+[2026-10-25T04:09:20.465Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-25T04:09:20.465Z] sync nim: 57 modèles
+[2026-10-25T04:09:20.466Z] sync nim2: 57 modèles
+[2026-10-25T04:09:20.466Z] sync ollama: 5 modèles
+[2026-10-25T04:09:20.466Z] sync ollama-cloud: 0 modèles
+[2026-10-25T04:09:20.466Z] sync openrouter: 17 modèles
+[2026-10-25T04:09:20.467Z] sync omniroute: 1051 modèles
+[2026-10-25T04:09:20.478Z] sync antigravity-acp: aucun modèle annoncé (1 repli)
+[2026-10-25T04:09:20.479Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-25T04:09:20.479Z] sync hermes: 64 modèles
+[2026-10-25T04:09:20.481Z] sync opencode: 1 modèles
+[2026-10-25T04:09:20.482Z] sync mistral-vibe: 5 modèles
+[2026-10-25T04:09:20.482Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-25T04:09:21.437Z] acp session/new ok 49f72d1d-73dd-6b1a-e2dc-b1b3eda271de
+[2026-10-25T04:09:21.450Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-25T04:09:21.450Z] sync nim: 57 modèles
+[2026-10-25T04:09:21.451Z] sync nim2: 57 modèles
+[2026-10-25T04:09:21.451Z] sync ollama: 5 modèles
+[2026-10-25T04:09:21.452Z] sync ollama-cloud: 0 modèles
+[2026-10-25T04:09:21.452Z] sync openrouter: 17 modèles
+[2026-10-25T04:09:21.452Z] sync omniroute: 1051 modèles
+[2026-10-25T04:09:21.460Z] sync antigravity-acp: aucun modèle annoncé (1 repli)
+[2026-10-25T04:09:21.462Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-25T04:09:21.462Z] sync hermes: 64 modèles
+[2026-10-25T04:09:21.464Z] sync opencode: 1 modèles
+[2026-10-25T04:09:21.465Z] sync mistral-vibe: 5 modèles
+[2026-10-25T04:09:21.465Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-25T21:44:42.762Z] sync start enabled=[antigravity-acp,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,openrouter,omniroute]
+[2026-10-25T21:45:02.904Z] sync start enabled=[antigravity-acp,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,ollama-cloud,openrouter,omniroute]
+[2026-10-25T21:45:09.502Z] sync start enabled=[antigravity-acp,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,ollama-cloud,openrouter,omniroute]
+[2026-10-25T21:45:14.445Z] sync start enabled=[antigravity-acp,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,ollama-cloud,openrouter,omniroute]
+[2026-10-25T21:45:14.458Z] acp connect provider=hermes pid=28648
+[2026-10-25T21:45:23.137Z] acp session/new ok 048266c6-967e-4299-8433-3779a6340a48
+[2026-10-25T21:45:25.245Z] sync start enabled=[antigravity-acp,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,ollama-cloud,openrouter,omniroute]
+[2026-10-25T21:45:40.051Z] sync start enabled=[antigravity-acp,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,ollama-cloud,openrouter,omniroute]
+[2026-10-25T21:45:41.063Z] sync start enabled=[antigravity-acp,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,ollama-cloud,openrouter,omniroute]
+[2026-10-25T21:45:41.885Z] acp connect provider=antigravity-acp pid=14572
+[2026-10-25T21:45:45.256Z] acp connect provider=hermes pid=21736
+[2026-10-25T21:45:53.437Z] acp connect provider=hermes pid=21812
+[2026-10-25T21:45:56.998Z] acp session/new ok fb8be87d-5b9d-4d3a-a1e4-2861582afe57
+[2026-10-25T21:46:04.152Z] acp session/new ok eeaac490-57d1-4448-88f0-be120da76fa1
+[2026-10-25T21:46:04.162Z] acp connect provider=hermes pid=5508
+[2026-10-25T21:46:08.273Z] acp connect provider=hermes pid=17388
+[2026-10-25T21:46:09.727Z] acp session/new ok 1bb96697-3050-41b8-9c4b-7118c8f76a8e
+[2026-10-25T21:46:11.277Z] acp connect provider=hermes pid=22740
+[2026-10-25T21:46:11.883Z] acp connect provider=mistral-vibe pid=26620
+[2026-10-25T21:46:16.257Z] acp connect provider=antigravity-acp pid=4184
+[2026-10-25T21:46:17.581Z] acp connect provider=antigravity-acp pid=11896
+[2026-10-25T21:46:19.867Z] acp connect provider=antigravity-acp pid=23940
+[2026-10-25T21:46:21.841Z] acp session/new ok 089f9f85-3e48-4b24-a68b-23ee30d5b29e
+[2026-10-25T21:46:21.935Z] acp connect provider=hermes pid=16604
+[2026-10-25T21:46:22.756Z] acp session/new ok 462bcc00-e9fc-4623-a07c-537c9be31768
+[2026-10-25T21:46:23.148Z] acp session/new ok ffb346d6-a8fd-491b-9bf6-2447d0fc981f
+[2026-10-25T21:46:30.148Z] acp connect provider=antigravity-acp pid=15676
+[2026-10-25T21:46:31.049Z] acp session/new ok bf534581-880a-47b7-8302-cf069f870755
+[2026-10-25T21:46:32.037Z] acp session/new ok dffce721-a184-5ba0-7bf5-853ef5844e76
+[2026-10-25T21:46:32.048Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-25T21:46:32.048Z] sync nim: 57 modèles
+[2026-10-25T21:46:32.049Z] sync nim2: 57 modèles
+[2026-10-25T21:46:32.050Z] sync ollama: 0 modèles
+[2026-10-25T21:46:32.050Z] sync openrouter: 17 modèles
+[2026-10-25T21:46:32.051Z] sync omniroute: 0 modèles
+[2026-10-25T21:46:32.051Z] sync antigravity-acp: 6 modèles
+[2026-10-25T21:46:32.052Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-25T21:46:32.052Z] sync hermes: 64 modèles
+[2026-10-25T21:46:32.053Z] sync opencode: 1 modèles
+[2026-10-25T21:46:32.053Z] sync mistral-vibe: 5 modèles
+[2026-10-25T21:46:32.054Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-25T21:46:33.201Z] acp session/new ok 899fce7f-4aff-470b-956e-d6dfd76fa346
+[2026-10-25T21:46:33.723Z] acp connect provider=antigravity-acp pid=25576
+[2026-10-25T21:46:34.045Z] acp connect provider=antigravity-acp pid=10264
+[2026-10-25T21:46:34.245Z] acp session/new ok 5efa5ead-8d48-4ee4-8b5e-3cf595561ab3
+[2026-10-25T21:46:35.193Z] acp session/new ok 25a4ad71-c182-48a0-ade7-f11b36e13de1
+[2026-10-25T21:46:35.770Z] acp connect provider=mistral-vibe pid=5332
+[2026-10-25T21:46:36.638Z] acp connect provider=mistral-vibe pid=26376
+[2026-10-25T21:46:37.565Z] acp connect provider=mistral-vibe pid=21604
+[2026-10-25T21:46:39.201Z] acp session/new ok 4d2e454b-f56f-4f80-96fa-8248c9b5b053
+[2026-10-25T21:46:40.189Z] acp session/new ok 14cb7611-f773-4c9c-b494-0991f1d456f4
+[2026-10-25T21:46:40.221Z] acp session/new ok b161f3df-65a7-ab6d-d0b8-886de86390c1
+[2026-10-25T21:46:40.232Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-25T21:46:40.233Z] sync nim: 57 modèles
+[2026-10-25T21:46:40.233Z] sync nim2: 57 modèles
+[2026-10-25T21:46:40.233Z] sync ollama: 0 modèles
+[2026-10-25T21:46:40.234Z] sync ollama-cloud: 0 modèles
+[2026-10-25T21:46:40.234Z] sync openrouter: 17 modèles
+[2026-10-25T21:46:40.235Z] sync omniroute: 0 modèles
+[2026-10-25T21:46:40.235Z] sync antigravity-acp: 6 modèles
+[2026-10-25T21:46:40.235Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-25T21:46:40.236Z] sync hermes: 64 modèles
+[2026-10-25T21:46:40.237Z] sync opencode: 1 modèles
+[2026-10-25T21:46:40.237Z] sync mistral-vibe: 5 modèles
+[2026-10-25T21:46:40.237Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-25T21:46:40.239Z] acp session/new ok ed7e325c-5e0b-4db0-92d2-58dbef0201dc
+[2026-10-25T21:46:40.715Z] acp session/new ok eb3591f5-b9cf-f44d-ad8b-353068b8ac31
+[2026-10-25T21:46:40.725Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-25T21:46:40.725Z] sync nim: 57 modèles
+[2026-10-25T21:46:40.726Z] sync nim2: 57 modèles
+[2026-10-25T21:46:40.726Z] sync ollama: 0 modèles
+[2026-10-25T21:46:40.727Z] sync ollama-cloud: 0 modèles
+[2026-10-25T21:46:40.727Z] sync openrouter: 17 modèles
+[2026-10-25T21:46:40.728Z] sync omniroute: 0 modèles
+[2026-10-25T21:46:40.728Z] sync antigravity-acp: 6 modèles
+[2026-10-25T21:46:40.728Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-25T21:46:40.729Z] sync hermes: 64 modèles
+[2026-10-25T21:46:40.729Z] sync opencode: 1 modèles
+[2026-10-25T21:46:40.730Z] sync mistral-vibe: 5 modèles
+[2026-10-25T21:46:40.730Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-25T21:46:41.159Z] acp session/new ok 126dadee-7a3e-b086-b7bc-8ecec56a3eee
+[2026-10-25T21:46:41.168Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-25T21:46:41.168Z] sync nim: 57 modèles
+[2026-10-25T21:46:41.168Z] sync nim2: 57 modèles
+[2026-10-25T21:46:41.169Z] sync ollama: 0 modèles
+[2026-10-25T21:46:41.169Z] sync ollama-cloud: 0 modèles
+[2026-10-25T21:46:41.169Z] sync openrouter: 17 modèles
+[2026-10-25T21:46:41.170Z] sync omniroute: 0 modèles
+[2026-10-25T21:46:41.170Z] sync antigravity-acp: 6 modèles
+[2026-10-25T21:46:41.170Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-25T21:46:41.171Z] sync hermes: 64 modèles
+[2026-10-25T21:46:41.171Z] sync opencode: 1 modèles
+[2026-10-25T21:46:41.172Z] sync mistral-vibe: 5 modèles
+[2026-10-25T21:46:41.172Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-25T21:46:42.160Z] acp connect provider=mistral-vibe pid=15600
+[2026-10-25T21:46:42.974Z] acp connect provider=mistral-vibe pid=2892
+[2026-10-25T21:46:43.003Z] acp connect provider=mistral-vibe pid=23660
+[2026-10-25T21:46:45.384Z] acp session/new ok 582094d0-581a-8c4e-874f-45822ac29318
+[2026-10-25T21:46:45.391Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-25T21:46:45.391Z] sync nim: 57 modèles
+[2026-10-25T21:46:45.392Z] sync nim2: 57 modèles
+[2026-10-25T21:46:45.392Z] sync ollama: 0 modèles
+[2026-10-25T21:46:45.392Z] sync ollama-cloud: 0 modèles
+[2026-10-25T21:46:45.393Z] sync openrouter: 17 modèles
+[2026-10-25T21:46:45.393Z] sync omniroute: 0 modèles
+[2026-10-25T21:46:45.393Z] sync antigravity-acp: 6 modèles
+[2026-10-25T21:46:45.393Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-25T21:46:45.394Z] sync hermes: 64 modèles
+[2026-10-25T21:46:45.394Z] sync opencode: 1 modèles
+[2026-10-25T21:46:45.394Z] sync mistral-vibe: 5 modèles
+[2026-10-25T21:46:45.395Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-25T21:46:46.280Z] acp session/new ok 7fc893a2-5f89-025b-1caa-19825175b7b2
+[2026-10-25T21:46:46.289Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-25T21:46:46.290Z] sync nim: 57 modèles
+[2026-10-25T21:46:46.290Z] sync nim2: 57 modèles
+[2026-10-25T21:46:46.291Z] sync ollama: 0 modèles
+[2026-10-25T21:46:46.291Z] sync ollama-cloud: 0 modèles
+[2026-10-25T21:46:46.291Z] sync openrouter: 17 modèles
+[2026-10-25T21:46:46.292Z] sync omniroute: 0 modèles
+[2026-10-25T21:46:46.292Z] sync antigravity-acp: 6 modèles
+[2026-10-25T21:46:46.292Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-25T21:46:46.293Z] sync hermes: 64 modèles
+[2026-10-25T21:46:46.293Z] sync opencode: 1 modèles
+[2026-10-25T21:46:46.294Z] sync mistral-vibe: 5 modèles
+[2026-10-25T21:46:46.294Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-25T21:46:46.311Z] acp session/new ok e81a4730-0bb6-b8ca-546d-151d36be5a5d
+[2026-10-25T21:46:46.318Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-25T21:46:46.318Z] sync nim: 57 modèles
+[2026-10-25T21:46:46.318Z] sync nim2: 57 modèles
+[2026-10-25T21:46:46.319Z] sync ollama: 0 modèles
+[2026-10-25T21:46:46.319Z] sync ollama-cloud: 0 modèles
+[2026-10-25T21:46:46.320Z] sync openrouter: 17 modèles
+[2026-10-25T21:46:46.320Z] sync omniroute: 0 modèles
+[2026-10-25T21:46:46.321Z] sync antigravity-acp: 6 modèles
+[2026-10-25T21:46:46.321Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-25T21:46:46.321Z] sync hermes: 64 modèles
+[2026-10-25T21:46:46.322Z] sync opencode: 1 modèles
+[2026-10-25T21:46:46.322Z] sync mistral-vibe: 5 modèles
+[2026-10-25T21:46:46.322Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-25T21:49:18.434Z] sync start enabled=[antigravity-acp,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,openrouter,omniroute]
+[2026-10-25T21:49:28.620Z] sync start enabled=[antigravity-acp,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,ollama-cloud,openrouter,omniroute]
+[2026-10-25T21:49:30.089Z] acp connect provider=hermes pid=16604
+[2026-10-25T21:49:39.752Z] acp session/new ok a2204429-7062-449f-9823-920835fee892
+[2026-10-25T21:49:47.555Z] acp connect provider=hermes pid=26384
+[2026-10-25T21:49:53.932Z] acp session/new ok a066faa7-546f-4542-bf64-40f84374f97e
+[2026-10-25T21:49:54.442Z] acp connect provider=antigravity-acp pid=27428
+[2026-10-25T21:49:57.458Z] acp connect provider=antigravity-acp pid=15528
+[2026-10-25T21:49:57.584Z] acp session/new ok a5133578-4582-44db-a500-9ac54320b413
+[2026-10-25T21:49:59.673Z] acp connect provider=mistral-vibe pid=15888
+[2026-10-25T21:50:00.789Z] acp session/new ok 3991f9b7-5018-40ab-8fc5-1dce41328607
+[2026-10-25T21:50:01.903Z] acp session/new ok 04daea72-959d-1959-49bf-4dd99bab06d6
+[2026-10-25T21:50:01.916Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-25T21:50:01.917Z] sync nim: 57 modèles
+[2026-10-25T21:50:01.918Z] sync nim2: 57 modèles
+[2026-10-25T21:50:01.918Z] sync ollama: 0 modèles
+[2026-10-25T21:50:01.919Z] sync openrouter: 17 modèles
+[2026-10-25T21:50:01.919Z] sync omniroute: 0 modèles
+[2026-10-25T21:50:01.919Z] sync antigravity-acp: 6 modèles
+[2026-10-25T21:50:01.920Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-25T21:50:01.920Z] sync hermes: 64 modèles
+[2026-10-25T21:50:01.920Z] sync opencode: 1 modèles
+[2026-10-25T21:50:01.921Z] sync mistral-vibe: 5 modèles
+[2026-10-25T21:50:01.921Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-25T21:50:03.216Z] acp connect provider=mistral-vibe pid=3204
+[2026-10-25T21:50:04.346Z] sync start enabled=[antigravity-acp,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,ollama-cloud,openrouter,omniroute]
+[2026-10-25T21:50:06.392Z] acp session/new ok a22661d5-271c-dee7-42cf-73958d4dae74
+[2026-10-25T21:50:06.401Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-25T21:50:06.401Z] sync nim: 57 modèles
+[2026-10-25T21:50:06.401Z] sync nim2: 57 modèles
+[2026-10-25T21:50:06.402Z] sync ollama: 0 modèles
+[2026-10-25T21:50:06.402Z] sync ollama-cloud: 0 modèles
+[2026-10-25T21:50:06.403Z] sync openrouter: 17 modèles
+[2026-10-25T21:50:06.403Z] sync omniroute: 0 modèles
+[2026-10-25T21:50:06.403Z] sync antigravity-acp: 6 modèles
+[2026-10-25T21:50:06.404Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-25T21:50:06.404Z] sync hermes: 64 modèles
+[2026-10-25T21:50:06.405Z] sync opencode: 1 modèles
+[2026-10-25T21:50:06.405Z] sync mistral-vibe: 5 modèles
+[2026-10-25T21:50:06.406Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-25T21:50:08.109Z] acp connect provider=hermes pid=7240
+[2026-10-25T21:50:13.818Z] acp session/new ok d1b6444e-ea7c-47e8-a8fd-159f4ca73ddb
+[2026-10-25T21:50:23.180Z] acp connect provider=antigravity-acp pid=8148
+[2026-10-25T21:50:31.102Z] acp session/new ok 53cdd299-67d2-4813-ba82-455cdd0a2990
+[2026-10-25T21:50:33.188Z] acp connect provider=mistral-vibe pid=25280
+[2026-10-25T21:50:36.073Z] acp session/new ok 23d25b94-dfff-2784-e8ca-c92c6fb34dbc
+[2026-10-25T21:50:36.083Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-25T21:50:36.083Z] sync nim: 57 modèles
+[2026-10-25T21:50:36.084Z] sync nim2: 57 modèles
+[2026-10-25T21:50:36.085Z] sync ollama: 0 modèles
+[2026-10-25T21:50:36.085Z] sync ollama-cloud: 0 modèles
+[2026-10-25T21:50:36.086Z] sync openrouter: 17 modèles
+[2026-10-25T21:50:36.086Z] sync omniroute: 0 modèles
+[2026-10-25T21:50:36.086Z] sync antigravity-acp: 6 modèles
+[2026-10-25T21:50:36.087Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-25T21:50:36.087Z] sync hermes: 64 modèles
+[2026-10-25T21:50:36.088Z] sync opencode: 1 modèles
+[2026-10-25T21:50:36.088Z] sync mistral-vibe: 5 modèles
+[2026-10-25T21:50:36.089Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-25T23:02:36.012Z] sync start enabled=[antigravity-acp,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,ollama-cloud,openrouter,omniroute]
+[2026-10-25T23:02:40.882Z] acp connect provider=hermes pid=6632
+[2026-10-25T23:02:45.104Z] acp session/new ok 4c1280bc-02a4-4b7d-8120-07fd40b1ef51
+[2026-10-25T23:02:54.826Z] acp connect provider=antigravity-acp pid=9456
+[2026-10-25T23:03:01.224Z] acp session/new ok 000b2337-908d-4b21-99e4-f5748f1d8dc8
+[2026-10-25T23:03:03.187Z] acp connect provider=mistral-vibe pid=21336
+[2026-10-25T23:03:06.507Z] acp session/new ok 16941ce3-fdb2-1f06-87b6-7abfec784ee6
+[2026-10-25T23:03:06.516Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-25T23:03:06.517Z] sync nim: 57 modèles
+[2026-10-25T23:03:06.517Z] sync nim2: 57 modèles
+[2026-10-25T23:03:06.518Z] sync ollama: 0 modèles
+[2026-10-25T23:03:06.518Z] sync ollama-cloud: 0 modèles
+[2026-10-25T23:03:06.518Z] sync openrouter: 17 modèles
+[2026-10-25T23:03:06.518Z] sync omniroute: 0 modèles
+[2026-10-25T23:03:06.519Z] sync antigravity-acp: 6 modèles
+[2026-10-25T23:03:06.519Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-25T23:03:06.519Z] sync hermes: 64 modèles
+[2026-10-25T23:03:06.520Z] sync opencode: 1 modèles
+[2026-10-25T23:03:06.520Z] sync mistral-vibe: 5 modèles
+[2026-10-25T23:03:06.520Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-26T22:59:22.834Z] sync start enabled=[antigravity-acp,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,openrouter,omniroute]
+[2026-10-26T22:59:38.884Z] acp connect provider=hermes pid=9088
+[2026-10-26T22:59:56.145Z] sync start enabled=[antigravity-acp,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,ollama-cloud,openrouter,omniroute]
+[2026-10-26T23:00:00.262Z] sync start enabled=[antigravity-acp,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,ollama-cloud,openrouter,omniroute]
+[2026-10-26T23:00:02.633Z] acp connect provider=antigravity-acp pid=24292
+[2026-10-26T23:00:11.277Z] acp connect provider=hermes pid=18300
+[2026-10-26T23:00:17.556Z] acp connect provider=hermes pid=6384
+[2026-10-26T23:00:20.838Z] acp session/new ok db15d6fa-37f9-43ad-b318-f99343059408
+[2026-10-26T23:00:30.348Z] acp connect provider=mistral-vibe pid=29344
+[2026-10-26T23:00:32.604Z] acp session/new ok 02644c25-3821-44d1-9e9b-f9ff28ae7466
+[2026-10-26T23:00:32.620Z] acp session/new ok 6a821bde-8ef4-439e-84ca-4ec9fde352fb
+[2026-10-26T23:00:34.502Z] acp connect provider=antigravity-acp pid=16796
+[2026-10-26T23:00:36.893Z] acp connect provider=antigravity-acp pid=23148
+[2026-10-26T23:00:39.263Z] acp session/new ok 03a0b923-1cd1-a986-ad71-f9c9e6ea4084
+[2026-10-26T23:00:39.273Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-26T23:00:39.273Z] sync nim: 0 modèles
+[2026-10-26T23:00:39.273Z] sync nim2: 0 modèles
+[2026-10-26T23:00:39.274Z] sync ollama: 0 modèles
+[2026-10-26T23:00:39.274Z] sync openrouter: 4 modèles
+[2026-10-26T23:00:39.274Z] sync omniroute: 0 modèles
+[2026-10-26T23:00:39.275Z] sync antigravity-acp: aucun modèle annoncé (1 repli)
+[2026-10-26T23:00:39.275Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-26T23:00:39.276Z] sync hermes: 63 modèles
+[2026-10-26T23:00:39.276Z] sync opencode: 1 modèles
+[2026-10-26T23:00:39.277Z] sync mistral-vibe: 5 modèles
+[2026-10-26T23:00:39.277Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-26T23:00:51.601Z] acp session/new ok e16b429b-0d6e-456b-8f1b-95329595e3c3
+[2026-10-26T23:00:51.733Z] acp session/new ok 0c3736df-9cce-4b8e-9b1b-10ef5b65ef3f
+[2026-10-26T23:00:53.862Z] acp connect provider=mistral-vibe pid=9776
+[2026-10-26T23:00:53.970Z] acp connect provider=mistral-vibe pid=4652
+[2026-10-26T23:00:55.976Z] acp session/new ok dd682f2b-74a2-4b24-3674-28f5515d5bf2
+[2026-10-26T23:00:55.986Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-26T23:00:55.986Z] sync nim: 0 modèles
+[2026-10-26T23:00:55.986Z] sync nim2: 0 modèles
+[2026-10-26T23:00:55.987Z] sync ollama: 0 modèles
+[2026-10-26T23:00:55.987Z] sync ollama-cloud: 0 modèles
+[2026-10-26T23:00:55.987Z] sync openrouter: 4 modèles
+[2026-10-26T23:00:55.988Z] sync omniroute: 0 modèles
+[2026-10-26T23:00:55.988Z] sync antigravity-acp: 6 modèles
+[2026-10-26T23:00:55.988Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-26T23:00:55.988Z] sync hermes: 63 modèles
+[2026-10-26T23:00:55.989Z] sync opencode: 1 modèles
+[2026-10-26T23:00:55.989Z] sync mistral-vibe: 5 modèles
+[2026-10-26T23:00:55.989Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-26T23:00:57.072Z] acp session/new ok 00642072-7f54-6ec7-832d-37aa221094e0
+[2026-10-26T23:00:57.080Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-26T23:00:57.080Z] sync nim: 0 modèles
+[2026-10-26T23:00:57.081Z] sync nim2: 0 modèles
+[2026-10-26T23:00:57.081Z] sync ollama: 0 modèles
+[2026-10-26T23:00:57.081Z] sync ollama-cloud: 0 modèles
+[2026-10-26T23:00:57.081Z] sync openrouter: 4 modèles
+[2026-10-26T23:00:57.082Z] sync omniroute: 0 modèles
+[2026-10-26T23:00:57.082Z] sync antigravity-acp: 6 modèles
+[2026-10-26T23:00:57.082Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-26T23:00:57.083Z] sync hermes: 63 modèles
+[2026-10-26T23:00:57.083Z] sync opencode: 1 modèles
+[2026-10-26T23:00:57.083Z] sync mistral-vibe: 5 modèles
+[2026-10-26T23:00:57.084Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-26T23:36:18.975Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,openrouter,omniroute]
+[2026-10-26T23:36:32.439Z] acp connect provider=hermes pid=3776
+[2026-10-26T23:36:39.515Z] acp session/new ok 37e44f6f-84c2-4249-93bd-c29bb3e7271c
+[2026-10-26T23:36:43.766Z] acp connect provider=mistral-vibe pid=27480
+[2026-10-26T23:36:58.454Z] acp session/new ok 2fe138ff-73ac-0e84-dffa-f6a6b261bd41
+[2026-10-26T23:36:58.463Z] sync devin-cli: 2 modèles
+[2026-10-26T23:36:58.463Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-26T23:36:58.464Z] sync nim: 0 modèles
+[2026-10-26T23:36:58.464Z] sync nim2: 0 modèles
+[2026-10-26T23:36:58.464Z] sync ollama: 0 modèles
+[2026-10-26T23:36:58.465Z] sync openrouter: 4 modèles
+[2026-10-26T23:36:58.465Z] sync omniroute: 0 modèles
+[2026-10-26T23:36:58.465Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-26T23:36:58.466Z] sync hermes: 63 modèles
+[2026-10-26T23:36:58.466Z] sync opencode: 1 modèles
+[2026-10-26T23:36:58.466Z] sync mistral-vibe: 5 modèles
+[2026-10-26T23:36:58.467Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-26T23:38:53.462Z] sync start enabled=[antigravity-acp,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,ollama-cloud,omniroute]
+[2026-10-26T23:38:56.899Z] acp connect provider=mistral-vibe pid=8600
+[2026-10-26T23:39:00.520Z] acp session/new ok 0b2325ee-1604-e98d-efec-54503ef0387a
+[2026-10-26T23:39:12.647Z] acp connect provider=antigravity-acp pid=24692
+[2026-10-26T23:39:20.628Z] acp session/new ok 684d3dac-a12f-4dbb-bf8a-05197d67408d
+[2026-10-26T23:39:20.686Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-26T23:39:20.689Z] sync nim: 57 modèles
+[2026-10-26T23:39:20.689Z] sync nim2: 57 modèles
+[2026-10-26T23:39:20.690Z] sync ollama: 0 modèles
+[2026-10-26T23:39:20.690Z] sync ollama-cloud: 0 modèles
+[2026-10-26T23:39:20.690Z] sync omniroute: 0 modèles
+[2026-10-26T23:39:20.690Z] sync antigravity-acp: 6 modèles
+[2026-10-26T23:39:20.691Z] sync opencode: 1 modèles
+[2026-10-26T23:39:20.691Z] sync mistral-vibe: 5 modèles
+[2026-10-26T23:39:20.692Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-26T23:47:21.362Z] sync start enabled=[antigravity-acp,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,ollama-cloud,omniroute]
+[2026-10-26T23:47:25.138Z] acp connect provider=mistral-vibe pid=10516
+[2026-10-26T23:47:40.203Z] acp connect provider=antigravity-acp pid=1300
+[2026-10-26T23:47:40.623Z] acp session/new ok ec90574b-2e42-86b9-9823-aca7d4e26844
+[2026-10-26T23:47:50.765Z] acp session/new ok 06527ff6-e984-4ce5-ab51-4cc35490797a
+[2026-10-26T23:47:50.820Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-26T23:47:50.820Z] sync nim: 57 modèles
+[2026-10-26T23:47:50.821Z] sync nim2: 57 modèles
+[2026-10-26T23:47:50.821Z] sync ollama: 0 modèles
+[2026-10-26T23:47:50.821Z] sync ollama-cloud: 0 modèles
+[2026-10-26T23:47:50.822Z] sync omniroute: 0 modèles
+[2026-10-26T23:47:50.822Z] sync antigravity-acp: 6 modèles
+[2026-10-26T23:47:50.822Z] sync opencode: 1 modèles
+[2026-10-26T23:47:50.822Z] sync mistral-vibe: 5 modèles
+[2026-10-26T23:47:50.823Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-27T00:34:05.915Z] sync start enabled=[antigravity-acp,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,ollama-cloud,omniroute]
+[2026-10-27T00:34:08.826Z] sync start enabled=[antigravity-acp,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,ollama-cloud,omniroute]
+[2026-10-27T00:34:12.095Z] acp connect provider=mistral-vibe pid=28548
+[2026-10-27T00:34:13.174Z] acp connect provider=mistral-vibe pid=24100
+[2026-10-27T00:34:35.950Z] acp session/new ok 288520c2-b050-3c14-6dd1-4c87a5db92bc
+[2026-10-27T00:34:36.054Z] acp session/new ok 0bc90bfc-1c5a-5ed2-eb2e-70a7a77c6ff6
+[2026-10-27T00:34:40.863Z] acp connect provider=antigravity-acp pid=29156
+[2026-10-27T00:34:42.329Z] acp connect provider=antigravity-acp pid=17992
+[2026-10-27T00:34:53.466Z] acp session/new ok d2019156-b43d-44a4-b5b6-8e8bb7dc4d63
+[2026-10-27T00:34:53.493Z] acp session/new ok 24103d88-0acf-43d2-bbb5-b62c7b201b2c
+[2026-10-27T00:34:53.529Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-27T00:34:53.530Z] sync nim: 57 modèles
+[2026-10-27T00:34:53.530Z] sync nim2: 57 modèles
+[2026-10-27T00:34:53.531Z] sync ollama: 0 modèles
+[2026-10-27T00:34:53.531Z] sync ollama-cloud: 0 modèles
+[2026-10-27T00:34:53.532Z] sync omniroute: 0 modèles
+[2026-10-27T00:34:53.532Z] sync antigravity-acp: 6 modèles
+[2026-10-27T00:34:53.532Z] sync opencode: 1 modèles
+[2026-10-27T00:34:53.533Z] sync mistral-vibe: 5 modèles
+[2026-10-27T00:34:53.533Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-27T00:34:53.568Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-27T00:34:53.569Z] sync nim: 57 modèles
+[2026-10-27T00:34:53.570Z] sync nim2: 57 modèles
+[2026-10-27T00:34:53.572Z] sync ollama: 0 modèles
+[2026-10-27T00:34:53.573Z] sync ollama-cloud: 0 modèles
+[2026-10-27T00:34:53.573Z] sync omniroute: 0 modèles
+[2026-10-27T00:34:53.573Z] sync antigravity-acp: 6 modèles
+[2026-10-27T00:34:53.574Z] sync opencode: 1 modèles
+[2026-10-27T00:34:53.575Z] sync mistral-vibe: 5 modèles
+[2026-10-27T00:34:53.575Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-27T00:38:26.881Z] sync start enabled=[antigravity-acp,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,ollama-cloud,omniroute]
+[2026-10-27T00:38:30.936Z] acp connect provider=mistral-vibe pid=30456
+[2026-10-27T00:38:46.720Z] acp session/new ok b93d4b1f-b83d-e16e-3eaf-124a42960d63
+[2026-10-27T00:38:48.084Z] acp connect provider=antigravity-acp pid=1780
+[2026-10-27T00:38:56.396Z] acp session/new ok b5869144-6a1d-4005-8094-7da3031a4322
+[2026-10-27T00:38:56.466Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-27T00:38:56.466Z] sync nim: 57 modèles
+[2026-10-27T00:38:56.467Z] sync nim2: 57 modèles
+[2026-10-27T00:38:56.467Z] sync ollama: 0 modèles
+[2026-10-27T00:38:56.467Z] sync ollama-cloud: 0 modèles
+[2026-10-27T00:38:56.468Z] sync omniroute: 0 modèles
+[2026-10-27T00:38:56.468Z] sync antigravity-acp: 6 modèles
+[2026-10-27T00:38:56.468Z] sync opencode: 1 modèles
+[2026-10-27T00:38:56.469Z] sync mistral-vibe: 5 modèles
+[2026-10-27T00:38:56.469Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-27T00:46:02.249Z] sync start enabled=[antigravity-acp,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,ollama-cloud,omniroute]
+[2026-10-27T00:46:06.625Z] acp connect provider=mistral-vibe pid=26392
+[2026-10-27T00:46:10.042Z] acp session/new ok b288184f-5b8d-34c1-78ec-14ccc32c791b
+[2026-10-27T00:46:23.025Z] acp connect provider=antigravity-acp pid=16536
+[2026-10-27T00:46:29.602Z] acp session/new ok 016f246f-a588-473e-9a77-31feeba4e3d7
+[2026-10-27T00:46:29.659Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-27T00:46:29.659Z] sync nim: 57 modèles
+[2026-10-27T00:46:29.659Z] sync nim2: 57 modèles
+[2026-10-27T00:46:29.660Z] sync ollama: 0 modèles
+[2026-10-27T00:46:29.660Z] sync ollama-cloud: 0 modèles
+[2026-10-27T00:46:29.660Z] sync omniroute: 0 modèles
+[2026-10-27T00:46:29.661Z] sync antigravity-acp: 6 modèles
+[2026-10-27T00:46:29.661Z] sync opencode: 1 modèles
+[2026-10-27T00:46:29.661Z] sync mistral-vibe: 5 modèles
+[2026-10-27T00:46:29.661Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-27T00:58:18.060Z] sync start enabled=[antigravity-acp,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,ollama-cloud,omniroute]
+[2026-10-27T00:58:22.229Z] acp connect provider=mistral-vibe pid=3380
+[2026-10-27T00:58:36.456Z] acp session/new ok bd98ad7c-eada-1cc2-5b43-748a1a25c50d
+[2026-10-27T00:58:39.301Z] acp connect provider=antigravity-acp pid=19168
+[2026-10-27T00:58:47.314Z] acp session/new ok cdf74238-5156-46af-b251-1964501da50c
+[2026-10-27T00:58:47.368Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-27T00:58:47.369Z] sync nim: 57 modèles
+[2026-10-27T00:58:47.369Z] sync nim2: 57 modèles
+[2026-10-27T00:58:47.370Z] sync ollama: 0 modèles
+[2026-10-27T00:58:47.370Z] sync ollama-cloud: 0 modèles
+[2026-10-27T00:58:47.370Z] sync omniroute: 0 modèles
+[2026-10-27T00:58:47.371Z] sync antigravity-acp: 6 modèles
+[2026-10-27T00:58:47.371Z] sync opencode: 1 modèles
+[2026-10-27T00:58:47.372Z] sync mistral-vibe: 5 modèles
+[2026-10-27T00:58:47.372Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-27T19:30:11.363Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,openrouter,omniroute]
+[2026-10-27T19:30:32.275Z] acp connect provider=hermes pid=23516
+[2026-10-27T19:30:39.493Z] acp session/new ok ee5371b6-e559-46e1-bbe7-cf0a08dde145
+[2026-10-27T19:30:45.259Z] acp connect provider=mistral-vibe pid=5568
+[2026-10-27T19:30:55.222Z] acp session/new ok 5f2fafbc-62b2-4068-8715-dc583dcc429e
+[2026-10-27T19:30:55.231Z] sync devin-cli: 2 modèles
+[2026-10-27T19:30:55.232Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-27T19:30:55.232Z] sync nim: 57 modèles
+[2026-10-27T19:30:55.233Z] sync nim2: 57 modèles
+[2026-10-27T19:30:55.233Z] sync ollama: 0 modèles
+[2026-10-27T19:30:55.234Z] sync openrouter: 16 modèles
+[2026-10-27T19:30:55.234Z] sync omniroute: 0 modèles
+[2026-10-27T19:30:55.235Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-27T19:30:55.235Z] sync hermes: 63 modèles
+[2026-10-27T19:30:55.235Z] sync opencode: 1 modèles
+[2026-10-27T19:30:55.236Z] sync mistral-vibe: 5 modèles
+[2026-10-27T19:30:55.236Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-27T19:35:12.780Z] sync start enabled=[antigravity-acp,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,ollama-cloud,omniroute]
+[2026-10-27T19:35:15.889Z] acp connect provider=mistral-vibe pid=29020
+[2026-10-27T19:35:19.299Z] acp session/new ok ce112148-5c66-6e7f-5a3c-7686a3f868c8
+[2026-10-27T19:35:35.412Z] acp connect provider=antigravity-acp pid=23272
+[2026-10-27T19:35:39.085Z] acp session/new ok bcece1ee-ac96-48fc-b62f-60f83becf858
+[2026-10-27T19:35:39.146Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-27T19:35:39.146Z] sync nim: 57 modèles
+[2026-10-27T19:35:39.147Z] sync nim2: 57 modèles
+[2026-10-27T19:35:39.147Z] sync ollama: 0 modèles
+[2026-10-27T19:35:39.148Z] sync ollama-cloud: 0 modèles
+[2026-10-27T19:35:39.148Z] sync omniroute: 0 modèles
+[2026-10-27T19:35:39.148Z] sync antigravity-acp: 6 modèles
+[2026-10-27T19:35:39.149Z] sync opencode: 1 modèles
+[2026-10-27T19:35:39.149Z] sync mistral-vibe: 5 modèles
+[2026-10-27T19:35:39.149Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-27T19:42:18.534Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,openrouter,omniroute]
+[2026-10-27T19:42:31.417Z] acp connect provider=hermes pid=19764
+[2026-10-27T19:42:37.618Z] acp session/new ok 02d965bc-7a02-4c68-97e6-90584b20aa1e
+[2026-10-27T19:42:41.101Z] acp connect provider=mistral-vibe pid=15508
+[2026-10-27T19:42:46.570Z] acp session/new ok 70b54246-65c8-b38e-1c1d-be4e999fc8ed
+[2026-10-27T19:42:46.583Z] sync devin-cli: 2 modèles
+[2026-10-27T19:42:46.584Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-27T19:42:46.584Z] sync nim: 57 modèles
+[2026-10-27T19:42:46.585Z] sync nim2: 57 modèles
+[2026-10-27T19:42:46.585Z] sync ollama: 0 modèles
+[2026-10-27T19:42:46.586Z] sync openrouter: 16 modèles
+[2026-10-27T19:42:46.587Z] sync omniroute: 0 modèles
+[2026-10-27T19:42:46.587Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-27T19:42:46.588Z] sync hermes: 64 modèles
+[2026-10-27T19:42:46.588Z] sync opencode: 1 modèles
+[2026-10-27T19:42:46.589Z] sync mistral-vibe: 5 modèles
+[2026-10-27T19:42:46.589Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-27T22:18:41.549Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,openrouter,omniroute]
+[2026-10-27T22:19:04.360Z] acp connect provider=hermes pid=31988
+[2026-10-27T22:19:10.317Z] acp session/new ok d1eeb07b-ad24-4568-a6d7-3c2a5cb6eea1
+[2026-10-27T22:19:15.020Z] acp connect provider=mistral-vibe pid=31632
+[2026-10-27T22:19:21.423Z] acp session/new ok 069906af-db8b-09f9-77b7-ce5bf2450e59
+[2026-10-27T22:19:21.437Z] sync devin-cli: 2 modèles
+[2026-10-27T22:19:21.438Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-27T22:19:21.438Z] sync nim: 57 modèles
+[2026-10-27T22:19:21.439Z] sync nim2: 57 modèles
+[2026-10-27T22:19:21.440Z] sync ollama: 0 modèles
+[2026-10-27T22:19:21.440Z] sync openrouter: 16 modèles
+[2026-10-27T22:19:21.441Z] sync omniroute: 0 modèles
+[2026-10-27T22:19:21.441Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-27T22:19:21.442Z] sync hermes: 64 modèles
+[2026-10-27T22:19:21.443Z] sync opencode: 1 modèles
+[2026-10-27T22:19:21.443Z] sync mistral-vibe: 5 modèles
+[2026-10-27T22:19:21.444Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-27T22:41:05.885Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,openrouter,omniroute]
+[2026-10-27T22:41:14.946Z] acp connect provider=hermes pid=27628
+[2026-10-27T22:41:20.056Z] acp session/new ok cac52257-bd5d-4800-b2cd-b705fa7118bb
+[2026-10-27T22:41:24.024Z] acp connect provider=mistral-vibe pid=24324
+[2026-10-27T22:41:28.176Z] acp session/new ok 2d3c2333-b7e4-b616-adf7-76ab8223b17c
+[2026-10-27T22:41:28.189Z] sync devin-cli: 2 modèles
+[2026-10-27T22:41:28.190Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-27T22:41:28.190Z] sync nim: 57 modèles
+[2026-10-27T22:41:28.191Z] sync nim2: 57 modèles
+[2026-10-27T22:41:28.191Z] sync ollama: 0 modèles
+[2026-10-27T22:41:28.192Z] sync openrouter: 16 modèles
+[2026-10-27T22:41:28.192Z] sync omniroute: 0 modèles
+[2026-10-27T22:41:28.193Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-27T22:41:28.193Z] sync hermes: 64 modèles
+[2026-10-27T22:41:28.194Z] sync opencode: 1 modèles
+[2026-10-27T22:41:28.194Z] sync mistral-vibe: 5 modèles
+[2026-10-27T22:41:28.194Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-27T22:46:54.756Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,openrouter,omniroute]
+[2026-10-27T22:47:01.586Z] acp connect provider=hermes pid=19668
+[2026-10-27T22:47:06.252Z] acp session/new ok 517648e1-6b37-42ff-b5b6-223a058f5237
+[2026-10-27T22:47:09.544Z] acp connect provider=mistral-vibe pid=33452
+[2026-10-27T22:47:12.004Z] acp session/new ok 1614cdc8-007c-ccaa-809d-b7ab6101895e
+[2026-10-27T22:47:12.026Z] sync devin-cli: 2 modèles
+[2026-10-27T22:47:12.026Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-27T22:47:12.027Z] sync nim: 57 modèles
+[2026-10-27T22:47:12.027Z] sync nim2: 57 modèles
+[2026-10-27T22:47:12.028Z] sync ollama: 0 modèles
+[2026-10-27T22:47:12.028Z] sync openrouter: 16 modèles
+[2026-10-27T22:47:12.028Z] sync omniroute: 0 modèles
+[2026-10-27T22:47:12.029Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-27T22:47:12.029Z] sync hermes: 64 modèles
+[2026-10-27T22:47:12.030Z] sync opencode: 1 modèles
+[2026-10-27T22:47:12.030Z] sync mistral-vibe: 5 modèles
+[2026-10-27T22:47:12.031Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-28T00:02:09.794Z] sync start enabled=[antigravity-acp,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,ollama-cloud,omniroute]
+[2026-10-28T00:02:12.097Z] sync start enabled=[antigravity-acp,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,ollama-cloud,omniroute]
+[2026-10-28T00:02:14.347Z] acp connect provider=mistral-vibe pid=23544
+[2026-10-28T00:02:15.488Z] acp connect provider=mistral-vibe pid=23716
+[2026-10-28T00:02:29.310Z] acp session/new ok c0fc9eca-730a-605a-7a23-fe248964f88f
+[2026-10-28T00:02:30.309Z] acp session/new ok 5cfe83ea-b8f9-dbf4-9200-6d114e332d0e
+[2026-10-28T00:02:36.430Z] acp connect provider=antigravity-acp pid=31840
+[2026-10-28T00:02:38.673Z] acp connect provider=antigravity-acp pid=25652
+[2026-10-28T00:02:39.981Z] acp session/new ok 5a25676e-fc9c-4739-81e5-af6eeda72f0c
+[2026-10-28T00:02:40.042Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-28T00:02:40.042Z] sync nim: 57 modèles
+[2026-10-28T00:02:40.043Z] sync nim2: 57 modèles
+[2026-10-28T00:02:40.043Z] sync ollama: 0 modèles
+[2026-10-28T00:02:40.043Z] sync ollama-cloud: 0 modèles
+[2026-10-28T00:02:40.044Z] sync omniroute: 0 modèles
+[2026-10-28T00:02:40.044Z] sync antigravity-acp: 6 modèles
+[2026-10-28T00:02:40.044Z] sync opencode: 1 modèles
+[2026-10-28T00:02:40.044Z] sync mistral-vibe: 5 modèles
+[2026-10-28T00:02:40.045Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-28T00:02:42.018Z] acp session/new ok d1254311-f34d-4550-b57f-abba0f5af1b5
+[2026-10-28T00:02:42.079Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-28T00:02:42.079Z] sync nim: 57 modèles
+[2026-10-28T00:02:42.080Z] sync nim2: 57 modèles
+[2026-10-28T00:02:42.081Z] sync ollama: 0 modèles
+[2026-10-28T00:02:42.081Z] sync ollama-cloud: 0 modèles
+[2026-10-28T00:02:42.082Z] sync omniroute: 0 modèles
+[2026-10-28T00:02:42.082Z] sync antigravity-acp: 6 modèles
+[2026-10-28T00:02:42.082Z] sync opencode: 1 modèles
+[2026-10-28T00:02:42.083Z] sync mistral-vibe: 5 modèles
+[2026-10-28T00:02:42.083Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-28T00:27:30.131Z] sync start enabled=[antigravity-acp,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,ollama-cloud,omniroute]
+[2026-10-28T00:27:32.907Z] sync start enabled=[antigravity-acp,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,ollama-cloud,omniroute]
+[2026-10-28T00:27:34.823Z] acp connect provider=mistral-vibe pid=19416
+[2026-10-28T00:27:40.858Z] acp connect provider=mistral-vibe pid=23972
+[2026-10-28T00:27:46.296Z] acp session/new ok 2319cf42-4a80-8247-8664-04948520c783
+[2026-10-28T00:27:49.838Z] acp session/new ok 1bdcf893-7052-abdd-bb47-e04b63773dac
+[2026-10-28T00:28:03.049Z] acp connect provider=antigravity-acp pid=33736
+[2026-10-28T00:28:05.052Z] acp connect provider=antigravity-acp pid=17644
+[2026-10-28T00:28:06.604Z] acp session/new ok 4b55b816-cc24-4775-862d-c830f99737ff
+[2026-10-28T00:28:06.686Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-28T00:28:06.687Z] sync nim: 57 modèles
+[2026-10-28T00:28:06.687Z] sync nim2: 57 modèles
+[2026-10-28T00:28:06.688Z] sync ollama: 0 modèles
+[2026-10-28T00:28:06.688Z] sync ollama-cloud: 0 modèles
+[2026-10-28T00:28:06.689Z] sync omniroute: 0 modèles
+[2026-10-28T00:28:06.689Z] sync antigravity-acp: 6 modèles
+[2026-10-28T00:28:06.689Z] sync opencode: 1 modèles
+[2026-10-28T00:28:06.690Z] sync mistral-vibe: 5 modèles
+[2026-10-28T00:28:06.690Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-28T00:28:08.081Z] acp session/new ok e06685f5-f5fb-4e78-9e47-4dc7537a5e7c
+[2026-10-28T00:28:08.148Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-28T00:28:08.148Z] sync nim: 57 modèles
+[2026-10-28T00:28:08.148Z] sync nim2: 57 modèles
+[2026-10-28T00:28:08.149Z] sync ollama: 0 modèles
+[2026-10-28T00:28:08.149Z] sync ollama-cloud: 0 modèles
+[2026-10-28T00:28:08.150Z] sync omniroute: 0 modèles
+[2026-10-28T00:28:08.150Z] sync antigravity-acp: 6 modèles
+[2026-10-28T00:28:08.150Z] sync opencode: 1 modèles
+[2026-10-28T00:28:08.151Z] sync mistral-vibe: 5 modèles
+[2026-10-28T00:28:08.151Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-28T00:32:13.670Z] sync start enabled=[antigravity-acp,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,omniroute]
+[2026-10-28T00:32:16.575Z] acp connect provider=mistral-vibe pid=9404
+[2026-10-28T00:32:18.726Z] acp session/new ok d0cfc908-9113-bf13-ec64-a71e1139fb35
+[2026-10-28T00:32:31.417Z] acp connect provider=antigravity-acp pid=24488
+[2026-10-28T00:32:34.836Z] acp session/new ok 39bb84d0-21e9-449f-b453-0dbb9241c55d
+[2026-10-28T00:32:34.890Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-28T00:32:34.890Z] sync nim: 57 modèles
+[2026-10-28T00:32:34.891Z] sync nim2: 57 modèles
+[2026-10-28T00:32:34.891Z] sync ollama: 0 modèles
+[2026-10-28T00:32:34.892Z] sync omniroute: 0 modèles
+[2026-10-28T00:32:34.892Z] sync antigravity-acp: 6 modèles
+[2026-10-28T00:32:34.892Z] sync opencode: 1 modèles
+[2026-10-28T00:32:34.893Z] sync mistral-vibe: 5 modèles
+[2026-10-28T00:32:34.893Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-28T00:33:17.246Z] send session=chat-419be027-243e-4f9e-a2f2-62a397484f91 provider=omniroute model=omniroute/groq/openai/gpt-oss-120b
+[2026-10-28T00:33:17.318Z] → completeTurn provider=omniroute model=omniroute/groq/openai/gpt-oss-120b mode=agent messages=1
+[2026-10-28T00:33:17.369Z] acp indisponible (agent omniroute terminé) → fallback HTTP direct
+[2026-10-28T00:33:17.373Z] ✗ completeTurn provider=omniroute model=omniroute/groq/openai/gpt-oss-120b erreur=fetch failed
+[2026-10-28T00:33:17.463Z] persisté session=chat-419be027-243e-4f9e-a2f2-62a397484f91 msgs=2
+[2026-10-28T00:54:33.422Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,openrouter,omniroute]
+[2026-10-28T00:54:37.750Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,openrouter,omniroute]
+[2026-10-28T00:54:47.922Z] acp connect provider=hermes pid=5880
+[2026-10-28T00:54:47.923Z] acp connect provider=hermes pid=17824
+[2026-10-28T00:54:55.108Z] acp session/new ok 000688a0-6fe6-4ed2-bf93-b2a3d6325632
+[2026-10-28T00:54:55.288Z] acp session/new ok bb427c90-3144-4db5-b63b-d79c29198f99
+[2026-10-28T00:54:58.667Z] acp connect provider=mistral-vibe pid=7864
+[2026-10-28T00:54:58.725Z] acp connect provider=mistral-vibe pid=25516
+[2026-10-28T00:55:03.359Z] sync start enabled=[antigravity-acp,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,omniroute]
+[2026-10-28T00:55:03.370Z] sync start enabled=[antigravity-acp,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,omniroute]
+[2026-10-28T00:55:05.425Z] acp session/new ok 25d8dc8d-6109-f706-c482-910d89899018
+[2026-10-28T00:55:05.465Z] sync devin-cli: 2 modèles
+[2026-10-28T00:55:05.465Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-28T00:55:05.466Z] sync nim: 57 modèles
+[2026-10-28T00:55:05.467Z] sync nim2: 57 modèles
+[2026-10-28T00:55:05.467Z] sync ollama: 0 modèles
+[2026-10-28T00:55:05.468Z] sync openrouter: 16 modèles
+[2026-10-28T00:55:05.468Z] sync omniroute: 1061 modèles
+[2026-10-28T00:55:05.569Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-28T00:55:05.570Z] sync hermes: 64 modèles
+[2026-10-28T00:55:05.571Z] sync opencode: 1 modèles
+[2026-10-28T00:55:05.572Z] sync mistral-vibe: 5 modèles
+[2026-10-28T00:55:05.572Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-28T00:55:06.048Z] acp session/new ok d7529e60-ab3b-55f4-3a2c-b261837de7b2
+[2026-10-28T00:55:06.063Z] sync devin-cli: 2 modèles
+[2026-10-28T00:55:06.064Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-28T00:55:06.064Z] sync nim: 57 modèles
+[2026-10-28T00:55:06.065Z] sync nim2: 57 modèles
+[2026-10-28T00:55:06.065Z] sync ollama: 0 modèles
+[2026-10-28T00:55:06.065Z] sync openrouter: 16 modèles
+[2026-10-28T00:55:06.066Z] sync omniroute: 1061 modèles
+[2026-10-28T00:55:06.074Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-28T00:55:06.075Z] sync hermes: 64 modèles
+[2026-10-28T00:55:06.076Z] sync opencode: 1 modèles
+[2026-10-28T00:55:06.076Z] sync mistral-vibe: 5 modèles
+[2026-10-28T00:55:06.077Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-28T00:55:08.596Z] acp connect provider=mistral-vibe pid=31324
+[2026-10-28T00:55:08.605Z] acp connect provider=mistral-vibe pid=23464
+[2026-10-28T00:55:15.502Z] acp session/new ok 81bfc4d6-873c-ee0f-12e9-2c98876e2857
+[2026-10-28T00:55:16.960Z] acp session/new ok c8b1f382-a877-7d7e-d8fb-d889ee824c9d
+[2026-10-28T00:55:30.751Z] acp connect provider=antigravity-acp pid=23668
+[2026-10-28T00:55:30.950Z] acp connect provider=antigravity-acp pid=25040
+[2026-10-28T00:55:34.093Z] acp session/new ok 467cf488-bf36-4412-9dc9-ef51a99fe0fd
+[2026-10-28T00:55:34.146Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-28T00:55:34.146Z] sync nim: 57 modèles
+[2026-10-28T00:55:34.147Z] sync nim2: 57 modèles
+[2026-10-28T00:55:34.147Z] sync ollama: 0 modèles
+[2026-10-28T00:55:34.147Z] sync omniroute: 1061 modèles
+[2026-10-28T00:55:34.156Z] sync antigravity-acp: 6 modèles
+[2026-10-28T00:55:34.157Z] sync opencode: 1 modèles
+[2026-10-28T00:55:34.158Z] sync mistral-vibe: 5 modèles
+[2026-10-28T00:55:34.158Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-28T00:55:34.427Z] acp session/new ok ba060c4f-6a34-4601-8a88-cd75cdb7afb1
+[2026-10-28T00:55:34.477Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-28T00:55:34.478Z] sync nim: 57 modèles
+[2026-10-28T00:55:34.478Z] sync nim2: 57 modèles
+[2026-10-28T00:55:34.478Z] sync ollama: 0 modèles
+[2026-10-28T00:55:34.479Z] sync omniroute: 1061 modèles
+[2026-10-28T00:55:34.485Z] sync antigravity-acp: 6 modèles
+[2026-10-28T00:55:34.485Z] sync opencode: 1 modèles
+[2026-10-28T00:55:34.486Z] sync mistral-vibe: 5 modèles
+[2026-10-28T00:55:34.486Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-28T00:58:43.438Z] sync start enabled=[antigravity-acp,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,omniroute]
+[2026-10-28T00:58:43.943Z] send session=chat-mvflr6cn provider=omniroute model=groq/openai/gpt-oss-20b
+[2026-10-28T00:58:44.027Z] → completeTurn provider=omniroute model=groq/openai/gpt-oss-20b mode=agent messages=1
+[2026-10-28T00:58:44.073Z] acp indisponible (agent omniroute terminé) → fallback HTTP direct
+[2026-10-28T00:58:45.268Z] ← completeTurn provider=omniroute model=groq/openai/gpt-oss-20b réponse=53 car.
+[2026-10-28T00:58:45.418Z] persisté session=chat-mvflr6cn msgs=2
+[2026-10-28T00:58:47.264Z] acp connect provider=mistral-vibe pid=28700
+[2026-10-28T00:58:50.688Z] acp session/new ok c6c4e91c-bc1d-605e-3d8c-6861895d90e5
+[2026-10-28T00:59:01.727Z] acp connect provider=antigravity-acp pid=19820
+[2026-10-28T00:59:05.100Z] acp session/new ok 6b981613-5839-47de-aaa3-343ca35cf042
+[2026-10-28T00:59:05.154Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-28T00:59:05.154Z] sync nim: 57 modèles
+[2026-10-28T00:59:05.155Z] sync nim2: 57 modèles
+[2026-10-28T00:59:05.155Z] sync ollama: 0 modèles
+[2026-10-28T00:59:05.155Z] sync omniroute: 1061 modèles
+[2026-10-28T00:59:05.163Z] sync antigravity-acp: 6 modèles
+[2026-10-28T00:59:05.163Z] sync opencode: 1 modèles
+[2026-10-28T00:59:05.164Z] sync mistral-vibe: 5 modèles
+[2026-10-28T00:59:05.164Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-28T00:59:12.679Z] send session=chat-mvp0beacon provider=nim model=z-ai/glm-5.3
+[2026-10-28T00:59:12.761Z] → completeTurn provider=nim model=z-ai/glm-5.3 mode=agent messages=1
+[2026-10-28T01:01:12.764Z] ✗ completeTurn provider=nim model=z-ai/glm-5.3 erreur=le fournisseur n'a pas répondu en 120s
+[2026-10-28T01:01:12.838Z] persisté session=chat-mvp0beacon msgs=2
+[2026-10-28T01:17:57.221Z] sync start enabled=[antigravity-acp,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,omniroute]
+[2026-10-28T01:18:01.175Z] acp connect provider=mistral-vibe pid=12708
+[2026-10-28T01:18:07.895Z] acp session/new ok 1ccbb4d1-fe7f-be12-90c6-ee64d9f9c35d
+[2026-10-28T01:18:16.498Z] sync start enabled=[antigravity-acp,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,omniroute]
+[2026-10-28T01:18:19.199Z] acp connect provider=antigravity-acp pid=19304
+[2026-10-28T01:18:19.740Z] sync start enabled=[antigravity-acp,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,omniroute]
+[2026-10-28T01:18:20.787Z] acp connect provider=mistral-vibe pid=27372
+[2026-10-28T01:18:24.284Z] acp session/new ok cf1d66e0-0dfa-433a-90b8-641ef8bdb4d0
+[2026-10-28T01:18:24.966Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-28T01:18:24.966Z] sync nim: 57 modèles
+[2026-10-28T01:18:24.966Z] sync nim2: 57 modèles
+[2026-10-28T01:18:24.967Z] sync ollama: 0 modèles
+[2026-10-28T01:18:24.967Z] sync omniroute: 1061 modèles
+[2026-10-28T01:18:24.976Z] sync antigravity-acp: 6 modèles
+[2026-10-28T01:18:24.977Z] sync opencode: 1 modèles
+[2026-10-28T01:18:24.977Z] sync mistral-vibe: 5 modèles
+[2026-10-28T01:18:24.978Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-28T01:18:25.602Z] acp session/new ok 5b9f5bff-954b-43d4-9ab5-2e35495ab483
+[2026-10-28T01:18:26.749Z] acp connect provider=mistral-vibe pid=14864
+[2026-10-28T01:18:45.443Z] acp session/new ok a3e2f98c-1774-253c-a2fe-8dbf4368c990
+[2026-10-28T01:18:51.630Z] acp connect provider=antigravity-acp pid=13080
+[2026-10-28T01:18:54.310Z] acp connect provider=antigravity-acp pid=27544
+[2026-10-28T01:18:55.057Z] acp session/new ok 0f0b7b9d-376f-4ab5-9778-0fcda3a8bb31
+[2026-10-28T01:18:55.122Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-28T01:18:55.123Z] sync nim: 57 modèles
+[2026-10-28T01:18:55.123Z] sync nim2: 57 modèles
+[2026-10-28T01:18:55.124Z] sync ollama: 0 modèles
+[2026-10-28T01:18:55.125Z] sync omniroute: 1061 modèles
+[2026-10-28T01:18:55.132Z] sync antigravity-acp: 6 modèles
+[2026-10-28T01:18:55.132Z] sync opencode: 1 modèles
+[2026-10-28T01:18:55.133Z] sync mistral-vibe: 5 modèles
+[2026-10-28T01:18:55.133Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-28T01:18:57.680Z] acp session/new ok 6c0fe726-9ba8-4103-9acf-38d16e9d8990
+[2026-10-28T01:18:57.736Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-28T01:18:57.736Z] sync nim: 57 modèles
+[2026-10-28T01:18:57.737Z] sync nim2: 57 modèles
+[2026-10-28T01:18:57.737Z] sync ollama: 0 modèles
+[2026-10-28T01:18:57.737Z] sync omniroute: 1061 modèles
+[2026-10-28T01:18:57.744Z] sync antigravity-acp: 6 modèles
+[2026-10-28T01:18:57.745Z] sync opencode: 1 modèles
+[2026-10-28T01:18:57.746Z] sync mistral-vibe: 5 modèles
+[2026-10-28T01:18:57.746Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-28T01:24:55.317Z] sync start enabled=[antigravity-acp,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,omniroute]
+[2026-10-28T01:24:58.921Z] acp connect provider=mistral-vibe pid=11300
+[2026-10-28T01:25:01.484Z] acp session/new ok e2298d0e-6533-d7d9-ca13-5a60eecab185
+[2026-10-28T01:25:13.874Z] acp connect provider=antigravity-acp pid=5568
+[2026-10-28T01:25:17.054Z] acp session/new ok 74249bc4-cf57-474c-9ed5-4c97127f39d2
+[2026-10-28T01:25:17.109Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-28T01:25:17.109Z] sync nim: 57 modèles
+[2026-10-28T01:25:17.109Z] sync nim2: 57 modèles
+[2026-10-28T01:25:17.110Z] sync ollama: 0 modèles
+[2026-10-28T01:25:17.110Z] sync omniroute: 1061 modèles
+[2026-10-28T01:25:17.118Z] sync antigravity-acp: 6 modèles
+[2026-10-28T01:25:17.119Z] sync opencode: 1 modèles
+[2026-10-28T01:25:17.119Z] sync mistral-vibe: 5 modèles
+[2026-10-28T01:25:17.119Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-28T01:53:17.157Z] sync start enabled=[antigravity-acp,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,omniroute]
+[2026-10-28T01:53:21.456Z] acp connect provider=mistral-vibe pid=31240
+[2026-10-28T01:53:27.062Z] acp session/new ok 7279829d-7ff3-387f-abf7-dd0ee50eac17
+[2026-10-28T01:53:39.988Z] acp connect provider=antigravity-acp pid=25584
+[2026-10-28T01:53:43.246Z] acp session/new ok 1b502b1c-0a0e-482e-9f8e-b5b394c5b392
+[2026-10-28T01:53:43.310Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-28T01:53:43.310Z] sync nim: 57 modèles
+[2026-10-28T01:53:43.311Z] sync nim2: 57 modèles
+[2026-10-28T01:53:43.311Z] sync ollama: 0 modèles
+[2026-10-28T01:53:43.312Z] sync omniroute: 1061 modèles
+[2026-10-28T01:53:43.322Z] sync antigravity-acp: 6 modèles
+[2026-10-28T01:53:43.322Z] sync opencode: 1 modèles
+[2026-10-28T01:53:43.323Z] sync mistral-vibe: 5 modèles
+[2026-10-28T01:53:43.323Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-28T02:12:56.487Z] sync start enabled=[antigravity-acp,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,omniroute]
+[2026-10-28T02:12:59.734Z] sync start enabled=[antigravity-acp,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,omniroute]
+[2026-10-28T02:13:01.726Z] acp connect provider=mistral-vibe pid=15232
+[2026-10-28T02:13:02.847Z] acp connect provider=mistral-vibe pid=31548
+[2026-10-28T02:13:06.468Z] acp session/new ok 0c326e5d-8fd3-3bf5-9450-434ccad3534f
+[2026-10-28T02:13:19.158Z] acp session/new ok ba8e99d2-0790-4a42-e323-e32bfd984afd
+[2026-10-28T02:13:25.115Z] acp connect provider=antigravity-acp pid=5880
+[2026-10-28T02:13:26.329Z] acp connect provider=antigravity-acp pid=7780
+[2026-10-28T02:13:28.528Z] acp session/new ok dccd514b-7677-4fae-a86c-2ff1aa561ac3
+[2026-10-28T02:13:28.591Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-28T02:13:28.592Z] sync nim: 57 modèles
+[2026-10-28T02:13:28.592Z] sync nim2: 57 modèles
+[2026-10-28T02:13:28.593Z] sync ollama: 0 modèles
+[2026-10-28T02:13:28.593Z] sync omniroute: 1061 modèles
+[2026-10-28T02:13:28.599Z] sync antigravity-acp: 6 modèles
+[2026-10-28T02:13:28.600Z] sync opencode: 1 modèles
+[2026-10-28T02:13:28.600Z] sync mistral-vibe: 5 modèles
+[2026-10-28T02:13:28.601Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-28T02:13:29.837Z] acp session/new ok 274cd428-a98b-4737-8890-e1a9c6095132
+[2026-10-28T02:13:29.892Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-28T02:13:29.893Z] sync nim: 57 modèles
+[2026-10-28T02:13:29.893Z] sync nim2: 57 modèles
+[2026-10-28T02:13:29.893Z] sync ollama: 0 modèles
+[2026-10-28T02:13:29.894Z] sync omniroute: 1061 modèles
+[2026-10-28T02:13:29.900Z] sync antigravity-acp: 6 modèles
+[2026-10-28T02:13:29.900Z] sync opencode: 1 modèles
+[2026-10-28T02:13:29.901Z] sync mistral-vibe: 5 modèles
+[2026-10-28T02:13:29.901Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-28T02:17:16.959Z] sync start enabled=[antigravity-acp,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,omniroute]
+[2026-10-28T02:17:20.881Z] acp connect provider=mistral-vibe pid=23420
+[2026-10-28T02:17:24.306Z] acp session/new ok b5743135-411c-2b9c-c49c-7bf7138ea096
+[2026-10-28T02:17:36.548Z] sync start enabled=[antigravity-acp,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,omniroute]
+[2026-10-28T02:17:40.620Z] acp connect provider=mistral-vibe pid=27732
+[2026-10-28T02:17:41.145Z] acp connect provider=antigravity-acp pid=25476
+[2026-10-28T02:17:43.726Z] acp session/new ok 1630a1a9-6038-8b46-96ce-92b6c906c9c7
+[2026-10-28T02:17:45.008Z] acp session/new ok c655a4cb-c937-431a-bd8b-95d559a9a566
+[2026-10-28T02:17:45.573Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-28T02:17:45.574Z] sync nim: 57 modèles
+[2026-10-28T02:17:45.574Z] sync nim2: 57 modèles
+[2026-10-28T02:17:45.575Z] sync ollama: 0 modèles
+[2026-10-28T02:17:45.575Z] sync omniroute: 1061 modèles
+[2026-10-28T02:17:45.584Z] sync antigravity-acp: 6 modèles
+[2026-10-28T02:17:45.584Z] sync opencode: 1 modèles
+[2026-10-28T02:17:45.585Z] sync mistral-vibe: 5 modèles
+[2026-10-28T02:17:45.586Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-28T02:17:58.888Z] acp connect provider=antigravity-acp pid=33088
+[2026-10-28T02:18:02.127Z] acp session/new ok 081b58cc-2c33-4300-b655-3ba57d0133b7
+[2026-10-28T02:18:02.192Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-28T02:18:02.192Z] sync nim: 57 modèles
+[2026-10-28T02:18:02.193Z] sync nim2: 57 modèles
+[2026-10-28T02:18:02.193Z] sync ollama: 0 modèles
+[2026-10-28T02:18:02.194Z] sync omniroute: 1061 modèles
+[2026-10-28T02:18:02.202Z] sync antigravity-acp: 6 modèles
+[2026-10-28T02:18:02.202Z] sync opencode: 1 modèles
+[2026-10-28T02:18:02.203Z] sync mistral-vibe: 5 modèles
+[2026-10-28T02:18:02.203Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-28T19:48:55.370Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,openrouter,omniroute]
+[2026-10-28T19:49:04.991Z] acp connect provider=hermes pid=19264
+[2026-10-28T19:49:08.492Z] acp session/new ok 722388a3-258c-4dd7-9072-8d8b92d3e5f3
+[2026-10-28T19:49:11.505Z] acp connect provider=mistral-vibe pid=28804
+[2026-10-28T19:49:13.408Z] acp session/new ok 54a4f219-f8f2-4cf6-55db-a146e1c0ad10
+[2026-10-28T19:49:13.416Z] sync devin-cli: 2 modèles
+[2026-10-28T19:49:13.416Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-28T19:49:13.416Z] sync nim: 56 modèles
+[2026-10-28T19:49:13.417Z] sync nim2: 56 modèles
+[2026-10-28T19:49:13.417Z] sync ollama: 0 modèles
+[2026-10-28T19:49:13.418Z] sync openrouter: 16 modèles
+[2026-10-28T19:49:13.418Z] sync omniroute: 1049 modèles
+[2026-10-28T19:49:13.423Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-28T19:49:13.424Z] sync hermes: 64 modèles
+[2026-10-28T19:49:13.424Z] sync opencode: 1 modèles
+[2026-10-28T19:49:13.425Z] sync mistral-vibe: 5 modèles
+[2026-10-28T19:49:13.425Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-28T22:35:55.292Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,openrouter,omniroute]
+[2026-10-28T22:36:10.773Z] acp connect provider=hermes pid=34616
+[2026-10-28T22:36:17.193Z] acp session/new ok 2d403be9-12de-48f4-be3c-8dc95908f72f
+[2026-10-28T22:36:21.609Z] acp connect provider=mistral-vibe pid=26712
+[2026-10-28T22:36:25.519Z] acp session/new ok be918a45-d550-f686-5333-06d8d710b77e
+[2026-10-28T22:36:25.531Z] sync devin-cli: 2 modèles
+[2026-10-28T22:36:25.531Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-28T22:36:25.532Z] sync nim: 56 modèles
+[2026-10-28T22:36:25.532Z] sync nim2: 56 modèles
+[2026-10-28T22:36:25.533Z] sync ollama: 0 modèles
+[2026-10-28T22:36:25.533Z] sync openrouter: 16 modèles
+[2026-10-28T22:36:25.534Z] sync omniroute: 1060 modèles
+[2026-10-28T22:36:25.569Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-28T22:36:25.570Z] sync hermes: 64 modèles
+[2026-10-28T22:36:25.573Z] sync opencode: 1 modèles
+[2026-10-28T22:36:25.574Z] sync mistral-vibe: 5 modèles
+[2026-10-28T22:36:25.574Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-28T22:47:02.799Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,openrouter,omniroute]
+[2026-10-28T22:47:34.818Z] acp connect provider=hermes pid=29972
+[2026-10-28T22:47:44.591Z] acp session/new ok f662ac15-fb89-4a00-b37f-0174e5696cf3
+[2026-10-28T22:47:48.720Z] sync start enabled=[antigravity-acp,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,omniroute]
+[2026-10-28T22:47:48.741Z] sync start enabled=[antigravity-acp,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,omniroute]
+[2026-10-28T22:47:48.814Z] sync start enabled=[antigravity-acp,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,omniroute]
+[2026-10-28T22:47:48.842Z] sync start enabled=[antigravity-acp,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,omniroute]
+[2026-10-28T22:47:48.863Z] sync start enabled=[antigravity-acp,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,omniroute]
+[2026-10-28T22:47:48.888Z] sync start enabled=[antigravity-acp,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,omniroute]
+[2026-10-28T22:47:48.912Z] sync start enabled=[antigravity-acp,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,omniroute]
+[2026-10-28T22:47:48.936Z] sync start enabled=[antigravity-acp,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,omniroute]
+[2026-10-28T22:48:17.464Z] acp connect provider=mistral-vibe pid=31240
+[2026-10-28T22:48:29.918Z] acp connect provider=mistral-vibe pid=38516
+[2026-10-28T22:48:30.443Z] acp connect provider=mistral-vibe pid=21752
+[2026-10-28T22:48:30.451Z] acp connect provider=mistral-vibe pid=9744
+[2026-10-28T22:48:30.453Z] acp connect provider=mistral-vibe pid=36192
+[2026-10-28T22:48:30.459Z] acp connect provider=mistral-vibe pid=4256
+[2026-10-28T22:48:30.589Z] acp connect provider=mistral-vibe pid=21820
+[2026-10-28T22:48:34.979Z] acp connect provider=mistral-vibe pid=36916
+[2026-10-28T22:48:42.800Z] acp connect provider=mistral-vibe pid=35524
+[2026-10-28T22:48:48.121Z] acp session/new ok e595a5c9-4d75-a837-7583-2879ccbebe96
+[2026-10-28T22:48:48.144Z] sync devin-cli: 2 modèles
+[2026-10-28T22:48:48.145Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-28T22:48:48.145Z] sync nim: 56 modèles
+[2026-10-28T22:48:48.146Z] sync nim2: 56 modèles
+[2026-10-28T22:48:48.146Z] sync ollama: 0 modèles
+[2026-10-28T22:48:48.147Z] sync openrouter: 16 modèles
+[2026-10-28T22:48:48.148Z] sync omniroute: 0 modèles
+[2026-10-28T22:48:48.148Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-28T22:48:48.149Z] sync hermes: 64 modèles
+[2026-10-28T22:48:48.150Z] sync opencode: 1 modèles
+[2026-10-28T22:48:48.150Z] sync mistral-vibe: 5 modèles
+[2026-10-28T22:48:48.151Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-28T22:49:13.879Z] acp session/new ok 4d4b0a5c-23a6-655f-ce11-b64a880f7ab4
+[2026-10-28T22:49:18.199Z] acp session/new ok 0a777f44-b883-f10a-fac4-fb255d828b4d
+[2026-10-28T22:49:19.526Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-28T22:49:19.527Z] sync nim: 56 modèles
+[2026-10-28T22:49:19.527Z] sync nim2: 56 modèles
+[2026-10-28T22:49:19.528Z] sync ollama: 0 modèles
+[2026-10-28T22:49:19.528Z] sync omniroute: 1058 modèles
+[2026-10-28T22:49:19.555Z] sync antigravity-acp: aucun modèle annoncé (1 repli)
+[2026-10-28T22:49:19.555Z] sync opencode: 1 modèles
+[2026-10-28T22:49:19.556Z] sync mistral-vibe: aucun modèle annoncé (1 repli)
+[2026-10-28T22:49:19.556Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-28T22:49:19.627Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-28T22:49:19.627Z] sync nim: 56 modèles
+[2026-10-28T22:49:19.628Z] sync nim2: 56 modèles
+[2026-10-28T22:49:19.628Z] sync ollama: 0 modèles
+[2026-10-28T22:49:19.628Z] sync omniroute: 1058 modèles
+[2026-10-28T22:49:19.637Z] sync antigravity-acp: aucun modèle annoncé (1 repli)
+[2026-10-28T22:49:19.638Z] sync opencode: 1 modèles
+[2026-10-28T22:49:19.638Z] sync mistral-vibe: aucun modèle annoncé (1 repli)
+[2026-10-28T22:49:19.639Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-28T22:49:19.852Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-28T22:49:19.853Z] sync nim: 56 modèles
+[2026-10-28T22:49:19.853Z] sync nim2: 56 modèles
+[2026-10-28T22:49:19.854Z] sync ollama: 0 modèles
+[2026-10-28T22:49:19.854Z] sync omniroute: 1058 modèles
+[2026-10-28T22:49:19.863Z] sync antigravity-acp: aucun modèle annoncé (1 repli)
+[2026-10-28T22:49:19.908Z] sync opencode: 1 modèles
+[2026-10-28T22:49:19.908Z] sync mistral-vibe: aucun modèle annoncé (1 repli)
+[2026-10-28T22:49:19.909Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-28T22:49:20.043Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-28T22:49:20.044Z] sync nim: 56 modèles
+[2026-10-28T22:49:20.044Z] sync nim2: 56 modèles
+[2026-10-28T22:49:20.045Z] sync ollama: 0 modèles
+[2026-10-28T22:49:20.045Z] sync omniroute: 1058 modèles
+[2026-10-28T22:49:20.054Z] sync antigravity-acp: aucun modèle annoncé (1 repli)
+[2026-10-28T22:49:20.054Z] sync opencode: 1 modèles
+[2026-10-28T22:49:20.055Z] sync mistral-vibe: aucun modèle annoncé (1 repli)
+[2026-10-28T22:49:20.055Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-28T22:49:20.275Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-28T22:49:20.275Z] sync nim: 56 modèles
+[2026-10-28T22:49:20.276Z] sync nim2: 56 modèles
+[2026-10-28T22:49:20.277Z] sync ollama: 0 modèles
+[2026-10-28T22:49:20.278Z] sync omniroute: 1058 modèles
+[2026-10-28T22:49:20.324Z] sync antigravity-acp: aucun modèle annoncé (1 repli)
+[2026-10-28T22:49:20.325Z] sync opencode: 1 modèles
+[2026-10-28T22:49:20.325Z] sync mistral-vibe: 5 modèles
+[2026-10-28T22:49:20.326Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-28T22:49:20.439Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-28T22:49:20.439Z] sync nim: 56 modèles
+[2026-10-28T22:49:20.440Z] sync nim2: 56 modèles
+[2026-10-28T22:49:20.440Z] sync ollama: 0 modèles
+[2026-10-28T22:49:20.440Z] sync omniroute: 1058 modèles
+[2026-10-28T22:49:20.460Z] sync antigravity-acp: aucun modèle annoncé (1 repli)
+[2026-10-28T22:49:20.460Z] sync opencode: 1 modèles
+[2026-10-28T22:49:20.461Z] sync mistral-vibe: 5 modèles
+[2026-10-28T22:49:20.461Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-28T22:49:20.767Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-28T22:49:21.006Z] sync nim: 56 modèles
+[2026-10-28T22:49:21.008Z] sync nim2: 56 modèles
+[2026-10-28T22:49:21.011Z] sync ollama: 0 modèles
+[2026-10-28T22:49:21.012Z] sync omniroute: 1058 modèles
+[2026-10-28T22:49:21.022Z] sync antigravity-acp: aucun modèle annoncé (1 repli)
+[2026-10-28T22:49:21.023Z] sync opencode: 1 modèles
+[2026-10-28T22:49:21.023Z] sync mistral-vibe: aucun modèle annoncé (1 repli)
+[2026-10-28T22:49:21.023Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-28T22:49:21.072Z] acp session/new ok ea439438-362f-27fb-0fd4-2cc6a93e0052
+[2026-10-28T22:49:21.145Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-28T22:49:21.146Z] sync nim: 56 modèles
+[2026-10-28T22:49:21.146Z] sync nim2: 56 modèles
+[2026-10-28T22:49:21.147Z] sync ollama: 0 modèles
+[2026-10-28T22:49:21.147Z] sync omniroute: 1058 modèles
+[2026-10-28T22:49:21.156Z] sync antigravity-acp: aucun modèle annoncé (1 repli)
+[2026-10-28T22:49:21.156Z] sync opencode: 1 modèles
+[2026-10-28T22:49:21.157Z] sync mistral-vibe: 5 modèles
+[2026-10-28T22:49:21.157Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-28T22:55:00.994Z] sync start enabled=[antigravity-acp,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,omniroute]
+[2026-10-28T22:55:05.219Z] acp connect provider=mistral-vibe pid=21720
+[2026-10-28T22:55:07.756Z] acp session/new ok 2873ef85-3d1f-1228-34fc-a2b5a0d5a4ce
+[2026-10-28T22:55:20.794Z] acp connect provider=antigravity-acp pid=33180
+[2026-10-28T22:55:24.678Z] acp session/new ok 464bfca4-45fb-45de-81dc-dba74a7e4573
+[2026-10-28T22:55:24.701Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-28T22:55:24.702Z] sync nim: 56 modèles
+[2026-10-28T22:55:24.702Z] sync nim2: 56 modèles
+[2026-10-28T22:55:24.702Z] sync ollama: 0 modèles
+[2026-10-28T22:55:24.703Z] sync omniroute: 1061 modèles
+[2026-10-28T22:55:24.709Z] sync antigravity-acp: 6 modèles
+[2026-10-28T22:55:24.709Z] sync opencode: 1 modèles
+[2026-10-28T22:55:24.710Z] sync mistral-vibe: 5 modèles
+[2026-10-28T22:55:24.710Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-28T23:12:26.071Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,openrouter,omniroute]
+[2026-10-28T23:12:44.598Z] acp connect provider=hermes pid=15176
+[2026-10-28T23:12:53.748Z] acp session/new ok 2b3c12c0-f942-4199-b395-5489378bf14c
+[2026-10-28T23:12:56.873Z] acp connect provider=mistral-vibe pid=27984
+[2026-10-28T23:13:00.169Z] acp session/new ok 5a062831-5b0a-0695-7bc0-c29c85f6389c
+[2026-10-28T23:13:00.177Z] sync devin-cli: 2 modèles
+[2026-10-28T23:13:00.178Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-28T23:13:00.178Z] sync nim: 56 modèles
+[2026-10-28T23:13:00.178Z] sync nim2: 56 modèles
+[2026-10-28T23:13:00.179Z] sync ollama: 0 modèles
+[2026-10-28T23:13:00.179Z] sync openrouter: 16 modèles
+[2026-10-28T23:13:00.180Z] sync omniroute: 1061 modèles
+[2026-10-28T23:13:00.188Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-28T23:13:00.188Z] sync hermes: 64 modèles
+[2026-10-28T23:13:00.189Z] sync opencode: 1 modèles
+[2026-10-28T23:13:00.190Z] sync mistral-vibe: 5 modèles
+[2026-10-28T23:13:00.190Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-28T23:16:03.071Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,openrouter,omniroute]
+[2026-10-28T23:16:21.392Z] acp connect provider=hermes pid=37624
+[2026-10-28T23:16:26.686Z] acp session/new ok 518106f9-a8c0-4e20-b7fd-53c188e70ce5
+[2026-10-28T23:16:29.208Z] acp connect provider=mistral-vibe pid=27296
+[2026-10-28T23:16:31.343Z] acp session/new ok 81248f4a-f6f2-18f3-356b-b01b4342d8a7
+[2026-10-28T23:16:31.352Z] sync devin-cli: 2 modèles
+[2026-10-28T23:16:31.353Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-28T23:16:31.353Z] sync nim: 56 modèles
+[2026-10-28T23:16:31.354Z] sync nim2: 56 modèles
+[2026-10-28T23:16:31.354Z] sync ollama: 0 modèles
+[2026-10-28T23:16:31.354Z] sync openrouter: 16 modèles
+[2026-10-28T23:16:31.355Z] sync omniroute: 1059 modèles
+[2026-10-28T23:16:31.362Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-28T23:16:31.362Z] sync hermes: 64 modèles
+[2026-10-28T23:16:31.363Z] sync opencode: 1 modèles
+[2026-10-28T23:16:31.364Z] sync mistral-vibe: 5 modèles
+[2026-10-28T23:16:31.364Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-28T23:27:36.154Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,openrouter,omniroute]
+[2026-10-28T23:28:05.032Z] acp connect provider=hermes pid=10596
+[2026-10-28T23:28:15.702Z] acp session/new ok 385ed84c-681a-4b34-9238-73af76a1f15d
+[2026-10-28T23:28:23.720Z] acp connect provider=mistral-vibe pid=15176
+[2026-10-28T23:28:27.768Z] acp session/new ok 31093b4b-ce2f-15e2-ef99-507d331f7d9c
+[2026-10-28T23:28:27.784Z] sync devin-cli: 2 modèles
+[2026-10-28T23:28:27.785Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-28T23:28:27.785Z] sync nim: 56 modèles
+[2026-10-28T23:28:27.785Z] sync nim2: 56 modèles
+[2026-10-28T23:28:27.786Z] sync ollama: 0 modèles
+[2026-10-28T23:28:27.786Z] sync openrouter: 16 modèles
+[2026-10-28T23:28:27.787Z] sync omniroute: 1061 modèles
+[2026-10-28T23:28:27.797Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-28T23:28:27.798Z] sync hermes: 64 modèles
+[2026-10-28T23:28:27.799Z] sync opencode: 1 modèles
+[2026-10-28T23:28:27.800Z] sync mistral-vibe: 5 modèles
+[2026-10-28T23:28:27.801Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-29T00:34:37.385Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,openrouter,omniroute]
+[2026-10-29T00:35:10.728Z] acp connect provider=hermes pid=12864
+[2026-10-29T00:35:23.452Z] acp session/new ok a3dae998-dc43-4676-8d29-5aadfd465914
+[2026-10-29T00:35:38.257Z] acp connect provider=mistral-vibe pid=23896
+[2026-10-29T00:35:59.106Z] acp session/new ok 581350ec-d4bd-70af-5439-e4d391311fa3
+[2026-10-29T00:35:59.122Z] sync devin-cli: 2 modèles
+[2026-10-29T00:35:59.123Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-29T00:35:59.125Z] sync nim: 56 modèles
+[2026-10-29T00:35:59.126Z] sync nim2: 56 modèles
+[2026-10-29T00:35:59.126Z] sync ollama: 0 modèles
+[2026-10-29T00:35:59.127Z] sync openrouter: 16 modèles
+[2026-10-29T00:35:59.128Z] sync omniroute: 1061 modèles
+[2026-10-29T00:35:59.137Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-29T00:35:59.138Z] sync hermes: 64 modèles
+[2026-10-29T00:35:59.139Z] sync opencode: 1 modèles
+[2026-10-29T00:35:59.140Z] sync mistral-vibe: 5 modèles
+[2026-10-29T00:35:59.141Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-29T00:43:37.883Z] sync start enabled=[antigravity-acp,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,omniroute]
+[2026-10-29T00:43:50.171Z] acp connect provider=mistral-vibe pid=34936
+[2026-10-29T00:44:07.064Z] acp session/new ok 7c500e19-3fe4-164a-973f-38d6cd2071fb
+[2026-10-29T00:44:28.494Z] acp connect provider=antigravity-acp pid=36244
+[2026-10-29T00:44:32.512Z] acp session/new ok ec4200f9-22ea-466a-adfd-3e67b234c7d8
+[2026-10-29T00:44:32.645Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-29T00:44:32.647Z] sync nim: 56 modèles
+[2026-10-29T00:44:32.648Z] sync nim2: 56 modèles
+[2026-10-29T00:44:32.650Z] sync ollama: 0 modèles
+[2026-10-29T00:44:32.653Z] sync omniroute: 1054 modèles
+[2026-10-29T00:44:32.662Z] sync antigravity-acp: 6 modèles
+[2026-10-29T00:44:32.662Z] sync opencode: 1 modèles
+[2026-10-29T00:44:32.663Z] sync mistral-vibe: 5 modèles
+[2026-10-29T00:44:32.664Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-29T16:39:13.602Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,openrouter,omniroute]
+[2026-10-29T16:39:19.124Z] acp connect provider=hermes pid=26320
+[2026-10-29T16:39:24.777Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,openrouter,omniroute]
+[2026-10-29T16:40:05.458Z] acp connect provider=hermes pid=10508
+[2026-10-29T16:40:18.697Z] acp connect provider=mistral-vibe pid=10368
+[2026-10-29T16:40:28.623Z] acp session/new ok b3f52a68-df0e-8445-ca1e-56c8ddba1c34
+[2026-10-29T16:40:28.640Z] sync devin-cli: 2 modèles
+[2026-10-29T16:40:28.641Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-29T16:40:28.642Z] sync nim: 0 modèles
+[2026-10-29T16:40:28.643Z] sync nim2: 0 modèles
+[2026-10-29T16:40:28.643Z] sync ollama: 0 modèles
+[2026-10-29T16:40:28.644Z] sync openrouter: 4 modèles
+[2026-10-29T16:40:28.644Z] sync omniroute: 0 modèles
+[2026-10-29T16:40:28.645Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-29T16:40:28.646Z] sync hermes: aucun modèle annoncé (0 repli)
+[2026-10-29T16:40:28.647Z] sync opencode: 1 modèles
+[2026-10-29T16:40:28.648Z] sync mistral-vibe: 5 modèles
+[2026-10-29T16:40:28.649Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-29T17:00:56.111Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,openrouter,omniroute]
+[2026-10-29T17:02:04.568Z] acp connect provider=hermes pid=20820
+[2026-10-29T17:02:37.042Z] acp connect provider=mistral-vibe pid=28668
+[2026-10-29T17:02:52.559Z] acp session/new ok be42c7ab-d51d-b630-ac1e-8ce8d24e5282
+[2026-10-29T17:02:52.572Z] sync devin-cli: 2 modèles
+[2026-10-29T17:02:52.573Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-29T17:02:52.574Z] sync nim: 0 modèles
+[2026-10-29T17:02:52.575Z] sync nim2: 0 modèles
+[2026-10-29T17:02:52.576Z] sync ollama: 0 modèles
+[2026-10-29T17:02:52.577Z] sync openrouter: 4 modèles
+[2026-10-29T17:02:52.578Z] sync omniroute: 0 modèles
+[2026-10-29T17:02:52.579Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-29T17:02:52.580Z] sync hermes: aucun modèle annoncé (0 repli)
+[2026-10-29T17:02:52.580Z] sync opencode: 1 modèles
+[2026-10-29T17:02:52.581Z] sync mistral-vibe: 5 modèles
+[2026-10-29T17:02:52.582Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-29T18:53:18.092Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,openrouter,omniroute]
+[2026-10-29T18:53:27.177Z] acp connect provider=hermes pid=14148
+[2026-10-29T18:53:34.371Z] acp session/new ok acc08184-def9-4aff-bcc7-186331ac1a37
+[2026-10-29T18:53:40.268Z] acp connect provider=mistral-vibe pid=38336
+[2026-10-29T18:53:46.032Z] acp session/new ok 3967c235-b0dc-ce32-458b-d81073addebe
+[2026-10-29T18:53:46.042Z] sync devin-cli: 2 modèles
+[2026-10-29T18:53:46.043Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-29T18:53:46.044Z] sync nim: 57 modèles
+[2026-10-29T18:53:46.045Z] sync nim2: 57 modèles
+[2026-10-29T18:53:46.046Z] sync openrouter: 16 modèles
+[2026-10-29T18:53:46.047Z] sync omniroute: 0 modèles
+[2026-10-29T18:53:46.047Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-29T18:53:46.048Z] sync hermes: 64 modèles
+[2026-10-29T18:53:46.049Z] sync opencode: 1 modèles
+[2026-10-29T18:53:46.050Z] sync mistral-vibe: 5 modèles
+[2026-10-29T18:53:46.051Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-29T19:15:10.657Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,openrouter,omniroute]
+[2026-10-29T19:15:18.431Z] acp connect provider=hermes pid=29056
+[2026-10-29T19:15:26.498Z] acp session/new ok 891ca9c6-5f00-450a-9b4d-125cb2521ff1
+[2026-10-29T19:15:35.178Z] acp connect provider=mistral-vibe pid=7340
+[2026-10-29T19:15:43.631Z] acp session/new ok 0d661786-1423-6aed-5c7d-335d599cc567
+[2026-10-29T19:15:43.644Z] sync devin-cli: 2 modèles
+[2026-10-29T19:15:43.645Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-29T19:15:43.646Z] sync nim: 57 modèles
+[2026-10-29T19:15:43.647Z] sync nim2: 57 modèles
+[2026-10-29T19:15:43.648Z] sync openrouter: 16 modèles
+[2026-10-29T19:15:43.649Z] sync omniroute: 0 modèles
+[2026-10-29T19:15:43.649Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-29T19:15:43.650Z] sync hermes: 64 modèles
+[2026-10-29T19:15:43.651Z] sync opencode: 1 modèles
+[2026-10-29T19:15:43.651Z] sync mistral-vibe: 5 modèles
+[2026-10-29T19:15:43.652Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-29T19:34:36.690Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,openrouter,omniroute]
+[2026-10-29T19:34:45.020Z] acp connect provider=hermes pid=18572
+[2026-10-29T19:34:54.248Z] acp session/new ok 2f2ec938-8dcd-487c-8a8b-9a19378a759f
+[2026-10-29T19:35:01.807Z] acp connect provider=mistral-vibe pid=37232
+[2026-10-29T19:35:09.626Z] acp session/new ok 2075df02-5fd0-5dfe-6979-bc706fe44193
+[2026-10-29T19:35:09.640Z] sync devin-cli: 3 modèles
+[2026-10-29T19:35:09.641Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-29T19:35:09.642Z] sync nim: 57 modèles
+[2026-10-29T19:35:09.643Z] sync nim2: 57 modèles
+[2026-10-29T19:35:09.644Z] sync openrouter: 16 modèles
+[2026-10-29T19:35:09.645Z] sync omniroute: 0 modèles
+[2026-10-29T19:35:09.645Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-29T19:35:09.646Z] sync hermes: 64 modèles
+[2026-10-29T19:35:09.647Z] sync opencode: 1 modèles
+[2026-10-29T19:35:09.648Z] sync mistral-vibe: 5 modèles
+[2026-10-29T19:35:09.649Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-29T19:36:07.017Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,openrouter,omniroute]
+[2026-10-29T19:36:15.451Z] acp connect provider=hermes pid=35616
+[2026-10-29T19:36:22.245Z] acp session/new ok 315b7b54-3bcd-4d4b-a5d3-0c78566e78ed
+[2026-10-29T19:36:28.186Z] acp connect provider=mistral-vibe pid=35568
+[2026-10-29T19:36:32.891Z] acp session/new ok 76e0d1f8-fdc4-0924-7472-69f3035cf783
+[2026-10-29T19:36:32.903Z] sync devin-cli: 3 modèles
+[2026-10-29T19:36:32.904Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-29T19:36:32.905Z] sync nim: 57 modèles
+[2026-10-29T19:36:32.906Z] sync nim2: 57 modèles
+[2026-10-29T19:36:32.907Z] sync openrouter: 16 modèles
+[2026-10-29T19:36:32.907Z] sync omniroute: 0 modèles
+[2026-10-29T19:36:32.908Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-29T19:36:32.909Z] sync hermes: 64 modèles
+[2026-10-29T19:36:32.910Z] sync opencode: 1 modèles
+[2026-10-29T19:36:32.911Z] sync mistral-vibe: 5 modèles
+[2026-10-29T19:36:32.912Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-29T19:48:26.927Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,openrouter,omniroute]
+[2026-10-29T19:48:36.488Z] acp connect provider=hermes pid=40572
+[2026-10-29T19:48:42.330Z] acp session/new ok 56bd4646-8fae-4c50-afb7-28224db3eb58
+[2026-10-29T19:48:47.596Z] acp connect provider=mistral-vibe pid=5512
+[2026-10-29T19:48:52.953Z] acp session/new ok b0e997de-b891-496f-7130-ff5213723dcc
+[2026-10-29T19:48:52.964Z] sync devin-cli: 3 modèles
+[2026-10-29T19:48:52.964Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-29T19:48:52.965Z] sync nim: 57 modèles
+[2026-10-29T19:48:52.966Z] sync nim2: 57 modèles
+[2026-10-29T19:48:52.967Z] sync openrouter: 16 modèles
+[2026-10-29T19:48:52.967Z] sync omniroute: 0 modèles
+[2026-10-29T19:48:52.968Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-29T19:48:52.969Z] sync hermes: 64 modèles
+[2026-10-29T19:48:52.970Z] sync opencode: 1 modèles
+[2026-10-29T19:48:52.970Z] sync mistral-vibe: 5 modèles
+[2026-10-29T19:48:52.971Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-29T19:53:59.306Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,openrouter,omniroute]
+[2026-10-29T19:54:13.976Z] acp connect provider=hermes pid=24768
+[2026-10-29T19:54:23.775Z] acp session/new ok 91beeb49-a3a7-417a-b960-19a7dc2f7d2b
+[2026-10-29T19:54:34.089Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,openrouter,omniroute]
+[2026-10-29T19:54:45.725Z] acp connect provider=hermes pid=21436
+[2026-10-29T19:54:53.808Z] acp session/new ok 7316b76c-54bb-427d-91db-b1ac6a40e9b9
+[2026-10-29T19:54:59.726Z] acp connect provider=mistral-vibe pid=34328
+[2026-10-29T19:55:06.313Z] acp session/new ok 3fc63d9b-8f33-185d-8b56-bf2e93843bb8
+[2026-10-29T19:55:06.330Z] sync devin-cli: 3 modèles
+[2026-10-29T19:55:06.330Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-29T19:55:06.331Z] sync nim: 57 modèles
+[2026-10-29T19:55:06.332Z] sync nim2: 57 modèles
+[2026-10-29T19:55:06.333Z] sync openrouter: 16 modèles
+[2026-10-29T19:55:06.333Z] sync omniroute: 0 modèles
+[2026-10-29T19:55:06.334Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-29T19:55:06.335Z] sync hermes: 64 modèles
+[2026-10-29T19:55:06.336Z] sync opencode: 1 modèles
+[2026-10-29T19:55:06.337Z] sync mistral-vibe: 5 modèles
+[2026-10-29T19:55:06.337Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-29T19:57:39.939Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,openrouter,omniroute]
+[2026-10-29T19:57:54.497Z] acp connect provider=hermes pid=20448
+[2026-10-29T19:58:02.636Z] acp session/new ok e1bfaf6a-2655-47ff-a524-0ad88ed5728a
+[2026-10-29T19:58:07.937Z] acp connect provider=mistral-vibe pid=28052
+[2026-10-29T19:58:14.447Z] acp session/new ok c4e180cf-74c0-0b79-4a26-5ef5214d36ae
+[2026-10-29T19:58:14.458Z] sync devin-cli: 3 modèles
+[2026-10-29T19:58:14.459Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-29T19:58:14.459Z] sync nim: 57 modèles
+[2026-10-29T19:58:14.460Z] sync nim2: 57 modèles
+[2026-10-29T19:58:14.461Z] sync openrouter: 16 modèles
+[2026-10-29T19:58:14.462Z] sync omniroute: 0 modèles
+[2026-10-29T19:58:14.463Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-29T19:58:14.463Z] sync hermes: 64 modèles
+[2026-10-29T19:58:14.464Z] sync opencode: 1 modèles
+[2026-10-29T19:58:14.465Z] sync mistral-vibe: 5 modèles
+[2026-10-29T19:58:14.466Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-29T20:04:22.989Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,openrouter,omniroute]
+[2026-10-29T20:04:39.198Z] acp connect provider=hermes pid=27680
+[2026-10-29T20:04:49.231Z] acp session/new ok 20cc01b5-83f6-45ac-a2e0-c4b482f0f5e1
+[2026-10-29T20:04:59.500Z] acp connect provider=mistral-vibe pid=39732
+[2026-10-29T20:05:09.559Z] acp session/new ok 6b66a186-bfe3-5223-9542-c7ad6baf9a83
+[2026-10-29T20:05:09.573Z] sync devin-cli: 3 modèles
+[2026-10-29T20:05:09.573Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-29T20:05:09.574Z] sync nim: 57 modèles
+[2026-10-29T20:05:09.575Z] sync nim2: 57 modèles
+[2026-10-29T20:05:09.576Z] sync openrouter: 16 modèles
+[2026-10-29T20:05:09.577Z] sync omniroute: 0 modèles
+[2026-10-29T20:05:09.578Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-29T20:05:09.579Z] sync hermes: 64 modèles
+[2026-10-29T20:05:09.580Z] sync opencode: 1 modèles
+[2026-10-29T20:05:09.580Z] sync mistral-vibe: 5 modèles
+[2026-10-29T20:05:09.581Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-29T20:08:07.823Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,openrouter,omniroute]
+[2026-10-29T20:08:26.484Z] acp connect provider=hermes pid=12528
+[2026-10-29T20:08:35.684Z] acp session/new ok 555d1676-6ad6-468f-9565-53510441e669
+[2026-10-29T20:08:41.731Z] acp connect provider=mistral-vibe pid=11568
+[2026-10-29T20:08:48.954Z] acp session/new ok 1c3d91ee-74da-f2c3-fbb4-3130de973046
+[2026-10-29T20:08:48.969Z] sync devin-cli: 3 modèles
+[2026-10-29T20:08:48.970Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-29T20:08:48.971Z] sync nim: 57 modèles
+[2026-10-29T20:08:48.972Z] sync nim2: 57 modèles
+[2026-10-29T20:08:48.973Z] sync openrouter: 16 modèles
+[2026-10-29T20:08:48.974Z] sync omniroute: 0 modèles
+[2026-10-29T20:08:48.975Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-29T20:08:48.975Z] sync hermes: 64 modèles
+[2026-10-29T20:08:48.976Z] sync opencode: 1 modèles
+[2026-10-29T20:08:48.977Z] sync mistral-vibe: 5 modèles
+[2026-10-29T20:08:48.978Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-29T20:17:28.967Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,openrouter,omniroute]
+[2026-10-29T20:17:42.729Z] acp connect provider=hermes pid=5872
+[2026-10-29T20:17:52.387Z] acp session/new ok 6c55fbd0-fd21-4ec5-940b-28794429b404
+[2026-10-29T20:17:58.315Z] acp connect provider=mistral-vibe pid=34544
+[2026-10-29T20:18:10.655Z] acp session/new ok e0c31936-6e88-459e-ca37-43ba9ebc86b1
+[2026-10-29T20:18:10.671Z] sync devin-cli: 3 modèles
+[2026-10-29T20:18:10.672Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-29T20:18:10.673Z] sync nim: 57 modèles
+[2026-10-29T20:18:10.674Z] sync nim2: 57 modèles
+[2026-10-29T20:18:10.674Z] sync openrouter: 16 modèles
+[2026-10-29T20:18:10.675Z] sync omniroute: 0 modèles
+[2026-10-29T20:18:10.676Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-29T20:18:10.677Z] sync hermes: 64 modèles
+[2026-10-29T20:18:10.678Z] sync opencode: 1 modèles
+[2026-10-29T20:18:10.680Z] sync mistral-vibe: 5 modèles
+[2026-10-29T20:18:10.680Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-29T20:28:07.521Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,openrouter,omniroute]
+[2026-10-29T20:28:27.760Z] acp connect provider=hermes pid=12532
+[2026-10-29T20:28:40.673Z] acp session/new ok 9db58e6c-520e-4326-9226-4cca220614c3
+[2026-10-29T20:28:50.053Z] acp connect provider=mistral-vibe pid=20340
+[2026-10-29T20:29:00.995Z] acp session/new ok e3d2f383-f436-5073-14fa-76fc19852e67
+[2026-10-29T20:29:01.013Z] sync devin-cli: 3 modèles
+[2026-10-29T20:29:01.014Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-29T20:29:01.015Z] sync nim: 57 modèles
+[2026-10-29T20:29:01.016Z] sync nim2: 57 modèles
+[2026-10-29T20:29:01.017Z] sync openrouter: 16 modèles
+[2026-10-29T20:29:01.017Z] sync omniroute: 0 modèles
+[2026-10-29T20:29:01.018Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-29T20:29:01.019Z] sync hermes: 64 modèles
+[2026-10-29T20:29:01.019Z] sync opencode: 1 modèles
+[2026-10-29T20:29:01.020Z] sync mistral-vibe: 5 modèles
+[2026-10-29T20:29:01.022Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-29T20:30:49.354Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,openrouter,omniroute]
+[2026-10-29T20:31:05.954Z] acp connect provider=hermes pid=10160
+[2026-10-29T20:31:16.758Z] acp session/new ok bd3cab71-f4cc-4df3-bb48-b5f0aedaff85
+[2026-10-29T20:31:24.123Z] acp connect provider=mistral-vibe pid=35168
+[2026-10-29T20:31:31.281Z] acp session/new ok 45c7c05b-20e2-2de5-c2d6-bae9ee03a8eb
+[2026-10-29T20:31:31.295Z] sync devin-cli: 3 modèles
+[2026-10-29T20:31:31.296Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-29T20:31:31.296Z] sync nim: 57 modèles
+[2026-10-29T20:31:31.297Z] sync nim2: 57 modèles
+[2026-10-29T20:31:31.298Z] sync openrouter: 16 modèles
+[2026-10-29T20:31:31.298Z] sync omniroute: 0 modèles
+[2026-10-29T20:31:31.299Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-29T20:31:31.300Z] sync hermes: 64 modèles
+[2026-10-29T20:31:31.301Z] sync opencode: 1 modèles
+[2026-10-29T20:31:31.302Z] sync mistral-vibe: 5 modèles
+[2026-10-29T20:31:31.302Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-29T20:45:08.635Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,openrouter,omniroute]
+[2026-10-29T20:45:39.907Z] acp connect provider=hermes pid=13340
+[2026-10-29T20:45:50.954Z] acp session/new ok a75e6d4e-6d20-46f8-8aff-93f4e594ef15
+[2026-10-29T20:46:04.775Z] acp connect provider=mistral-vibe pid=2684
+[2026-10-29T20:46:17.914Z] acp session/new ok 5bfcfd8f-d9b5-ce6f-f0ad-bcbc3d1d932f
+[2026-10-29T20:46:17.928Z] sync devin-cli: 2 modèles
+[2026-10-29T20:46:17.929Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-29T20:46:17.930Z] sync nim: 57 modèles
+[2026-10-29T20:46:17.931Z] sync nim2: 57 modèles
+[2026-10-29T20:46:17.932Z] sync openrouter: 16 modèles
+[2026-10-29T20:46:17.933Z] sync omniroute: 0 modèles
+[2026-10-29T20:46:17.934Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-29T20:46:17.936Z] sync hermes: 64 modèles
+[2026-10-29T20:46:17.937Z] sync opencode: 1 modèles
+[2026-10-29T20:46:17.937Z] sync mistral-vibe: 5 modèles
+[2026-10-29T20:46:17.938Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-29T20:58:49.047Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,openrouter,omniroute]
+[2026-10-29T20:59:16.448Z] acp connect provider=hermes pid=18384
+[2026-10-29T20:59:26.398Z] acp session/new ok fbfb9851-161a-4fc5-bfd2-f25cc56fce20
+[2026-10-29T20:59:33.983Z] acp connect provider=mistral-vibe pid=27768
+[2026-10-29T20:59:44.473Z] acp session/new ok 80dfb31a-f484-09b9-8ca1-7ace6fd33de2
+[2026-10-29T20:59:44.489Z] sync devin-cli: 2 modèles
+[2026-10-29T20:59:44.490Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-29T20:59:44.492Z] sync nim: 57 modèles
+[2026-10-29T20:59:44.493Z] sync nim2: 57 modèles
+[2026-10-29T20:59:44.495Z] sync openrouter: 16 modèles
+[2026-10-29T20:59:44.498Z] sync omniroute: 0 modèles
+[2026-10-29T20:59:44.500Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-29T20:59:44.502Z] sync hermes: 65 modèles
+[2026-10-29T20:59:44.503Z] sync opencode: 1 modèles
+[2026-10-29T20:59:44.503Z] sync mistral-vibe: 5 modèles
+[2026-10-29T20:59:44.504Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-29T21:14:59.603Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,openrouter,omniroute]
+[2026-10-29T21:14:59.934Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,openrouter,omniroute]
+[2026-10-29T21:15:58.508Z] acp connect provider=hermes pid=13780
+[2026-10-29T21:15:59.258Z] acp connect provider=hermes pid=27736
+[2026-10-29T21:16:16.722Z] acp session/new ok a306ddd7-756e-4622-a4e4-7f952dc940c8
+[2026-10-29T21:16:16.898Z] acp session/new ok 098e4c96-a93d-43fc-8f99-ea98cc36c8e3
+[2026-10-29T21:16:27.504Z] acp connect provider=mistral-vibe pid=6836
+[2026-10-29T21:16:28.380Z] acp connect provider=mistral-vibe pid=17836
+[2026-10-29T21:16:43.276Z] acp session/new ok a6467e0f-170a-1af8-81fc-2a050c95dee0
+[2026-10-29T21:16:43.295Z] sync devin-cli: 2 modèles
+[2026-10-29T21:16:43.296Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-29T21:16:43.297Z] sync nim: 57 modèles
+[2026-10-29T21:16:43.299Z] sync nim2: 57 modèles
+[2026-10-29T21:16:43.300Z] sync openrouter: 16 modèles
+[2026-10-29T21:16:43.303Z] sync omniroute: 0 modèles
+[2026-10-29T21:16:43.304Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-29T21:16:43.306Z] sync hermes: 65 modèles
+[2026-10-29T21:16:43.306Z] sync opencode: 1 modèles
+[2026-10-29T21:16:43.307Z] sync mistral-vibe: 5 modèles
+[2026-10-29T21:16:43.309Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-29T21:16:43.761Z] acp session/new ok 0270d644-3830-7a67-8a39-bbe766495118
+[2026-10-29T21:16:43.779Z] sync devin-cli: 2 modèles
+[2026-10-29T21:16:43.780Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-29T21:16:43.781Z] sync nim: 57 modèles
+[2026-10-29T21:16:43.782Z] sync nim2: 57 modèles
+[2026-10-29T21:16:43.783Z] sync openrouter: 16 modèles
+[2026-10-29T21:16:43.784Z] sync omniroute: 0 modèles
+[2026-10-29T21:16:43.785Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-29T21:16:43.786Z] sync hermes: 65 modèles
+[2026-10-29T21:16:43.788Z] sync opencode: 1 modèles
+[2026-10-29T21:16:43.789Z] sync mistral-vibe: 5 modèles
+[2026-10-29T21:16:43.789Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-29T21:39:50.638Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,openrouter,omniroute]
+[2026-10-29T21:40:30.356Z] acp connect provider=hermes pid=43808
+[2026-10-29T21:40:42.958Z] acp session/new ok 47a22a50-03de-4e0e-bf08-ab5c201b10ec
+[2026-10-29T21:40:58.529Z] acp connect provider=mistral-vibe pid=48280
+[2026-10-29T21:41:12.018Z] acp session/new ok 64e164f5-5d49-3757-05a4-e854a8cf3263
+[2026-10-29T21:41:12.036Z] sync devin-cli: 2 modèles
+[2026-10-29T21:41:12.037Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-29T21:41:12.039Z] sync nim: 0 modèles
+[2026-10-29T21:41:12.042Z] sync nim2: 0 modèles
+[2026-10-29T21:41:12.043Z] sync openrouter: 4 modèles
+[2026-10-29T21:41:12.045Z] sync omniroute: 0 modèles
+[2026-10-29T21:41:12.048Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-29T21:41:12.051Z] sync hermes: 64 modèles
+[2026-10-29T21:41:12.052Z] sync opencode: 1 modèles
+[2026-10-29T21:41:12.054Z] sync mistral-vibe: 5 modèles
+[2026-10-29T21:41:12.054Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-29T21:51:39.806Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,openrouter,omniroute]
+[2026-10-29T21:51:45.004Z] acp connect provider=hermes pid=14608
+[2026-10-29T21:51:49.932Z] acp session/new ok 8ef25da1-aad7-437b-8952-54c5e7928595
+[2026-10-29T21:51:53.013Z] acp connect provider=mistral-vibe pid=50160
+[2026-10-29T21:51:58.411Z] acp session/new ok 336e34e8-e426-729c-65ca-484c3bd5b994
+[2026-10-29T21:51:58.426Z] sync devin-cli: 2 modèles
+[2026-10-29T21:51:58.427Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-29T21:51:58.427Z] sync nim: 57 modèles
+[2026-10-29T21:51:58.428Z] sync nim2: 57 modèles
+[2026-10-29T21:51:58.429Z] sync openrouter: 16 modèles
+[2026-10-29T21:51:58.430Z] sync omniroute: 0 modèles
+[2026-10-29T21:51:58.431Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-29T21:51:58.431Z] sync hermes: 64 modèles
+[2026-10-29T21:51:58.433Z] sync opencode: 1 modèles
+[2026-10-29T21:51:58.434Z] sync mistral-vibe: 5 modèles
+[2026-10-29T21:51:58.435Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-29T21:53:59.242Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,openrouter,omniroute]
+[2026-10-29T21:54:11.433Z] acp connect provider=hermes pid=10916
+[2026-10-29T21:54:17.530Z] acp session/new ok ae44ec14-3fbc-40a3-850f-51b6d6fba85f
+[2026-10-29T21:54:21.970Z] acp connect provider=mistral-vibe pid=7976
+[2026-10-29T21:54:28.983Z] acp session/new ok 849dfcef-813f-e0c7-497f-0b5a3bf51eb6
+[2026-10-29T21:54:28.997Z] sync devin-cli: 2 modèles
+[2026-10-29T21:54:28.998Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-29T21:54:28.999Z] sync nim: 57 modèles
+[2026-10-29T21:54:29.000Z] sync nim2: 57 modèles
+[2026-10-29T21:54:29.001Z] sync openrouter: 16 modèles
+[2026-10-29T21:54:29.001Z] sync omniroute: 0 modèles
+[2026-10-29T21:54:29.002Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-29T21:54:29.003Z] sync hermes: 64 modèles
+[2026-10-29T21:54:29.004Z] sync opencode: 1 modèles
+[2026-10-29T21:54:29.004Z] sync mistral-vibe: 5 modèles
+[2026-10-29T21:54:29.005Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-29T21:58:42.917Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,openrouter,omniroute]
+[2026-10-29T21:58:59.199Z] acp connect provider=hermes pid=9356
+[2026-10-29T21:59:08.166Z] acp session/new ok 360e2701-129e-4b34-acb7-6169fb8090a9
+[2026-10-29T21:59:13.984Z] acp connect provider=mistral-vibe pid=34732
+[2026-10-29T21:59:20.764Z] acp session/new ok 04cf83d9-3906-df94-d0c7-4578ad4a9a5c
+[2026-10-29T21:59:20.783Z] sync devin-cli: 2 modèles
+[2026-10-29T21:59:20.784Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-29T21:59:20.785Z] sync nim: 57 modèles
+[2026-10-29T21:59:20.787Z] sync nim2: 57 modèles
+[2026-10-29T21:59:20.787Z] sync openrouter: 16 modèles
+[2026-10-29T21:59:20.788Z] sync omniroute: 0 modèles
+[2026-10-29T21:59:20.789Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-29T21:59:20.789Z] sync hermes: 64 modèles
+[2026-10-29T21:59:20.791Z] sync opencode: 1 modèles
+[2026-10-29T21:59:20.792Z] sync mistral-vibe: 5 modèles
+[2026-10-29T21:59:20.793Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-30T00:25:38.527Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,openrouter,omniroute]
+[2026-10-30T00:25:52.161Z] acp connect provider=hermes pid=14528
+[2026-10-30T00:25:59.530Z] acp session/new ok 60b008b9-a33b-4d3c-afbd-01a877294734
+[2026-10-30T00:26:04.433Z] acp connect provider=mistral-vibe pid=26980
+[2026-10-30T00:26:11.210Z] acp session/new ok 41446fd6-cc2e-575c-7731-939fb11cc8dd
+[2026-10-30T00:26:11.220Z] sync devin-cli: 3 modèles
+[2026-10-30T00:26:11.221Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-30T00:26:11.221Z] sync nim: 57 modèles
+[2026-10-30T00:26:11.222Z] sync nim2: 57 modèles
+[2026-10-30T00:26:11.223Z] sync openrouter: 16 modèles
+[2026-10-30T00:26:11.224Z] sync omniroute: 0 modèles
+[2026-10-30T00:26:11.224Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-30T00:26:11.225Z] sync hermes: 64 modèles
+[2026-10-30T00:26:11.226Z] sync opencode: 1 modèles
+[2026-10-30T00:26:11.226Z] sync mistral-vibe: 5 modèles
+[2026-10-30T00:26:11.227Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-30T00:27:02.465Z] sync start enabled=[antigravity-acp,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,omniroute]
+[2026-10-30T00:27:07.077Z] acp connect provider=mistral-vibe pid=48456
+[2026-10-30T00:27:14.508Z] acp session/new ok 12294ed4-e942-dee2-94a0-49f8e92d93c6
+[2026-10-30T00:27:31.541Z] acp connect provider=antigravity-acp pid=19680
+[2026-10-30T00:27:35.493Z] acp session/new ok d7ca5e84-0f1d-4fe1-8a8c-94fed1144333
+[2026-10-30T00:27:35.603Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-30T00:27:35.603Z] sync nim: 57 modèles
+[2026-10-30T00:27:35.604Z] sync nim2: 57 modèles
+[2026-10-30T00:27:35.605Z] sync ollama: 9 modèles
+[2026-10-30T00:27:35.606Z] sync omniroute: 0 modèles
+[2026-10-30T00:27:35.606Z] sync antigravity-acp: 6 modèles
+[2026-10-30T00:27:35.607Z] sync opencode: 1 modèles
+[2026-10-30T00:27:35.607Z] sync mistral-vibe: 5 modèles
+[2026-10-30T00:27:35.608Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-30T00:31:59.723Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,openrouter,omniroute]
+[2026-10-30T00:32:19.022Z] acp connect provider=hermes pid=30488
+[2026-10-30T00:32:25.591Z] acp session/new ok 9bf1b405-0ab9-4ea4-b930-c4ea7ef05397
+[2026-10-30T00:32:29.549Z] acp connect provider=mistral-vibe pid=46868
+[2026-10-30T00:32:36.114Z] acp session/new ok c9bba8db-b035-aa5b-2876-67261ea86a36
+[2026-10-30T00:32:36.126Z] sync devin-cli: 3 modèles
+[2026-10-30T00:32:36.127Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-30T00:32:36.128Z] sync nim: 57 modèles
+[2026-10-30T00:32:36.129Z] sync nim2: 57 modèles
+[2026-10-30T00:32:36.130Z] sync openrouter: 16 modèles
+[2026-10-30T00:32:36.130Z] sync omniroute: 0 modèles
+[2026-10-30T00:32:36.131Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-30T00:32:36.132Z] sync hermes: 64 modèles
+[2026-10-30T00:32:36.133Z] sync opencode: 1 modèles
+[2026-10-30T00:32:36.134Z] sync mistral-vibe: 5 modèles
+[2026-10-30T00:32:36.135Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-30T00:33:06.551Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,openrouter,omniroute]
+[2026-10-30T00:33:20.772Z] acp connect provider=hermes pid=20672
+[2026-10-30T00:33:27.018Z] acp session/new ok 27815e4a-a02f-4ca7-9a38-b3add1b4472b
+[2026-10-30T00:33:31.551Z] acp connect provider=mistral-vibe pid=35688
+[2026-10-30T00:33:38.624Z] acp session/new ok bf189294-2eec-75b7-9327-b6da4aee4516
+[2026-10-30T00:33:38.635Z] sync devin-cli: 3 modèles
+[2026-10-30T00:33:38.636Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-30T00:33:38.636Z] sync nim: 57 modèles
+[2026-10-30T00:33:38.637Z] sync nim2: 57 modèles
+[2026-10-30T00:33:38.638Z] sync openrouter: 16 modèles
+[2026-10-30T00:33:38.638Z] sync omniroute: 0 modèles
+[2026-10-30T00:33:38.639Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-30T00:33:38.640Z] sync hermes: 64 modèles
+[2026-10-30T00:33:38.640Z] sync opencode: 1 modèles
+[2026-10-30T00:33:38.641Z] sync mistral-vibe: 5 modèles
+[2026-10-30T00:33:38.642Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-30T00:39:22.319Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,openrouter,omniroute]
+[2026-10-30T00:39:29.788Z] acp connect provider=hermes pid=19768
+[2026-10-30T00:39:34.783Z] acp session/new ok 0884baae-a91f-4022-8726-412377f4f31a
+[2026-10-30T00:39:37.542Z] acp connect provider=mistral-vibe pid=9784
+[2026-10-30T00:39:42.574Z] acp session/new ok 1b23c34d-2c6f-0a3a-f965-ee965519f572
+[2026-10-30T00:39:42.586Z] sync devin-cli: 3 modèles
+[2026-10-30T00:39:42.587Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-30T00:39:42.588Z] sync nim: 57 modèles
+[2026-10-30T00:39:42.589Z] sync nim2: 57 modèles
+[2026-10-30T00:39:42.589Z] sync openrouter: 16 modèles
+[2026-10-30T00:39:42.590Z] sync omniroute: 0 modèles
+[2026-10-30T00:39:42.591Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-30T00:39:42.591Z] sync hermes: 64 modèles
+[2026-10-30T00:39:42.592Z] sync opencode: 1 modèles
+[2026-10-30T00:39:42.593Z] sync mistral-vibe: 5 modèles
+[2026-10-30T00:39:42.594Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-30T00:51:22.726Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,openrouter,omniroute]
+[2026-10-30T00:51:30.112Z] acp connect provider=hermes pid=13460
+[2026-10-30T00:51:37.741Z] acp session/new ok 6979b8a2-8503-4a23-a717-40ff9e56909f
+[2026-10-30T00:51:40.938Z] acp connect provider=mistral-vibe pid=7244
+[2026-10-30T00:51:48.921Z] acp session/new ok 3b2fe60d-83ab-154d-7028-b1399bf6811c
+[2026-10-30T00:51:48.942Z] sync devin-cli: 3 modèles
+[2026-10-30T00:51:48.943Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-30T00:51:48.944Z] sync nim: 57 modèles
+[2026-10-30T00:51:48.945Z] sync nim2: 57 modèles
+[2026-10-30T00:51:48.946Z] sync openrouter: 16 modèles
+[2026-10-30T00:51:48.947Z] sync omniroute: 0 modèles
+[2026-10-30T00:51:48.948Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-30T00:51:48.949Z] sync hermes: 64 modèles
+[2026-10-30T00:51:48.950Z] sync opencode: 1 modèles
+[2026-10-30T00:51:48.951Z] sync mistral-vibe: 5 modèles
+[2026-10-30T00:51:48.953Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-30T00:56:25.273Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,openrouter,omniroute]
+[2026-10-30T01:11:13.418Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,openrouter,omniroute]
+[2026-10-30T01:11:24.071Z] acp connect provider=hermes pid=26660
+[2026-10-30T01:11:31.257Z] acp session/new ok 8b3bab15-aa20-4df0-98bd-5cce482f6974
+[2026-10-30T01:11:35.411Z] acp connect provider=mistral-vibe pid=38272
+[2026-10-30T01:11:40.679Z] acp session/new ok 23432e18-3240-b211-79d2-ceb9413533a0
+[2026-10-30T01:11:40.689Z] sync devin-cli: 3 modèles
+[2026-10-30T01:11:40.690Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-30T01:11:40.691Z] sync nim: 57 modèles
+[2026-10-30T01:11:40.691Z] sync nim2: 57 modèles
+[2026-10-30T01:11:40.692Z] sync openrouter: 16 modèles
+[2026-10-30T01:11:40.693Z] sync omniroute: 0 modèles
+[2026-10-30T01:11:40.693Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-30T01:11:40.694Z] sync hermes: 64 modèles
+[2026-10-30T01:11:40.695Z] sync opencode: 1 modèles
+[2026-10-30T01:11:40.695Z] sync mistral-vibe: 5 modèles
+[2026-10-30T01:11:40.696Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-30T01:17:05.119Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,openrouter,omniroute]
+[2026-10-30T01:17:10.255Z] acp connect provider=hermes pid=24264
+[2026-10-30T01:17:14.865Z] acp session/new ok 24823162-eb60-4165-9665-24291ce35a85
+[2026-10-30T01:17:17.729Z] acp connect provider=mistral-vibe pid=1396
+[2026-10-30T01:17:25.711Z] acp session/new ok f6c48907-5bd6-e9f5-84a1-859764327d76
+[2026-10-30T01:17:25.722Z] sync devin-cli: 2 modèles
+[2026-10-30T01:17:25.723Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-30T01:17:25.724Z] sync nim: 57 modèles
+[2026-10-30T01:17:25.724Z] sync nim2: 57 modèles
+[2026-10-30T01:17:25.725Z] sync openrouter: 16 modèles
+[2026-10-30T01:17:25.726Z] sync omniroute: 0 modèles
+[2026-10-30T01:17:25.726Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-30T01:17:25.727Z] sync hermes: 64 modèles
+[2026-10-30T01:17:25.728Z] sync opencode: 1 modèles
+[2026-10-30T01:17:25.729Z] sync mistral-vibe: 5 modèles
+[2026-10-30T01:17:25.729Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-30T01:29:22.245Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,openrouter,omniroute]
+[2026-10-30T01:29:27.697Z] acp connect provider=hermes pid=49604
+[2026-10-30T01:29:32.887Z] acp session/new ok 60d71e19-1e60-4760-a600-67b9e7bcbb2d
+[2026-10-30T01:29:35.976Z] acp connect provider=mistral-vibe pid=32916
+[2026-10-30T01:29:42.016Z] acp session/new ok 33df6378-f180-fd64-aafa-ecec4e0d4d9a
+[2026-10-30T01:29:42.028Z] sync devin-cli: 2 modèles
+[2026-10-30T01:29:42.029Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-30T01:29:42.030Z] sync nim: 57 modèles
+[2026-10-30T01:29:42.031Z] sync nim2: 57 modèles
+[2026-10-30T01:29:42.032Z] sync openrouter: 16 modèles
+[2026-10-30T01:29:42.033Z] sync omniroute: 0 modèles
+[2026-10-30T01:29:42.033Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-30T01:29:42.034Z] sync hermes: 64 modèles
+[2026-10-30T01:29:42.035Z] sync opencode: 1 modèles
+[2026-10-30T01:29:42.036Z] sync mistral-vibe: 5 modèles
+[2026-10-30T01:29:42.036Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-30T01:51:02.212Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,openrouter,omniroute]
+[2026-10-30T01:51:15.967Z] acp connect provider=hermes pid=23644
+[2026-10-30T01:51:25.886Z] acp session/new ok 39509d0e-fc50-4c3c-9819-bd0d8c252eb8
+[2026-10-30T01:51:31.004Z] acp connect provider=mistral-vibe pid=10936
+[2026-10-30T01:51:40.112Z] acp session/new ok c2d46b96-81bc-a77a-99b6-a3cb7eac637c
+[2026-10-30T01:51:40.126Z] sync devin-cli: 2 modèles
+[2026-10-30T01:51:40.127Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-30T01:51:40.128Z] sync nim: 57 modèles
+[2026-10-30T01:51:40.128Z] sync nim2: 57 modèles
+[2026-10-30T01:51:40.129Z] sync openrouter: 16 modèles
+[2026-10-30T01:51:40.130Z] sync omniroute: 0 modèles
+[2026-10-30T01:51:40.131Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-30T01:51:40.132Z] sync hermes: 64 modèles
+[2026-10-30T01:51:40.132Z] sync opencode: 1 modèles
+[2026-10-30T01:51:40.133Z] sync mistral-vibe: 5 modèles
+[2026-10-30T01:51:40.134Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-30T02:00:02.844Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,openrouter,omniroute]
+[2026-10-30T02:00:18.400Z] acp connect provider=hermes pid=44432
+[2026-10-30T02:00:26.900Z] acp session/new ok 790f76da-6de4-441f-adfc-44fa925048c5
+[2026-10-30T02:00:32.116Z] acp connect provider=mistral-vibe pid=42984
+[2026-10-30T02:00:39.500Z] acp session/new ok c49eee65-64a3-2afd-4413-7fa20e00962f
+[2026-10-30T02:00:39.513Z] sync devin-cli: 2 modèles
+[2026-10-30T02:00:39.514Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-30T02:00:39.515Z] sync nim: 57 modèles
+[2026-10-30T02:00:39.516Z] sync nim2: 57 modèles
+[2026-10-30T02:00:39.517Z] sync openrouter: 16 modèles
+[2026-10-30T02:00:39.517Z] sync omniroute: 0 modèles
+[2026-10-30T02:00:39.518Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-30T02:00:39.519Z] sync hermes: 64 modèles
+[2026-10-30T02:00:39.520Z] sync opencode: 1 modèles
+[2026-10-30T02:00:39.521Z] sync mistral-vibe: 5 modèles
+[2026-10-30T02:00:39.522Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-30T02:07:09.977Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,openrouter,omniroute]
+[2026-10-30T02:07:24.310Z] acp connect provider=hermes pid=35612
+[2026-10-30T02:07:31.095Z] acp session/new ok 1cbcee8c-0028-470a-b47d-70fe23ede28d
+[2026-10-30T02:07:36.618Z] acp connect provider=mistral-vibe pid=14504
+[2026-10-30T02:07:43.685Z] acp session/new ok eb419e38-9c2f-5caf-20e5-7866d705d9fd
+[2026-10-30T02:07:43.698Z] sync devin-cli: 2 modèles
+[2026-10-30T02:07:43.699Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-30T02:07:43.699Z] sync nim: 57 modèles
+[2026-10-30T02:07:43.700Z] sync nim2: 57 modèles
+[2026-10-30T02:07:43.701Z] sync openrouter: 16 modèles
+[2026-10-30T02:07:43.702Z] sync omniroute: 0 modèles
+[2026-10-30T02:07:43.702Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-30T02:07:43.703Z] sync hermes: 64 modèles
+[2026-10-30T02:07:43.704Z] sync opencode: 1 modèles
+[2026-10-30T02:07:43.705Z] sync mistral-vibe: 5 modèles
+[2026-10-30T02:07:43.705Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-31T12:33:27.458Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim2,openrouter,omniroute]
+[2026-10-31T12:33:47.887Z] acp connect provider=hermes pid=32116
+[2026-10-31T12:33:56.901Z] acp session/new ok 0f06929f-6fcb-4aa0-bfc6-94d6f2a56abd
+[2026-10-31T12:34:03.877Z] acp connect provider=mistral-vibe pid=18648
+[2026-10-31T12:34:19.970Z] acp session/new ok b4af7dc9-333d-cab8-7011-bce57ef547e9
+[2026-10-31T12:34:19.983Z] sync devin-cli: 2 modèles
+[2026-10-31T12:34:19.983Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-31T12:34:19.984Z] sync nim2: 57 modèles
+[2026-10-31T12:34:19.985Z] sync openrouter: 16 modèles
+[2026-10-31T12:34:19.986Z] sync omniroute: 0 modèles
+[2026-10-31T12:34:19.986Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-31T12:34:19.987Z] sync hermes: 64 modèles
+[2026-10-31T12:34:19.988Z] sync opencode: 1 modèles
+[2026-10-31T12:34:19.988Z] sync mistral-vibe: 5 modèles
+[2026-10-31T12:34:19.989Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-31T12:39:50.601Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim2,omniroute]
+[2026-10-31T12:39:57.096Z] acp connect provider=hermes pid=38184
+[2026-10-31T12:40:04.064Z] acp session/new ok a4f2cc4d-b4d0-41e3-b142-049c00c6dcce
+[2026-10-31T12:40:07.198Z] acp connect provider=mistral-vibe pid=37376
+[2026-10-31T12:40:11.072Z] acp session/new ok 64066926-3fa0-ec4b-665f-7b98371c94a1
+[2026-10-31T12:40:11.083Z] sync devin-cli: 2 modèles
+[2026-10-31T12:40:11.083Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-31T12:40:11.084Z] sync nim2: 57 modèles
+[2026-10-31T12:40:11.085Z] sync omniroute: 0 modèles
+[2026-10-31T12:40:11.085Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-31T12:40:11.086Z] sync hermes: 64 modèles
+[2026-10-31T12:40:11.087Z] sync opencode: 1 modèles
+[2026-10-31T12:40:11.088Z] sync mistral-vibe: 5 modèles
+[2026-10-31T12:40:11.088Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-31T12:47:49.086Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim2,omniroute]
+[2026-10-31T12:47:57.216Z] acp connect provider=hermes pid=42332
+[2026-10-31T12:48:05.612Z] acp session/new ok ac838cb5-b680-42bd-9827-ef0f18aa836d
+[2026-10-31T12:48:11.610Z] acp connect provider=mistral-vibe pid=24052
+[2026-10-31T12:48:18.877Z] acp session/new ok 0f95fdba-cdf9-f392-8a9a-065edc5c9a55
+[2026-10-31T12:48:18.890Z] sync devin-cli: 2 modèles
+[2026-10-31T12:48:18.891Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-31T12:48:18.892Z] sync nim2: 57 modèles
+[2026-10-31T12:48:18.893Z] sync omniroute: 0 modèles
+[2026-10-31T12:48:18.894Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-31T12:48:18.895Z] sync hermes: 64 modèles
+[2026-10-31T12:48:18.896Z] sync opencode: 1 modèles
+[2026-10-31T12:48:18.896Z] sync mistral-vibe: 5 modèles
+[2026-10-31T12:48:18.897Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-31T12:49:07.520Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim2,omniroute]
+[2026-10-31T12:49:14.710Z] acp connect provider=hermes pid=29444
+[2026-10-31T12:49:20.307Z] acp session/new ok b8cc2bfa-be35-4975-9127-4b1df4623a69
+[2026-10-31T12:49:25.260Z] acp connect provider=mistral-vibe pid=19548
+[2026-10-31T12:49:30.409Z] acp session/new ok ff442dfd-a7a0-aef6-c95d-fd6c179ee721
+[2026-10-31T12:49:30.420Z] sync devin-cli: 2 modèles
+[2026-10-31T12:49:30.421Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-31T12:49:30.422Z] sync nim2: 57 modèles
+[2026-10-31T12:49:30.422Z] sync omniroute: 0 modèles
+[2026-10-31T12:49:30.423Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-31T12:49:30.424Z] sync hermes: 64 modèles
+[2026-10-31T12:49:30.424Z] sync opencode: 1 modèles
+[2026-10-31T12:49:30.425Z] sync mistral-vibe: 5 modèles
+[2026-10-31T12:49:30.426Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-31T13:00:57.036Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim2,omniroute]
+[2026-10-31T13:01:04.940Z] acp connect provider=hermes pid=42652
+[2026-10-31T13:01:12.879Z] acp session/new ok 7cb052b6-d70b-493f-9b2e-4b532fc417fc
+[2026-10-31T13:01:18.300Z] acp connect provider=mistral-vibe pid=21580
+[2026-10-31T13:01:25.879Z] acp session/new ok 6d33362f-ee31-2080-13b1-57f853058ef5
+[2026-10-31T13:01:25.893Z] sync devin-cli: 2 modèles
+[2026-10-31T13:01:25.894Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-31T13:01:25.895Z] sync nim2: 57 modèles
+[2026-10-31T13:01:25.896Z] sync omniroute: 0 modèles
+[2026-10-31T13:01:25.896Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-31T13:01:25.897Z] sync hermes: 64 modèles
+[2026-10-31T13:01:25.897Z] sync opencode: 1 modèles
+[2026-10-31T13:01:25.898Z] sync mistral-vibe: 5 modèles
+[2026-10-31T13:01:25.899Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-31T13:13:07.368Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim2,omniroute]
+[2026-10-31T13:13:18.217Z] acp connect provider=hermes pid=27132
+[2026-10-31T13:13:25.367Z] acp session/new ok 7b527a75-fce8-4186-8a5c-cdaa92f59b24
+[2026-10-31T13:13:30.937Z] acp connect provider=mistral-vibe pid=2148
+[2026-10-31T13:13:38.277Z] acp session/new ok 89aeef0e-f78a-b326-064d-b6ef757371d9
+[2026-10-31T13:13:38.291Z] sync devin-cli: 2 modèles
+[2026-10-31T13:13:38.292Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-31T13:13:38.292Z] sync nim2: 57 modèles
+[2026-10-31T13:13:38.293Z] sync omniroute: 0 modèles
+[2026-10-31T13:13:38.294Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-31T13:13:38.295Z] sync hermes: 64 modèles
+[2026-10-31T13:13:38.296Z] sync opencode: 1 modèles
+[2026-10-31T13:13:38.296Z] sync mistral-vibe: 5 modèles
+[2026-10-31T13:13:38.297Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-31T13:21:48.794Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim2,omniroute]
+[2026-10-31T13:21:55.136Z] acp connect provider=hermes pid=19184
+[2026-10-31T13:22:04.267Z] acp session/new ok 8142564f-1432-4149-a03e-17504cd50ff5
+[2026-10-31T13:22:09.410Z] acp connect provider=mistral-vibe pid=37184
+[2026-10-31T13:22:14.988Z] acp session/new ok 35917127-d26d-3529-2372-c8fd70a4423a
+[2026-10-31T13:22:15.002Z] sync devin-cli: 2 modèles
+[2026-10-31T13:22:15.003Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-31T13:22:15.004Z] sync nim2: 57 modèles
+[2026-10-31T13:22:15.005Z] sync omniroute: 0 modèles
+[2026-10-31T13:22:15.006Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-31T13:22:15.007Z] sync hermes: 64 modèles
+[2026-10-31T13:22:15.007Z] sync opencode: 1 modèles
+[2026-10-31T13:22:15.008Z] sync mistral-vibe: 5 modèles
+[2026-10-31T13:22:15.009Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-31T13:26:03.962Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim2,omniroute]
+[2026-10-31T13:26:17.560Z] acp connect provider=hermes pid=37160
+[2026-10-31T13:26:24.974Z] acp session/new ok 84192809-4cbb-440e-95f8-2aabf6480c86
+[2026-10-31T13:26:29.707Z] acp connect provider=mistral-vibe pid=35852
+[2026-10-31T13:26:37.626Z] acp session/new ok 3d105bdb-b2c9-800e-741a-9c6cbed3dee2
+[2026-10-31T13:26:37.637Z] sync devin-cli: 2 modèles
+[2026-10-31T13:26:37.637Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-31T13:26:37.638Z] sync nim2: 57 modèles
+[2026-10-31T13:26:37.639Z] sync omniroute: 0 modèles
+[2026-10-31T13:26:37.640Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-31T13:26:37.640Z] sync hermes: 64 modèles
+[2026-10-31T13:26:37.641Z] sync opencode: 1 modèles
+[2026-10-31T13:26:37.642Z] sync mistral-vibe: 5 modèles
+[2026-10-31T13:26:37.642Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-31T14:08:06.219Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim2,omniroute]
+[2026-10-31T14:08:21.817Z] acp connect provider=hermes pid=38116
+[2026-10-31T14:08:30.131Z] acp session/new ok 5f49c9d3-7443-4427-be11-45b1b9f8af7d
+[2026-10-31T14:08:36.806Z] acp connect provider=mistral-vibe pid=39928
+[2026-10-31T14:08:47.179Z] acp session/new ok ceee38c8-a2f2-e63e-0db7-184dccafaa40
+[2026-10-31T14:08:47.197Z] sync devin-cli: 2 modèles
+[2026-10-31T14:08:47.198Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-31T14:08:47.199Z] sync nim2: 57 modèles
+[2026-10-31T14:08:47.199Z] sync omniroute: 0 modèles
+[2026-10-31T14:08:47.200Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-31T14:08:47.201Z] sync hermes: 64 modèles
+[2026-10-31T14:08:47.202Z] sync opencode: 1 modèles
+[2026-10-31T14:08:47.202Z] sync mistral-vibe: 5 modèles
+[2026-10-31T14:08:47.203Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-10-31T15:39:08.824Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim2,omniroute]
+[2026-10-31T15:39:20.701Z] acp connect provider=hermes pid=25928
+[2026-10-31T15:39:28.443Z] acp session/new ok 96ea690a-17b6-4bef-b784-2520b3b8cfc4
+[2026-10-31T15:39:35.059Z] acp connect provider=mistral-vibe pid=29060
+[2026-10-31T15:39:47.761Z] acp session/new ok 3f8124f0-19f0-4282-d762-ea24af6f3806
+[2026-10-31T15:39:47.775Z] sync devin-cli: 3 modèles
+[2026-10-31T15:39:47.777Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-10-31T15:39:47.778Z] sync nim2: 57 modèles
+[2026-10-31T15:39:47.780Z] sync omniroute: 0 modèles
+[2026-10-31T15:39:47.781Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-10-31T15:39:47.782Z] sync hermes: 64 modèles
+[2026-10-31T15:39:47.783Z] sync opencode: 1 modèles
+[2026-10-31T15:39:47.784Z] sync mistral-vibe: 5 modèles
+[2026-10-31T15:39:47.785Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-11-01T01:05:51.277Z] sync start enabled=[antigravity-acp,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,omniroute]
+[2026-11-01T01:05:57.594Z] acp connect provider=mistral-vibe pid=36532
+[2026-11-01T01:06:16.640Z] acp session/new ok c6d34f1a-4251-fe46-a0b8-2edf301376d2
+[2026-11-01T01:06:28.480Z] acp connect provider=antigravity-acp pid=18744
+[2026-11-01T01:06:32.865Z] acp session/new ok 91ee4761-77ea-4bf9-9150-d8f879209db7
+[2026-11-01T01:06:33.019Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-11-01T01:06:33.019Z] sync nim: 57 modèles
+[2026-11-01T01:06:33.020Z] sync nim2: 57 modèles
+[2026-11-01T01:06:33.021Z] sync ollama: 10 modèles
+[2026-11-01T01:06:33.022Z] sync omniroute: 0 modèles
+[2026-11-01T01:06:33.023Z] sync antigravity-acp: 6 modèles
+[2026-11-01T01:06:33.023Z] sync opencode: 1 modèles
+[2026-11-01T01:06:33.024Z] sync mistral-vibe: 5 modèles
+[2026-11-01T01:06:33.025Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-11-01T01:12:34.530Z] sync start enabled=[antigravity-acp,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,omniroute]
+[2026-11-01T01:12:40.002Z] acp connect provider=mistral-vibe pid=26288
+[2026-11-01T01:12:52.145Z] acp session/new ok 2c9e664e-511e-634a-b434-4161cfbdbf5c
+[2026-11-01T01:13:08.552Z] acp connect provider=antigravity-acp pid=40604
+[2026-11-01T01:13:12.457Z] acp session/new ok 62473d98-8af8-45a2-8735-9355cab6e408
+[2026-11-01T01:13:12.601Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-11-01T01:13:12.602Z] sync nim: 57 modèles
+[2026-11-01T01:13:12.602Z] sync nim2: 57 modèles
+[2026-11-01T01:13:12.603Z] sync ollama: 10 modèles
+[2026-11-01T01:13:12.604Z] sync omniroute: 0 modèles
+[2026-11-01T01:13:12.605Z] sync antigravity-acp: 6 modèles
+[2026-11-01T01:13:12.605Z] sync opencode: 1 modèles
+[2026-11-01T01:13:12.606Z] sync mistral-vibe: 5 modèles
+[2026-11-01T01:13:12.607Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-11-01T01:36:26.593Z] sync start enabled=[antigravity-acp,opencode,mistral-vibe,gemini,devin-cloud,nim,nim2,ollama,omniroute]
+[2026-11-01T01:36:31.607Z] acp connect provider=mistral-vibe pid=22308
+[2026-11-01T01:36:41.559Z] acp session/new ok 56db8656-4a03-2938-7ffc-32dbc49be828
+[2026-11-01T01:36:59.162Z] acp connect provider=antigravity-acp pid=38932
+[2026-11-01T01:37:03.344Z] acp session/new ok 1913fdd8-9b75-4d58-b8e2-be5dc6e3b45c
+[2026-11-01T01:37:03.465Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-11-01T01:37:03.466Z] sync nim: 57 modèles
+[2026-11-01T01:37:03.467Z] sync nim2: 57 modèles
+[2026-11-01T01:37:03.468Z] sync ollama: 10 modèles
+[2026-11-01T01:37:03.468Z] sync omniroute: 0 modèles
+[2026-11-01T01:37:03.469Z] sync antigravity-acp: 6 modèles
+[2026-11-01T01:37:03.470Z] sync opencode: 1 modèles
+[2026-11-01T01:37:03.471Z] sync mistral-vibe: 5 modèles
+[2026-11-01T01:37:03.472Z] sync gemini: aucun modèle annoncé (0 repli)
+[2026-11-01T02:59:12.092Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim2,omniroute]
+[2026-11-01T02:59:51.718Z] sync start enabled=[devin-cli,kilo,hermes,opencode,mistral-vibe,gemini,devin-cloud,nim2,omniroute]
+[2026-11-01T03:00:01.402Z] acp connect provider=hermes pid=17832
+[2026-11-01T03:00:10.742Z] acp session/new ok 1c42bd8d-798e-439e-b312-f1333d6cf289
+[2026-11-01T03:00:18.154Z] acp connect provider=mistral-vibe pid=36288
+[2026-11-01T03:00:27.147Z] acp session/new ok f169b504-412a-e65e-f615-e484da79d055
+[2026-11-01T03:00:27.161Z] sync devin-cli: 2 modèles
+[2026-11-01T03:00:27.162Z] sync devin-cloud: pas de transport ACP local (0 repli)
+[2026-11-01T03:00:27.163Z] sync nim2: 57 modèles
+[2026-11-01T03:00:27.164Z] sync omniroute: 0 modèles
+[2026-11-01T03:00:27.165Z] sync kilo: aucun modèle annoncé (1 repli)
+[2026-11-01T03:00:27.166Z] sync hermes: 64 modèles
+[2026-11-01T03:00:27.167Z] sync opencode: 1 modèles
+[2026-11-01T03:00:27.167Z] sync mistral-vibe: 5 modèles
+[2026-11-01T03:00:27.168Z] sync gemini: aucun modèle annoncé (0 repli)

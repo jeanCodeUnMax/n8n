@@ -1,0 +1,71 @@
+{
+  "name": "swat-cli-anything",
+  "desc": "Flux de démo SWAT — pilotage des harness CLI-Anything : extraction mails, publication Telegram, listing contacts, avec audit sécurité et capitalisation Vault. Chaîne : Orchestrateur -> 3 workers CLI en parallèle -> Auditeur sécurité -> Documentaliste Vault.",
+  "graph": {
+    "version": 1,
+    "name": "swat-cli-anything",
+    "entrySessionId": "acp/devin-cli/ionian-helicopter",
+    "nodes": [
+      {
+        "sessionId": "acp/devin-cli/ionian-helicopter",
+        "role": "Orchestrateur",
+        "task": "Cadre la mission : dispatch des tâches CLI-Anything aux workers (mails, telegram, contacts), collecte leurs sorties et valide le lot avant audit.",
+        "skills": ["orchestrator", "plan-writing"],
+        "title": "ionian-helicopter",
+        "position": { "x": -660, "y": 0 }
+      },
+      {
+        "sessionId": "chat-mvmw59wa",
+        "role": "Facteur",
+        "task": "Tire les mails via le harness cli-anything-mail : boîte, derniers messages, expéditeurs. Produit un résumé exploitable, aucune écriture côté compte.",
+        "skills": ["cli-anything-mail"],
+        "mcps": ["cli-anything"],
+        "title": "keen-agent",
+        "position": { "x": -220, "y": -160 }
+      },
+      {
+        "sessionId": "chat-mvfj8b4m",
+        "role": "Telegraphiste",
+        "task": "Prépare une publication Telegram via cli-anything-telegram (canal de test, brouillon relu avant envoi) et liste les membres du canal.",
+        "skills": ["cli-anything-telegram"],
+        "mcps": ["cli-anything"],
+        "title": "zealous-agent",
+        "position": { "x": -220, "y": 0 }
+      },
+      {
+        "sessionId": "chat-mvmw5chd",
+        "role": "Annuaire",
+        "task": "Liste les contacts disponibles via les harness cli-anything (mail contacts + telegram contacts) et consolide la liste en JSON dans .agent/chats/contacts-demo.json.",
+        "skills": ["cli-anything-mail", "cli-anything-telegram"],
+        "mcps": ["cli-anything"],
+        "title": "amber-agent",
+        "position": { "x": -220, "y": 160 }
+      },
+      {
+        "sessionId": "chat-mvmtldvy",
+        "role": "Auditeur-securite",
+        "task": "Contrôle sécurité : vérifie qu'aucun secret/token n'est exposé dans les sorties des workers, que rien n'a été envoyé sans validation, rapport PASS/FAIL.",
+        "skills": ["vulnerability-scanner", "code-review-checklist"],
+        "title": "urban-agent",
+        "position": { "x": 220, "y": 0 }
+      },
+      {
+        "sessionId": "chat-mvflr6cn",
+        "role": "Documentaliste-Vault",
+        "task": "Capitalise : rédige la note de session dans le vault (résultats, incidents, leçons) et met à jour l'index si le contrôle sécurité est PASS.",
+        "skills": ["vault-ingest"],
+        "title": "rapid-agent",
+        "position": { "x": 660, "y": 0 }
+      }
+    ],
+    "edges": [
+      { "id": "e-orch-facteur", "source": "acp/devin-cli/ionian-helicopter", "target": "chat-mvmw59wa" },
+      { "id": "e-orch-telegraphiste", "source": "acp/devin-cli/ionian-helicopter", "target": "chat-mvfj8b4m" },
+      { "id": "e-orch-annuaire", "source": "acp/devin-cli/ionian-helicopter", "target": "chat-mvmw5chd" },
+      { "id": "e-facteur-audit", "source": "chat-mvmw59wa", "target": "chat-mvmtldvy" },
+      { "id": "e-telegraphiste-audit", "source": "chat-mvfj8b4m", "target": "chat-mvmtldvy" },
+      { "id": "e-annuaire-audit", "source": "chat-mvmw5chd", "target": "chat-mvmtldvy" },
+      { "id": "e-audit-doc", "source": "chat-mvmtldvy", "target": "chat-mvflr6cn" }
+    ]
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "name": "swat-plan-plugin",
+  "desc": "Flux de cadrage et planification de spécifications (PRD) : découpage des exigences fonctionnelles, normalisation des compétences et matrice de sécurité pour la création d'extensions ou plugins.",
+  "graph": {
+    "version": 1,
+    "name": "swat-plan-plugin",
+    "entrySessionId": "acp/devin-cli/ionian-helicopter",
+    "nodes": [
+      {
+        "sessionId": "acp/devin-cli/ionian-helicopter",
+        "role": "Orchestrateur",
+        "task": "Cadrage du PRD : definit le scope fonctionnel et distribue les 3 pans de specifications paralleles.",
+        "skills": [
+          "orchestrator",
+          "plan-writing"
+        ],
+        "title": "ionian-helicopter",
+        "position": {
+          "x": -440,
+          "y": 0
+        }
+      },
+      {
+        "sessionId": "chat-mvmw59wa",
+        "role": "Plan-Architecture",
+        "task": "Specification Architecture : decoupage des modules, communication IPC/pipe, points d'extension.",
+        "skills": [
+          "architecture",
+          "api-patterns"
+        ],
+        "title": "keen-agent",
+        "position": {
+          "x": -110,
+          "y": -220
+        }
+      },
+      {
+        "sessionId": "chat-mvmw5chd",
+        "role": "Plan-Normalisation",
+        "task": "Specification Competences : normalisation des skills, commandes et formats de prompts.",
+        "skills": [
+          "clean-code",
+          "plan-writing"
+        ],
+        "title": "amber-agent",
+        "position": {
+          "x": -110,
+          "y": 0
+        }
+      },
+      {
+        "sessionId": "chat-mvmtldvy",
+        "role": "Plan-Securite-Perms",
+        "task": "Specification Securite : matrice des permissions, sandboxing, gestion des secrets et surface d'attaque du plugin.",
+        "skills": [
+          "vulnerability-scanner",
+          "mcp-security-audit"
+        ],
+        "title": "urban-agent",
+        "position": {
+          "x": -110,
+          "y": 220
+        }
+      },
+      {
+        "sessionId": "chat-mvfqytbz",
+        "role": "Redacteur-PRD",
+        "task": "Consolidation PRD Maitre : fusionne les 3 PRDs en un prd-master.md et plan d'action ordonne.",
+        "skills": [
+          "plan-writing"
+        ],
+        "title": "keen-agent",
+        "position": {
+          "x": 330,
+          "y": 0
+        }
+      },
+      {
+        "sessionId": "chat-mvflr6cn",
+        "role": "Documentaliste-Vault",
+        "task": "Documentation PRD Obsidian : consigne le plan dans le Vault Obsidian sous docs/plan/.",
+        "skills": [
+          "obsidian",
+          "vault-ingest"
+        ],
+        "title": "rapid-agent",
+        "position": {
+          "x": 660,
+          "y": -154
+        }
+      },
+      {
+        "sessionId": "chat-mvp0beacon",
+        "role": "Feedback-Beacon-Knowledge",
+        "task": "Capitalisation Hephaistos : enregistre les choix de cadrage reussis et les ecueils dans la memoire (memory_write).",
+        "skills": [
+          "vault-ingest",
+          "obsidian"
+        ],
+        "title": "beacon-agent",
+        "position": {
+          "x": 660,
+          "y": 0
+        }
+      },
+      {
+        "sessionId": "acp/devin-cli/sugary-shoemaker",
+        "role": "Integrateur-Git",
+        "task": "Commit du PRD et des specifications : branche dediee, commit conventionnel, push vers les remotes.",
+        "skills": [
+          "lint-and-validate"
+        ],
+        "title": "sugary-shoemaker",
+        "position": {
+          "x": 660,
+          "y": 154
+        }
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge:pp-orch->archi",
+        "source": "acp/devin-cli/ionian-helicopter",
+        "target": "chat-mvmw59wa"
+      },
+      {
+        "id": "edge:pp-orch->norm",
+        "source": "acp/devin-cli/ionian-helicopter",
+        "target": "chat-mvmw5chd"
+      },
+      {
+        "id": "edge:pp-orch->secu",
+        "source": "acp/devin-cli/ionian-helicopter",
+        "target": "chat-mvmtldvy"
+      },
+      {
+        "id": "edge:pp-archi->prd",
+        "source": "chat-mvmw59wa",
+        "target": "chat-mvfqytbz"
+      },
+      {
+        "id": "edge:pp-norm->prd",
+        "source": "chat-mvmw5chd",
+        "target": "chat-mvfqytbz"
+      },
+      {
+        "id": "edge:pp-secu->prd",
+        "source": "chat-mvmtldvy",
+        "target": "chat-mvfqytbz"
+      },
+      {
+        "id": "edge:pp-prd->vault",
+        "source": "chat-mvfqytbz",
+        "target": "chat-mvflr6cn"
+      },
+      {
+        "id": "edge:pp-prd->beacon",
+        "source": "chat-mvfqytbz",
+        "target": "chat-mvp0beacon"
+      },
+      {
+        "id": "edge:pp-prd->git",
+        "source": "chat-mvfqytbz",
+        "target": "acp/devin-cli/sugary-shoemaker"
+      }
+    ]
+  }
+}

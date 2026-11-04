@@ -1,0 +1,4002 @@
+{
+  "generated": "2026-10-27T23:42:45.601Z",
+  "imported": 331,
+  "failed": 0,
+  "items": [
+    {
+      "file": "1.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Twitter:tweet:create:create like retweet delete search",
+      "id": "4ZFJWMrxWpq98joZ",
+      "nodeCount": 6,
+      "nodeTypes": [
+        "manualTrigger",
+        "twitter"
+      ]
+    },
+    {
+      "file": "10.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] PagerDuty:incident:create get update getAll:incidentNote:create getAll:User:get:LogEntry:getAll get",
+      "id": "7nUVywucFsUaUUxg",
+      "nodeCount": 11,
+      "nodeTypes": [
+        "manualTrigger",
+        "pagerDuty",
+        "function"
+      ]
+    },
+    {
+      "file": "101.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] RenameKeys",
+      "id": "MYgFQmYSk1hT3Qt0",
+      "nodeCount": 4,
+      "nodeTypes": [
+        "manualTrigger",
+        "renameKeys",
+        "set",
+        "function"
+      ]
+    },
+    {
+      "file": "102.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] ReadBinaryFile",
+      "id": "MwcP6NGI9idmJDBF",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "manualTrigger",
+        "readBinaryFile",
+        "function"
+      ]
+    },
+    {
+      "file": "103.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] ExecuteCommand",
+      "id": "X2xwZhGb4C5pxwJF",
+      "nodeCount": 6,
+      "nodeTypes": [
+        "manualTrigger",
+        "executeCommand",
+        "readBinaryFile",
+        "set",
+        "function"
+      ]
+    },
+    {
+      "file": "104.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] ReadPDF",
+      "id": "DHyiSOeiaEp8hPAn",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "manualTrigger",
+        "readPDF",
+        "readBinaryFile"
+      ]
+    },
+    {
+      "file": "105.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] WriteBinaryFile",
+      "id": "V4SZz2epmen61I91",
+      "nodeCount": 5,
+      "nodeTypes": [
+        "manualTrigger",
+        "writeBinaryFile",
+        "readBinaryFile",
+        "function"
+      ]
+    },
+    {
+      "file": "106.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Box:Folder:create search get delete:File:upload get download copy search delete",
+      "id": "Q8KcEhcfhGwNPa0F",
+      "nodeCount": 13,
+      "nodeTypes": [
+        "manualTrigger",
+        "box",
+        "readBinaryFile"
+      ]
+    },
+    {
+      "file": "110.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] GraphQL",
+      "id": "mTO17CAMFPOWMho7",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "manualTrigger",
+        "graphql",
+        "function"
+      ]
+    },
+    {
+      "file": "111.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Spreadsheet File",
+      "id": "HVy5EKJDNuTltVQh",
+      "nodeCount": 6,
+      "nodeTypes": [
+        "manualTrigger",
+        "spreadsheetFile",
+        "function"
+      ]
+    },
+    {
+      "file": "112.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Rabbitmq:queue:exchange",
+      "id": "4bDbih3yiBObCFqy",
+      "nodeCount": 6,
+      "nodeTypes": [
+        "manualTrigger",
+        "rabbitmq"
+      ]
+    },
+    {
+      "file": "113.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] AMQP",
+      "id": "tU6aTRpFPRvv0FGA",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "manualTrigger",
+        "amqp",
+        "set"
+      ]
+    },
+    {
+      "file": "115.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Cockpit:Collection:createEntry updateEntry getAllEntries:Singleton:get:Form:submit",
+      "id": "PFr2H91525cDbiml",
+      "nodeCount": 6,
+      "nodeTypes": [
+        "manualTrigger",
+        "cockpit"
+      ]
+    },
+    {
+      "file": "116.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Ghost:Post(Admin API):create update get getAll delete:Post(Content API):getAll get",
+      "id": "a9ONRg1WtirukmtY",
+      "nodeCount": 8,
+      "nodeTypes": [
+        "manualTrigger",
+        "ghost"
+      ]
+    },
+    {
+      "file": "117.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Gotify:Message:create getAll delete",
+      "id": "2P2yilnVpZdop4Ve",
+      "nodeCount": 4,
+      "nodeTypes": [
+        "manualTrigger",
+        "gotify"
+      ]
+    },
+    {
+      "file": "118.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Redis:info set keys get delete",
+      "id": "yRXw7wwWvhnYDK5t",
+      "nodeCount": 8,
+      "nodeTypes": [
+        "manualTrigger",
+        "redis",
+        "set",
+        "function"
+      ]
+    },
+    {
+      "file": "119.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] CrateDB:insert update executeQuery",
+      "id": "bfuehlgcuw7qe40u",
+      "nodeCount": 6,
+      "nodeTypes": [
+        "manualTrigger",
+        "crateDb",
+        "set"
+      ]
+    },
+    {
+      "file": "120.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] MySQL:insert update executeQuery",
+      "id": "FcZJxVNksI2XeLDm",
+      "nodeCount": 7,
+      "nodeTypes": [
+        "manualTrigger",
+        "set",
+        "mySql"
+      ]
+    },
+    {
+      "file": "123.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] MongoDB:insert find update delete",
+      "id": "J3wt6KEqeNLFcAAW",
+      "nodeCount": 7,
+      "nodeTypes": [
+        "manualTrigger",
+        "mongoDb",
+        "set"
+      ]
+    },
+    {
+      "file": "124.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] QuestDB: insert executeQuery",
+      "id": "YOG2pQ05enKE9SA2",
+      "nodeCount": 5,
+      "nodeTypes": [
+        "manualTrigger",
+        "questDb",
+        "set"
+      ]
+    },
+    {
+      "file": "125.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Postgres: insert update executeQuery",
+      "id": "UX4hoQkEAShHlNRR",
+      "nodeCount": 7,
+      "nodeTypes": [
+        "manualTrigger",
+        "postgres",
+        "set"
+      ]
+    },
+    {
+      "file": "126.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Kafka",
+      "id": "LiB7f0TysuLr6T3m",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "manualTrigger",
+        "kafka",
+        "set"
+      ]
+    },
+    {
+      "file": "127.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Rundeck:Job:execute getMetadata",
+      "id": "O74SD6OSVOkhkLiP",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "manualTrigger",
+        "rundeck"
+      ]
+    },
+    {
+      "file": "128.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Yourls:Url:shorten stats expand",
+      "id": "m5GLoWm83yqnCKMW",
+      "nodeCount": 4,
+      "nodeTypes": [
+        "manualTrigger",
+        "yourls"
+      ]
+    },
+    {
+      "file": "129.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] NextCloud:NextCloud:Folder:create move copy delete list:File:upload move copy download delete",
+      "id": "ZtdutzX4U6GXfUMN",
+      "nodeCount": 28,
+      "nodeTypes": [
+        "manualTrigger",
+        "nextCloud",
+        "set",
+        "readBinaryFile",
+        "function"
+      ]
+    },
+    {
+      "file": "131.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Line:Notification:send",
+      "id": "xk89xNADIXoXEttU",
+      "nodeCount": 2,
+      "nodeTypes": [
+        "manualTrigger",
+        "line"
+      ]
+    },
+    {
+      "file": "132.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Mandrill:Message:sendTemplate sendHTML",
+      "id": "VK7NaAnqiUG9Dmbz",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "manualTrigger",
+        "mandrill"
+      ]
+    },
+    {
+      "file": "133.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Twilio:SMS:send",
+      "id": "eOgyL6FliyzZcaDg",
+      "nodeCount": 2,
+      "nodeTypes": [
+        "manualTrigger",
+        "twilio"
+      ]
+    },
+    {
+      "file": "134.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] TravisCI:Build:trigger getAll get restart cancel",
+      "id": "zM1Vk1tcMDkxbXVu",
+      "nodeCount": 9,
+      "nodeTypes": [
+        "manualTrigger",
+        "travisCi",
+        "function"
+      ]
+    },
+    {
+      "file": "135.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Cortex:Analyzer:execute:Job:report get:Responder:execute",
+      "id": "NSsm45RJ2Iqf7Vjk",
+      "nodeCount": 7,
+      "nodeTypes": [
+        "manualTrigger",
+        "cortex",
+        "function"
+      ]
+    },
+    {
+      "file": "136.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Pushbullet:Push:create update getAll delete",
+      "id": "cBuLZgdoVhm42Vxz",
+      "nodeCount": 5,
+      "nodeTypes": [
+        "manualTrigger",
+        "pushbullet"
+      ]
+    },
+    {
+      "file": "139.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Shopify:Product:create update get getAll delete:Order:create update get getAll delete",
+      "id": "9PWEB9Y00HWKrJPD",
+      "nodeCount": 11,
+      "nodeTypes": [
+        "manualTrigger",
+        "shopify"
+      ]
+    },
+    {
+      "file": "140.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Mailgun",
+      "id": "lZoES0ieDHK7WfDm",
+      "nodeCount": 2,
+      "nodeTypes": [
+        "manualTrigger",
+        "mailgun"
+      ]
+    },
+    {
+      "file": "143.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Clearbit:Company:enrich autocomplete:Person:enrich",
+      "id": "JFFA19tVVsprswsv",
+      "nodeCount": 4,
+      "nodeTypes": [
+        "manualTrigger",
+        "clearbit"
+      ]
+    },
+    {
+      "file": "144.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] APITemplate.io:Account:get:Image:create:PDF:create",
+      "id": "34ws2FLB8JJ3tnix",
+      "nodeCount": 4,
+      "nodeTypes": [
+        "manualTrigger",
+        "apiTemplateIo"
+      ]
+    },
+    {
+      "file": "145.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Peekalink:isAvailable preview",
+      "id": "44TtjfqrPB5lBy7N",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "manualTrigger",
+        "peekalink"
+      ]
+    },
+    {
+      "file": "146.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] TimescaleDB:insert update executeQuery",
+      "id": "j2A4XcFWk0BQdviv",
+      "nodeCount": 7,
+      "nodeTypes": [
+        "manualTrigger",
+        "timescaleDb",
+        "set"
+      ]
+    },
+    {
+      "file": "148.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Deepl:Language:translate",
+      "id": "9528wDztbG5FaySC",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "manualTrigger",
+        "deepL",
+        "function"
+      ]
+    },
+    {
+      "file": "15.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] DropBox:File: upload move copy download delete",
+      "id": "WM8L9NoEwSM3F7Cm",
+      "nodeCount": 19,
+      "nodeTypes": [
+        "manualTrigger",
+        "dropbox",
+        "readBinaryFile",
+        "function"
+      ]
+    },
+    {
+      "file": "150.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] PostHog:Event:create:Identity:create:Alias:create:Track:page screen",
+      "id": "SoclKqoi3kpRilJY",
+      "nodeCount": 6,
+      "nodeTypes": [
+        "manualTrigger",
+        "postHog"
+      ]
+    },
+    {
+      "file": "152.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] AWSComprehend:Text:detectDominantLanguage detectSentiment detectEntities",
+      "id": "ow0PDau2H1Cqaz5s",
+      "nodeCount": 4,
+      "nodeTypes": [
+        "manualTrigger",
+        "awsComprehend"
+      ]
+    },
+    {
+      "file": "153.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] AWSLambda:invoke",
+      "id": "49uIHlHi4cnYpsDX",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "manualTrigger",
+        "awsLambda"
+      ]
+    },
+    {
+      "file": "154.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] AWSRekognition:Image:analyze",
+      "id": "Naw4zr89LjnbsSOw",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "manualTrigger",
+        "awsRekognition",
+        "function"
+      ]
+    },
+    {
+      "file": "155.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] AWSS3:Bucket:create getAll search:File:upload getAll download delete:Folder:create getAll delete",
+      "id": "c9VT3p0mQJJWiMkE",
+      "nodeCount": 16,
+      "nodeTypes": [
+        "manualTrigger",
+        "awsS3",
+        "set",
+        "function"
+      ]
+    },
+    {
+      "file": "156.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] AWSSNS:publish",
+      "id": "krJHkSmTArMxgoim",
+      "nodeCount": 2,
+      "nodeTypes": [
+        "manualTrigger",
+        "awsSns"
+      ]
+    },
+    {
+      "file": "158.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] MicrosoftSQL:insert update executeQuery",
+      "id": "GVVBV1NYLW6r1RfP",
+      "nodeCount": 8,
+      "nodeTypes": [
+        "manualTrigger",
+        "microsoftSql",
+        "set"
+      ]
+    },
+    {
+      "file": "16.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] OpenWeatherMap:: current-weather 5-day-forecast",
+      "id": "NeXQIHUsZHcdbe3t",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "manualTrigger",
+        "openWeatherMap"
+      ]
+    },
+    {
+      "file": "160.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Wordpress:User:getAll get create update:Post:create get getAll update",
+      "id": "dm2VhiJhYkp3TOBf",
+      "nodeCount": 9,
+      "nodeTypes": [
+        "manualTrigger",
+        "wordpress"
+      ]
+    },
+    {
+      "file": "161.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Vonage:SMS:send",
+      "id": "SogbaS0hDf8twtw3",
+      "nodeCount": 2,
+      "nodeTypes": [
+        "manualTrigger",
+        "vonage"
+      ]
+    },
+    {
+      "file": "162.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] AWSSQS:sendMessage",
+      "id": "i3RSybFvlzVOMnK5",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "manualTrigger",
+        "awsSqs"
+      ]
+    },
+    {
+      "file": "163.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] GoogleSlides:Presentation:create get getSlides replaceText:Page:get getThumbnail",
+      "id": "iTH5R85TIqBHO6Ij",
+      "nodeCount": 8,
+      "nodeTypes": [
+        "manualTrigger",
+        "googleSlides"
+      ]
+    },
+    {
+      "file": "164.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] ClickUp:SpaceTag:create getAll update delete:TaskTag:add remove:TaskList:add remove",
+      "id": "owJM3ueWhVywjDht",
+      "nodeCount": 27,
+      "nodeTypes": [
+        "manualTrigger",
+        "clickUp",
+        "set",
+        "function"
+      ]
+    },
+    {
+      "file": "165.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Emelia:Campaign:create addContact get getAll start pause:ContactList:getAll add",
+      "id": "HIJ5uWKoZyGCSEjE",
+      "nodeCount": 9,
+      "nodeTypes": [
+        "manualTrigger",
+        "emelia"
+      ]
+    },
+    {
+      "file": "167.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] FreshDesk:Contact:create get update getAll delete:Ticket:create get getAll update delete",
+      "id": "cDCV0agLyo7Okd5m",
+      "nodeCount": 11,
+      "nodeTypes": [
+        "manualTrigger",
+        "freshdesk"
+      ]
+    },
+    {
+      "file": "168.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Demio:Event:getAll get register:Report:get",
+      "id": "Gjl5hNnDwzds0bCV",
+      "nodeCount": 5,
+      "nodeTypes": [
+        "manualTrigger",
+        "demio"
+      ]
+    },
+    {
+      "file": "169.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Mocean:SMS:send",
+      "id": "PCrdKfyo07RopFAK",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "manualTrigger",
+        "mocean"
+      ]
+    },
+    {
+      "file": "17.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] OpenThesaurus:: Get Synonyms",
+      "id": "75XsSmMlIj6i8SpU",
+      "nodeCount": 2,
+      "nodeTypes": [
+        "manualTrigger",
+        "openThesaurus"
+      ]
+    },
+    {
+      "file": "170.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Xero:Contact:create get getAll update:Invoice:create get getAll update",
+      "id": "zkpYRlhoOsvXVvVb",
+      "nodeCount": 9,
+      "nodeTypes": [
+        "manualTrigger",
+        "xero"
+      ]
+    },
+    {
+      "file": "171.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Stackby:append read list delete",
+      "id": "oLQpjCah9PEP9lyo",
+      "nodeCount": 6,
+      "nodeTypes": [
+        "manualTrigger",
+        "stackby",
+        "set"
+      ]
+    },
+    {
+      "file": "172.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Paypal:Payout:create get:PayoutItem:get",
+      "id": "HVss79cajho0pKp5",
+      "nodeCount": 5,
+      "nodeTypes": [
+        "manualTrigger",
+        "payPal"
+      ]
+    },
+    {
+      "file": "173.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] GetResponse:Contact:create getAll get update delete",
+      "id": "ANHez5bsjQZYlD2J",
+      "nodeCount": 7,
+      "nodeTypes": [
+        "manualTrigger",
+        "getResponse",
+        "function"
+      ]
+    },
+    {
+      "file": "174.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Vero:User:create alias addTags removeTags unsubscribe resubscribe delete:Event:track",
+      "id": "ZbveT4JqvCPPEU3G",
+      "nodeCount": 10,
+      "nodeTypes": [
+        "manualTrigger",
+        "vero",
+        "set"
+      ]
+    },
+    {
+      "file": "176.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] uProc:Audio:*:company:*;",
+      "id": "FTN0HgSYPgqtWRpj",
+      "nodeCount": 36,
+      "nodeTypes": [
+        "manualTrigger",
+        "uproc"
+      ]
+    },
+    {
+      "file": "177.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] uProc:Finance:*;",
+      "id": "GWGe6509RR4BiloF",
+      "nodeCount": 25,
+      "nodeTypes": [
+        "manualTrigger",
+        "uproc"
+      ]
+    },
+    {
+      "file": "179.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] uProc:Image:*:Security:*;",
+      "id": "XFv0EG1FDwTXkWuI",
+      "nodeCount": 11,
+      "nodeTypes": [
+        "manualTrigger",
+        "uproc"
+      ]
+    },
+    {
+      "file": "180.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] uProc:Internet:*;",
+      "id": "Kao8p3a5LXenT7c0",
+      "nodeCount": 41,
+      "nodeTypes": [
+        "manualTrigger",
+        "uproc"
+      ]
+    },
+    {
+      "file": "182.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Webflow:Item:create get update delete getAll",
+      "id": "5pyqBiZOzqvfoila",
+      "nodeCount": 6,
+      "nodeTypes": [
+        "manualTrigger",
+        "webflow"
+      ]
+    },
+    {
+      "file": "187.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Strapi:Entry:create get getAll update delete",
+      "id": "MPIQnrSHULsOmtgo",
+      "nodeCount": 8,
+      "nodeTypes": [
+        "manualTrigger",
+        "strapi",
+        "set"
+      ]
+    },
+    {
+      "file": "188.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Uplead:Company:enrich:Person:enrich",
+      "id": "WkNnbnPw7BohFj50",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "manualTrigger",
+        "uplead"
+      ]
+    },
+    {
+      "file": "191.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Mailerlite:Subscriber:create get update getAll",
+      "id": "dj8eOosDSpWdIOFO",
+      "nodeCount": 5,
+      "nodeTypes": [
+        "manualTrigger",
+        "mailerLite"
+      ]
+    },
+    {
+      "file": "193.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] ChargeBee:Customer:create:Invoice:list pdfUrl",
+      "id": "b2JFAMJcuSVkbkSu",
+      "nodeCount": 6,
+      "nodeTypes": [
+        "manualTrigger",
+        "chargebee"
+      ]
+    },
+    {
+      "file": "194.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Mailjet:Email:send sendTemplate",
+      "id": "kQIWosrja5ix9esH",
+      "nodeCount": 4,
+      "nodeTypes": [
+        "manualTrigger",
+        "mailjet"
+      ]
+    },
+    {
+      "file": "197.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] MQTT:sendMessage",
+      "id": "VTJRU7GPLM1CwONE",
+      "nodeCount": 5,
+      "nodeTypes": [
+        "manualTrigger",
+        "mqtt",
+        "function"
+      ]
+    },
+    {
+      "file": "198.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] GoogleCloudFirestore:Document:create get upset getAll query delete:Collection:getAll",
+      "id": "VdkTXiPcojyDqcHn",
+      "nodeCount": 10,
+      "nodeTypes": [
+        "manualTrigger",
+        "googleFirebaseCloudFirestore",
+        "set"
+      ]
+    },
+    {
+      "file": "199.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] MailCheck:Email:check",
+      "id": "3zK06IUaZ15SXJmV",
+      "nodeCount": 2,
+      "nodeTypes": [
+        "manualTrigger",
+        "mailcheck"
+      ]
+    },
+    {
+      "file": "201.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Iterable:User:upsert get delete:UserList:add remove:Event:track",
+      "id": "EFiQK9uDTVzlc7au",
+      "nodeCount": 9,
+      "nodeTypes": [
+        "manualTrigger",
+        "set",
+        "iterable",
+        "function"
+      ]
+    },
+    {
+      "file": "202.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Beeminder:Datapoint:create getAll update delete",
+      "id": "OBfrOX2o9hF1EQFQ",
+      "nodeCount": 6,
+      "nodeTypes": [
+        "manualTrigger",
+        "beeminder"
+      ]
+    },
+    {
+      "file": "203.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Paddle:Payment:getAll reschedule:Plan:getAll get:Product:getAll:Coupon:create update getAll:User:getAll",
+      "id": "EPHtHarKHAA8boLn",
+      "nodeCount": 11,
+      "nodeTypes": [
+        "manualTrigger",
+        "paddle",
+        "dateTime"
+      ]
+    },
+    {
+      "file": "205.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Pushover:Message:push",
+      "id": "ptcqwlsRKWGZgFLd",
+      "nodeCount": 2,
+      "nodeTypes": [
+        "manualTrigger",
+        "pushover"
+      ]
+    },
+    {
+      "file": "208.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] RocketChat:Chat:postMessage",
+      "id": "EBs1hE4HLShQRYvT",
+      "nodeCount": 2,
+      "nodeTypes": [
+        "manualTrigger",
+        "rocketchat"
+      ]
+    },
+    {
+      "file": "209.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] AWS Transcribe:TranscriptionJob:create get getAll delete",
+      "id": "1qdAmAo7ERZon4wY",
+      "nodeCount": 7,
+      "nodeTypes": [
+        "manualTrigger",
+        "awsTranscribe",
+        "set",
+        "function"
+      ]
+    },
+    {
+      "file": "212.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Git:*",
+      "id": "gpXuEoDhfLO43Gv9",
+      "nodeCount": 17,
+      "nodeTypes": [
+        "manualTrigger",
+        "git",
+        "executeCommand"
+      ]
+    },
+    {
+      "file": "214.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Discord:sendMessage",
+      "id": "SAYT7LVmNP4Yw2Yq",
+      "nodeCount": 2,
+      "nodeTypes": [
+        "manualTrigger",
+        "discord"
+      ]
+    },
+    {
+      "file": "215.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] EditImage:ALL",
+      "id": "b4qWLYQl3ifTQR1Q",
+      "nodeCount": 14,
+      "nodeTypes": [
+        "manualTrigger",
+        "editImage",
+        "readBinaryFile"
+      ]
+    },
+    {
+      "file": "216.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] FunctionItem:JSON,Binary and Static data",
+      "id": "NarsCl88jgwBOW0v",
+      "nodeCount": 4,
+      "nodeTypes": [
+        "manualTrigger",
+        "functionItem"
+      ]
+    },
+    {
+      "file": "217.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] ExecuteWorkflow: Database, URL, Local File, Parameter",
+      "id": "4FzAdXBpy0fwrWPN",
+      "nodeCount": 7,
+      "nodeTypes": [
+        "manualTrigger",
+        "executeWorkflow",
+        "httpRequest",
+        "writeBinaryFile"
+      ]
+    },
+    {
+      "file": "218.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Bannerbear:Image:create get:Template:get getAll",
+      "id": "dRfrmrTAWLMqJzIT",
+      "nodeCount": 5,
+      "nodeTypes": [
+        "manualTrigger",
+        "bannerbear"
+      ]
+    },
+    {
+      "file": "219.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Automizy:List:create get update getAll delete:Contact:create get update getAll delete",
+      "id": "ZQIJD4AKTJ8nagv2",
+      "nodeCount": 11,
+      "nodeTypes": [
+        "manualTrigger",
+        "automizy"
+      ]
+    },
+    {
+      "file": "22.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Hubspot:ContactList:add remove:Form:getFields submit",
+      "id": "hqOsoWrqb9XlK9AN",
+      "nodeCount": 7,
+      "nodeTypes": [
+        "manualTrigger",
+        "hubspot",
+        "function"
+      ]
+    },
+    {
+      "file": "220.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Autopilot:List:create getAll:Contact:upsert get getAll delete:ContactList:add exist getAll remove",
+      "id": "b3ird9qHwjXOoBlj",
+      "nodeCount": 11,
+      "nodeTypes": [
+        "manualTrigger",
+        "autopilot"
+      ]
+    },
+    {
+      "file": "221.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Copper:Company:*:Person:*:Opportunity:*:Project:*:Task:*:CustomerSource:getAll:User:getAll",
+      "id": "dHb2ifBtUEsBS80u",
+      "nodeCount": 28,
+      "nodeTypes": [
+        "manualTrigger",
+        "copper"
+      ]
+    },
+    {
+      "file": "223.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] LingvaNex:Translate",
+      "id": "HAymWx6jngYidmUH",
+      "nodeCount": 2,
+      "nodeTypes": [
+        "manualTrigger",
+        "lingvaNex"
+      ]
+    },
+    {
+      "file": "224.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] QuickBase:Record:create update getAll upsert:Report:run get:Field:getAll:File:download",
+      "id": "6KZ1k9k8TiVk1gDd",
+      "nodeCount": 12,
+      "nodeTypes": [
+        "manualTrigger",
+        "quickbase",
+        "set"
+      ]
+    },
+    {
+      "file": "225.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Salesmate:Company:*:Deal:*:Activity:*",
+      "id": "GDJx1cBD5XXIAK0m",
+      "nodeCount": 16,
+      "nodeTypes": [
+        "manualTrigger",
+        "salesmate"
+      ]
+    },
+    {
+      "file": "226.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] UnleashedSoftware:SakesOrder:getAll:StockOnHand:getAll get",
+      "id": "GrO4XdzIQs6pIaiS",
+      "nodeCount": 4,
+      "nodeTypes": [
+        "manualTrigger",
+        "unleashedSoftware"
+      ]
+    },
+    {
+      "file": "227.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Flow:Task:create get getAll update",
+      "id": "c1sLyB2D6lOza4fd",
+      "nodeCount": 5,
+      "nodeTypes": [
+        "manualTrigger",
+        "flow"
+      ]
+    },
+    {
+      "file": "229.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] GoogleDrive:Folder:create share delete:File:upload share list download copy delete copy (RL)",
+      "id": "wFRpp94Y7kikhO28",
+      "nodeCount": 23,
+      "nodeTypes": [
+        "manualTrigger",
+        "googleDrive",
+        "stickyNote"
+      ]
+    },
+    {
+      "file": "230.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] CredentialOnlyNodes",
+      "id": "8iaBkjCR6tsiq0eN",
+      "nodeCount": 2,
+      "nodeTypes": [
+        "manualTrigger",
+        "httpRequest"
+      ]
+    },
+    {
+      "file": "231.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] HTTP:InvalidHostHeader HTTP:CrossDomainRedirect",
+      "id": "WTHze4OLqwS9CKCB",
+      "nodeCount": 6,
+      "nodeTypes": [
+        "manualTrigger",
+        "noOp",
+        "stopAndError",
+        "if",
+        "httpRequest"
+      ]
+    },
+    {
+      "file": "233.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] QdrantVectorStore:*",
+      "id": "yzh1zj7Pewq4q8qV",
+      "nodeCount": 18,
+      "nodeTypes": [
+        "manualTrigger",
+        "code",
+        "@n8n/n8n-nodes-langchain.embeddingsOpenAi",
+        "@n8n/n8n-nodes-langchain.documentDefaultDataLoader",
+        "@n8n/n8n-nodes-langchain.textSplitterTokenSplitter",
+        "httpRequest",
+        "set",
+        "wait",
+        "@n8n/n8n-nodes-langchain.chainRetrievalQa",
+        "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+        "@n8n/n8n-nodes-langchain.retrieverVectorStore",
+        "@n8n/n8n-nodes-langchain.vectorStoreQdrant"
+      ]
+    },
+    {
+      "file": "234.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] BasicLLMChain:MistralChat",
+      "id": "XjLeFslz1rBaO1Bn",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "@n8n/n8n-nodes-langchain.lmChatMistralCloud",
+        "@n8n/n8n-nodes-langchain.chainLlm",
+        "manualTrigger"
+      ]
+    },
+    {
+      "file": "235.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] SummarizationChain:Simple:Map",
+      "id": "f80tuik4X0pgB8lO",
+      "nodeCount": 7,
+      "nodeTypes": [
+        "manualTrigger",
+        "code",
+        "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+        "set",
+        "@n8n/n8n-nodes-langchain.chainSummarization",
+        "@n8n/n8n-nodes-langchain.code"
+      ]
+    },
+    {
+      "file": "236.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] SummarizationChain:Simple:Map:Binary",
+      "id": "Mj4qt7CHa30dwzPL",
+      "nodeCount": 8,
+      "nodeTypes": [
+        "manualTrigger",
+        "code",
+        "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+        "convertToFile",
+        "set",
+        "@n8n/n8n-nodes-langchain.chainSummarization",
+        "@n8n/n8n-nodes-langchain.code"
+      ]
+    },
+    {
+      "file": "237.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] BasicLLMChain:AzureChat",
+      "id": "MCVLFUKhSl5zd8Q7",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "@n8n/n8n-nodes-langchain.lmChatAzureOpenAi",
+        "@n8n/n8n-nodes-langchain.chainLlm",
+        "manualTrigger"
+      ]
+    },
+    {
+      "file": "238.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] BasicLLMChain:OpenAIInstruct",
+      "id": "UjQ24O9NkA3Jts1w",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "@n8n/n8n-nodes-langchain.lmOpenAi",
+        "@n8n/n8n-nodes-langchain.chainLlm",
+        "manualTrigger"
+      ]
+    },
+    {
+      "file": "239.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Agent:PlanAndExecute",
+      "id": "Xg41NKzxB7pH2b38",
+      "nodeCount": 4,
+      "nodeTypes": [
+        "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+        "@n8n/n8n-nodes-langchain.toolCalculator",
+        "manualTrigger",
+        "@n8n/n8n-nodes-langchain.agent"
+      ]
+    },
+    {
+      "file": "240.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] SummarizationChain:Simpe:Refine",
+      "id": "pQ4Bl4OqqAT1VvR1",
+      "nodeCount": 7,
+      "nodeTypes": [
+        "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+        "manualTrigger",
+        "code",
+        "set",
+        "@n8n/n8n-nodes-langchain.chainSummarization",
+        "@n8n/n8n-nodes-langchain.code"
+      ]
+    },
+    {
+      "file": "241.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Agent:OpenAiFunctions",
+      "id": "WHPaxATVCGYaOBcE",
+      "nodeCount": 5,
+      "nodeTypes": [
+        "set",
+        "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+        "@n8n/n8n-nodes-langchain.toolCalculator",
+        "manualTrigger",
+        "@n8n/n8n-nodes-langchain.agent"
+      ]
+    },
+    {
+      "file": "242.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] BasicLLMChain:OutputParser",
+      "id": "RDe3IIMzYgAbB2w6",
+      "nodeCount": 4,
+      "nodeTypes": [
+        "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+        "manualTrigger",
+        "@n8n/n8n-nodes-langchain.outputParserStructured",
+        "@n8n/n8n-nodes-langchain.chainLlm"
+      ]
+    },
+    {
+      "file": "243.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Agent:ReAct",
+      "id": "jPhs4AYPn4VlAyms",
+      "nodeCount": 5,
+      "nodeTypes": [
+        "manualTrigger",
+        "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+        "@n8n/n8n-nodes-langchain.toolCalculator",
+        "set",
+        "@n8n/n8n-nodes-langchain.agent"
+      ]
+    },
+    {
+      "file": "244.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Agent:WorkflowTool",
+      "id": "axgmr7xTKl9KR9JK",
+      "nodeCount": 10,
+      "nodeTypes": [
+        "executeWorkflowTrigger",
+        "switch",
+        "@n8n/n8n-nodes-langchain.toolWorkflow",
+        "set",
+        "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+        "@n8n/n8n-nodes-langchain.agent",
+        "manualTrigger"
+      ]
+    },
+    {
+      "file": "245.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] BasicLLMChain:AwsBedrockChat",
+      "id": "GJDi6LuppdCVEBlY",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "@n8n/n8n-nodes-langchain.lmChatAwsBedrock",
+        "manualTrigger",
+        "@n8n/n8n-nodes-langchain.chainLlm"
+      ]
+    },
+    {
+      "file": "246.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] BasicLLMChain:OpenAIChat",
+      "id": "3diXix1Knn8jUTcq",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+        "manualTrigger",
+        "@n8n/n8n-nodes-langchain.chainLlm"
+      ]
+    },
+    {
+      "file": "247.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] SummarizationChain:Advanced:Map",
+      "id": "xOPJxbf82v6AKn9f",
+      "nodeCount": 8,
+      "nodeTypes": [
+        "manualTrigger",
+        "code",
+        "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+        "@n8n/n8n-nodes-langchain.textSplitterTokenSplitter",
+        "set",
+        "@n8n/n8n-nodes-langchain.chainSummarization",
+        "@n8n/n8n-nodes-langchain.code"
+      ]
+    },
+    {
+      "file": "248.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] InMemoryVectorStore:*",
+      "id": "iNaTgcTDXWryMz5y",
+      "nodeCount": 17,
+      "nodeTypes": [
+        "@n8n/n8n-nodes-langchain.embeddingsOpenAi",
+        "@n8n/n8n-nodes-langchain.documentDefaultDataLoader",
+        "@n8n/n8n-nodes-langchain.textSplitterTokenSplitter",
+        "set",
+        "@n8n/n8n-nodes-langchain.chainRetrievalQa",
+        "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+        "@n8n/n8n-nodes-langchain.retrieverVectorStore",
+        "@n8n/n8n-nodes-langchain.vectorStoreInMemory",
+        "manualTrigger",
+        "code",
+        "wait"
+      ]
+    },
+    {
+      "file": "249.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] SummarizationChain:Simple:Stuff",
+      "id": "1cduJfJXiFkU6QcJ",
+      "nodeCount": 7,
+      "nodeTypes": [
+        "manualTrigger",
+        "code",
+        "set",
+        "@n8n/n8n-nodes-langchain.chainSummarization",
+        "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+        "@n8n/n8n-nodes-langchain.code"
+      ]
+    },
+    {
+      "file": "250.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] PineconeVectorStore:*",
+      "id": "X1s4g5aTMZDD9Np9",
+      "nodeCount": 17,
+      "nodeTypes": [
+        "manualTrigger",
+        "code",
+        "@n8n/n8n-nodes-langchain.embeddingsOpenAi",
+        "@n8n/n8n-nodes-langchain.documentDefaultDataLoader",
+        "@n8n/n8n-nodes-langchain.textSplitterTokenSplitter",
+        "wait",
+        "set",
+        "@n8n/n8n-nodes-langchain.chainRetrievalQa",
+        "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+        "@n8n/n8n-nodes-langchain.retrieverVectorStore",
+        "@n8n/n8n-nodes-langchain.vectorStorePinecone"
+      ]
+    },
+    {
+      "file": "251.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Agent:Conversational",
+      "id": "vWc4oqv6E2Y3jpHA",
+      "nodeCount": 4,
+      "nodeTypes": [
+        "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+        "@n8n/n8n-nodes-langchain.toolCalculator",
+        "manualTrigger",
+        "@n8n/n8n-nodes-langchain.agent"
+      ]
+    },
+    {
+      "file": "252.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] vectorStorePGVector:*",
+      "id": "Yn5vEkRXwK0VO4k6",
+      "nodeCount": 29,
+      "nodeTypes": [
+        "manualTrigger",
+        "code",
+        "@n8n/n8n-nodes-langchain.embeddingsOpenAi",
+        "@n8n/n8n-nodes-langchain.documentDefaultDataLoader",
+        "@n8n/n8n-nodes-langchain.textSplitterTokenSplitter",
+        "@n8n/n8n-nodes-langchain.chainRetrievalQa",
+        "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+        "@n8n/n8n-nodes-langchain.retrieverVectorStore",
+        "set",
+        "postgres",
+        "@n8n/n8n-nodes-langchain.vectorStorePGVector",
+        "@n8n/n8n-nodes-langchain.code",
+        "aggregate"
+      ]
+    },
+    {
+      "file": "253.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Agent:Tools:OpenAI",
+      "id": "tYwZyXd61KjXtNJ0",
+      "nodeCount": 35,
+      "nodeTypes": [
+        "executeWorkflowTrigger",
+        "@n8n/n8n-nodes-langchain.toolWorkflow",
+        "set",
+        "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+        "manualTrigger",
+        "stickyNote",
+        "switch",
+        "@n8n/n8n-nodes-langchain.outputParserStructured",
+        "@n8n/n8n-nodes-langchain.agent",
+        "@n8n/n8n-nodes-langchain.toolCode",
+        "@n8n/n8n-nodes-langchain.toolHttpRequest",
+        "@n8n/n8n-nodes-langchain.memoryBufferWindow"
+      ]
+    },
+    {
+      "file": "254.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Agent:Tools:Anthropic",
+      "id": "UBBE7NPZPaadY1AW",
+      "nodeCount": 36,
+      "nodeTypes": [
+        "executeWorkflowTrigger",
+        "@n8n/n8n-nodes-langchain.toolWorkflow",
+        "set",
+        "manualTrigger",
+        "stickyNote",
+        "@n8n/n8n-nodes-langchain.outputParserStructured",
+        "@n8n/n8n-nodes-langchain.agent",
+        "@n8n/n8n-nodes-langchain.toolCode",
+        "@n8n/n8n-nodes-langchain.lmChatAnthropic",
+        "switch",
+        "@n8n/n8n-nodes-langchain.toolHttpRequest",
+        "@n8n/n8n-nodes-langchain.memoryBufferWindow"
+      ]
+    },
+    {
+      "file": "255.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Sub-node errors:model",
+      "id": "iEM9j1bTdqpQJ7G9",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "manualTrigger",
+        "@n8n/n8n-nodes-langchain.chainLlm",
+        "@n8n/n8n-nodes-langchain.lmChatOpenAi"
+      ]
+    },
+    {
+      "file": "256.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Nested sub-node errors:model",
+      "id": "f4C709HNfhMfYnhO",
+      "nodeCount": 7,
+      "nodeTypes": [
+        "@n8n/n8n-nodes-langchain.agent",
+        "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+        "@n8n/n8n-nodes-langchain.toolVectorStore",
+        "@n8n/n8n-nodes-langchain.embeddingsOpenAi",
+        "@n8n/n8n-nodes-langchain.vectorStoreInMemory",
+        "manualTrigger"
+      ]
+    },
+    {
+      "file": "257.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Agent:auto-fix:anthropic",
+      "id": "Z6BoJRvt9mqWxlCY",
+      "nodeCount": 9,
+      "nodeTypes": [
+        "manualTrigger",
+        "@n8n/n8n-nodes-langchain.agent",
+        "@n8n/n8n-nodes-langchain.outputParserAutofixing",
+        "@n8n/n8n-nodes-langchain.outputParserStructured",
+        "@n8n/n8n-nodes-langchain.memoryBufferWindow",
+        "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+        "stickyNote",
+        "@n8n/n8n-nodes-langchain.lmChatAnthropic"
+      ]
+    },
+    {
+      "file": "258.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Agent:auto-fix:openai",
+      "id": "egHooU0yLIbhdj6p",
+      "nodeCount": 9,
+      "nodeTypes": [
+        "manualTrigger",
+        "@n8n/n8n-nodes-langchain.agent",
+        "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+        "@n8n/n8n-nodes-langchain.outputParserAutofixing",
+        "@n8n/n8n-nodes-langchain.outputParserStructured",
+        "@n8n/n8n-nodes-langchain.memoryBufferWindow",
+        "stickyNote"
+      ]
+    },
+    {
+      "file": "259.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] ChainQA",
+      "id": "ZbYX4yUWgRKBHb9c",
+      "nodeCount": 16,
+      "nodeTypes": [
+        "@n8n/n8n-nodes-langchain.embeddingsOpenAi",
+        "@n8n/n8n-nodes-langchain.documentDefaultDataLoader",
+        "@n8n/n8n-nodes-langchain.textSplitterTokenSplitter",
+        "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+        "@n8n/n8n-nodes-langchain.retrieverVectorStore",
+        "set",
+        "@n8n/n8n-nodes-langchain.vectorStoreInMemory",
+        "manualTrigger",
+        "code",
+        "@n8n/n8n-nodes-langchain.chainRetrievalQa",
+        "merge"
+      ]
+    },
+    {
+      "file": "260.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Tools within loops",
+      "id": "WozqmGauyqnJ18UG",
+      "nodeCount": 6,
+      "nodeTypes": [
+        "manualTrigger",
+        "code",
+        "@n8n/n8n-nodes-langchain.agent",
+        "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+        "hackerNewsTool",
+        "splitInBatches"
+      ]
+    },
+    {
+      "file": "261.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Tools in Loops: Nodes as Tools, one invocation per item 2 items at a time",
+      "id": "9MQ6GE0Kcnp9yQRd",
+      "nodeCount": 6,
+      "nodeTypes": [
+        "manualTrigger",
+        "code",
+        "@n8n/n8n-nodes-langchain.agent",
+        "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+        "hackerNewsTool",
+        "splitInBatches"
+      ]
+    },
+    {
+      "file": "262.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Node as Tool, multiple invocations",
+      "id": "pzCqHElK7vD7Xgtn",
+      "nodeCount": 7,
+      "nodeTypes": [
+        "manualTrigger",
+        "code",
+        "aggregate",
+        "@n8n/n8n-nodes-langchain.agent",
+        "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+        "hackerNewsTool",
+        "splitInBatches"
+      ]
+    },
+    {
+      "file": "263.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Tool in Loop: One invocation per loop",
+      "id": "6frellLiT8vwstoR",
+      "nodeCount": 14,
+      "nodeTypes": [
+        "manualTrigger",
+        "code",
+        "@n8n/n8n-nodes-langchain.agent",
+        "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+        "hackerNewsTool",
+        "stickyNote",
+        "splitInBatches",
+        "@n8n/n8n-nodes-langchain.toolWorkflow",
+        "executeWorkflowTrigger",
+        "hackerNews"
+      ]
+    },
+    {
+      "file": "264.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Tool in Loop: Multiple invocation per loop",
+      "id": "kMuxi7IdU3acswYf",
+      "nodeCount": 14,
+      "nodeTypes": [
+        "executeWorkflowTrigger",
+        "hackerNews",
+        "manualTrigger",
+        "code",
+        "aggregate",
+        "@n8n/n8n-nodes-langchain.agent",
+        "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+        "hackerNewsTool",
+        "splitInBatches",
+        "@n8n/n8n-nodes-langchain.toolWorkflow"
+      ]
+    },
+    {
+      "file": "265.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Tools: Multiple Invocations",
+      "id": "UWw0P6qytZKhntbk",
+      "nodeCount": 14,
+      "nodeTypes": [
+        "manualTrigger",
+        "code",
+        "aggregate",
+        "stickyNote",
+        "@n8n/n8n-nodes-langchain.agent",
+        "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+        "hackerNewsTool",
+        "@n8n/n8n-nodes-langchain.toolWorkflow",
+        "executeWorkflowTrigger",
+        "hackerNews"
+      ]
+    },
+    {
+      "file": "266.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Tools: One invocation per item",
+      "id": "HaGLAwYTjEGwPfFb",
+      "nodeCount": 12,
+      "nodeTypes": [
+        "executeWorkflowTrigger",
+        "hackerNews",
+        "@n8n/n8n-nodes-langchain.agent",
+        "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+        "hackerNewsTool",
+        "stickyNote",
+        "@n8n/n8n-nodes-langchain.toolWorkflow",
+        "code",
+        "manualTrigger"
+      ]
+    },
+    {
+      "file": "28.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] ClickUp:CheckList:create update delete:CheckListItem:create update delete",
+      "id": "E8uolqD0yWMJqw5O",
+      "nodeCount": 21,
+      "nodeTypes": [
+        "manualTrigger",
+        "clickUp",
+        "function"
+      ]
+    },
+    {
+      "file": "29.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] ClickUp:Comment:create update getAll delete",
+      "id": "pLix4q4WbU8Gvtvy",
+      "nodeCount": 16,
+      "nodeTypes": [
+        "manualTrigger",
+        "clickUp",
+        "function"
+      ]
+    },
+    {
+      "file": "30.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] ClickUp:TaskDependency:create delete",
+      "id": "jGRQaf9I9fgGuhak",
+      "nodeCount": 16,
+      "nodeTypes": [
+        "manualTrigger",
+        "clickUp",
+        "function"
+      ]
+    },
+    {
+      "file": "31.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] ClickUp:TimeEntry:create update start stop getall get delete:TimeEntryTag: add getAll remove",
+      "id": "Ia6ILn4QXxD7rr6Y",
+      "nodeCount": 28,
+      "nodeTypes": [
+        "manualTrigger",
+        "clickUp",
+        "function"
+      ]
+    },
+    {
+      "file": "32.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Drif:Contact:create update get delete",
+      "id": "amvx69rQLY2v5QdK",
+      "nodeCount": 5,
+      "nodeTypes": [
+        "manualTrigger",
+        "drift"
+      ]
+    },
+    {
+      "file": "33.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Zoom:Meeting:create update getAll get delete",
+      "id": "8kWVz8pFKCpeCOzG",
+      "nodeCount": 6,
+      "nodeTypes": [
+        "manualTrigger",
+        "zoom"
+      ]
+    },
+    {
+      "file": "34.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Strava:Activity:create get update getAll getComments getKudos getLaps",
+      "id": "RF3EEpYXr0ZpzTqg",
+      "nodeCount": 8,
+      "nodeTypes": [
+        "manualTrigger",
+        "strava"
+      ]
+    },
+    {
+      "file": "38.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Medium:Post:create:Publication:getall",
+      "id": "9yvZgiueRuYFFFnF",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "manualTrigger",
+        "medium"
+      ]
+    },
+    {
+      "file": "4.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] FTP:ftp:list download upload",
+      "id": "sczYgV0crUaTzVi6",
+      "nodeCount": 5,
+      "nodeTypes": [
+        "manualTrigger",
+        "ftp",
+        "set"
+      ]
+    },
+    {
+      "file": "41.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] GoogleCalendar:Event:create getAll get update delete:Calendar:availability",
+      "id": "5N9M2dEKcwziaLgn",
+      "nodeCount": 7,
+      "nodeTypes": [
+        "manualTrigger",
+        "googleCalendar"
+      ]
+    },
+    {
+      "file": "42.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] GoogleTask:create update getAll get delete",
+      "id": "sNJKZpY3df4CosHX",
+      "nodeCount": 6,
+      "nodeTypes": [
+        "manualTrigger",
+        "googleTasks"
+      ]
+    },
+    {
+      "file": "43.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] GoogleContacts:create update getAll get delete",
+      "id": "Ee2cWUhFh1bQU8vo",
+      "nodeCount": 7,
+      "nodeTypes": [
+        "manualTrigger",
+        "googleContacts",
+        "function"
+      ]
+    },
+    {
+      "file": "44.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] GoogleDrive:Folder:create share delete:File:upload share list download copy delete",
+      "id": "nyZG8DJgcMUYoZU4",
+      "nodeCount": 12,
+      "nodeTypes": [
+        "manualTrigger",
+        "googleDrive"
+      ]
+    },
+    {
+      "file": "45.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] GoogleSheets:SpreadSheet:create:Sheet:create append read lookup update delete clean remove",
+      "id": "VuEAsySksu8ALjdV",
+      "nodeCount": 12,
+      "nodeTypes": [
+        "manualTrigger",
+        "googleSheets",
+        "set",
+        "function"
+      ]
+    },
+    {
+      "file": "46.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] GoogleBooks:Volume:getAll get:BookShelf:getAll get:BookShelfVolume:add move getAll remove clear",
+      "id": "XdUavjd1OwfKepT8",
+      "nodeCount": 10,
+      "nodeTypes": [
+        "manualTrigger",
+        "googleBooks"
+      ]
+    },
+    {
+      "file": "47.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Airtable:append update read list delete",
+      "id": "KlPtZQlHF1HCfQVI",
+      "nodeCount": 8,
+      "nodeTypes": [
+        "manualTrigger",
+        "airtable",
+        "set"
+      ]
+    },
+    {
+      "file": "49.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Bitly:Link:create get update",
+      "id": "UuQCN7PieAWA3Gee",
+      "nodeCount": 4,
+      "nodeTypes": [
+        "manualTrigger",
+        "bitly"
+      ]
+    },
+    {
+      "file": "5.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Hackernews:All:getAll:Article:get:User:get",
+      "id": "VWDQa1GHYQwayZgo",
+      "nodeCount": 4,
+      "nodeTypes": [
+        "manualTrigger",
+        "hackerNews"
+      ]
+    },
+    {
+      "file": "50.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Brandfetch:color company font logo industry",
+      "id": "JtADgkXI5Y5KVJkK",
+      "nodeCount": 6,
+      "nodeTypes": [
+        "manualTrigger",
+        "Brandfetch"
+      ]
+    },
+    {
+      "file": "55.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Hunter: domainSearch emailFinder emailVerifier",
+      "id": "wucsdLDXgjcOSJQp",
+      "nodeCount": 4,
+      "nodeTypes": [
+        "manualTrigger",
+        "hunter"
+      ]
+    },
+    {
+      "file": "56.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Trello:Board:*List:*Card:*Label:*CardComment:*Attachment:*CheckList:*",
+      "id": "BpqSj4QwFTAZl8y9",
+      "nodeCount": 35,
+      "nodeTypes": [
+        "manualTrigger",
+        "trello"
+      ]
+    },
+    {
+      "file": "57.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Mindee:receipt:predict:invoice:predict",
+      "id": "vIlACwowpxi8yMLM",
+      "nodeCount": 5,
+      "nodeTypes": [
+        "manualTrigger",
+        "mindee",
+        "httpRequest"
+      ]
+    },
+    {
+      "file": "58.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Todoist:Task:create get close reopen getAll delete",
+      "id": "3A8Be77dVOo2KRLr",
+      "nodeCount": 7,
+      "nodeTypes": [
+        "manualTrigger",
+        "todoist"
+      ]
+    },
+    {
+      "file": "59.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] SendGrid:List:create update get getAll delete:Contact:upsert getAll get delete:mail:send",
+      "id": "amZaCEcftiqsCuGv",
+      "nodeCount": 13,
+      "nodeTypes": [
+        "manualTrigger",
+        "sendGrid",
+        "functionItem",
+        "function"
+      ]
+    },
+    {
+      "file": "6.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Static files workflow",
+      "id": "AzIdpcIFBhXch0wO",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "manualTrigger",
+        "writeBinaryFile",
+        "function"
+      ]
+    },
+    {
+      "file": "60.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Taiga:Issue:create update get getAll delete",
+      "id": "59xua57sUIWqfaS9",
+      "nodeCount": 6,
+      "nodeTypes": [
+        "manualTrigger",
+        "taiga"
+      ]
+    },
+    {
+      "file": "62.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] ProfitWell:Company:getSetting:Metric:getMontly getDaily",
+      "id": "xRRKXY4GRspco0uh",
+      "nodeCount": 4,
+      "nodeTypes": [
+        "manualTrigger",
+        "profitWell"
+      ]
+    },
+    {
+      "file": "63.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Segment:Identify:create:Track:event page",
+      "id": "7p0UKPdIlUWEq8RK",
+      "nodeCount": 5,
+      "nodeTypes": [
+        "manualTrigger",
+        "segment"
+      ]
+    },
+    {
+      "file": "64.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] SIGNL4:Alert:send resolve",
+      "id": "8i1LPxHzGbcxEFkS",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "manualTrigger",
+        "signl4"
+      ]
+    },
+    {
+      "file": "66.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Storyblok:Story:get getAll publish unpublish",
+      "id": "HWIUkcxKaPe15evl",
+      "nodeCount": 5,
+      "nodeTypes": [
+        "manualTrigger",
+        "storyblok"
+      ]
+    },
+    {
+      "file": "68.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] CircleCI:Pipeline:getAll get trigger",
+      "id": "lm0MXcMni94egPbe",
+      "nodeCount": 4,
+      "nodeTypes": [
+        "manualTrigger",
+        "circleCi"
+      ]
+    },
+    {
+      "file": "69.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] CoinGecko:Coin:get getAll  history candlesick market marketChart price ticker:Event:getAll",
+      "id": "O8KV3fSOyBjI6VRa",
+      "nodeCount": 10,
+      "nodeTypes": [
+        "manualTrigger",
+        "coinGecko"
+      ]
+    },
+    {
+      "file": "70.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Contentful-delivery-api:locale:getAll:entry:getAll:ContentType:get:Asset:getAll get:Space:get",
+      "id": "CkeSwMMrHISakjW4",
+      "nodeCount": 8,
+      "nodeTypes": [
+        "manualTrigger",
+        "contentful"
+      ]
+    },
+    {
+      "file": "71.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Contentful-preview-api:locale:getAll:entry:getAll:ContentType:get:Asset:getAll get:Space:get",
+      "id": "qxn3cvSivx7BlzDG",
+      "nodeCount": 8,
+      "nodeTypes": [
+        "manualTrigger",
+        "contentful"
+      ]
+    },
+    {
+      "file": "74.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] E-goi:Contact:create get getAll update",
+      "id": "AqARdL60xrFi8JoM",
+      "nodeCount": 5,
+      "nodeTypes": [
+        "manualTrigger",
+        "egoi"
+      ]
+    },
+    {
+      "file": "77.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Harvest:Expense:create update get getAll delete:Estimate:create update get getAll delete",
+      "id": "M5jrdGjmKhbZznZC",
+      "nodeCount": 13,
+      "nodeTypes": [
+        "manualTrigger",
+        "harvest"
+      ]
+    },
+    {
+      "file": "78.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] NASA:ALL:",
+      "id": "yC6Aql6fQpmjchHm",
+      "nodeCount": 16,
+      "nodeTypes": [
+        "manualTrigger",
+        "nasa"
+      ]
+    },
+    {
+      "file": "79.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] ZohoCRM:Lead:create update get getAll delete getFields",
+      "id": "IV4OpOnIp5pw9OjT",
+      "nodeCount": 7,
+      "nodeTypes": [
+        "manualTrigger",
+        "zohoCrm"
+      ]
+    },
+    {
+      "file": "81.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] PhantomBuster:getAll get launch getOutput",
+      "id": "a0Yo7AR0ltFhUhyX",
+      "nodeCount": 5,
+      "nodeTypes": [
+        "manualTrigger",
+        "phantombuster"
+      ]
+    },
+    {
+      "file": "83.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] RSS Feed",
+      "id": "rB9BHXfQsvgqmj6i",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "manualTrigger",
+        "rssFeedRead",
+        "function"
+      ]
+    },
+    {
+      "file": "85.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Linkedin:Post:create",
+      "id": "8GfYDeBBxsrXorP7",
+      "nodeCount": 4,
+      "nodeTypes": [
+        "manualTrigger",
+        "linkedIn",
+        "readBinaryFile"
+      ]
+    },
+    {
+      "file": "89.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] S3:Bucket:create getAll search:File:upload getAll download copy delete:Folder:create getAll delete",
+      "id": "cjv1iUSiFY4EK429",
+      "nodeCount": 14,
+      "nodeTypes": [
+        "manualTrigger",
+        "s3",
+        "readBinaryFile"
+      ]
+    },
+    {
+      "file": "90.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Date&Time:formatDate",
+      "id": "D4j2S2J8WsvIvFj0",
+      "nodeCount": 8,
+      "nodeTypes": [
+        "manualTrigger",
+        "dateTime",
+        "function"
+      ]
+    },
+    {
+      "file": "91.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] HTML Extract:json binary",
+      "id": "OjanfFUrSTi8u6qM",
+      "nodeCount": 7,
+      "nodeTypes": [
+        "manualTrigger",
+        "functionItem",
+        "htmlExtract",
+        "function",
+        "moveBinaryData"
+      ]
+    },
+    {
+      "file": "92.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] IF",
+      "id": "zdZOeckDz9oV00sz",
+      "nodeCount": 24,
+      "nodeTypes": [
+        "manualTrigger",
+        "if",
+        "function"
+      ]
+    },
+    {
+      "file": "93.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Move Binary Data:toJSON:toBinary",
+      "id": "Uo4jV4H1yrMtRWuw",
+      "nodeCount": 5,
+      "nodeTypes": [
+        "manualTrigger",
+        "moveBinaryData",
+        "functionItem",
+        "function"
+      ]
+    },
+    {
+      "file": "94.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] XML:toJSON:toXML",
+      "id": "9vI317guDR6u0Vsr",
+      "nodeCount": 5,
+      "nodeTypes": [
+        "manualTrigger",
+        "xml",
+        "functionItem",
+        "function"
+      ]
+    },
+    {
+      "file": "95.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Set",
+      "id": "NR8He8Ym3jya1dy2",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "manualTrigger",
+        "set",
+        "function"
+      ]
+    },
+    {
+      "file": "96.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] MessageBird:Sms:send:Balance:get",
+      "id": "dwk6f051gyqdQQjy",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "manualTrigger",
+        "messageBird"
+      ]
+    },
+    {
+      "file": "97.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Crypto",
+      "id": "yv2TCrTLprksBVab",
+      "nodeCount": 19,
+      "nodeTypes": [
+        "manualTrigger",
+        "crypto",
+        "function"
+      ]
+    },
+    {
+      "file": "98.json",
+      "src": "playwright-cli",
+      "name": "[TPL-playwright-cli] Disqus:Forum:get getCategories getThreads getPosts",
+      "id": "bwB0iHoZO1rzebvO",
+      "nodeCount": 5,
+      "nodeTypes": [
+        "manualTrigger",
+        "disqus"
+      ]
+    },
+    {
+      "file": "ai_assistant_test_workflow.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] ai_assistant_test_workflow",
+      "id": "eYukv0zfbuVk63MS",
+      "nodeCount": 4,
+      "nodeTypes": [
+        "manualTrigger",
+        "stopAndError",
+        "code",
+        "set"
+      ]
+    },
+    {
+      "file": "cat-1801-child.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] cat-1801-child",
+      "id": "U7pRSWzF2gz3kclz",
+      "nodeCount": 4,
+      "nodeTypes": [
+        "executeWorkflowTrigger",
+        "wait",
+        "set"
+      ]
+    },
+    {
+      "file": "cat-1801-parent.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] cat-1801-parent",
+      "id": "d57X8sCjEypYxloS",
+      "nodeCount": 2,
+      "nodeTypes": [
+        "executeWorkflow",
+        "webhook"
+      ]
+    },
+    {
+      "file": "cat-1929-child-two-waits.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] cat-1929-child-two-waits",
+      "id": "ETSZy6n9UiA3hhBt",
+      "nodeCount": 6,
+      "nodeTypes": [
+        "executeWorkflowTrigger",
+        "set",
+        "wait"
+      ]
+    },
+    {
+      "file": "cat-1929-parent.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] cat-1929-parent",
+      "id": "JK5tVQ3HALApYTeF",
+      "nodeCount": 2,
+      "nodeTypes": [
+        "executeWorkflow",
+        "webhook"
+      ]
+    },
+    {
+      "file": "chat-hub-workflow-agent.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] chat-hub-workflow-agent",
+      "id": "t3fjHfYyfPZx3bTp",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "@n8n/n8n-nodes-langchain.chatTrigger",
+        "@n8n/n8n-nodes-langchain.agent",
+        "@n8n/n8n-nodes-langchain.lmChatAnthropic"
+      ]
+    },
+    {
+      "file": "Check_manual_node_run_for_pinned_and_rundata.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Webhook PairedItem error test",
+      "id": "p0Jm7zypX5NIpLPd",
+      "nodeCount": 11,
+      "nodeTypes": [
+        "webhook",
+        "if",
+        "noOp",
+        "set",
+        "stickyNote"
+      ]
+    },
+    {
+      "file": "evaluations_loop.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] evaluations_loop",
+      "id": "M6fNBgeZBToE7BvF",
+      "nodeCount": 5,
+      "nodeTypes": [
+        "evaluationTrigger",
+        "evaluation",
+        "wait"
+      ]
+    },
+    {
+      "file": "execute-previous-nodes.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Execute Previous Nodes Test",
+      "id": "mpsc00d5N3INgSBL",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "manualTrigger",
+        "code"
+      ]
+    },
+    {
+      "file": "expression_with_paired_item_in_multi_input_node.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] expression_with_paired_item_in_multi_input_node",
+      "id": "0o4PRvfUqKiNB5Fc",
+      "nodeCount": 6,
+      "nodeTypes": [
+        "manualTrigger",
+        "code",
+        "gmail",
+        "switch",
+        "if",
+        "noOp"
+      ]
+    },
+    {
+      "file": "Floating_Nodes.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Floating Nodes",
+      "id": "xI8Adn2LtC5hr8Qa",
+      "nodeCount": 11,
+      "nodeTypes": [
+        "manualTrigger",
+        "set",
+        "@n8n/n8n-nodes-langchain.chainLlm",
+        "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+        "merge"
+      ]
+    },
+    {
+      "file": "In_memory_vector_store_fake_embeddings.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] fake_embeddings",
+      "id": "rOO7O0J7HGnZssM7",
+      "nodeCount": 13,
+      "nodeTypes": [
+        "manualTrigger",
+        "@n8n/n8n-nodes-langchain.documentDefaultDataLoader",
+        "code",
+        "@n8n/n8n-nodes-langchain.textSplitterCharacterTextSplitter",
+        "@n8n/n8n-nodes-langchain.code",
+        "@n8n/n8n-nodes-langchain.vectorStoreInMemory",
+        "@n8n/n8n-nodes-langchain.chainRetrievalQa",
+        "@n8n/n8n-nodes-langchain.retrieverVectorStore"
+      ]
+    },
+    {
+      "file": "large.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] large",
+      "id": "DECMNT4GWmh2VZlq",
+      "nodeCount": 6,
+      "nodeTypes": [
+        "manualTrigger",
+        "code",
+        "if",
+        "set"
+      ]
+    },
+    {
+      "file": "Lots_of_nodes.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Lots of nodes",
+      "id": "cXmd6obxbBvpOOwa",
+      "nodeCount": 46,
+      "nodeTypes": [
+        "manualTrigger",
+        "code",
+        "set",
+        "if"
+      ]
+    },
+    {
+      "file": "manual-partial-execution.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] manual-partial-execution",
+      "id": "gVFzHr4juQ03h5Go",
+      "nodeCount": 4,
+      "nodeTypes": [
+        "set",
+        "webhook",
+        "hackerNews"
+      ]
+    },
+    {
+      "file": "manual.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Manual Trigger Workflow",
+      "id": "qqDkwToUjd1etoCh",
+      "nodeCount": 1,
+      "nodeTypes": [
+        "manualTrigger"
+      ]
+    },
+    {
+      "file": "Manual_wait_set.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Manual wait set",
+      "id": "izVZbV3U49HMj6Pi",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "wait",
+        "manualTrigger",
+        "set"
+      ]
+    },
+    {
+      "file": "memory-test-workflow.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Memory Test Workflow",
+      "id": "A5OuIsrx07lrkaRU",
+      "nodeCount": 4,
+      "nodeTypes": [
+        "manualTrigger",
+        "set",
+        "code",
+        "noOp"
+      ]
+    },
+    {
+      "file": "merge_node_inputs_paired_items.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] merge inputs paired items",
+      "id": "B1K58C81DmBznDGD",
+      "nodeCount": 6,
+      "nodeTypes": [
+        "set",
+        "manualTrigger",
+        "merge"
+      ]
+    },
+    {
+      "file": "Multiple_trigger_node_rerun.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Multiple trigger node rerun",
+      "id": "FbQwkQJknv7Y2hz0",
+      "nodeCount": 4,
+      "nodeTypes": [
+        "manualTrigger",
+        "scheduleTrigger",
+        "code",
+        "set"
+      ]
+    },
+    {
+      "file": "NDV-debug-generate-data.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] NDV-debug-generate-data",
+      "id": "4XzxowajQrgE4LJe",
+      "nodeCount": 2,
+      "nodeTypes": [
+        "manualTrigger",
+        "debugHelper"
+      ]
+    },
+    {
+      "file": "NDV-test-select-input.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] ff739753-9d6e-46a7-94d3-25bd03dd4973",
+      "id": "EHJhfC1Ft1dd24SW",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "manualTrigger",
+        "set"
+      ]
+    },
+    {
+      "file": "Node_IO_filter.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Node IO filter",
+      "id": "xcNwzWLME0NONPWn",
+      "nodeCount": 5,
+      "nodeTypes": [
+        "manualTrigger",
+        "set",
+        "if"
+      ]
+    },
+    {
+      "file": "Onboarding_workflow.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] DEMO: Create a new record in Google Sheets when something happens in Hubspot",
+      "id": "X9IG5to2ieBND7AJ",
+      "nodeCount": 5,
+      "nodeTypes": [
+        "hubspotTrigger",
+        "if",
+        "noOp",
+        "stickyNote",
+        "googleSheets"
+      ]
+    },
+    {
+      "file": "open_node_creator_for_connection.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] open_node_creator_for_connection",
+      "id": "5E8rEu1bs2T7mPi0",
+      "nodeCount": 7,
+      "nodeTypes": [
+        "manualTrigger",
+        "@n8n/n8n-nodes-langchain.textSplitterTokenSplitter",
+        "@n8n/n8n-nodes-langchain.memoryXata",
+        "@n8n/n8n-nodes-langchain.outputParserStructured",
+        "@n8n/n8n-nodes-langchain.toolWikipedia",
+        "@n8n/n8n-nodes-langchain.embeddingsHuggingFaceInference",
+        "@n8n/n8n-nodes-langchain.vectorStoreSupabase"
+      ]
+    },
+    {
+      "file": "Pinned_webhook_node.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Pinned_webhook_node",
+      "id": "q7UjWi7CrahXeRtU",
+      "nodeCount": 1,
+      "nodeTypes": [
+        "webhook"
+      ]
+    },
+    {
+      "file": "simple-webhook-test.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Simple Webhook Test",
+      "id": "20EycGM8fUTNllcn",
+      "nodeCount": 2,
+      "nodeTypes": [
+        "webhook",
+        "set"
+      ]
+    },
+    {
+      "file": "Simple_workflow_with_http_node.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Simple_workflow_with_http_node",
+      "id": "vbx0KZCNL1uzgBio",
+      "nodeCount": 2,
+      "nodeTypes": [
+        "manualTrigger",
+        "httpRequest"
+      ]
+    },
+    {
+      "file": "Subworkflow-debugging-execute-workflow.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Subworkflow-debugging-execute-workflow",
+      "id": "zA5AM24PkQS1iNPi",
+      "nodeCount": 15,
+      "nodeTypes": [
+        "manualTrigger",
+        "debugHelper",
+        "executeWorkflow",
+        "set",
+        "stickyNote"
+      ]
+    },
+    {
+      "file": "Subworkflow-extraction-workflow.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Subworkflow-extraction-workflow",
+      "id": "wRbM9CuMBMx9arBN",
+      "nodeCount": 7,
+      "nodeTypes": [
+        "manualTrigger",
+        "set"
+      ]
+    },
+    {
+      "file": "subworkflow-noop-child.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] subworkflow-noop-child",
+      "id": "rU6ol8Ihy7kaNITH",
+      "nodeCount": 1,
+      "nodeTypes": [
+        "executeWorkflowTrigger"
+      ]
+    },
+    {
+      "file": "subworkflow-parent-no-wait.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] subworkflow-parent-no-wait",
+      "id": "4jdqw9ycIQYSvrUi",
+      "nodeCount": 2,
+      "nodeTypes": [
+        "executeWorkflow",
+        "webhook"
+      ]
+    },
+    {
+      "file": "subworkflow-version-child.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Version Test Child",
+      "id": "g05oAwcRfnO1szlG",
+      "nodeCount": 2,
+      "nodeTypes": [
+        "executeWorkflowTrigger",
+        "set"
+      ]
+    },
+    {
+      "file": "subworkflow-version-parent.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Version Test Parent",
+      "id": "A2lhla6LN8MfOGNg",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "webhook",
+        "executeWorkflow",
+        "respondToWebhook"
+      ]
+    },
+    {
+      "file": "subworkflow-wait-child.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] subworkflow-wait-child",
+      "id": "3Ug9sEf208KqjZlB",
+      "nodeCount": 2,
+      "nodeTypes": [
+        "executeWorkflowTrigger",
+        "wait"
+      ]
+    },
+    {
+      "file": "subworkflow-waiting-parent-no-child-wait.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] subworkflow-waiting-parent-no-child-wait",
+      "id": "poF2wUM5CNe31Vlb",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "webhook",
+        "executeWorkflow",
+        "wait"
+      ]
+    },
+    {
+      "file": "Switch_node_with_null_connection.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Switch_node_with_null_connection",
+      "id": "56si8ndK2pWu9VNR",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "manualTrigger",
+        "switch",
+        "set"
+      ]
+    },
+    {
+      "file": "Test-workflow-with-long-parameters.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Test-workflow-with-long-parameters",
+      "id": "ICRIEiNPd3OO3yzu",
+      "nodeCount": 4,
+      "nodeTypes": [
+        "set",
+        "slack",
+        "scheduleTrigger"
+      ]
+    },
+    {
+      "file": "Test_9999_SUG_38.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Test_9999_SUG_38",
+      "id": "56gnblrMI5V2eKlI",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "manualTrigger",
+        "set"
+      ]
+    },
+    {
+      "file": "Test_ado_1338.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Test_ado_1338",
+      "id": "4ze53BNFh97y0ESW",
+      "nodeCount": 8,
+      "nodeTypes": [
+        "manualTrigger",
+        "discourse",
+        "filter",
+        "splitInBatches",
+        "wait",
+        "noOp",
+        "stickyNote"
+      ]
+    },
+    {
+      "file": "Test_ai_1401.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Test_ai_1401",
+      "id": "fwPPKGjkJHYjb3Jf",
+      "nodeCount": 9,
+      "nodeTypes": [
+        "manualTrigger",
+        "@n8n/n8n-nodes-langchain.agentTool",
+        "@n8n/n8n-nodes-langchain.agent",
+        "noOp",
+        "set",
+        "hackerNewsTool",
+        "@n8n/n8n-nodes-langchain.lmChatOpenAi"
+      ]
+    },
+    {
+      "file": "Test_chat_partial_execution.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Test_chat_partial_execution",
+      "id": "zs9i7mAA2Y0chejP",
+      "nodeCount": 4,
+      "nodeTypes": [
+        "set",
+        "@n8n/n8n-nodes-langchain.chatTrigger"
+      ]
+    },
+    {
+      "file": "Test_ndv_search.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] NDV search bugs (introduced by schema view?)",
+      "id": "qf6sQPQqXjAsgMdJ",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "manualTrigger",
+        "n8nTrainingCustomerDatastore",
+        "set"
+      ]
+    },
+    {
+      "file": "Test_ndv_two_branches_of_same_parent_false_populated.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Test_ndv_two_branches_of_same_parent_false_populated",
+      "id": "kq5UebzxugdGwQZ9",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "if",
+        "manualTrigger",
+        "debugHelper"
+      ]
+    },
+    {
+      "file": "test_pdf_workflow.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] My workflow",
+      "id": "MoRmwDPiF8Eiezyk",
+      "nodeCount": 5,
+      "nodeTypes": [
+        "manualTrigger",
+        "code",
+        "extractFromFile",
+        "readWriteFile"
+      ]
+    },
+    {
+      "file": "Test_Subworkflow_Get_Weather.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Get Weather",
+      "id": "qHA8xKD4wKNekawC",
+      "nodeCount": 2,
+      "nodeTypes": [
+        "executeWorkflowTrigger",
+        "set"
+      ]
+    },
+    {
+      "file": "Test_Subworkflow_Search_DB.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Search DB",
+      "id": "mzOEuoWiIDvXpf7R",
+      "nodeCount": 2,
+      "nodeTypes": [
+        "executeWorkflowTrigger",
+        "set"
+      ]
+    },
+    {
+      "file": "Test_Template_1.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Test_Template_1",
+      "id": "P4OQRyGb1XvaqaCa",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "undefined"
+      ]
+    },
+    {
+      "file": "Test_Template_2.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Test_Template_2",
+      "id": "aRvKNygyq8cZ5JZK",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "undefined"
+      ]
+    },
+    {
+      "file": "Test_workflow-actions_import_nodes_empty_name.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Test_workflow-actions_import_nodes_empty_name",
+      "id": "QQgj0mK90gRTg52A",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "gmail",
+        "manualTrigger"
+      ]
+    },
+    {
+      "file": "Test_workflow-actions_paste-data.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Test_workflow-actions_paste-data",
+      "id": "u3sEQoLFOTZ3XpYf",
+      "nodeCount": 5,
+      "nodeTypes": [
+        "scheduleTrigger",
+        "set",
+        "switch",
+        "splitInBatches",
+        "noOp"
+      ]
+    },
+    {
+      "file": "Test_workflow_1.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Test workflow 1",
+      "id": "oYuIR8FlLsu4TfqZ",
+      "nodeCount": 2,
+      "nodeTypes": [
+        "manualTrigger",
+        "code"
+      ]
+    },
+    {
+      "file": "Test_workflow_2.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Test workflow 2",
+      "id": "elbkPmbFtDuaYLCY",
+      "nodeCount": 2,
+      "nodeTypes": [
+        "manualTrigger",
+        "code"
+      ]
+    },
+    {
+      "file": "Test_workflow_3.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Used in 5-ndv and 14-mapping",
+      "id": "lqicvfjwQWfnWTpv",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "scheduleTrigger",
+        "set"
+      ]
+    },
+    {
+      "file": "Test_workflow_4_executions_view.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Test_workflow_4_executions_view",
+      "id": "PyFyX9rQvEZsGlTL",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "code",
+        "manualTrigger"
+      ]
+    },
+    {
+      "file": "Test_workflow_5.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Test_workflow_5",
+      "id": "Nbm4HZHszvPMNXEi",
+      "nodeCount": 11,
+      "nodeTypes": [
+        "code",
+        "set",
+        "manualTrigger",
+        "sort",
+        "if"
+      ]
+    },
+    {
+      "file": "Test_workflow_chat_partial_execution.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Test_workflow_chat_partial_execution",
+      "id": "BsGVOagok7XBcXbA",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "@n8n/n8n-nodes-langchain.chatTrigger",
+        "set"
+      ]
+    },
+    {
+      "file": "Test_workflow_filter.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Filter test",
+      "id": "8pBxthF3xQhpw3ff",
+      "nodeCount": 5,
+      "nodeTypes": [
+        "manualTrigger",
+        "code",
+        "if",
+        "noOp"
+      ]
+    },
+    {
+      "file": "Test_workflow_form_switch.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] My workflow 8",
+      "id": "QFd7rmLzB1s1X7if",
+      "nodeCount": 2,
+      "nodeTypes": [
+        "formTrigger",
+        "switch"
+      ]
+    },
+    {
+      "file": "Test_workflow_multiple_outputs.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Multiple outputs",
+      "id": "BY6psjfDHRDN3Ttv",
+      "nodeCount": 5,
+      "nodeTypes": [
+        "manualTrigger",
+        "switch",
+        "set"
+      ]
+    },
+    {
+      "file": "Test_workflow_ndv_errors.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Test_workflow_ndv_errors",
+      "id": "oy6MqptYMNwOhoby",
+      "nodeCount": 1,
+      "nodeTypes": [
+        "airtable"
+      ]
+    },
+    {
+      "file": "Test_workflow_ndv_run_error.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] My workflow 52",
+      "id": "nFSvOoj1MJu513Nv",
+      "nodeCount": 4,
+      "nodeTypes": [
+        "code",
+        "set",
+        "manualTrigger"
+      ]
+    },
+    {
+      "file": "Test_workflow_ndv_version.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Node versions",
+      "id": "8VmzLXPAIeSq3sjB",
+      "nodeCount": 5,
+      "nodeTypes": [
+        "manualTrigger",
+        "function",
+        "set"
+      ]
+    },
+    {
+      "file": "Test_Workflow_pairedItem_incomplete_manual_bug.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Test Workflow pairedItem incomplete manual bug",
+      "id": "uKOOzzniDw697dih",
+      "nodeCount": 5,
+      "nodeTypes": [
+        "manualTrigger",
+        "set",
+        "if",
+        "noOp"
+      ]
+    },
+    {
+      "file": "Test_workflow_partial_execution_v2.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Test_workflow_partial_execution_v2",
+      "id": "pgB4W3lmX9eCgpMS",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "scheduleTrigger",
+        "set"
+      ]
+    },
+    {
+      "file": "Test_workflow_partial_execution_with_missing_credentials.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Test_workflow_partial_execution_with_missing_credentials",
+      "id": "A2gW7zGkHkuIjmDe",
+      "nodeCount": 4,
+      "nodeTypes": [
+        "manualTrigger",
+        "debugHelper",
+        "filter",
+        "telegram"
+      ]
+    },
+    {
+      "file": "Test_workflow_schema_test.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] My workflow 8",
+      "id": "QBh6VuB2PqupZXj0",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "n8nTrainingCustomerDatastore",
+        "set",
+        "manualTrigger"
+      ]
+    },
+    {
+      "file": "Test_workflow_schema_test_pinned_data.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] My workflow",
+      "id": "06whE0HW03WhTzlq",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "n8nTrainingCustomerDatastore",
+        "set",
+        "manualTrigger"
+      ]
+    },
+    {
+      "file": "Test_workflow_webhook_with_pin_data.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] PinData Test",
+      "id": "TIaSKU4d2q0lWYpl",
+      "nodeCount": 5,
+      "nodeTypes": [
+        "manualTrigger",
+        "webhook",
+        "set",
+        "noOp"
+      ]
+    },
+    {
+      "file": "Test_workflow_xml_output.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Test_workflow_xml_output",
+      "id": "e0dCyuahAq2jnJfa",
+      "nodeCount": 2,
+      "nodeTypes": [
+        "manualTrigger",
+        "set"
+      ]
+    },
+    {
+      "file": "Two_schedule_triggers.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Two_schedule_triggers",
+      "id": "B4UJH4rBTVvsqy3G",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "set",
+        "scheduleTrigger"
+      ]
+    },
+    {
+      "file": "webhook-misconfiguration-test.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] webhook-misconfiguration-test",
+      "id": "33hZqANPTyYEuBTo",
+      "nodeCount": 2,
+      "nodeTypes": [
+        "webhook",
+        "respondToWebhook"
+      ]
+    },
+    {
+      "file": "webhook-origin-isolation.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Webhook Origin Isolation",
+      "id": "v9Zky7h1W6IrexVc",
+      "nodeCount": 24,
+      "nodeTypes": [
+        "webhook",
+        "stickyNote",
+        "code",
+        "respondToWebhook",
+        "set"
+      ]
+    },
+    {
+      "file": "Webhook_set_pinned.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Webhook_set_pinned",
+      "id": "3bjL5A3itigzlIlK",
+      "nodeCount": 2,
+      "nodeTypes": [
+        "set",
+        "webhook"
+      ]
+    },
+    {
+      "file": "Webhook_wait_set.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Webhook wait set",
+      "id": "LKxKTlCOVX6Js9q2",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "webhook",
+        "wait",
+        "set"
+      ]
+    },
+    {
+      "file": "workflow-with-unknown-credentials.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] workflow-with-unknown-credentials",
+      "id": "Jka3n6h7rGmDfHYT",
+      "nodeCount": 2,
+      "nodeTypes": [
+        "n8n",
+        "manualTrigger"
+      ]
+    },
+    {
+      "file": "Workflow_ai_agent.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Workflow_ai_agent",
+      "id": "TfVFkGWeSI7L6R49",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "@n8n/n8n-nodes-langchain.chatTrigger",
+        "@n8n/n8n-nodes-langchain.agent",
+        "@n8n/n8n-nodes-langchain.lmChatE2eTest"
+      ]
+    },
+    {
+      "file": "Workflow_if.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Workflow_if",
+      "id": "W3TKua94YRCUF41t",
+      "nodeCount": 5,
+      "nodeTypes": [
+        "scheduleTrigger",
+        "if",
+        "set",
+        "code"
+      ]
+    },
+    {
+      "file": "Workflow_loop.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Workflow_loop",
+      "id": "kz74qbB9QW4GzDIn",
+      "nodeCount": 5,
+      "nodeTypes": [
+        "manualTrigger",
+        "code",
+        "splitInBatches",
+        "wait"
+      ]
+    },
+    {
+      "file": "Workflow_template_write_http_query.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Workflow_template_write_http_query",
+      "id": "sKOQCQCJwbfDODHK",
+      "nodeCount": 3,
+      "nodeTypes": [
+        "undefined"
+      ]
+    },
+    {
+      "file": "Workflow_wait_for_webhook.json",
+      "src": "playwright",
+      "name": "[TPL-playwright] Workflow_wait_for_webhook",
+      "id": "66OrWcVA2Kz1hP1N",
+      "nodeCount": 2,
+      "nodeTypes": [
+        "manualTrigger",
+        "wait"
+      ]
+    },
+    {
+      "file": "109.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Customerio:Campaign:get getMettrics geAll:Customer:upsert delete:Event:track trackAnonymous:Segment:add remove",
+      "id": "iELixOhl2IRCKklp",
+      "nodeCount": 10,
+      "nodeTypes": [
+        "manualTrigger",
+        "customerIo"
+      ]
+    },
+    {
+      "file": "121.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Mautic:Company:create update get getAll delete:Contact:create update get getAll delete:ContactCompany:add remove",
+      "id": "SFKtLhvb0HoJIvGz",
+      "nodeCount": 14,
+      "nodeTypes": [
+        "manualTrigger",
+        "mautic",
+        "merge"
+      ]
+    },
+    {
+      "file": "141.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] MicrosoftExcel:Table:lookup getRows getColumns addRow:Workbook:addWorksheet getAll:Worksheet:getAll getContent",
+      "id": "pKHaLpQcFvxPjhFR",
+      "nodeCount": 14,
+      "nodeTypes": [
+        "manualTrigger",
+        "microsoftExcel",
+        "set",
+        "function"
+      ]
+    },
+    {
+      "file": "222.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Lemlist:Lead:create get unsubscribe delete:Campaign:getAll:Activity:getAll:Team:get:Unsubscribe:add getAll delete",
+      "id": "W3psYHNVktBhwTGI",
+      "nodeCount": 11,
+      "nodeTypes": [
+        "manualTrigger",
+        "lemlist"
+      ]
+    },
+    {
+      "file": "26.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] ClickUp:Folder:create update getAll get delete:Goal:create update getAll get delete:GoalKeyResult:create update delete",
+      "id": "pBdTmFMyMHbp9kgO",
+      "nodeCount": 25,
+      "nodeTypes": [
+        "manualTrigger",
+        "clickUp",
+        "function"
+      ]
+    },
+    {
+      "file": "27.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] ClickUp:Task:create update member getAll get delete:List:create update customFields member getAll get delete",
+      "id": "MIRsUIc2ZNWX831y",
+      "nodeCount": 30,
+      "nodeTypes": [
+        "manualTrigger",
+        "clickUp",
+        "function"
+      ]
+    },
+    {
+      "file": "51.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Clockify:Project:create update get getAll:Tag:create update getAll delete:TimeEntry:create update get delete",
+      "id": "UuDGvodCV1OQRXrm",
+      "nodeCount": 15,
+      "nodeTypes": [
+        "manualTrigger",
+        "clockify",
+        "function"
+      ]
+    },
+    {
+      "file": "80.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Zendesk:Ticket:create update get getAll delete:TicketField:getAll get:User:create update getAll search get delete",
+      "id": "eO52OLVHIdmZd1l6",
+      "nodeCount": 14,
+      "nodeTypes": [
+        "manualTrigger",
+        "zendesk"
+      ]
+    },
+    {
+      "file": "82.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Microsoft OneDrive:Folder:create getChildren share search delete:File:upload get share download copy delete search",
+      "id": "PTxt8wlk70wFAz4G",
+      "nodeCount": 19,
+      "nodeTypes": [
+        "manualTrigger",
+        "microsoftOneDrive",
+        "function"
+      ]
+    },
+    {
+      "file": "84.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Matrix:Room:create invite kick leave:RoomMember:getAll:Message:create getAll:Account:me:Media:upload:Event:get",
+      "id": "i8B5Iam5u2JvrLz1",
+      "nodeCount": 13,
+      "nodeTypes": [
+        "manualTrigger",
+        "matrix",
+        "readBinaryFile",
+        "merge"
+      ]
+    },
+    {
+      "file": "108.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Merge:append keepKeyMatches mergeByIndex(leftjoin,innerjoin,outerjoin) mergeByKey(ifBlank,always,ifMissing)...",
+      "id": "9aTccq8ObeFF57CR",
+      "nodeCount": 37,
+      "nodeTypes": [
+        "manualTrigger",
+        "merge",
+        "set",
+        "function"
+      ]
+    },
+    {
+      "file": "11.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Mailchimp:Member:getall get create update delete:Member Tag:create delete:ListGroup:getAll:Campaign:getAll ...",
+      "id": "9Ec22GBRWYFfm0ep",
+      "nodeCount": 14,
+      "nodeTypes": [
+        "manualTrigger",
+        "mailchimp",
+        "function"
+      ]
+    },
+    {
+      "file": "114.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Monday:Board:create get getAll archive:BoardColumn:create getAll:BoardGroup:create delete getAll:BoardItem:...",
+      "id": "RNxC3EnJ3001nfGg",
+      "nodeCount": 19,
+      "nodeTypes": [
+        "manualTrigger",
+        "mondayCom",
+        "merge"
+      ]
+    },
+    {
+      "file": "122.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Orbit:Member:upsert get update delete getAll lookup:Note:create update getAll:Activity:create getAll:Post:c...",
+      "id": "xVk5ZpncMp1MOygq",
+      "nodeCount": 16,
+      "nodeTypes": [
+        "manualTrigger",
+        "orbit",
+        "set"
+      ]
+    },
+    {
+      "file": "130.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Wekan:Board:create get getAll delete:List:create get getAll delete:Card:create update get getAll delete:Car...",
+      "id": "pDLRTgZpR841LSko",
+      "nodeCount": 26,
+      "nodeTypes": [
+        "manualTrigger",
+        "wekan",
+        "merge"
+      ]
+    },
+    {
+      "file": "137.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] TheHive[v3]:Alert:create update get getAll promote merge:Case:create update get getAll:Observable:create up...",
+      "id": "GFHFNw7qW1RaaQoL",
+      "nodeCount": 41,
+      "nodeTypes": [
+        "manualTrigger",
+        "theHive",
+        "function"
+      ]
+    },
+    {
+      "file": "138.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] TheHive[v4]:Alert:create update get getAll promote merge:Case:create update get getAll:Observable:create up...",
+      "id": "W7p8gEFripN4jI2f",
+      "nodeCount": 46,
+      "nodeTypes": [
+        "manualTrigger",
+        "theHive",
+        "function"
+      ]
+    },
+    {
+      "file": "142.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] MicrosoftOutlook:Folder:create get getAll getChildren delete:Message send getAll get getMime update delete:...",
+      "id": "rSsCewH9U3dzGBOm",
+      "nodeCount": 38,
+      "nodeTypes": [
+        "manualTrigger",
+        "microsoftOutlook",
+        "moveBinaryData",
+        "set",
+        "function"
+      ]
+    },
+    {
+      "file": "147.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Raindrop:User:get:Collection:create get update getAll delete:Bookmark:create get update getAll delete:Tag:g...",
+      "id": "HzWQU8VPXwqvuvMa",
+      "nodeCount": 14,
+      "nodeTypes": [
+        "manualTrigger",
+        "raindrop"
+      ]
+    },
+    {
+      "file": "149.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Reddit:User:get:Subreddit:get getAll:Profile:get:Post:create get getAll search delete:PostComment:create ge...",
+      "id": "casA7Ij7fn7p3dRI",
+      "nodeCount": 22,
+      "nodeTypes": [
+        "manualTrigger",
+        "reddit",
+        "function"
+      ]
+    },
+    {
+      "file": "151.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Wise:Account:getStatement getBalances getCurrencies:ExchangeRate:get:Profile:get getAll:Recipient:getAll:Qu...",
+      "id": "PHGRLu69uX7crDuM",
+      "nodeCount": 17,
+      "nodeTypes": [
+        "manualTrigger",
+        "wise"
+      ]
+    },
+    {
+      "file": "157.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] AWSSES:Template:create geAll get update delete:Email:sendTemplate send:CustomVerificationEmail:create get g...",
+      "id": "mowX4VKiUhruSSpo",
+      "nodeCount": 15,
+      "nodeTypes": [
+        "manualTrigger",
+        "awsSes",
+        "set"
+      ]
+    },
+    {
+      "file": "159.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Tapfiliate:Affiliate:create getAll get delete:ProgramAffiliate:add disapprove approve get getAll:AffiliateM...",
+      "id": "EUnpeAgLT2UumwP2",
+      "nodeCount": 14,
+      "nodeTypes": [
+        "manualTrigger",
+        "tapfiliate",
+        "merge"
+      ]
+    },
+    {
+      "file": "166.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Intercom:Company:create get getAll update users:Lead:create get getAll update delete:User:create get getAll...",
+      "id": "lCu8FqtvHFJRzn2U",
+      "nodeCount": 16,
+      "nodeTypes": [
+        "manualTrigger",
+        "intercom"
+      ]
+    },
+    {
+      "file": "183.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Telegram:Chat:get setDescription setTitle member:Message: sendMessage editMessageText pinChatMessage unpinC...",
+      "id": "u8ALBU4lzfj3KbdO",
+      "nodeCount": 19,
+      "nodeTypes": [
+        "manualTrigger",
+        "telegram"
+      ]
+    },
+    {
+      "file": "184.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Salesforce:Account:create get addNote getAll getSummary update delete:Case:create get addComment getAll get...",
+      "id": "eiqbIqc3yzxuU1au",
+      "nodeCount": 31,
+      "nodeTypes": [
+        "manualTrigger",
+        "salesforce",
+        "set",
+        "moveBinaryData",
+        "function"
+      ]
+    },
+    {
+      "file": "185.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Salesforce:Lead:create get addNote addToCampaign getAll getSummary update delete:Contact:create get addNote...",
+      "id": "eJwGz3Jc48ilwKap",
+      "nodeCount": 32,
+      "nodeTypes": [
+        "manualTrigger",
+        "salesforce",
+        "function"
+      ]
+    },
+    {
+      "file": "186.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Salesforce:Opportunity:create get addNote getAll getSummary update delete:Task:create get getAll getSummary...",
+      "id": "20LmB7Ekf4jxyT0E",
+      "nodeCount": 21,
+      "nodeTypes": [
+        "manualTrigger",
+        "salesforce",
+        "function"
+      ]
+    },
+    {
+      "file": "189.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Affinity:Organization:create get update delete getAll:List:getAll get:ListEntry:create get getAll delete:Pe...",
+      "id": "wup8OicadC8t8WjV",
+      "nodeCount": 17,
+      "nodeTypes": [
+        "manualTrigger",
+        "affinity"
+      ]
+    },
+    {
+      "file": "19.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] SentryIo:Organization:create get getAll update:Team:create get getAll update delete:Project:create getAll g...",
+      "id": "wcWlHvQh0BnbkoTN",
+      "nodeCount": 25,
+      "nodeTypes": [
+        "manualTrigger",
+        "sentryIo"
+      ]
+    },
+    {
+      "file": "190.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Discourse:User:create get getAll:Category:create update getAll:Group:create update get getAll:UserGroup:add...",
+      "id": "FCJSbp92f7ceZYYh",
+      "nodeCount": 18,
+      "nodeTypes": [
+        "manualTrigger",
+        "discourse",
+        "set"
+      ]
+    },
+    {
+      "file": "192.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Mattermost:Channel:create addUser members statistics delete restore:Message:post postEphemeral delete:React...",
+      "id": "5Sd6aKRL9XN7KklN",
+      "nodeCount": 20,
+      "nodeTypes": [
+        "manualTrigger",
+        "mattermost"
+      ]
+    },
+    {
+      "file": "196.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] QuickBooks:Bill:create get update getAll delete:Item:getAll:get:Vendor:create get getAll update:Employee:cr...",
+      "id": "MZQDuVgBr2n721hZ",
+      "nodeCount": 38,
+      "nodeTypes": [
+        "manualTrigger",
+        "quickbooks"
+      ]
+    },
+    {
+      "file": "20.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Hubspot:Contact:upsert getall search getRecentlyCreatedUpdated get delete:Company:getall searchByDomain get...",
+      "id": "ZX8rut12r1KuiWy9",
+      "nodeCount": 19,
+      "nodeTypes": [
+        "manualTrigger",
+        "hubspot",
+        "function"
+      ]
+    },
+    {
+      "file": "200.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Pipedrive:Activity:create get update getAll delete:Deal:create get update duplicate getAll delete:Person:cr...",
+      "id": "myBnnep5RHC4IJSO",
+      "nodeCount": 35,
+      "nodeTypes": [
+        "manualTrigger",
+        "pipedrive",
+        "set",
+        "moveBinaryData"
+      ]
+    },
+    {
+      "file": "204.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] HelpScout:Mailbox:getAll get:Customer:create get update getAll properties:Conversation:create get getAll de...",
+      "id": "E4uR2Ugs8Va5jxhw",
+      "nodeCount": 14,
+      "nodeTypes": [
+        "manualTrigger",
+        "helpScout"
+      ]
+    },
+    {
+      "file": "206.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Keap:Company:create getAll:Contact:upsert get getAll delete:ContactNote:create get update getAll delete:Con...",
+      "id": "bVZBNGogdx1HU6di",
+      "nodeCount": 15,
+      "nodeTypes": [
+        "manualTrigger",
+        "keap"
+      ]
+    },
+    {
+      "file": "207.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Keap:EcommerceOrder:create get getAll delete:EcommerceProduct:create get getAll delete:Email:createRecord g...",
+      "id": "DbQwiLHzSvywnueO",
+      "nodeCount": 16,
+      "nodeTypes": [
+        "manualTrigger",
+        "keap"
+      ]
+    },
+    {
+      "file": "21.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Hubspot:Deal: create update getall search getRecentlyModified getRecentlyCreated get delete:Ticket: create ...",
+      "id": "8VlwDIVGYaWhX4hg",
+      "nodeCount": 14,
+      "nodeTypes": [
+        "manualTrigger",
+        "hubspot"
+      ]
+    },
+    {
+      "file": "35.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Slack:User:getPresence info:UserProfile:get update:Message:post getPermalink update postEphermera l delete:...",
+      "id": "R8ZfAqynRbyK85id",
+      "nodeCount": 13,
+      "nodeTypes": [
+        "manualTrigger",
+        "slack"
+      ]
+    },
+    {
+      "file": "36.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Slack:File:upload getAll get:Star:add getAll delete:Channgel:create update setPurpose setTopic ge t invite ...",
+      "id": "NxN4kGEZn0JdDPoJ",
+      "nodeCount": 23,
+      "nodeTypes": [
+        "manualTrigger",
+        "slack"
+      ]
+    },
+    {
+      "file": "37.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] GitLab:Repository:get getIssues:Issue:create createComment edit get lock:Release:create get getAll update d...",
+      "id": "HEz9xLorUEFL5tCy",
+      "nodeCount": 14,
+      "nodeTypes": [
+        "manualTrigger",
+        "gitlab"
+      ]
+    },
+    {
+      "file": "39.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Github:Repository:get getProfile getLicense listPopularPaths listReferrers:File:create edit get delete:Issu...",
+      "id": "13sEzxe86JjiRGCu",
+      "nodeCount": 27,
+      "nodeTypes": [
+        "manualTrigger",
+        "github"
+      ]
+    },
+    {
+      "file": "40.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Gmail:Draft:create getAll get delete:Label:create getAll get delete:Message:send getAll get reply delete:Me...",
+      "id": "g1tAvO5FiYZmoDyk",
+      "nodeCount": 19,
+      "nodeTypes": [
+        "manualTrigger",
+        "gmail",
+        "function"
+      ]
+    },
+    {
+      "file": "48.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Asana:Project:getAll get:Task:create update move getAll get delete:TaskComment:add remove:TaskTag:add remov...",
+      "id": "ovhLLgUXHFEixjJQ",
+      "nodeCount": 19,
+      "nodeTypes": [
+        "manualTrigger",
+        "asana"
+      ]
+    },
+    {
+      "file": "52.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Coda:Table:getAllColumns getColumn getAllRows getRow createRow pushButton deleteRow:View:getAll get getAllV...",
+      "id": "odYwtZZQqtlhfBad",
+      "nodeCount": 20,
+      "nodeTypes": [
+        "manualTrigger",
+        "coda",
+        "set"
+      ]
+    },
+    {
+      "file": "53.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] ConvertKit:CustomField:create getAll update delete:Form:getAll addSubscriber getSubscriptions:Tag:create ge...",
+      "id": "NnqicaVhcNJKqZrU",
+      "nodeCount": 13,
+      "nodeTypes": [
+        "manualTrigger",
+        "convertKit"
+      ]
+    },
+    {
+      "file": "54.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] InvoiceNinja:Client:create getAll get delete:Expense:create getAll get delete:Invoice:create getAll get ema...",
+      "id": "RrHyhdSwjoKgtwan",
+      "nodeCount": 27,
+      "nodeTypes": [
+        "manualTrigger",
+        "invoiceNinja"
+      ]
+    },
+    {
+      "file": "61.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Spotify:Artist:get getAlbums getRelatedArtists getTopTracks:Album:get getNewReleases getTracks:Track:get ge...",
+      "id": "CiBX4tn1PEd6Jege",
+      "nodeCount": 19,
+      "nodeTypes": [
+        "manualTrigger",
+        "spotify"
+      ]
+    },
+    {
+      "file": "67.json",
+      "src": "n8n",
+      "name": "[TPL-n8n]  Twist:Channel:create update get getAll archive unarchive delete:MessageConversation:create get getAll upda...",
+      "id": "I3VWYJ7Rqe6DJypp",
+      "nodeCount": 24,
+      "nodeTypes": [
+        "manualTrigger",
+        "twist"
+      ]
+    },
+    {
+      "file": "72.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Zulip:Message:sendPrivate update updateFile sendStream get delete:Stream:create getAll getSubscribed update...",
+      "id": "pZ948bxzjoz1L3bb",
+      "nodeCount": 19,
+      "nodeTypes": [
+        "manualTrigger",
+        "zulip",
+        "readBinaryFile",
+        "function"
+      ]
+    },
+    {
+      "file": "73.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Youtube:Channel:get getAll update:Playlist:create update getAll get delete:PlaylistItem:add getAll get dele...",
+      "id": "gHN5xQv0DHdyPI6e",
+      "nodeCount": 28,
+      "nodeTypes": [
+        "manualTrigger",
+        "youTube",
+        "httpRequest",
+        "readBinaryFile",
+        "function"
+      ]
+    },
+    {
+      "file": "75.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Harvest:Client:create update getAll get delete:Invoice:create update getAll get delete:Contact:create updat...",
+      "id": "oUy1eXVbamzc7NoT",
+      "nodeCount": 17,
+      "nodeTypes": [
+        "manualTrigger",
+        "harvest"
+      ]
+    },
+    {
+      "file": "76.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Harvest:Project:create update getAll get delete:Task:getAll get:TimeEntry:createByDuration createByStartEnd...",
+      "id": "ovrxxqoojB2ga4cC",
+      "nodeCount": 25,
+      "nodeTypes": [
+        "manualTrigger",
+        "harvest"
+      ]
+    },
+    {
+      "file": "86.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] ActiveCampaign:Contact:create update get getAll delete:Account:create update get getAll delete:AccountConta...",
+      "id": "wUr3bGdrplrDVyRT",
+      "nodeCount": 19,
+      "nodeTypes": [
+        "manualTrigger",
+        "activeCampaign",
+        "merge"
+      ]
+    },
+    {
+      "file": "87.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] ActiveCampaign:Deal:create update get createNote updateNote getAll delete:Tag:create update get getAll dele...",
+      "id": "cy5r6yE3F92h8jit",
+      "nodeCount": 21,
+      "nodeTypes": [
+        "manualTrigger",
+        "activeCampaign"
+      ]
+    },
+    {
+      "file": "88.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] ActiveCampaign:EcommerceCustomer:create update get getAll delete:EcommerceOrder:create update get getAll de...",
+      "id": "ao2UoDxvQetyqDKX",
+      "nodeCount": 18,
+      "nodeTypes": [
+        "manualTrigger",
+        "activeCampaign"
+      ]
+    },
+    {
+      "file": "all_templates_search_response.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] all_templates_search_response",
+      "id": "Cg4T3XYQrvT8stJg",
+      "nodeCount": 0,
+      "nodeTypes": []
+    },
+    {
+      "file": "Custom_credential.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] customE2eCredential",
+      "id": "IiHqjhj6ugU3UXxt",
+      "nodeCount": 0,
+      "nodeTypes": []
+    },
+    {
+      "file": "Custom_node.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] @e2e/n8n-nodes-e2e",
+      "id": "rNS40JmtxfyVEWNX",
+      "nodeCount": 0,
+      "nodeTypes": []
+    },
+    {
+      "file": "Custom_node_custom_credential.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] @e2e/n8n-nodes-e2e-custom-credential",
+      "id": "tu4zNlVF2qeGaSJf",
+      "nodeCount": 0,
+      "nodeTypes": []
+    },
+    {
+      "file": "Custom_node_n8n_credential.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] @e2e/n8n-nodes-e2e-credential",
+      "id": "kmRtEntZnMe3JR8R",
+      "nodeCount": 0,
+      "nodeTypes": []
+    },
+    {
+      "file": "Ecommerce_starter_pack_template_collection.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] Ecommerce_starter_pack_template_collection",
+      "id": "mdYzn7FKKIAVDlrJ",
+      "nodeCount": 0,
+      "nodeTypes": []
+    },
+    {
+      "file": "sales_templates_search_response.json",
+      "src": "n8n",
+      "name": "[TPL-n8n] sales_templates_search_response",
+      "id": "JFXAUCRnsJIW09zA",
+      "nodeCount": 0,
+      "nodeTypes": []
+    },
+    {
+      "file": "package-lock.json",
+      "src": "n8n-bot",
+      "name": "[TPL-n8n-bot] telegram-bot-n8n",
+      "id": "HCtk2wjmtohh7rcc",
+      "nodeCount": 0,
+      "nodeTypes": []
+    },
+    {
+      "file": "package.json",
+      "src": "n8n-bot",
+      "name": "[TPL-n8n-bot] telegram-bot-n8n",
+      "id": "RjnX8YoefhrgoFlr",
+      "nodeCount": 0,
+      "nodeTypes": []
+    }
+  ]
+}

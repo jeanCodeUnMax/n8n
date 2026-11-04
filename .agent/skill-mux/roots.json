@@ -1,0 +1,18 @@
+{
+  "comment": "Racines de skills scannées par registry-builder.mjs. Placeholders : ~ = home, %VAR%/${VAR} = env, <repo> = racine du repo. Ordre = priorité de dédup (le premier gagne le nom). Chemins absents ignorés silencieusement — portable entre machines.",
+  "roots": [
+    { "path": "<repo>/.agent/skills", "label": "canonical" },
+    { "path": "<repo>/plugin-devin/skills", "label": "plugin-devin" },
+    { "path": "~/.agents/skills", "label": "user-agents" },
+    { "path": "~/.config/devin/skills", "label": "user-devin" },
+    { "path": "~/AppData/Roaming/devin/skills", "label": "devin-runtime" },
+    { "path": "~/.claude/skills", "label": "claude" },
+    { "path": "~/.kilocode/skills", "label": "kilocode" },
+    { "path": "~/.roo/skills", "label": "roo" },
+    { "path": "~/.trae/skills", "label": "trae" },
+    { "path": "~/.gemini/config/skills", "label": "gemini" },
+    { "path": "~/.grok/skills", "label": "grok" },
+    { "path": "~/AppData/Local/hermes/skills", "label": "hermes" },
+    { "path": "~/.codex/.tmp/plugins", "label": "codex-plugins" }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "name": "swat-fix-rapide",
+  "desc": "Flux d'intervention d'urgence & correctifs ciblés : chaîne resserrée et ultra-rapide (Cadrage -> Code -> Test -> Audit Sécurité & Revue -> Gate Sentinelle -> Commit Git -> Capitalisation Beacon). À utiliser pour les résolutions de bugs ponctuels et patches rapides sans surcharge documentaire.",
+  "graph": {
+    "version": 1,
+    "name": "swat-fix-rapide",
+    "entrySessionId": "acp/devin-cli/ionian-helicopter",
+    "nodes": [
+      {
+        "sessionId": "acp/devin-cli/ionian-helicopter",
+        "role": "Orchestrateur",
+        "task": "Cadrage d'urgence : qualifie le bug, isole le composant cible et lance l'intervention directe.",
+        "skills": [
+          "orchestrator",
+          "plan-writing"
+        ],
+        "title": "ionian-helicopter",
+        "position": {
+          "x": -330,
+          "y": 0
+        }
+      },
+      {
+        "sessionId": "chat-mvmw59wa",
+        "role": "Codeur",
+        "task": "Correctif ciblé : applique le patch minimal direct résolvant la cause racine.",
+        "skills": [
+          "clean-code",
+          "nodejs-best-practices"
+        ],
+        "title": "keen-agent",
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "sessionId": "chat-mvfj8b4m",
+        "role": "Testeur",
+        "task": "Validation TDD : reproduit le bug par un test, vérifie qu'il passe au vert et valide le build.",
+        "skills": [
+          "testing-patterns",
+          "tdd-workflow"
+        ],
+        "title": "zealous-agent",
+        "position": {
+          "x": 330,
+          "y": -110
+        }
+      },
+      {
+        "sessionId": "chat-mvmtldvy",
+        "role": "Auditeur-securite",
+        "task": "Revue & Sécurité express : vérifie que le patch n'introduit aucune régression ni injection.",
+        "skills": [
+          "vulnerability-scanner",
+          "clean-code"
+        ],
+        "title": "urban-agent",
+        "position": {
+          "x": 330,
+          "y": 110
+        }
+      },
+      {
+        "sessionId": "chat-mvfqytbz",
+        "role": "Sentinelle",
+        "task": "Feu vert rapide : contrôle la validation simultanée des tests et de l'audit, donne le GO intégration.",
+        "skills": [
+          "vulnerability-scanner"
+        ],
+        "title": "keen-agent",
+        "position": {
+          "x": 660,
+          "y": 0
+        }
+      },
+      {
+        "sessionId": "acp/devin-cli/sugary-shoemaker",
+        "role": "Integrateur-Git",
+        "task": "Livraison du patch : commit conventionnel fix(...) et double push direct sur origin et personal.",
+        "skills": [
+          "lint-and-validate"
+        ],
+        "title": "sugary-shoemaker",
+        "position": {
+          "x": 990,
+          "y": 0
+        }
+      },
+      {
+        "sessionId": "chat-mvp0beacon",
+        "role": "Feedback-Beacon-Knowledge",
+        "task": "Enregistrement de la solution : consigne l'incident et la recette de résolution dans agentmemory.",
+        "skills": [
+          "vault-ingest"
+        ],
+        "title": "beacon-agent",
+        "position": {
+          "x": 1320,
+          "y": 0
+        }
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge:fix-orch->codeur",
+        "source": "acp/devin-cli/ionian-helicopter",
+        "target": "chat-mvmw59wa"
+      },
+      {
+        "id": "edge:fix-codeur->testeur",
+        "source": "chat-mvmw59wa",
+        "target": "chat-mvfj8b4m"
+      },
+      {
+        "id": "edge:fix-codeur->auditeur",
+        "source": "chat-mvmw59wa",
+        "target": "chat-mvmtldvy"
+      },
+      {
+        "id": "edge:fix-testeur->sentinelle",
+        "source": "chat-mvfj8b4m",
+        "target": "chat-mvfqytbz"
+      },
+      {
+        "id": "edge:fix-auditeur->sentinelle",
+        "source": "chat-mvmtldvy",
+        "target": "chat-mvfqytbz"
+      },
+      {
+        "id": "edge:fix-sentinelle->integrateur",
+        "source": "chat-mvfqytbz",
+        "target": "acp/devin-cli/sugary-shoemaker"
+      },
+      {
+        "id": "edge:fix-integrateur->feedback",
+        "source": "acp/devin-cli/sugary-shoemaker",
+        "target": "chat-mvp0beacon"
+      }
+    ]
+  }
+}

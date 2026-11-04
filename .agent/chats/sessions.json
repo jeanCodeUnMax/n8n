@@ -1,0 +1,13 @@
+[
+  {
+    "id": "chat-170be432-6fb4-4082-943a-c5363abde5ae",
+    "title": "Devin",
+    "mode": "agent",
+    "provider": "devin-cli",
+    "model": "gemini-3-8-flash-medium",
+    "messages": [],
+    "updatedAt": "2026-11-01T01:05:40.800Z",
+    "workspace": "c:\\data-sys\\n8n",
+    "codename": "trusted-yew"
+  }
+]

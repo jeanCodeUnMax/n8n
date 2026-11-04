@@ -1,0 +1,3120 @@
+{
+ "genere_le": "2026-10-28T01:46:13.780808Z",
+ "perimetre": "fichiers .safetensors/.ckpt/.pt/.pth/.gguf/.bin/.onnx >100 Mo sur C:, E:, F:, G: (hors node_modules/.venv/site-packages/build)",
+ "cible_comfyui": "F:\\ComfyUI_windows_portable\\ComfyUI\\models",
+ "total": {
+  "fichiers": 218,
+  "taille_octets": 539478514246,
+  "taille_gb": 539.5
+ },
+ "par_disque": {
+  "C": {
+   "fichiers": 7,
+   "taille_octets": 1316809269
+  },
+  "E": {
+   "fichiers": 2,
+   "taille_octets": 7122085507
+  },
+  "F": {
+   "fichiers": 209,
+   "taille_octets": 531039619470
+  }
+ },
+ "par_type": {
+  "llm_gguf": {
+   "fichiers": 60,
+   "taille_octets": 219795292448,
+   "taille_gb": 219.8,
+   "liste": [
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\Dolphin3-Cyber-8B-GGUF-Q4_K_M.gguf",
+     "taille_octets": 4920745984
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\Newton-7B-GGUF-Q4_K_M.gguf",
+     "taille_octets": 4368450592
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\Newton-7B-GGUF-Q8_0.gguf",
+     "taille_octets": 7695875040
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\Qwen3-4B-AgentCoder-q6-k-latest.gguf",
+     "taille_octets": 3306262016
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\Qwen3.8-27B-GGUF-UD-IQ1_M.gguf",
+     "taille_octets": 6729166848
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\Qwen3.8-27B-GGUF-UD-IQ1_M.mmproj.gguf",
+     "taille_octets": 931146432
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\Qwen3.8-27B-Uncensored-iq2_xxs.gguf",
+     "taille_octets": 8884504160
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\Qwen3.8-27B-Uncensored-iq2_xxs.mmproj.gguf",
+     "taille_octets": 931145984
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\Qwythos-9B-Claude-Mythos-5-1M-GGUF-Q4_K_M.gguf",
+     "taille_octets": 5887668064
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\Qwythos-9B-Claude-Mythos-5-1M-GGUF-Q4_K_M.mmproj.gguf",
+     "taille_octets": 918166080
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\Qwythos-9B-Claude-Mythos-5-1M-GGUF-Q5_K_M.gguf",
+     "taille_octets": 6726528864
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\Qwythos-9B-Claude-Mythos-5-1M-GGUF-Q5_K_M.mmproj.gguf",
+     "taille_octets": 918166080
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\Spark-X2.5-1.7B-latest.gguf",
+     "taille_octets": 3420931904
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\Spark-X2.5-4B-latest.gguf",
+     "taille_octets": 8229920352
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\athenea-4b-coding-latest.gguf",
+     "taille_octets": 2889514688
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\deepseek-coder-1.3b.gguf",
+     "taille_octets": 776066240
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\deepseek-ocr-latest.gguf",
+     "taille_octets": 6687238848
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\deepseek-r1-1.5b.gguf",
+     "taille_octets": 1117320512
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\deepseek-r1-8b.gguf",
+     "taille_octets": 5225373760
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\gemma3-1b.gguf",
+     "taille_octets": 815310432
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\gemma3-4b.gguf",
+     "taille_octets": 3338792448
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\glm-ocr-bf16.gguf",
+     "taille_octets": 2219298752
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\glm-ocr-latest.gguf",
+     "taille_octets": 2219298752
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\granite3.2-vision-2b.gguf",
+     "taille_octets": 1545294400
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\granite3.2-vision-2b.mmproj.gguf",
+     "taille_octets": 892544608
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\llama2-latest.gguf",
+     "taille_octets": 3826781184
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\llama3.2-latest.gguf",
+     "taille_octets": 2019377376
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\llama3.2-uncensored-latest.gguf",
+     "taille_octets": 2241004096
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\llava-latest.gguf",
+     "taille_octets": 4108916992
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\llava-latest.mmproj.gguf",
+     "taille_octets": 624434368
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\mistral-7b.gguf",
+     "taille_octets": 4372811712
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\mxbai-embed-large-latest.gguf",
+     "taille_octets": 669603712
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\nomic-embed-text-latest.gguf",
+     "taille_octets": 274290656
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\qwen2.5-math-7b.gguf",
+     "taille_octets": 8098525632
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\qwen3-1.7b.gguf",
+     "taille_octets": 1359279776
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\qwen3-4b-thinking-2507_q8-latest.gguf",
+     "taille_octets": 4280404928
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\qwen3-4b.gguf",
+     "taille_octets": 2497280480
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\qwen3-8b.gguf",
+     "taille_octets": 5225374496
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\qwen3.5-0.8b.gguf",
+     "taille_octets": 1036034688
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\qwen3.5-4b.gguf",
+     "taille_octets": 3389971840
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\qwen3.5-9b.gguf",
+     "taille_octets": 6594462816
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\.studio_links\\spark-x2.5-heretic-4b.gguf",
+     "taille_octets": 2600224288
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\gguf\\CodeLlama-7B-Instruct-Q4_K_M.gguf",
+     "taille_octets": 4081095360
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\gguf\\Cyber-Prime-1.1-2.6B.f16.gguf",
+     "taille_octets": 5403158336
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\gguf\\Dolphin3.0-Llama3.1-8B-abliterated.Q2_K.gguf",
+     "taille_octets": 3179141248
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\gguf\\Dolphin3.0-Llama3.1-8B-abliterated.Q3_K_M.gguf",
+     "taille_octets": 4018928576
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\gguf\\Llama-3-WhiteRabbitNeo-8B-v2.0-Q3_K_M.gguf",
+     "taille_octets": 4018918080
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\gguf\\Newton-7B.i1-Q4_0.gguf",
+     "taille_octets": 4123609888
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\gguf\\Qwen3-4B-Q4_K_M.gguf",
+     "taille_octets": 2497280256
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\gguf\\Qwen3-4B-abliterated-q4_k_m.gguf",
+     "taille_octets": 2497280736
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\gguf\\Qwen3.5-4B-Q4_K_S.gguf",
+     "taille_octets": 2590430368
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\gguf\\Qwen3.5-4B-UD-Q2_K_XL.gguf",
+     "taille_octets": 1940825248
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\gguf\\Qwythos-9B-Claude-Mythos-5-1M-MTP-Q4_K_M.gguf",
+     "taille_octets": 5887668064
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\gguf\\Qwythos-9B-Claude-Mythos-5-1M-Q4_K_M.gguf",
+     "taille_octets": 5629108896
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\gguf\\Ternary-Bonsai-2-27B-Uncensored-Heretic-PQ2_0.gguf",
+     "taille_octets": 7206168928
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\gguf\\mtp-Qwen3.8-27B-Q8_0.gguf",
+     "taille_octets": 3164006688
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\gguf\\qwen-image-2.1-UC-Q4_0.gguf",
+     "taille_octets": 4151573280
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\gguf\\qwen2.5-coder-7b-instruct-q4_k_m.gguf",
+     "taille_octets": 4683073536
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\gguf\\qwen3-4b-thinking-2507-q8_0.gguf",
+     "taille_octets": 4280404928
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\gguf\\variants\\Qwythos-9B-Claude-Mythos-5-1M-Q4_K_M.gguf",
+     "taille_octets": 5629109152
+    }
+   ]
+  },
+  "checkpoint": {
+   "fichiers": 23,
+   "taille_octets": 85586647101,
+   "taille_gb": 85.6,
+   "liste": [
+    {
+     "chemin": "E:\\Mon Drive\\ComfyUI\\models\\checkpoints\\sd_xl_base_1.0.safetensors",
+     "taille_octets": 6938078334
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\comfyui-D\\checkpoints\\Deliberate_v6.safetensors",
+     "taille_octets": 2132625894
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\comfyui-D\\checkpoints\\anithing_v10Pruned.safetensors",
+     "taille_octets": 2132626066
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\comfyui-D\\checkpoints\\diffusion_pytorch_model.safetensors",
+     "taille_octets": 7365943290
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\comfyui-D\\checkpoints\\flux1-dev-Q2_K.gguf",
+     "taille_octets": 4032341280
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\comfyui-D\\checkpoints\\hunyuan3d-dit-v2-mv-turbo_fp16.safetensors",
+     "taille_octets": 4930777530
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\comfyui-D\\checkpoints\\hunyuan_3d_v2.1.safetensors",
+     "taille_octets": 7365943290
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\comfyui-D\\checkpoints\\lazymixRealAmateur_v40.safetensors",
+     "taille_octets": 4244149062
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\comfyui-D\\checkpoints\\lotus-depth-d-v1-1.safetensors",
+     "taille_octets": 1735197352
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\comfyui-D\\checkpoints\\picxReal_10.safetensors",
+     "taille_octets": 2132650982
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\comfyui-D\\checkpoints\\sdxxxl_v30.safetensors",
+     "taille_octets": 6939220250
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\comfyui-D\\checkpoints\\v1-5-pruned-emaonly-fp16.safetensors",
+     "taille_octets": 2132696762
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\comfyui-E\\checkpoints\\lotus-depth-d-v1-1.safetensors",
+     "taille_octets": 1735197352
+    },
+    {
+     "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\custom_nodes\\comfyui_controlnet_aux\\ckpts\\depth-anything\\Depth-Anything-V2-Large\\depth_anything_v2_vitl.pth",
+     "taille_octets": 1341395338
+    },
+    {
+     "chemin": "F:\\ComfyUi\\models\\checkpoints\\hunyuan_3d_v2.1.safetensors",
+     "taille_octets": 7365943290
+    },
+    {
+     "chemin": "F:\\Promgramation-teste\\ComfyUI\\ComfyUI\\models\\checkpoints\\lotus-depth-d-v1-1.safetensors",
+     "taille_octets": 1735197352
+    },
+    {
+     "chemin": "F:\\Promgramation-teste\\ComfyUI\\ComfyUI\\models\\checkpoints\\v1-5-pruned-emaonly-fp16.safetensors",
+     "taille_octets": 2132696762
+    },
+    {
+     "chemin": "F:\\Promgramation-teste\\Monkey EML (SRTE)\\checkpoints\\neural_head.pt",
+     "taille_octets": 184007173
+    },
+    {
+     "chemin": "F:\\StableProjectorz\\stable-diffusion-webui-forge\\webui\\models\\Stable-diffusion\\realisticvisionv51_v51vae.safetensors",
+     "taille_octets": 2132625894
+    },
+    {
+     "chemin": "F:\\Téléchargements\\OpenDallebutTurboII.fp16.safetensors",
+     "taille_octets": 6939220266
+    },
+    {
+     "chemin": "F:\\Téléchargements\\epicphotogasm_amateurreallife.safetensors",
+     "taille_octets": 2132625628
+    },
+    {
+     "chemin": "F:\\Téléchargements\\jibMixRealisticSD15_v10.safetensors",
+     "taille_octets": 2132634518
+    },
+    {
+     "chemin": "F:\\Téléchargements\\pornmasterAmateur_amateurDPOV1-inpainting.safetensors",
+     "taille_octets": 5672853436
+    }
+   ]
+  },
+  "llm_shards_airllm": {
+   "fichiers": 44,
+   "taille_octets": 78708408672,
+   "taille_gb": 78.7,
+   "liste": [
+    {
+     "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.embed_tokens.safetensors",
+     "taille_octets": 2491416688
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.0.safetensors",
+     "taille_octets": 1755370832
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.1.safetensors",
+     "taille_octets": 1755370832
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.10.safetensors",
+     "taille_octets": 1755370848
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.11.safetensors",
+     "taille_octets": 1755370848
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.12.safetensors",
+     "taille_octets": 1755370848
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.13.safetensors",
+     "taille_octets": 1755370848
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.14.safetensors",
+     "taille_octets": 1755370848
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.15.safetensors",
+     "taille_octets": 1755370848
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.16.safetensors",
+     "taille_octets": 1755370848
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.17.safetensors",
+     "taille_octets": 1755370848
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.18.safetensors",
+     "taille_octets": 1755370848
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.19.safetensors",
+     "taille_octets": 1755370848
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.2.safetensors",
+     "taille_octets": 1755370832
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.20.safetensors",
+     "taille_octets": 1755370848
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.3.safetensors",
+     "taille_octets": 1755370832
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.4.safetensors",
+     "taille_octets": 1755370832
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.5.safetensors",
+     "taille_octets": 1755370832
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.6.safetensors",
+     "taille_octets": 1755370832
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.7.safetensors",
+     "taille_octets": 1755370832
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.8.safetensors",
+     "taille_octets": 1755370832
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.9.safetensors",
+     "taille_octets": 1755370832
+    },
+    {
+     "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.embed_tokens.safetensors",
+     "taille_octets": 2491416688
+    },
+    {
+     "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.0.safetensors",
+     "taille_octets": 1755370832
+    },
+    {
+     "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.1.safetensors",
+     "taille_octets": 1755370832
+    },
+    {
+     "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.10.safetensors",
+     "taille_octets": 1755370848
+    },
+    {
+     "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.11.safetensors",
+     "taille_octets": 1755370848
+    },
+    {
+     "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.12.safetensors",
+     "taille_octets": 1755370848
+    },
+    {
+     "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.13.safetensors",
+     "taille_octets": 1755370848
+    },
+    {
+     "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.14.safetensors",
+     "taille_octets": 1755370848
+    },
+    {
+     "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.15.safetensors",
+     "taille_octets": 1755370848
+    },
+    {
+     "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.16.safetensors",
+     "taille_octets": 1755370848
+    },
+    {
+     "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.17.safetensors",
+     "taille_octets": 1755370848
+    },
+    {
+     "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.18.safetensors",
+     "taille_octets": 1755370848
+    },
+    {
+     "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.19.safetensors",
+     "taille_octets": 1755370848
+    },
+    {
+     "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.2.safetensors",
+     "taille_octets": 1755370832
+    },
+    {
+     "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.20.safetensors",
+     "taille_octets": 1755370848
+    },
+    {
+     "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.3.safetensors",
+     "taille_octets": 1755370832
+    },
+    {
+     "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.4.safetensors",
+     "taille_octets": 1755370832
+    },
+    {
+     "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.5.safetensors",
+     "taille_octets": 1755370832
+    },
+    {
+     "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.6.safetensors",
+     "taille_octets": 1755370832
+    },
+    {
+     "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.7.safetensors",
+     "taille_octets": 1755370832
+    },
+    {
+     "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.8.safetensors",
+     "taille_octets": 1755370832
+    },
+    {
+     "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.9.safetensors",
+     "taille_octets": 1755370832
+    }
+   ]
+  },
+  "hf_cache_llm": {
+   "fichiers": 30,
+   "taille_octets": 76184029482,
+   "taille_gb": 76.2,
+   "liste": [
+    {
+     "chemin": "F:\\.ollama\\models\\huggingface\\brnpistone_Qwen3-4B-AgentCoder-q6-k_latest\\model-00001-of-00004.safetensors",
+     "taille_octets": 4877660776
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\huggingface\\brnpistone_Qwen3-4B-AgentCoder-q6-k_latest\\model-00002-of-00004.safetensors",
+     "taille_octets": 4932751008
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\huggingface\\brnpistone_Qwen3-4B-AgentCoder-q6-k_latest\\model-00003-of-00004.safetensors",
+     "taille_octets": 4330865200
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\huggingface\\brnpistone_Qwen3-4B-AgentCoder-q6-k_latest\\model-00004-of-00004.safetensors",
+     "taille_octets": 1089994880
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\huggingface\\hub\\models--BAAI--bge-m3\\snapshots\\5617a9f61b028005a4858fdac845db406aefb181\\pytorch_model.bin",
+     "taille_octets": 2271145830
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\huggingface\\hub\\models--BAAI--bge-m3\\snapshots\\9a0624b896d81da7492a910ffa53731274b6cf3d\\model.safetensors",
+     "taille_octets": 2271064456
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\huggingface\\hub\\models--PaddlePaddle--PP-DocLayoutV3_safetensors\\snapshots\\3ec586e86ed9245a567bb13395a3db64d5c077cc\\model.safetensors",
+     "taille_octets": 133270468
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\huggingface\\hub\\models--Qwen--Qwen2.5-0.5B\\snapshots\\060db6499f32faf8b98477b0a26969ef7d8b9987\\model.safetensors",
+     "taille_octets": 988097824
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\huggingface\\hub\\models--Systran--faster-whisper-base\\snapshots\\ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66\\model.bin",
+     "taille_octets": 145217532
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\huggingface\\hub\\models--Systran--faster-whisper-small\\snapshots\\536b0662742c02347bc0e980a01041f333bce120\\model.bin",
+     "taille_octets": 483546902
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\huggingface\\hub\\models--amazon--chronos-2\\snapshots\\29ec3766d36d6f73f0696f85560a422f50e8498c\\model.safetensors",
+     "taille_octets": 477930472
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\huggingface\\hub\\models--bigcode--starcoderbase-1b\\snapshots\\182f0165fdf8da9c9935901eec65c94337f01c11\\model.safetensors",
+     "taille_octets": 4548859752
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\huggingface\\hub\\models--microsoft--TRELLIS-image-large\\snapshots\\25e0d31ffbebe4b5a97464dd851910efc3002d96\\ckpts\\ss_dec_conv3d_16l8_fp16.safetensors",
+     "taille_octets": 147591972
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\huggingface\\hub\\models--microsoft--TRELLIS.2-4B\\snapshots\\af44b45f2e35a493886929c6d786e563ec68364d\\ckpts\\shape_dec_next_dc_f16c32_fp16.safetensors",
+     "taille_octets": 948490494
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\huggingface\\hub\\models--microsoft--TRELLIS.2-4B\\snapshots\\af44b45f2e35a493886929c6d786e563ec68364d\\ckpts\\slat_flow_img2shape_dit_1_3B_1024_bf16.safetensors",
+     "taille_octets": 2584574424
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\huggingface\\hub\\models--microsoft--TRELLIS.2-4B\\snapshots\\af44b45f2e35a493886929c6d786e563ec68364d\\ckpts\\slat_flow_img2shape_dit_1_3B_512_bf16.safetensors",
+     "taille_octets": 2584574424
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\huggingface\\hub\\models--microsoft--TRELLIS.2-4B\\snapshots\\af44b45f2e35a493886929c6d786e563ec68364d\\ckpts\\slat_flow_imgshape2tex_dit_1_3B_1024_bf16.safetensors",
+     "taille_octets": 2584672728
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\huggingface\\hub\\models--microsoft--TRELLIS.2-4B\\snapshots\\af44b45f2e35a493886929c6d786e563ec68364d\\ckpts\\slat_flow_imgshape2tex_dit_1_3B_512_bf16.safetensors",
+     "taille_octets": 2584672728
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\huggingface\\hub\\models--microsoft--TRELLIS.2-4B\\snapshots\\af44b45f2e35a493886929c6d786e563ec68364d\\ckpts\\ss_flow_img_dit_1_3B_64_bf16.safetensors",
+     "taille_octets": 2584426920
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\huggingface\\hub\\models--microsoft--TRELLIS.2-4B\\snapshots\\af44b45f2e35a493886929c6d786e563ec68364d\\ckpts\\tex_dec_next_dc_f16c32_fp16.safetensors",
+     "taille_octets": 948458812
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\huggingface\\hub\\models--starvector--starvector-1b-im2svg\\snapshots\\380ab95d25a8e9ab1dc825debe238b4953ae13b9\\model-00001-of-00002.safetensors",
+     "taille_octets": 4995740600
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\huggingface\\hub\\models--starvector--starvector-1b-im2svg\\snapshots\\380ab95d25a8e9ab1dc825debe238b4953ae13b9\\model-00002-of-00002.safetensors",
+     "taille_octets": 146964720
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\huggingface\\hub\\models--unsloth--Llama-3.2-1B-Instruct-GGUF\\snapshots\\b69aef112e9f895e6f98d7ae0949f72ff09aa401\\Llama-3.2-1B-Instruct-Q4_K_M.gguf",
+     "taille_octets": 807694368
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\huggingface\\hub\\models--unsloth--Qwen3.8-27B-GGUF\\snapshots\\4ca720788d1e01f1bff70c033e0d0028fd02e502\\Qwen3.8-27B-UD-IQ1_M.gguf",
+     "taille_octets": 6729166848
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\huggingface\\oodbilav1980_athenea-4b-coding_latest\\model-00001-of-00002.safetensors",
+     "taille_octets": 9976701592
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\huggingface\\oodbilav1980_athenea-4b-coding_latest\\model-00002-of-00002.safetensors",
+     "taille_octets": 3500425616
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\huggingface\\pielee_qwen3-4b-thinking-2507_q8_latest\\model-00001-of-00003.safetensors",
+     "taille_octets": 3957900840
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\huggingface\\pielee_qwen3-4b-thinking-2507_q8_latest\\model-00002-of-00003.safetensors",
+     "taille_octets": 3987450520
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\mirai\\mirai\\alibaba-qwen3.5-0.8b-mirai-mirai-m-4\\c12202e4c764e559960827761566aaa1fd15a87a\\model.safetensors",
+     "taille_octets": 439161360
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\mirai\\mirai\\liquidai-lfm2.5-230m-mirai-mirai-m-4\\d5255025efb900218f82775df83424350da3dd1e\\model.safetensors",
+     "taille_octets": 124955416
+    }
+   ]
+  },
+  "diffusion_model": {
+   "fichiers": 3,
+   "taille_octets": 18441570137,
+   "taille_gb": 18.4,
+   "liste": [
+    {
+     "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\diffusion_models\\diffusion_pytorch_model.safetensors",
+     "taille_octets": 7365943290
+    },
+    {
+     "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\diffusion_models\\flux1DevFlux1Schnell_schnellNF4UNET.safetensors",
+     "taille_octets": 6144849317
+    },
+    {
+     "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\diffusion_models\\hunyuan3d-dit-v2-mv-turbo_fp16.safetensors",
+     "taille_octets": 4930777530
+    }
+   ]
+  },
+  "llm_blobs_ollama": {
+   "fichiers": 4,
+   "taille_octets": 15231271864,
+   "taille_gb": 15.2,
+   "liste": [
+    {
+     "chemin": "F:\\.ollama\\blobs\\model-00001-of-00004.safetensors",
+     "taille_octets": 4877660776
+    },
+    {
+     "chemin": "F:\\.ollama\\blobs\\model-00002-of-00004.safetensors",
+     "taille_octets": 4932751008
+    },
+    {
+     "chemin": "F:\\.ollama\\blobs\\model-00003-of-00004.safetensors",
+     "taille_octets": 4330865200
+    },
+    {
+     "chemin": "F:\\.ollama\\blobs\\model-00004-of-00004.safetensors",
+     "taille_octets": 1089994880
+    }
+   ]
+  },
+  "clip_vision": {
+   "fichiers": 4,
+   "taille_octets": 10802336857,
+   "taille_gb": 10.8,
+   "liste": [
+    {
+     "chemin": "F:\\.ollama\\models\\comfyui-D\\clip_vision\\clip-vit-large-patch14-336.bin",
+     "taille_octets": 1711974081
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\comfyui-D\\clip_vision\\clip-vit-large-patch14.safetensors",
+     "taille_octets": 1710540580
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\comfyui-D\\clip_vision\\clip_vision_g.safetensors",
+     "taille_octets": 3689911098
+    },
+    {
+     "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\clip_vision\\clip_vision_g.safetensors",
+     "taille_octets": 3689911098
+    }
+   ]
+  },
+  "vae": {
+   "fichiers": 7,
+   "taille_octets": 6760750570,
+   "taille_gb": 6.8,
+   "liste": [
+    {
+     "chemin": "F:\\.ollama\\models\\comfyui-E\\vae\\vae-ft-mse-840000-ema-pruned.safetensors",
+     "taille_octets": 334641190
+    },
+    {
+     "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\diffusers\\hunyuan3d-delight-v2-0\\vae\\diffusion_pytorch_model.safetensors",
+     "taille_octets": 167335342
+    },
+    {
+     "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\diffusers\\hunyuan3d-paintpbr-v2-1\\vae\\diffusion_pytorch_model.safetensors",
+     "taille_octets": 4930777530
+    },
+    {
+     "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\vae\\ViT-L-14-TEXT-detail-improved-hiT-GmP-TE-only-HF.safetensors",
+     "taille_octets": 323409740
+    },
+    {
+     "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\vae\\ae.safetensors",
+     "taille_octets": 335304388
+    },
+    {
+     "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\vae\\vae-ft-mse-840000-ema-pruned.safetensors",
+     "taille_octets": 334641190
+    },
+    {
+     "chemin": "F:\\Promgramation-teste\\ComfyUI\\ComfyUI\\models\\vae\\vae-ft-mse-840000-ema-pruned.safetensors",
+     "taille_octets": 334641190
+    }
+   ]
+  },
+  "modele_scientifique": {
+   "fichiers": 5,
+   "taille_octets": 5871994472,
+   "taille_gb": 5.9,
+   "liste": [
+    {
+     "chemin": "F:\\Promgramation-teste\\marotte\\.kilo\\worktrees\\brick-birch\\models\\chronos-2\\model.safetensors",
+     "taille_octets": 477930472
+    },
+    {
+     "chemin": "F:\\Promgramation-teste\\marotte\\models\\chronos-2\\model.safetensors",
+     "taille_octets": 477930472
+    },
+    {
+     "chemin": "F:\\Promgramation-teste\\marotte\\models\\timesfm\\medium-500m\\model.safetensors",
+     "taille_octets": 1995406976
+    },
+    {
+     "chemin": "F:\\Promgramation-teste\\marotte\\models\\timesfm\\medium-500m\\torch_model.ckpt",
+     "taille_octets": 1995545448
+    },
+    {
+     "chemin": "F:\\Promgramation-teste\\marotte\\models\\timesfm\\small-200m\\model.safetensors",
+     "taille_octets": 925181104
+    }
+   ]
+  },
+  "whisper": {
+   "fichiers": 4,
+   "taille_octets": 5244260180,
+   "taille_gb": 5.2,
+   "liste": [
+    {
+     "chemin": "F:\\.ollama\\models\\whisper\\base.pt",
+     "taille_octets": 145262807
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\whisper\\large-v3.pt",
+     "taille_octets": 3087371615
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\whisper\\medium.pt",
+     "taille_octets": 1528008539
+    },
+    {
+     "chemin": "F:\\.ollama\\models\\whisper\\small.pt",
+     "taille_octets": 483617219
+    }
+   ]
+  },
+  "unet": {
+   "fichiers": 1,
+   "taille_octets": 4930777530,
+   "taille_gb": 4.9,
+   "liste": [
+    {
+     "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\diffusers\\hunyuan3d-paintpbr-v2-1\\unet\\diffusion_pytorch_model.safetensors",
+     "taille_octets": 4930777530
+    }
+   ]
+  },
+  "onnx_divers": {
+   "fichiers": 7,
+   "taille_octets": 2998571413,
+   "taille_gb": 3.0,
+   "liste": [
+    {
+     "chemin": "C:\\Program Files\\Maxon Cinema 4D 2026\\resource\\modules\\c4d_assetbrowser\\mxai\\win\\MXAI_Data\\models\\ViT-B-16-SigLIP-512_webli\\textual\\model_q8.onnx",
+     "taille_octets": 110888903
+    },
+    {
+     "chemin": "C:\\Users\\Administrator\\.buzz-dev\\models\\parakeet-tdt-ctc-110m-en\\model.int8.onnx",
+     "taille_octets": 131652171
+    },
+    {
+     "chemin": "C:\\Users\\Administrator\\.trae\\extensions\\.a21719b6-ca48-41f3-85ec-b7c26cfd6c22\\assets\\stt\\speechmodel.en-US.cpu.9.0.54436607\\encoder.onnx",
+     "taille_octets": 108305162
+    },
+    {
+     "chemin": "C:\\Users\\Administrator\\.u2net\\u2net.onnx",
+     "taille_octets": 175997641
+    },
+    {
+     "chemin": "C:\\Users\\Administrator\\.void-editor\\extensions\\ms-vscode.vscode-speech-0.14.0-win32-x64\\assets\\stt\\speechmodel.en-US.cpu.9.0.54436607\\encoder.onnx",
+     "taille_octets": 108305162
+    },
+    {
+     "chemin": "F:\\Promgramation-teste\\marotte\\models\\pangu\\pangu_weather_1.onnx",
+     "taille_octets": 1181711187
+    },
+    {
+     "chemin": "F:\\Promgramation-teste\\marotte\\models\\pangu\\pangu_weather_6.onnx",
+     "taille_octets": 1181711187
+    }
+   ]
+  },
+  "lora": {
+   "fichiers": 12,
+   "taille_octets": 2449465348,
+   "taille_gb": 2.4,
+   "liste": [
+    {
+     "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\loras\\Deep_BW_Art-000010.safetensors",
+     "taille_octets": 228455052
+    },
+    {
+     "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\loras\\cinexart.safetensors",
+     "taille_octets": 356723196
+    },
+    {
+     "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\loras\\flux.1_lora_flyway_Epic-detail_v2.safetensors",
+     "taille_octets": 171969452
+    },
+    {
+     "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\loras\\grayscale.safetensors",
+     "taille_octets": 280912600
+    },
+    {
+     "chemin": "F:\\Téléchargements\\ClassipeintXL2.1.safetensors",
+     "taille_octets": 132865728
+    },
+    {
+     "chemin": "F:\\Téléchargements\\DonMN1gh7rXL-000006.safetensors",
+     "taille_octets": 228450436
+    },
+    {
+     "chemin": "F:\\Téléchargements\\MS_Real_Ball_Gag_Lite.safetensors",
+     "taille_octets": 151116248
+    },
+    {
+     "chemin": "F:\\Téléchargements\\Map_backrooms_v1.0.safetensors",
+     "taille_octets": 151127312
+    },
+    {
+     "chemin": "F:\\Téléchargements\\Pussy_Spreading_v2.safetensors",
+     "taille_octets": 217157688
+    },
+    {
+     "chemin": "F:\\Téléchargements\\afb.safetensors",
+     "taille_octets": 151115736
+    },
+    {
+     "chemin": "F:\\Téléchargements\\pleasure-face XL.safetensors",
+     "taille_octets": 228452956
+    },
+    {
+     "chemin": "F:\\Téléchargements\\quiron_GloryWall_v5_lora.safetensors",
+     "taille_octets": 151118944
+    }
+   ]
+  },
+  "controlnet": {
+   "fichiers": 1,
+   "taille_octets": 2140902936,
+   "taille_gb": 2.1,
+   "liste": [
+    {
+     "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\controlnet\\flux1DevControlnetUnion_v10.safetensors",
+     "taille_octets": 2140902936
+    }
+   ]
+  },
+  "checkpoint_custom": {
+   "fichiers": 6,
+   "taille_octets": 1104043038,
+   "taille_gb": 1.1,
+   "liste": [
+    {
+     "chemin": "E:\\Mon Drive\\SRTE\\checkpoints_hdf5\\latest\\neural_head.pt",
+     "taille_octets": 184007173
+    },
+    {
+     "chemin": "F:\\Promgramation-teste\\Monkey EML (SRTE)\\Colab-entrainement\\runs\\kaggle-run-20260805-015137-eb42f31d\\kaggle_output\\output\\neural_head.pt",
+     "taille_octets": 184007173
+    },
+    {
+     "chemin": "F:\\Promgramation-teste\\Monkey EML (SRTE)\\Colab-entrainement\\runs\\kaggle-run-20260805-152543-4e5295d3\\kaggle_dataset\\checkpoints_hdf5\\latest\\neural_head.pt",
+     "taille_octets": 184007173
+    },
+    {
+     "chemin": "F:\\Promgramation-teste\\Monkey EML (SRTE)\\Colab-entrainement\\runs\\kaggle-run-20260805-153639-726bf195\\kaggle_dataset\\checkpoints_hdf5\\latest\\neural_head.pt",
+     "taille_octets": 184007173
+    },
+    {
+     "chemin": "F:\\Promgramation-teste\\Monkey EML (SRTE)\\checkpoints_hdf5\\latest\\neural_head.pt",
+     "taille_octets": 184007173
+    },
+    {
+     "chemin": "F:\\Promgramation-teste\\Monkey EML (SRTE)\\src\\checkpoints_hdf5\\latest\\neural_head.pt",
+     "taille_octets": 184007173
+    }
+   ]
+  },
+  "sam": {
+   "fichiers": 2,
+   "taille_octets": 750084766,
+   "taille_gb": 0.8,
+   "liste": [
+    {
+     "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\sams\\sam_vit_b_01ec64.pth",
+     "taille_octets": 375042383
+    },
+    {
+     "chemin": "F:\\ComfyUi\\ComfyUI\\resources\\ComfyUI\\models\\sams\\sam_vit_b_01ec64.pth",
+     "taille_octets": 375042383
+    }
+   ]
+  },
+  "text_encoder": {
+   "fichiers": 1,
+   "taille_octets": 680820392,
+   "taille_gb": 0.7,
+   "liste": [
+    {
+     "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\diffusers\\hunyuan3d-delight-v2-0\\text_encoder\\model.safetensors",
+     "taille_octets": 680820392
+    }
+   ]
+  },
+  "embedding_llm": {
+   "fichiers": 1,
+   "taille_octets": 561373129,
+   "taille_gb": 0.6,
+   "liste": [
+    {
+     "chemin": "F:\\doc_Obsidian\\Doc\\.obsidian\\plugins\\smart-second-brain\\vectorstores\\nomic-embed-text.bin",
+     "taille_octets": 561373129
+    }
+   ]
+  },
+  "insightface": {
+   "fichiers": 1,
+   "taille_octets": 554253681,
+   "taille_gb": 0.6,
+   "liste": [
+    {
+     "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\insightface\\inswapper_128.onnx",
+     "taille_octets": 554253681
+    }
+   ]
+  },
+  "autre": {
+   "fichiers": 1,
+   "taille_octets": 367520613,
+   "taille_gb": 0.4,
+   "liste": [
+    {
+     "chemin": "C:\\Users\\Administrator\\.transparent-background\\ckpt_base.pth",
+     "taille_octets": 367520613
+    }
+   ]
+  },
+  "traduction_argos": {
+   "fichiers": 1,
+   "taille_octets": 314139617,
+   "taille_gb": 0.3,
+   "liste": [
+    {
+     "chemin": "C:\\Users\\Administrator\\.local\\share\\argos-translate\\packages\\translate-es_en-1_9\\model\\model.bin",
+     "taille_octets": 314139617
+    }
+   ]
+  }
+ },
+ "cible_contenu": [
+  {
+   "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\clip_vision\\clip_vision_g.safetensors",
+   "taille_octets": 3689911098
+  },
+  {
+   "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\controlnet\\flux1DevControlnetUnion_v10.safetensors",
+   "taille_octets": 2140902936
+  },
+  {
+   "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\diffusers\\hunyuan3d-delight-v2-0\\text_encoder\\model.safetensors",
+   "taille_octets": 680820392
+  },
+  {
+   "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\diffusers\\hunyuan3d-delight-v2-0\\vae\\diffusion_pytorch_model.safetensors",
+   "taille_octets": 167335342
+  },
+  {
+   "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\diffusers\\hunyuan3d-paintpbr-v2-1\\unet\\diffusion_pytorch_model.safetensors",
+   "taille_octets": 4930777530
+  },
+  {
+   "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\diffusers\\hunyuan3d-paintpbr-v2-1\\vae\\diffusion_pytorch_model.safetensors",
+   "taille_octets": 4930777530
+  },
+  {
+   "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\diffusion_models\\diffusion_pytorch_model.safetensors",
+   "taille_octets": 7365943290
+  },
+  {
+   "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\diffusion_models\\flux1DevFlux1Schnell_schnellNF4UNET.safetensors",
+   "taille_octets": 6144849317
+  },
+  {
+   "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\diffusion_models\\hunyuan3d-dit-v2-mv-turbo_fp16.safetensors",
+   "taille_octets": 4930777530
+  },
+  {
+   "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\insightface\\inswapper_128.onnx",
+   "taille_octets": 554253681
+  },
+  {
+   "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\loras\\Deep_BW_Art-000010.safetensors",
+   "taille_octets": 228455052
+  },
+  {
+   "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\loras\\cinexart.safetensors",
+   "taille_octets": 356723196
+  },
+  {
+   "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\loras\\flux.1_lora_flyway_Epic-detail_v2.safetensors",
+   "taille_octets": 171969452
+  },
+  {
+   "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\loras\\flux_vividizer.safetensors",
+   "taille_octets": 19256856
+  },
+  {
+   "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\loras\\grayscale.safetensors",
+   "taille_octets": 280912600
+  },
+  {
+   "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\sams\\sam_vit_b_01ec64.pth",
+   "taille_octets": 375042383
+  },
+  {
+   "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\ultralytics\\bbox\\face_yolov8m.pt",
+   "taille_octets": 52026019
+  },
+  {
+   "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\ultralytics\\bbox\\hand_yolov8s.pt",
+   "taille_octets": 22507643
+  },
+  {
+   "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\ultralytics\\segm\\person_yolov8m-seg.pt",
+   "taille_octets": 54827683
+  },
+  {
+   "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\vae\\ViT-L-14-TEXT-detail-improved-hiT-GmP-TE-only-HF.safetensors",
+   "taille_octets": 323409740
+  },
+  {
+   "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\vae\\ae.safetensors",
+   "taille_octets": 335304388
+  },
+  {
+   "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\vae\\vae-ft-mse-840000-ema-pruned.safetensors",
+   "taille_octets": 334641190
+  },
+  {
+   "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\vae_approx\\taesd_decoder.pth",
+   "taille_octets": 4915980
+  },
+  {
+   "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\vae_approx\\taesd_encoder.pth",
+   "taille_octets": 4915788
+  },
+  {
+   "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\vae_approx\\taesdxl_decoder.pth",
+   "taille_octets": 4915221
+  },
+  {
+   "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\vae_approx\\taesdxl_encoder.pth",
+   "taille_octets": 4915029
+  }
+ ],
+ "manquants_dans_cible": [
+  {
+   "chemin": "F:\\.ollama\\models\\huggingface\\oodbilav1980_athenea-4b-coding_latest\\model-00001-of-00002.safetensors",
+   "taille_octets": 9976701592,
+   "type": "hf_cache_llm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\Qwen3.8-27B-Uncensored-iq2_xxs.gguf",
+   "taille_octets": 8884504160,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\Spark-X2.5-4B-latest.gguf",
+   "taille_octets": 8229920352,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\qwen2.5-math-7b.gguf",
+   "taille_octets": 8098525632,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\Newton-7B-GGUF-Q8_0.gguf",
+   "taille_octets": 7695875040,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\ComfyUi\\models\\checkpoints\\hunyuan_3d_v2.1.safetensors",
+   "taille_octets": 7365943290,
+   "type": "checkpoint",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\comfyui-D\\checkpoints\\diffusion_pytorch_model.safetensors",
+   "taille_octets": 7365943290,
+   "type": "checkpoint",
+   "nom_present_dans_cible": true
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\comfyui-D\\checkpoints\\hunyuan_3d_v2.1.safetensors",
+   "taille_octets": 7365943290,
+   "type": "checkpoint",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\gguf\\Ternary-Bonsai-2-27B-Uncensored-Heretic-PQ2_0.gguf",
+   "taille_octets": 7206168928,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Téléchargements\\OpenDallebutTurboII.fp16.safetensors",
+   "taille_octets": 6939220266,
+   "type": "checkpoint",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\comfyui-D\\checkpoints\\sdxxxl_v30.safetensors",
+   "taille_octets": 6939220250,
+   "type": "checkpoint",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "E:\\Mon Drive\\ComfyUI\\models\\checkpoints\\sd_xl_base_1.0.safetensors",
+   "taille_octets": 6938078334,
+   "type": "checkpoint",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\huggingface\\hub\\models--unsloth--Qwen3.8-27B-GGUF\\snapshots\\4ca720788d1e01f1bff70c033e0d0028fd02e502\\Qwen3.8-27B-UD-IQ1_M.gguf",
+   "taille_octets": 6729166848,
+   "type": "hf_cache_llm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\Qwen3.8-27B-GGUF-UD-IQ1_M.gguf",
+   "taille_octets": 6729166848,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\Qwythos-9B-Claude-Mythos-5-1M-GGUF-Q5_K_M.gguf",
+   "taille_octets": 6726528864,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\deepseek-ocr-latest.gguf",
+   "taille_octets": 6687238848,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\qwen3.5-9b.gguf",
+   "taille_octets": 6594462816,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\gguf\\Qwythos-9B-Claude-Mythos-5-1M-MTP-Q4_K_M.gguf",
+   "taille_octets": 5887668064,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\Qwythos-9B-Claude-Mythos-5-1M-GGUF-Q4_K_M.gguf",
+   "taille_octets": 5887668064,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Téléchargements\\pornmasterAmateur_amateurDPOV1-inpainting.safetensors",
+   "taille_octets": 5672853436,
+   "type": "checkpoint",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\gguf\\variants\\Qwythos-9B-Claude-Mythos-5-1M-Q4_K_M.gguf",
+   "taille_octets": 5629109152,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\gguf\\Qwythos-9B-Claude-Mythos-5-1M-Q4_K_M.gguf",
+   "taille_octets": 5629108896,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\gguf\\Cyber-Prime-1.1-2.6B.f16.gguf",
+   "taille_octets": 5403158336,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\qwen3-8b.gguf",
+   "taille_octets": 5225374496,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\deepseek-r1-8b.gguf",
+   "taille_octets": 5225373760,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\huggingface\\hub\\models--starvector--starvector-1b-im2svg\\snapshots\\380ab95d25a8e9ab1dc825debe238b4953ae13b9\\model-00001-of-00002.safetensors",
+   "taille_octets": 4995740600,
+   "type": "hf_cache_llm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\huggingface\\brnpistone_Qwen3-4B-AgentCoder-q6-k_latest\\model-00002-of-00004.safetensors",
+   "taille_octets": 4932751008,
+   "type": "hf_cache_llm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\blobs\\model-00002-of-00004.safetensors",
+   "taille_octets": 4932751008,
+   "type": "llm_blobs_ollama",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\comfyui-D\\checkpoints\\hunyuan3d-dit-v2-mv-turbo_fp16.safetensors",
+   "taille_octets": 4930777530,
+   "type": "checkpoint",
+   "nom_present_dans_cible": true
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\Dolphin3-Cyber-8B-GGUF-Q4_K_M.gguf",
+   "taille_octets": 4920745984,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\huggingface\\brnpistone_Qwen3-4B-AgentCoder-q6-k_latest\\model-00001-of-00004.safetensors",
+   "taille_octets": 4877660776,
+   "type": "hf_cache_llm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\blobs\\model-00001-of-00004.safetensors",
+   "taille_octets": 4877660776,
+   "type": "llm_blobs_ollama",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\gguf\\qwen2.5-coder-7b-instruct-q4_k_m.gguf",
+   "taille_octets": 4683073536,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\huggingface\\hub\\models--bigcode--starcoderbase-1b\\snapshots\\182f0165fdf8da9c9935901eec65c94337f01c11\\model.safetensors",
+   "taille_octets": 4548859752,
+   "type": "hf_cache_llm",
+   "nom_present_dans_cible": true
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\mistral-7b.gguf",
+   "taille_octets": 4372811712,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\Newton-7B-GGUF-Q4_K_M.gguf",
+   "taille_octets": 4368450592,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\huggingface\\brnpistone_Qwen3-4B-AgentCoder-q6-k_latest\\model-00003-of-00004.safetensors",
+   "taille_octets": 4330865200,
+   "type": "hf_cache_llm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\blobs\\model-00003-of-00004.safetensors",
+   "taille_octets": 4330865200,
+   "type": "llm_blobs_ollama",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\gguf\\qwen3-4b-thinking-2507-q8_0.gguf",
+   "taille_octets": 4280404928,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\qwen3-4b-thinking-2507_q8-latest.gguf",
+   "taille_octets": 4280404928,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\comfyui-D\\checkpoints\\lazymixRealAmateur_v40.safetensors",
+   "taille_octets": 4244149062,
+   "type": "checkpoint",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\gguf\\qwen-image-2.1-UC-Q4_0.gguf",
+   "taille_octets": 4151573280,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\gguf\\Newton-7B.i1-Q4_0.gguf",
+   "taille_octets": 4123609888,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\llava-latest.gguf",
+   "taille_octets": 4108916992,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\gguf\\CodeLlama-7B-Instruct-Q4_K_M.gguf",
+   "taille_octets": 4081095360,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\comfyui-D\\checkpoints\\flux1-dev-Q2_K.gguf",
+   "taille_octets": 4032341280,
+   "type": "checkpoint",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\gguf\\Dolphin3.0-Llama3.1-8B-abliterated.Q3_K_M.gguf",
+   "taille_octets": 4018928576,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\gguf\\Llama-3-WhiteRabbitNeo-8B-v2.0-Q3_K_M.gguf",
+   "taille_octets": 4018918080,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\huggingface\\pielee_qwen3-4b-thinking-2507_q8_latest\\model-00002-of-00003.safetensors",
+   "taille_octets": 3987450520,
+   "type": "hf_cache_llm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\huggingface\\pielee_qwen3-4b-thinking-2507_q8_latest\\model-00001-of-00003.safetensors",
+   "taille_octets": 3957900840,
+   "type": "hf_cache_llm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\llama2-latest.gguf",
+   "taille_octets": 3826781184,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\comfyui-D\\clip_vision\\clip_vision_g.safetensors",
+   "taille_octets": 3689911098,
+   "type": "clip_vision",
+   "nom_present_dans_cible": true
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\huggingface\\oodbilav1980_athenea-4b-coding_latest\\model-00002-of-00002.safetensors",
+   "taille_octets": 3500425616,
+   "type": "hf_cache_llm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\Spark-X2.5-1.7B-latest.gguf",
+   "taille_octets": 3420931904,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\qwen3.5-4b.gguf",
+   "taille_octets": 3389971840,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\gemma3-4b.gguf",
+   "taille_octets": 3338792448,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\Qwen3-4B-AgentCoder-q6-k-latest.gguf",
+   "taille_octets": 3306262016,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\gguf\\Dolphin3.0-Llama3.1-8B-abliterated.Q2_K.gguf",
+   "taille_octets": 3179141248,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\gguf\\mtp-Qwen3.8-27B-Q8_0.gguf",
+   "taille_octets": 3164006688,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\whisper\\large-v3.pt",
+   "taille_octets": 3087371615,
+   "type": "whisper",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\athenea-4b-coding-latest.gguf",
+   "taille_octets": 2889514688,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\spark-x2.5-heretic-4b.gguf",
+   "taille_octets": 2600224288,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\gguf\\Qwen3.5-4B-Q4_K_S.gguf",
+   "taille_octets": 2590430368,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\huggingface\\hub\\models--microsoft--TRELLIS.2-4B\\snapshots\\af44b45f2e35a493886929c6d786e563ec68364d\\ckpts\\slat_flow_imgshape2tex_dit_1_3B_1024_bf16.safetensors",
+   "taille_octets": 2584672728,
+   "type": "hf_cache_llm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\huggingface\\hub\\models--microsoft--TRELLIS.2-4B\\snapshots\\af44b45f2e35a493886929c6d786e563ec68364d\\ckpts\\slat_flow_imgshape2tex_dit_1_3B_512_bf16.safetensors",
+   "taille_octets": 2584672728,
+   "type": "hf_cache_llm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\huggingface\\hub\\models--microsoft--TRELLIS.2-4B\\snapshots\\af44b45f2e35a493886929c6d786e563ec68364d\\ckpts\\slat_flow_img2shape_dit_1_3B_1024_bf16.safetensors",
+   "taille_octets": 2584574424,
+   "type": "hf_cache_llm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\huggingface\\hub\\models--microsoft--TRELLIS.2-4B\\snapshots\\af44b45f2e35a493886929c6d786e563ec68364d\\ckpts\\slat_flow_img2shape_dit_1_3B_512_bf16.safetensors",
+   "taille_octets": 2584574424,
+   "type": "hf_cache_llm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\huggingface\\hub\\models--microsoft--TRELLIS.2-4B\\snapshots\\af44b45f2e35a493886929c6d786e563ec68364d\\ckpts\\ss_flow_img_dit_1_3B_64_bf16.safetensors",
+   "taille_octets": 2584426920,
+   "type": "hf_cache_llm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\gguf\\Qwen3-4B-abliterated-q4_k_m.gguf",
+   "taille_octets": 2497280736,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\qwen3-4b.gguf",
+   "taille_octets": 2497280480,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\gguf\\Qwen3-4B-Q4_K_M.gguf",
+   "taille_octets": 2497280256,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.embed_tokens.safetensors",
+   "taille_octets": 2491416688,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.embed_tokens.safetensors",
+   "taille_octets": 2491416688,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\huggingface\\hub\\models--BAAI--bge-m3\\snapshots\\5617a9f61b028005a4858fdac845db406aefb181\\pytorch_model.bin",
+   "taille_octets": 2271145830,
+   "type": "hf_cache_llm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\huggingface\\hub\\models--BAAI--bge-m3\\snapshots\\9a0624b896d81da7492a910ffa53731274b6cf3d\\model.safetensors",
+   "taille_octets": 2271064456,
+   "type": "hf_cache_llm",
+   "nom_present_dans_cible": true
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\llama3.2-uncensored-latest.gguf",
+   "taille_octets": 2241004096,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\glm-ocr-bf16.gguf",
+   "taille_octets": 2219298752,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\glm-ocr-latest.gguf",
+   "taille_octets": 2219298752,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Promgramation-teste\\ComfyUI\\ComfyUI\\models\\checkpoints\\v1-5-pruned-emaonly-fp16.safetensors",
+   "taille_octets": 2132696762,
+   "type": "checkpoint",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\comfyui-D\\checkpoints\\v1-5-pruned-emaonly-fp16.safetensors",
+   "taille_octets": 2132696762,
+   "type": "checkpoint",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\comfyui-D\\checkpoints\\picxReal_10.safetensors",
+   "taille_octets": 2132650982,
+   "type": "checkpoint",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Téléchargements\\jibMixRealisticSD15_v10.safetensors",
+   "taille_octets": 2132634518,
+   "type": "checkpoint",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\comfyui-D\\checkpoints\\anithing_v10Pruned.safetensors",
+   "taille_octets": 2132626066,
+   "type": "checkpoint",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\StableProjectorz\\stable-diffusion-webui-forge\\webui\\models\\Stable-diffusion\\realisticvisionv51_v51vae.safetensors",
+   "taille_octets": 2132625894,
+   "type": "checkpoint",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\comfyui-D\\checkpoints\\Deliberate_v6.safetensors",
+   "taille_octets": 2132625894,
+   "type": "checkpoint",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Téléchargements\\epicphotogasm_amateurreallife.safetensors",
+   "taille_octets": 2132625628,
+   "type": "checkpoint",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\llama3.2-latest.gguf",
+   "taille_octets": 2019377376,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Promgramation-teste\\marotte\\models\\timesfm\\medium-500m\\torch_model.ckpt",
+   "taille_octets": 1995545448,
+   "type": "modele_scientifique",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Promgramation-teste\\marotte\\models\\timesfm\\medium-500m\\model.safetensors",
+   "taille_octets": 1995406976,
+   "type": "modele_scientifique",
+   "nom_present_dans_cible": true
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\gguf\\Qwen3.5-4B-UD-Q2_K_XL.gguf",
+   "taille_octets": 1940825248,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.10.safetensors",
+   "taille_octets": 1755370848,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.11.safetensors",
+   "taille_octets": 1755370848,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.12.safetensors",
+   "taille_octets": 1755370848,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.13.safetensors",
+   "taille_octets": 1755370848,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.14.safetensors",
+   "taille_octets": 1755370848,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.15.safetensors",
+   "taille_octets": 1755370848,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.16.safetensors",
+   "taille_octets": 1755370848,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.17.safetensors",
+   "taille_octets": 1755370848,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.18.safetensors",
+   "taille_octets": 1755370848,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.19.safetensors",
+   "taille_octets": 1755370848,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.20.safetensors",
+   "taille_octets": 1755370848,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.10.safetensors",
+   "taille_octets": 1755370848,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.11.safetensors",
+   "taille_octets": 1755370848,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.12.safetensors",
+   "taille_octets": 1755370848,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.13.safetensors",
+   "taille_octets": 1755370848,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.14.safetensors",
+   "taille_octets": 1755370848,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.15.safetensors",
+   "taille_octets": 1755370848,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.16.safetensors",
+   "taille_octets": 1755370848,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.17.safetensors",
+   "taille_octets": 1755370848,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.18.safetensors",
+   "taille_octets": 1755370848,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.19.safetensors",
+   "taille_octets": 1755370848,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.20.safetensors",
+   "taille_octets": 1755370848,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.0.safetensors",
+   "taille_octets": 1755370832,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.1.safetensors",
+   "taille_octets": 1755370832,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.2.safetensors",
+   "taille_octets": 1755370832,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.3.safetensors",
+   "taille_octets": 1755370832,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.4.safetensors",
+   "taille_octets": 1755370832,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.5.safetensors",
+   "taille_octets": 1755370832,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.6.safetensors",
+   "taille_octets": 1755370832,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.7.safetensors",
+   "taille_octets": 1755370832,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.8.safetensors",
+   "taille_octets": 1755370832,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.9.safetensors",
+   "taille_octets": 1755370832,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.0.safetensors",
+   "taille_octets": 1755370832,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.1.safetensors",
+   "taille_octets": 1755370832,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.2.safetensors",
+   "taille_octets": 1755370832,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.3.safetensors",
+   "taille_octets": 1755370832,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.4.safetensors",
+   "taille_octets": 1755370832,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.5.safetensors",
+   "taille_octets": 1755370832,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.6.safetensors",
+   "taille_octets": 1755370832,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.7.safetensors",
+   "taille_octets": 1755370832,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.8.safetensors",
+   "taille_octets": 1755370832,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.9.safetensors",
+   "taille_octets": 1755370832,
+   "type": "llm_shards_airllm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Promgramation-teste\\ComfyUI\\ComfyUI\\models\\checkpoints\\lotus-depth-d-v1-1.safetensors",
+   "taille_octets": 1735197352,
+   "type": "checkpoint",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\comfyui-E\\checkpoints\\lotus-depth-d-v1-1.safetensors",
+   "taille_octets": 1735197352,
+   "type": "checkpoint",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\comfyui-D\\checkpoints\\lotus-depth-d-v1-1.safetensors",
+   "taille_octets": 1735197352,
+   "type": "checkpoint",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\comfyui-D\\clip_vision\\clip-vit-large-patch14-336.bin",
+   "taille_octets": 1711974081,
+   "type": "clip_vision",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\comfyui-D\\clip_vision\\clip-vit-large-patch14.safetensors",
+   "taille_octets": 1710540580,
+   "type": "clip_vision",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\granite3.2-vision-2b.gguf",
+   "taille_octets": 1545294400,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\whisper\\medium.pt",
+   "taille_octets": 1528008539,
+   "type": "whisper",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\qwen3-1.7b.gguf",
+   "taille_octets": 1359279776,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\ComfyUI_windows_portable\\ComfyUI\\custom_nodes\\comfyui_controlnet_aux\\ckpts\\depth-anything\\Depth-Anything-V2-Large\\depth_anything_v2_vitl.pth",
+   "taille_octets": 1341395338,
+   "type": "checkpoint",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Promgramation-teste\\marotte\\models\\pangu\\pangu_weather_1.onnx",
+   "taille_octets": 1181711187,
+   "type": "onnx_divers",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Promgramation-teste\\marotte\\models\\pangu\\pangu_weather_6.onnx",
+   "taille_octets": 1181711187,
+   "type": "onnx_divers",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\deepseek-r1-1.5b.gguf",
+   "taille_octets": 1117320512,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\huggingface\\brnpistone_Qwen3-4B-AgentCoder-q6-k_latest\\model-00004-of-00004.safetensors",
+   "taille_octets": 1089994880,
+   "type": "hf_cache_llm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\blobs\\model-00004-of-00004.safetensors",
+   "taille_octets": 1089994880,
+   "type": "llm_blobs_ollama",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\qwen3.5-0.8b.gguf",
+   "taille_octets": 1036034688,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\huggingface\\hub\\models--Qwen--Qwen2.5-0.5B\\snapshots\\060db6499f32faf8b98477b0a26969ef7d8b9987\\model.safetensors",
+   "taille_octets": 988097824,
+   "type": "hf_cache_llm",
+   "nom_present_dans_cible": true
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\huggingface\\hub\\models--microsoft--TRELLIS.2-4B\\snapshots\\af44b45f2e35a493886929c6d786e563ec68364d\\ckpts\\shape_dec_next_dc_f16c32_fp16.safetensors",
+   "taille_octets": 948490494,
+   "type": "hf_cache_llm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\huggingface\\hub\\models--microsoft--TRELLIS.2-4B\\snapshots\\af44b45f2e35a493886929c6d786e563ec68364d\\ckpts\\tex_dec_next_dc_f16c32_fp16.safetensors",
+   "taille_octets": 948458812,
+   "type": "hf_cache_llm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\Qwen3.8-27B-GGUF-UD-IQ1_M.mmproj.gguf",
+   "taille_octets": 931146432,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\Qwen3.8-27B-Uncensored-iq2_xxs.mmproj.gguf",
+   "taille_octets": 931145984,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Promgramation-teste\\marotte\\models\\timesfm\\small-200m\\model.safetensors",
+   "taille_octets": 925181104,
+   "type": "modele_scientifique",
+   "nom_present_dans_cible": true
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\Qwythos-9B-Claude-Mythos-5-1M-GGUF-Q4_K_M.mmproj.gguf",
+   "taille_octets": 918166080,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\Qwythos-9B-Claude-Mythos-5-1M-GGUF-Q5_K_M.mmproj.gguf",
+   "taille_octets": 918166080,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\granite3.2-vision-2b.mmproj.gguf",
+   "taille_octets": 892544608,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\gemma3-1b.gguf",
+   "taille_octets": 815310432,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\huggingface\\hub\\models--unsloth--Llama-3.2-1B-Instruct-GGUF\\snapshots\\b69aef112e9f895e6f98d7ae0949f72ff09aa401\\Llama-3.2-1B-Instruct-Q4_K_M.gguf",
+   "taille_octets": 807694368,
+   "type": "hf_cache_llm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\deepseek-coder-1.3b.gguf",
+   "taille_octets": 776066240,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\mxbai-embed-large-latest.gguf",
+   "taille_octets": 669603712,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\llava-latest.mmproj.gguf",
+   "taille_octets": 624434368,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\doc_Obsidian\\Doc\\.obsidian\\plugins\\smart-second-brain\\vectorstores\\nomic-embed-text.bin",
+   "taille_octets": 561373129,
+   "type": "embedding_llm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\whisper\\small.pt",
+   "taille_octets": 483617219,
+   "type": "whisper",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\huggingface\\hub\\models--Systran--faster-whisper-small\\snapshots\\536b0662742c02347bc0e980a01041f333bce120\\model.bin",
+   "taille_octets": 483546902,
+   "type": "hf_cache_llm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Promgramation-teste\\marotte\\models\\chronos-2\\model.safetensors",
+   "taille_octets": 477930472,
+   "type": "modele_scientifique",
+   "nom_present_dans_cible": true
+  },
+  {
+   "chemin": "F:\\Promgramation-teste\\marotte\\.kilo\\worktrees\\brick-birch\\models\\chronos-2\\model.safetensors",
+   "taille_octets": 477930472,
+   "type": "modele_scientifique",
+   "nom_present_dans_cible": true
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\huggingface\\hub\\models--amazon--chronos-2\\snapshots\\29ec3766d36d6f73f0696f85560a422f50e8498c\\model.safetensors",
+   "taille_octets": 477930472,
+   "type": "hf_cache_llm",
+   "nom_present_dans_cible": true
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\mirai\\mirai\\alibaba-qwen3.5-0.8b-mirai-mirai-m-4\\c12202e4c764e559960827761566aaa1fd15a87a\\model.safetensors",
+   "taille_octets": 439161360,
+   "type": "hf_cache_llm",
+   "nom_present_dans_cible": true
+  },
+  {
+   "chemin": "F:\\ComfyUi\\ComfyUI\\resources\\ComfyUI\\models\\sams\\sam_vit_b_01ec64.pth",
+   "taille_octets": 375042383,
+   "type": "sam",
+   "nom_present_dans_cible": true
+  },
+  {
+   "chemin": "C:\\Users\\Administrator\\.transparent-background\\ckpt_base.pth",
+   "taille_octets": 367520613,
+   "type": "autre",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Promgramation-teste\\ComfyUI\\ComfyUI\\models\\vae\\vae-ft-mse-840000-ema-pruned.safetensors",
+   "taille_octets": 334641190,
+   "type": "vae",
+   "nom_present_dans_cible": true
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\comfyui-E\\vae\\vae-ft-mse-840000-ema-pruned.safetensors",
+   "taille_octets": 334641190,
+   "type": "vae",
+   "nom_present_dans_cible": true
+  },
+  {
+   "chemin": "C:\\Users\\Administrator\\.local\\share\\argos-translate\\packages\\translate-es_en-1_9\\model\\model.bin",
+   "taille_octets": 314139617,
+   "type": "traduction_argos",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\.studio_links\\nomic-embed-text-latest.gguf",
+   "taille_octets": 274290656,
+   "type": "llm_gguf",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Téléchargements\\pleasure-face XL.safetensors",
+   "taille_octets": 228452956,
+   "type": "lora",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Téléchargements\\DonMN1gh7rXL-000006.safetensors",
+   "taille_octets": 228450436,
+   "type": "lora",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Téléchargements\\Pussy_Spreading_v2.safetensors",
+   "taille_octets": 217157688,
+   "type": "lora",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "E:\\Mon Drive\\SRTE\\checkpoints_hdf5\\latest\\neural_head.pt",
+   "taille_octets": 184007173,
+   "type": "checkpoint_custom",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Promgramation-teste\\Monkey EML (SRTE)\\src\\checkpoints_hdf5\\latest\\neural_head.pt",
+   "taille_octets": 184007173,
+   "type": "checkpoint_custom",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Promgramation-teste\\Monkey EML (SRTE)\\Colab-entrainement\\runs\\kaggle-run-20260805-153639-726bf195\\kaggle_dataset\\checkpoints_hdf5\\latest\\neural_head.pt",
+   "taille_octets": 184007173,
+   "type": "checkpoint_custom",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Promgramation-teste\\Monkey EML (SRTE)\\Colab-entrainement\\runs\\kaggle-run-20260805-152543-4e5295d3\\kaggle_dataset\\checkpoints_hdf5\\latest\\neural_head.pt",
+   "taille_octets": 184007173,
+   "type": "checkpoint_custom",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Promgramation-teste\\Monkey EML (SRTE)\\Colab-entrainement\\runs\\kaggle-run-20260805-015137-eb42f31d\\kaggle_output\\output\\neural_head.pt",
+   "taille_octets": 184007173,
+   "type": "checkpoint_custom",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Promgramation-teste\\Monkey EML (SRTE)\\checkpoints_hdf5\\latest\\neural_head.pt",
+   "taille_octets": 184007173,
+   "type": "checkpoint_custom",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Promgramation-teste\\Monkey EML (SRTE)\\checkpoints\\neural_head.pt",
+   "taille_octets": 184007173,
+   "type": "checkpoint",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "C:\\Users\\Administrator\\.u2net\\u2net.onnx",
+   "taille_octets": 175997641,
+   "type": "onnx_divers",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Téléchargements\\Map_backrooms_v1.0.safetensors",
+   "taille_octets": 151127312,
+   "type": "lora",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Téléchargements\\quiron_GloryWall_v5_lora.safetensors",
+   "taille_octets": 151118944,
+   "type": "lora",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Téléchargements\\MS_Real_Ball_Gag_Lite.safetensors",
+   "taille_octets": 151116248,
+   "type": "lora",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\Téléchargements\\afb.safetensors",
+   "taille_octets": 151115736,
+   "type": "lora",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\huggingface\\hub\\models--microsoft--TRELLIS-image-large\\snapshots\\25e0d31ffbebe4b5a97464dd851910efc3002d96\\ckpts\\ss_dec_conv3d_16l8_fp16.safetensors",
+   "taille_octets": 147591972,
+   "type": "hf_cache_llm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\huggingface\\hub\\models--starvector--starvector-1b-im2svg\\snapshots\\380ab95d25a8e9ab1dc825debe238b4953ae13b9\\model-00002-of-00002.safetensors",
+   "taille_octets": 146964720,
+   "type": "hf_cache_llm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\whisper\\base.pt",
+   "taille_octets": 145262807,
+   "type": "whisper",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\huggingface\\hub\\models--Systran--faster-whisper-base\\snapshots\\ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66\\model.bin",
+   "taille_octets": 145217532,
+   "type": "hf_cache_llm",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\huggingface\\hub\\models--PaddlePaddle--PP-DocLayoutV3_safetensors\\snapshots\\3ec586e86ed9245a567bb13395a3db64d5c077cc\\model.safetensors",
+   "taille_octets": 133270468,
+   "type": "hf_cache_llm",
+   "nom_present_dans_cible": true
+  },
+  {
+   "chemin": "F:\\Téléchargements\\ClassipeintXL2.1.safetensors",
+   "taille_octets": 132865728,
+   "type": "lora",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "C:\\Users\\Administrator\\.buzz-dev\\models\\parakeet-tdt-ctc-110m-en\\model.int8.onnx",
+   "taille_octets": 131652171,
+   "type": "onnx_divers",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "F:\\.ollama\\models\\mirai\\mirai\\liquidai-lfm2.5-230m-mirai-mirai-m-4\\d5255025efb900218f82775df83424350da3dd1e\\model.safetensors",
+   "taille_octets": 124955416,
+   "type": "hf_cache_llm",
+   "nom_present_dans_cible": true
+  },
+  {
+   "chemin": "C:\\Program Files\\Maxon Cinema 4D 2026\\resource\\modules\\c4d_assetbrowser\\mxai\\win\\MXAI_Data\\models\\ViT-B-16-SigLIP-512_webli\\textual\\model_q8.onnx",
+   "taille_octets": 110888903,
+   "type": "onnx_divers",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "C:\\Users\\Administrator\\.void-editor\\extensions\\ms-vscode.vscode-speech-0.14.0-win32-x64\\assets\\stt\\speechmodel.en-US.cpu.9.0.54436607\\encoder.onnx",
+   "taille_octets": 108305162,
+   "type": "onnx_divers",
+   "nom_present_dans_cible": false
+  },
+  {
+   "chemin": "C:\\Users\\Administrator\\.trae\\extensions\\.a21719b6-ca48-41f3-85ec-b7c26cfd6c22\\assets\\stt\\speechmodel.en-US.cpu.9.0.54436607\\encoder.onnx",
+   "taille_octets": 108305162,
+   "type": "onnx_divers",
+   "nom_present_dans_cible": false
+  }
+ ],
+ "doublons": {
+  "meme_nom_meme_taille": [
+   {
+    "nom": "diffusion_pytorch_model.safetensors",
+    "taille_octets": 7365943290,
+    "exemplaires": [
+     "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\diffusion_models\\diffusion_pytorch_model.safetensors",
+     "F:\\.ollama\\models\\comfyui-D\\checkpoints\\diffusion_pytorch_model.safetensors"
+    ]
+   },
+   {
+    "nom": "hunyuan_3d_v2.1.safetensors",
+    "taille_octets": 7365943290,
+    "exemplaires": [
+     "F:\\ComfyUi\\models\\checkpoints\\hunyuan_3d_v2.1.safetensors",
+     "F:\\.ollama\\models\\comfyui-D\\checkpoints\\hunyuan_3d_v2.1.safetensors"
+    ]
+   },
+   {
+    "nom": "model-00002-of-00004.safetensors",
+    "taille_octets": 4932751008,
+    "exemplaires": [
+     "F:\\.ollama\\models\\huggingface\\brnpistone_Qwen3-4B-AgentCoder-q6-k_latest\\model-00002-of-00004.safetensors",
+     "F:\\.ollama\\blobs\\model-00002-of-00004.safetensors"
+    ]
+   },
+   {
+    "nom": "hunyuan3d-dit-v2-mv-turbo_fp16.safetensors",
+    "taille_octets": 4930777530,
+    "exemplaires": [
+     "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\diffusion_models\\hunyuan3d-dit-v2-mv-turbo_fp16.safetensors",
+     "F:\\.ollama\\models\\comfyui-D\\checkpoints\\hunyuan3d-dit-v2-mv-turbo_fp16.safetensors"
+    ]
+   },
+   {
+    "nom": "diffusion_pytorch_model.safetensors",
+    "taille_octets": 4930777530,
+    "exemplaires": [
+     "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\diffusers\\hunyuan3d-paintpbr-v2-1\\vae\\diffusion_pytorch_model.safetensors",
+     "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\diffusers\\hunyuan3d-paintpbr-v2-1\\unet\\diffusion_pytorch_model.safetensors"
+    ]
+   },
+   {
+    "nom": "model-00001-of-00004.safetensors",
+    "taille_octets": 4877660776,
+    "exemplaires": [
+     "F:\\.ollama\\models\\huggingface\\brnpistone_Qwen3-4B-AgentCoder-q6-k_latest\\model-00001-of-00004.safetensors",
+     "F:\\.ollama\\blobs\\model-00001-of-00004.safetensors"
+    ]
+   },
+   {
+    "nom": "model-00003-of-00004.safetensors",
+    "taille_octets": 4330865200,
+    "exemplaires": [
+     "F:\\.ollama\\models\\huggingface\\brnpistone_Qwen3-4B-AgentCoder-q6-k_latest\\model-00003-of-00004.safetensors",
+     "F:\\.ollama\\blobs\\model-00003-of-00004.safetensors"
+    ]
+   },
+   {
+    "nom": "clip_vision_g.safetensors",
+    "taille_octets": 3689911098,
+    "exemplaires": [
+     "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\clip_vision\\clip_vision_g.safetensors",
+     "F:\\.ollama\\models\\comfyui-D\\clip_vision\\clip_vision_g.safetensors"
+    ]
+   },
+   {
+    "nom": "model.embed_tokens.safetensors",
+    "taille_octets": 2491416688,
+    "exemplaires": [
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.embed_tokens.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.embed_tokens.safetensors"
+    ]
+   },
+   {
+    "nom": "v1-5-pruned-emaonly-fp16.safetensors",
+    "taille_octets": 2132696762,
+    "exemplaires": [
+     "F:\\Promgramation-teste\\ComfyUI\\ComfyUI\\models\\checkpoints\\v1-5-pruned-emaonly-fp16.safetensors",
+     "F:\\.ollama\\models\\comfyui-D\\checkpoints\\v1-5-pruned-emaonly-fp16.safetensors"
+    ]
+   },
+   {
+    "nom": "model.layers.10.safetensors",
+    "taille_octets": 1755370848,
+    "exemplaires": [
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.10.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.10.safetensors"
+    ]
+   },
+   {
+    "nom": "model.layers.11.safetensors",
+    "taille_octets": 1755370848,
+    "exemplaires": [
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.11.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.11.safetensors"
+    ]
+   },
+   {
+    "nom": "model.layers.12.safetensors",
+    "taille_octets": 1755370848,
+    "exemplaires": [
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.12.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.12.safetensors"
+    ]
+   },
+   {
+    "nom": "model.layers.13.safetensors",
+    "taille_octets": 1755370848,
+    "exemplaires": [
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.13.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.13.safetensors"
+    ]
+   },
+   {
+    "nom": "model.layers.14.safetensors",
+    "taille_octets": 1755370848,
+    "exemplaires": [
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.14.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.14.safetensors"
+    ]
+   },
+   {
+    "nom": "model.layers.15.safetensors",
+    "taille_octets": 1755370848,
+    "exemplaires": [
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.15.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.15.safetensors"
+    ]
+   },
+   {
+    "nom": "model.layers.16.safetensors",
+    "taille_octets": 1755370848,
+    "exemplaires": [
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.16.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.16.safetensors"
+    ]
+   },
+   {
+    "nom": "model.layers.17.safetensors",
+    "taille_octets": 1755370848,
+    "exemplaires": [
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.17.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.17.safetensors"
+    ]
+   },
+   {
+    "nom": "model.layers.18.safetensors",
+    "taille_octets": 1755370848,
+    "exemplaires": [
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.18.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.18.safetensors"
+    ]
+   },
+   {
+    "nom": "model.layers.19.safetensors",
+    "taille_octets": 1755370848,
+    "exemplaires": [
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.19.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.19.safetensors"
+    ]
+   },
+   {
+    "nom": "model.layers.20.safetensors",
+    "taille_octets": 1755370848,
+    "exemplaires": [
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.20.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.20.safetensors"
+    ]
+   },
+   {
+    "nom": "model.layers.0.safetensors",
+    "taille_octets": 1755370832,
+    "exemplaires": [
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.0.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.0.safetensors"
+    ]
+   },
+   {
+    "nom": "model.layers.1.safetensors",
+    "taille_octets": 1755370832,
+    "exemplaires": [
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.1.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.1.safetensors"
+    ]
+   },
+   {
+    "nom": "model.layers.2.safetensors",
+    "taille_octets": 1755370832,
+    "exemplaires": [
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.2.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.2.safetensors"
+    ]
+   },
+   {
+    "nom": "model.layers.3.safetensors",
+    "taille_octets": 1755370832,
+    "exemplaires": [
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.3.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.3.safetensors"
+    ]
+   },
+   {
+    "nom": "model.layers.4.safetensors",
+    "taille_octets": 1755370832,
+    "exemplaires": [
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.4.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.4.safetensors"
+    ]
+   },
+   {
+    "nom": "model.layers.5.safetensors",
+    "taille_octets": 1755370832,
+    "exemplaires": [
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.5.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.5.safetensors"
+    ]
+   },
+   {
+    "nom": "model.layers.6.safetensors",
+    "taille_octets": 1755370832,
+    "exemplaires": [
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.6.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.6.safetensors"
+    ]
+   },
+   {
+    "nom": "model.layers.7.safetensors",
+    "taille_octets": 1755370832,
+    "exemplaires": [
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.7.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.7.safetensors"
+    ]
+   },
+   {
+    "nom": "model.layers.8.safetensors",
+    "taille_octets": 1755370832,
+    "exemplaires": [
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.8.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.8.safetensors"
+    ]
+   },
+   {
+    "nom": "model.layers.9.safetensors",
+    "taille_octets": 1755370832,
+    "exemplaires": [
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.9.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.9.safetensors"
+    ]
+   },
+   {
+    "nom": "lotus-depth-d-v1-1.safetensors",
+    "taille_octets": 1735197352,
+    "exemplaires": [
+     "F:\\Promgramation-teste\\ComfyUI\\ComfyUI\\models\\checkpoints\\lotus-depth-d-v1-1.safetensors",
+     "F:\\.ollama\\models\\comfyui-E\\checkpoints\\lotus-depth-d-v1-1.safetensors",
+     "F:\\.ollama\\models\\comfyui-D\\checkpoints\\lotus-depth-d-v1-1.safetensors"
+    ]
+   },
+   {
+    "nom": "model-00004-of-00004.safetensors",
+    "taille_octets": 1089994880,
+    "exemplaires": [
+     "F:\\.ollama\\models\\huggingface\\brnpistone_Qwen3-4B-AgentCoder-q6-k_latest\\model-00004-of-00004.safetensors",
+     "F:\\.ollama\\blobs\\model-00004-of-00004.safetensors"
+    ]
+   },
+   {
+    "nom": "model.safetensors",
+    "taille_octets": 477930472,
+    "exemplaires": [
+     "F:\\Promgramation-teste\\marotte\\models\\chronos-2\\model.safetensors",
+     "F:\\Promgramation-teste\\marotte\\.kilo\\worktrees\\brick-birch\\models\\chronos-2\\model.safetensors",
+     "F:\\.ollama\\models\\huggingface\\hub\\models--amazon--chronos-2\\snapshots\\29ec3766d36d6f73f0696f85560a422f50e8498c\\model.safetensors"
+    ]
+   },
+   {
+    "nom": "sam_vit_b_01ec64.pth",
+    "taille_octets": 375042383,
+    "exemplaires": [
+     "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\sams\\sam_vit_b_01ec64.pth",
+     "F:\\ComfyUi\\ComfyUI\\resources\\ComfyUI\\models\\sams\\sam_vit_b_01ec64.pth"
+    ]
+   },
+   {
+    "nom": "vae-ft-mse-840000-ema-pruned.safetensors",
+    "taille_octets": 334641190,
+    "exemplaires": [
+     "F:\\Promgramation-teste\\ComfyUI\\ComfyUI\\models\\vae\\vae-ft-mse-840000-ema-pruned.safetensors",
+     "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\vae\\vae-ft-mse-840000-ema-pruned.safetensors",
+     "F:\\.ollama\\models\\comfyui-E\\vae\\vae-ft-mse-840000-ema-pruned.safetensors"
+    ]
+   },
+   {
+    "nom": "neural_head.pt",
+    "taille_octets": 184007173,
+    "exemplaires": [
+     "E:\\Mon Drive\\SRTE\\checkpoints_hdf5\\latest\\neural_head.pt",
+     "F:\\Promgramation-teste\\Monkey EML (SRTE)\\src\\checkpoints_hdf5\\latest\\neural_head.pt",
+     "F:\\Promgramation-teste\\Monkey EML (SRTE)\\Colab-entrainement\\runs\\kaggle-run-20260805-153639-726bf195\\kaggle_dataset\\checkpoints_hdf5\\latest\\neural_head.pt",
+     "F:\\Promgramation-teste\\Monkey EML (SRTE)\\Colab-entrainement\\runs\\kaggle-run-20260805-152543-4e5295d3\\kaggle_dataset\\checkpoints_hdf5\\latest\\neural_head.pt",
+     "F:\\Promgramation-teste\\Monkey EML (SRTE)\\Colab-entrainement\\runs\\kaggle-run-20260805-015137-eb42f31d\\kaggle_output\\output\\neural_head.pt",
+     "F:\\Promgramation-teste\\Monkey EML (SRTE)\\checkpoints_hdf5\\latest\\neural_head.pt",
+     "F:\\Promgramation-teste\\Monkey EML (SRTE)\\checkpoints\\neural_head.pt"
+    ]
+   },
+   {
+    "nom": "encoder.onnx",
+    "taille_octets": 108305162,
+    "exemplaires": [
+     "C:\\Users\\Administrator\\.void-editor\\extensions\\ms-vscode.vscode-speech-0.14.0-win32-x64\\assets\\stt\\speechmodel.en-US.cpu.9.0.54436607\\encoder.onnx",
+     "C:\\Users\\Administrator\\.trae\\extensions\\.a21719b6-ca48-41f3-85ec-b7c26cfd6c22\\assets\\stt\\speechmodel.en-US.cpu.9.0.54436607\\encoder.onnx"
+    ]
+   }
+  ],
+  "meme_taille_noms_differents": [
+   {
+    "taille_octets": 7365943290,
+    "fichiers": [
+     "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\diffusion_models\\diffusion_pytorch_model.safetensors",
+     "F:\\ComfyUi\\models\\checkpoints\\hunyuan_3d_v2.1.safetensors",
+     "F:\\.ollama\\models\\comfyui-D\\checkpoints\\diffusion_pytorch_model.safetensors",
+     "F:\\.ollama\\models\\comfyui-D\\checkpoints\\hunyuan_3d_v2.1.safetensors"
+    ]
+   },
+   {
+    "taille_octets": 6729166848,
+    "fichiers": [
+     "F:\\.ollama\\models\\huggingface\\hub\\models--unsloth--Qwen3.8-27B-GGUF\\snapshots\\4ca720788d1e01f1bff70c033e0d0028fd02e502\\Qwen3.8-27B-UD-IQ1_M.gguf",
+     "F:\\.ollama\\models\\.studio_links\\Qwen3.8-27B-GGUF-UD-IQ1_M.gguf"
+    ]
+   },
+   {
+    "taille_octets": 5887668064,
+    "fichiers": [
+     "F:\\.ollama\\models\\gguf\\Qwythos-9B-Claude-Mythos-5-1M-MTP-Q4_K_M.gguf",
+     "F:\\.ollama\\models\\.studio_links\\Qwythos-9B-Claude-Mythos-5-1M-GGUF-Q4_K_M.gguf"
+    ]
+   },
+   {
+    "taille_octets": 4930777530,
+    "fichiers": [
+     "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\diffusion_models\\hunyuan3d-dit-v2-mv-turbo_fp16.safetensors",
+     "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\diffusers\\hunyuan3d-paintpbr-v2-1\\vae\\diffusion_pytorch_model.safetensors",
+     "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\diffusers\\hunyuan3d-paintpbr-v2-1\\unet\\diffusion_pytorch_model.safetensors",
+     "F:\\.ollama\\models\\comfyui-D\\checkpoints\\hunyuan3d-dit-v2-mv-turbo_fp16.safetensors"
+    ]
+   },
+   {
+    "taille_octets": 4280404928,
+    "fichiers": [
+     "F:\\.ollama\\models\\gguf\\qwen3-4b-thinking-2507-q8_0.gguf",
+     "F:\\.ollama\\models\\.studio_links\\qwen3-4b-thinking-2507_q8-latest.gguf"
+    ]
+   },
+   {
+    "taille_octets": 2584672728,
+    "fichiers": [
+     "F:\\.ollama\\models\\huggingface\\hub\\models--microsoft--TRELLIS.2-4B\\snapshots\\af44b45f2e35a493886929c6d786e563ec68364d\\ckpts\\slat_flow_imgshape2tex_dit_1_3B_1024_bf16.safetensors",
+     "F:\\.ollama\\models\\huggingface\\hub\\models--microsoft--TRELLIS.2-4B\\snapshots\\af44b45f2e35a493886929c6d786e563ec68364d\\ckpts\\slat_flow_imgshape2tex_dit_1_3B_512_bf16.safetensors"
+    ]
+   },
+   {
+    "taille_octets": 2584574424,
+    "fichiers": [
+     "F:\\.ollama\\models\\huggingface\\hub\\models--microsoft--TRELLIS.2-4B\\snapshots\\af44b45f2e35a493886929c6d786e563ec68364d\\ckpts\\slat_flow_img2shape_dit_1_3B_1024_bf16.safetensors",
+     "F:\\.ollama\\models\\huggingface\\hub\\models--microsoft--TRELLIS.2-4B\\snapshots\\af44b45f2e35a493886929c6d786e563ec68364d\\ckpts\\slat_flow_img2shape_dit_1_3B_512_bf16.safetensors"
+    ]
+   },
+   {
+    "taille_octets": 2219298752,
+    "fichiers": [
+     "F:\\.ollama\\models\\.studio_links\\glm-ocr-bf16.gguf",
+     "F:\\.ollama\\models\\.studio_links\\glm-ocr-latest.gguf"
+    ]
+   },
+   {
+    "taille_octets": 2132625894,
+    "fichiers": [
+     "F:\\StableProjectorz\\stable-diffusion-webui-forge\\webui\\models\\Stable-diffusion\\realisticvisionv51_v51vae.safetensors",
+     "F:\\.ollama\\models\\comfyui-D\\checkpoints\\Deliberate_v6.safetensors"
+    ]
+   },
+   {
+    "taille_octets": 1755370848,
+    "fichiers": [
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.10.safetensors",
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.11.safetensors",
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.12.safetensors",
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.13.safetensors",
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.14.safetensors",
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.15.safetensors",
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.16.safetensors",
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.17.safetensors",
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.18.safetensors",
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.19.safetensors",
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.20.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.10.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.11.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.12.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.13.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.14.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.15.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.16.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.17.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.18.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.19.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.20.safetensors"
+    ]
+   },
+   {
+    "taille_octets": 1755370832,
+    "fichiers": [
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.0.safetensors",
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.1.safetensors",
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.2.safetensors",
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.3.safetensors",
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.4.safetensors",
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.5.safetensors",
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.6.safetensors",
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.7.safetensors",
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.8.safetensors",
+     "F:\\Promgramation-teste\\airllm\\models\\airllm_shards\\splitted_model\\model.layers.9.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.0.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.1.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.2.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.3.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.4.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.5.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.6.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.7.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.8.safetensors",
+     "F:\\.ollama\\models\\airllm\\airllm_shards\\splitted_model\\model.layers.9.safetensors"
+    ]
+   },
+   {
+    "taille_octets": 1181711187,
+    "fichiers": [
+     "F:\\Promgramation-teste\\marotte\\models\\pangu\\pangu_weather_1.onnx",
+     "F:\\Promgramation-teste\\marotte\\models\\pangu\\pangu_weather_6.onnx"
+    ]
+   },
+   {
+    "taille_octets": 918166080,
+    "fichiers": [
+     "F:\\.ollama\\models\\.studio_links\\Qwythos-9B-Claude-Mythos-5-1M-GGUF-Q4_K_M.mmproj.gguf",
+     "F:\\.ollama\\models\\.studio_links\\Qwythos-9B-Claude-Mythos-5-1M-GGUF-Q5_K_M.mmproj.gguf"
+    ]
+   }
+  ]
+ },
+ "liens_physiques_verifies": [
+  {
+   "groupe": "hunyuan_3d_v2.1 / diffusion_pytorch_model 7.37GB",
+   "type": "hardlink x3",
+   "chemins": [
+    "F:\\.ollama\\models\\comfyui-D\\checkpoints\\hunyuan_3d_v2.1.safetensors",
+    "F:\\ComfyUi\\models\\checkpoints\\hunyuan_3d_v2.1.safetensors",
+    "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\diffusion_models\\diffusion_pytorch_model.safetensors"
+   ],
+   "note": "1 seul fichier physique ; F:\\.ollama\\models\\comfyui-D\\checkpoints\\diffusion_pytorch_model.safetensors est une 2e copie reelle"
+  },
+  {
+   "groupe": "F:\\.ollama\\models\\.studio_links\\*",
+   "type": "hardlinks -> F:\\.ollama\blobs\\sha256-*",
+   "note": "les 42 fichiers .studio_links sont des alias hardlink LM Studio, pas des copies"
+  },
+  {
+   "groupe": "glm-ocr-bf16 / glm-ocr-latest",
+   "type": "hardlink x2 meme blob sha256-65493e1f"
+  },
+  {
+   "groupe": "jonctions C: -> F:",
+   "type": "junction",
+   "chemins": [
+    "C:\\Users\\Administrator\\.cache\\huggingface -> F:\\.ollama\\models\\huggingface",
+    "C:\\Users\\Administrator\\.ollama\\models -> F:\\.ollama\\models\\gguf"
+   ],
+   "note": "les fichiers vus sous C: dans l'index Everything resident physiquement sur F:"
+  }
+ ],
+ "plan_consolidation": {
+  "hote_recommande": {
+   "disque": "F:",
+   "raison": "278 Go libres (le plus grand espace hors cloud), héberge déjà la cible ComfyUI portable ET les magasins .ollama ; les consolidations intra-F: peuvent utiliser des liens physiques (hardlinks) sans copie. G: (139 Go libres) est un disque jeux, C: (94 Go) est le disque système quasi plein, E: est Google Drive (cloud).",
+   "alternative": "G: si F: venait à saturer (139 Go libres) — mais nécessite des copies réelles, pas de liens."
+  },
+  "principe": "Ne PAS copier sur F: : utiliser des liens physiques NTFS (mklink /h, même volume) pour alimenter la cible depuis les magasins existants ; copie réelle uniquement depuis E: (cloud) vers F:.",
+  "actions": [
+   {
+    "cible": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\checkpoints",
+    "action": "hardlink depuis F:\\.ollama\\models\\comfyui-D\\checkpoints",
+    "fichiers": [
+     "sdxxxl_v30.safetensors (6.9Go)",
+     "lazymixRealAmateur_v40.safetensors (4.2Go)",
+     "anithing_v10Pruned.safetensors (2.1Go)",
+     "picxReal_10.safetensors (2.1Go)",
+     "Deliberate_v6.safetensors (2.1Go)",
+     "v1-5-pruned-emaonly-fp16.safetensors (2.1Go)",
+     "lotus-depth-d-v1-1.safetensors (1.7Go)"
+    ],
+    "cout_espace": "0 Go (hardlinks)"
+   },
+   {
+    "cible": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\checkpoints",
+    "action": "hardlink depuis F:\\Téléchargements + F:\\StableProjectorz",
+    "fichiers": [
+     "OpenDallebutTurboII.fp16.safetensors (6.9Go)",
+     "pornmasterAmateur_amateurDPOV1-inpainting.safetensors (5.7Go)",
+     "epicphotogasm_amateurreallife.safetensors (2.1Go)",
+     "jibMixRealisticSD15_v10.safetensors (2.1Go)",
+     "realisticvisionv51_v51vae.safetensors (2.1Go)"
+    ],
+    "cout_espace": "0 Go (hardlinks)"
+   },
+   {
+    "cible": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\checkpoints",
+    "action": "copie réelle depuis E: (Google Drive) OU laisser sur Drive",
+    "fichiers": [
+     "E:\\Mon Drive\\ComfyUI\\models\\checkpoints\\sd_xl_base_1.0.safetensors (6.9Go)"
+    ],
+    "cout_espace": "~7 Go si copié ; à décider selon usage (instance ComfyUI \"E\" pointe peut-être déjà dessus)"
+   },
+   {
+    "cible": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\loras",
+    "action": "hardlink depuis F:\\Téléchargements (petits safetensors <400Mo)",
+    "fichiers": [
+     "quiron_GloryWall_v5_lora.safetensors",
+     "MS_Real_Ball_Gag_Lite.safetensors",
+     "Map_backrooms_v1.0.safetensors",
+     "DonMN1gh7rXL-000006.safetensors",
+     "pleasure-face XL.safetensors",
+     "afb.safetensors",
+     "Pussy_Spreading_v2.safetensors",
+     "ClassipeintXL2.1.safetensors"
+    ],
+    "cout_espace": "0 Go ; vérifier type réel (lora vs checkpoint lyCORIS) avant classement"
+   },
+   {
+    "cible": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\unet ou F:\\ComfyUI_windows_portable\\ComfyUI\\models\\diffusion_models",
+    "action": "hardlink GGUF image depuis F:\\.ollama\\models\\gguf et comfyui-D\\checkpoints",
+    "fichiers": [
+     "flux1-dev-Q2_K.gguf (4.0Go, comfyui-D\\checkpoints)",
+     "qwen-image-2.1-UC-Q4_0.gguf (4.2Go, .ollama\\models\\gguf)"
+    ],
+    "cout_espace": "0 Go (hardlinks)"
+   },
+   {
+    "cible": "F:\\ComfyUI_windows_portable\\ComfyUI\\models\\clip_vision",
+    "action": "hardlink depuis F:\\.ollama\\models\\comfyui-D\\clip_vision",
+    "fichiers": [
+     "clip-vit-large-patch14-336.bin (1.7Go)",
+     "clip-vit-large-patch14.safetensors (1.7Go)"
+    ],
+    "cout_espace": "0 Go"
+   },
+   {
+    "cible": "N/A — déjà présent",
+    "action": "remplacer les copies réelles redondantes par des hardlinks vers la cible",
+    "fichiers": [
+     "vae-ft-mse-840000-ema-pruned.safetensors : copies réelles dans F:\\Promgramation-teste\\ComfyUI\\ComfyUI\\models\u000bae et F:\\.ollama\\models\\comfyui-E\u000bae → libérable ~0.67Go",
+     "sam_vit_b_01ec64.pth : copie dans F:\\ComfyUi\\ComfyUI\resources\\ComfyUI\\models\\sams → libérable ~0.37Go",
+     "clip_vision_g.safetensors : copie dans comfyui-D\\clip_vision → libérable ~3.7Go",
+     "hunyuan3d-dit-v2-mv-turbo_fp16.safetensors : 3 copies réelles supplémentaires (comfyui-D + diffusers unet + diffusers vae) → libérable ~14.8Go",
+     "F:\\.ollama\\models\\comfyui-D\\checkpoints\\diffusion_pytorch_model.safetensors : 2e copie réelle de hunyuan_3d_v2.1 → libérable ~7.4Go"
+    ],
+    "cout_espace": "~26.9 Go récupérables sur F:"
+   },
+   {
+    "cible": "N/A — hors ComfyUI",
+    "action": "dédoublonnage LLM (optionnel, hors périmètre ComfyUI)",
+    "fichiers": [
+     "F:\\Promgramation-teste\u0007irllm\\models\u0007irllm_shards\\splitted_model : doublon intégral de F:\\.ollama\\models\u0007irllm\u0007irllm_shards\\splitted_model → ~39 Go libérables",
+     "F:\\.ollama\blobs\\model-0000X-of-00004.safetensors : copies réelles des shards brnpistone_Qwen3-4B-AgentCoder → ~15.2 Go libérables",
+     "neural_head.pt x7 (184Mo chacun, SRTE + Google Drive) → 1 copie + hardlinks",
+     "GGUF .ollama\\models\\gguf vs .studio_links : vérifier doublons réels (Qwythos Q4_K_M existe en 2 copies réelles ~5.6Go)"
+    ],
+    "cout_espace": "~60 Go libérables sur F:"
+   }
+  ],
+  "notes": [
+   "checkpoints/embeddings/text_encoders/upscale_models/style_models de la cible sont quasi vides : aucun fichier >100Mo trouvé pour embeddings/upscale/style_models sur tout le parc.",
+   "Le magasin canonique de fait est F:\\.ollama\\models\\comfyui-D (arbre ComfyUI complet : checkpoints, clip_vision, etc.) — le remplissage de la cible portable doit se faire par hardlinks depuis lui.",
+   "F:\\ComfyUi\\models (install Electron) est quasi vide ; F:\\Stability-Matrix\\Data\\Models est vide (StabilityMatrix installé mais modèles jamais peuplés ou supprimés).",
+   "Les .studio_links sont des hardlinks LM Studio vers .ollama\blobs — ne pas les compter comme doublons.",
+   "Attention : flux1DevFlux1Schnell_schnellNF4UNET.safetensors et qwen-image GGUF sont des modèles quantisés ; privilégier unet/ ou diffusion_models/ selon le workflow.",
+   "Aucun fichier déplacé ni modifié par cet inventaire."
+  ]
+ },
+ "exclus_non_modeles": [
+  {
+   "path": "C:\\Users\\Administrator\\AppData\\Local\\Cypress\\Cache\\13.17.0\\Cypress\\browser_v8_context_snapshot.bin",
+   "size": 131507122,
+   "raison": "cache_navigateur_cypress"
+  },
+  {
+   "path": "F:\\Promgramation-teste\\buzz\\target\\debug\\incremental\\buzz_relay-0qg9jnc3jzsfh\\s-hmflqmlljk-08dityl-1wlogxdlmyeoqyuo7xyp45vl9\\dep-graph.bin",
+   "size": 176591240,
+   "raison": "artefact_build_rust"
+  },
+  {
+   "path": "F:\\Promgramation-teste\\buzz\\desktop\\src-tauri\\target\\debug\\incremental\\buzz_lib-3nv544dj7u1ce\\s-hmfm2nwnk0-062a0ah-0k59inh9kmsf1n31wmi4qhtkq\\dep-graph.bin",
+   "size": 296328931,
+   "raison": "artefact_build_rust"
+  },
+  {
+   "path": "F:\\Promgramation-teste\\buzz\\desktop\\src-tauri\\target\\debug\\incremental\\buzz_lib-3nv544dj7u1ce\\s-hmfm2nwnk0-062a0ah-0k59inh9kmsf1n31wmi4qhtkq\\query-cache.bin",
+   "size": 144820475,
+   "raison": "artefact_build_rust"
+  },
+  {
+   "path": "F:\\Jeux\\Call to Arms - GoH - Ostfront [FitGirl Repack]\\fg-01.bin",
+   "size": 22899559747,
+   "raison": "archive_jeu_fitgirl"
+  },
+  {
+   "path": "F:\\Jeux\\Call to Arms - GoH - Ostfront [FitGirl Repack]\\fg-02.bin",
+   "size": 2912390066,
+   "raison": "archive_jeu_fitgirl"
+  },
+  {
+   "path": "F:\\Jeux\\Call to Arms - GoH - Ostfront [FitGirl Repack]\\fg-optional-chinese.bin",
+   "size": 4697982681,
+   "raison": "archive_jeu_fitgirl"
+  },
+  {
+   "path": "F:\\Jeux\\Call to Arms - GoH - Ostfront [FitGirl Repack]\\fg-optional-polish.bin",
+   "size": 2286102194,
+   "raison": "archive_jeu_fitgirl"
+  },
+  {
+   "path": "F:\\Jeux\\Call to Arms - GoH - Ostfront [FitGirl Repack]\\fg-optional-russian.bin",
+   "size": 3951255632,
+   "raison": "archive_jeu_fitgirl"
+  },
+  {
+   "path": "F:\\Jeux\\Call to Arms - GoH - Ostfront [FitGirl Repack]\\fg-optional-ukrainian.bin",
+   "size": 4133343638,
+   "raison": "archive_jeu_fitgirl"
+  },
+  {
+   "path": "G:\\Save-Jeux\\Ryse_Son_of_Rome\\data1.bin",
+   "size": 11387353581,
+   "raison": "archive_jeu_fitgirl"
+  },
+  {
+   "path": "G:\\Save-Jeux\\Ryse_Son_of_Rome\\data3.bin",
+   "size": 3578022223,
+   "raison": "archive_jeu_fitgirl"
+  },
+  {
+   "path": "G:\\Save-Jeux\\Ryse_Son_of_Rome\\data4.bin",
+   "size": 706059624,
+   "raison": "archive_jeu_fitgirl"
+  },
+  {
+   "path": "G:\\Save-Jeux\\Ryse_Son_of_Rome\\data5.bin",
+   "size": 343613656,
+   "raison": "archive_jeu_fitgirl"
+  },
+  {
+   "path": "G:\\Save-Jeux\\Ryse_Son_of_Rome\\data6.bin",
+   "size": 3359288113,
+   "raison": "archive_jeu_fitgirl"
+  },
+  {
+   "path": "G:\\Save-Jeux\\Ryse_Son_of_Rome\\data7.bin",
+   "size": 480187658,
+   "raison": "archive_jeu_fitgirl"
+  },
+  {
+   "path": "G:\\Save-Jeux\\OneDrive_2022-07-02\\Zombie Army 4 [FitGirl Repack]\\fg-01.bin",
+   "size": 28025007563,
+   "raison": "archive_jeu_fitgirl"
+  },
+  {
+   "path": "G:\\Save-Jeux\\OneDrive_2022-07-02\\Zombie Army 4 [FitGirl Repack]\\fg-02.bin",
+   "size": 3044290689,
+   "raison": "archive_jeu_fitgirl"
+  },
+  {
+   "path": "G:\\Save-Jeux\\OneDrive_2022-07-02\\Zombie Army 4 [FitGirl Repack]\\fg-03.bin",
+   "size": 632831115,
+   "raison": "archive_jeu_fitgirl"
+  },
+  {
+   "path": "G:\\Save-Jeux\\OneDrive_2022-07-02\\Zombie Army 4 [FitGirl Repack]\\fg-04.bin",
+   "size": 217521392,
+   "raison": "archive_jeu_fitgirl"
+  },
+  {
+   "path": "G:\\Games\\Company of Heroes 2 [FitGirl Repack]\\fg-01.bin",
+   "size": 10013159763,
+   "raison": "archive_jeu_fitgirl"
+  },
+  {
+   "path": "G:\\Games\\Company of Heroes 2 [FitGirl Repack]\\fg-02.bin",
+   "size": 6730378285,
+   "raison": "archive_jeu_fitgirl"
+  },
+  {
+   "path": "G:\\Games\\Company of Heroes 2 [FitGirl Repack]\\fg-selective-english.bin",
+   "size": 1587804592,
+   "raison": "archive_jeu_fitgirl"
+  },
+  {
+   "path": "G:\\Games\\Company of Heroes 2 [FitGirl Repack]\\fg-selective-french.bin",
+   "size": 1530024429,
+   "raison": "archive_jeu_fitgirl"
+  },
+  {
+   "path": "G:\\Games\\Company of Heroes 2 [FitGirl Repack]\\fg-selective-german.bin",
+   "size": 1612969545,
+   "raison": "archive_jeu_fitgirl"
+  },
+  {
+   "path": "G:\\Games\\Company of Heroes 2 [FitGirl Repack]\\fg-selective-polish.bin",
+   "size": 1560651270,
+   "raison": "archive_jeu_fitgirl"
+  },
+  {
+   "path": "G:\\Games\\Company of Heroes 2 [FitGirl Repack]\\fg-selective-russian.bin",
+   "size": 1469059040,
+   "raison": "archive_jeu_fitgirl"
+  },
+  {
+   "path": "G:\\Games\\Company of Heroes 2 [FitGirl Repack]\\fg-selective-spanish.bin",
+   "size": 1741016913,
+   "raison": "archive_jeu_fitgirl"
+  },
+  {
+   "path": "G:\\Games\\Call to Arms - GoH - Ostfront [FitGirl Repack]\\fg-01.bin",
+   "size": 5987345312,
+   "raison": "archive_jeu_fitgirl"
+  },
+  {
+   "path": "G:\\Games\\Call to Arms - GoH - Ostfront [FitGirl Repack]\\fg-02.bin",
+   "size": 1566229449,
+   "raison": "archive_jeu_fitgirl"
+  },
+  {
+   "path": "G:\\Games\\Call to Arms - GoH - Ostfront [FitGirl Repack]\\fg-03.bin",
+   "size": 1172900279,
+   "raison": "archive_jeu_fitgirl"
+  },
+  {
+   "path": "G:\\Games\\Call to Arms - GoH - Ostfront [FitGirl Repack]\\fg-optional-videos-chinese.bin",
+   "size": 921724702,
+   "raison": "archive_jeu_fitgirl"
+  },
+  {
+   "path": "G:\\Games\\Call to Arms - GoH - Ostfront [FitGirl Repack]\\fg-optional-videos-russian.bin",
+   "size": 877753009,
+   "raison": "archive_jeu_fitgirl"
+  },
+  {
+   "path": "G:\\!! Jeux !!\\World_War_Z\\Data_so.bin",
+   "size": 27009777664,
+   "raison": "archive_jeu_fitgirl"
+  }
+ ],
+ "espace_libre_go": {
+  "C": 94.3,
+  "E": "Google Drive (cloud)",
+  "F": 278.1,
+  "G": 138.8
+ }
+}

@@ -1,0 +1,247 @@
+{
+  "name": "swat-orchestrateur",
+  "desc": "Flux maître généraliste tout-terrain (12 nœuds) : cadrage, conception architecturale (Devin), production, tests TDD, triple audit parallèle (revue, sécurité, infra/perf), arbitrage Sentinelle, contrôle Git, documentation Vault et capitalisation de l'apprentissage (Beacon/Knowledge).",
+  "graph": {
+    "version": 1,
+    "name": "swat-orchestrateur",
+    "entrySessionId": "acp/devin-cli/ionian-helicopter",
+    "nodes": [
+      {
+        "sessionId": "acp/devin-cli/ionian-helicopter",
+        "role": "Orchestrateur",
+        "task": "Cadrage & Supervision : analyse le besoin, découpe les étapes, supervise le déroulement global.",
+        "skills": [
+          "orchestrator",
+          "plan-writing"
+        ],
+        "title": "ionian-helicopter",
+        "position": {
+          "x": -660,
+          "y": -220
+        }
+      },
+      {
+        "sessionId": "acp/devin-cli/bloom-settee",
+        "role": "Architecte",
+        "task": "Conception & Spécification technique : architecture, contrats d'interfaces, sélection des patterns.",
+        "skills": [
+          "architecture",
+          "api-patterns",
+          "plan-writing"
+        ],
+        "title": "bloom-settee",
+        "position": {
+          "x": -330,
+          "y": -220
+        }
+      },
+      {
+        "sessionId": "chat-mvmw59wa",
+        "role": "Codeur",
+        "task": "Production de code : implémente la solution technique conformément aux spécifications.",
+        "skills": [
+          "clean-code",
+          "nodejs-best-practices"
+        ],
+        "title": "keen-agent",
+        "position": {
+          "x": 0,
+          "y": -220
+        }
+      },
+      {
+        "sessionId": "chat-mvfj8b4m",
+        "role": "Testeur",
+        "task": "Validation technique : tests unitaires TDD, build et compilation avant audit.",
+        "skills": [
+          "testing-patterns",
+          "tdd-workflow"
+        ],
+        "title": "zealous-agent",
+        "position": {
+          "x": 330,
+          "y": -220
+        }
+      },
+      {
+        "sessionId": "chat-mvmw5chd",
+        "role": "Reviewer",
+        "task": "Revue Qualité : analyse le diff pour la maintenabilité, lisibilité et respect des standards.",
+        "skills": [
+          "code-review-checklist",
+          "clean-code"
+        ],
+        "title": "amber-agent",
+        "position": {
+          "x": 660,
+          "y": -352
+        }
+      },
+      {
+        "sessionId": "chat-mvmtldvy",
+        "role": "Auditeur-securite",
+        "task": "Audit Sécurité : scanne vulnérabilités, failles d'injection, secrets et codepoints suspects.",
+        "skills": [
+          "vulnerability-scanner",
+          "mcp-security-audit"
+        ],
+        "title": "urban-agent",
+        "position": {
+          "x": 660,
+          "y": -132
+        }
+      },
+      {
+        "sessionId": "chat-mvpfinfra",
+        "role": "Sentinelle-Infra-Perf",
+        "task": "Audit Infra & Performance : consommation ressources, dépendances, latence MCP et rate-limits.",
+        "skills": [
+          "performance-profiling",
+          "observability-specialist"
+        ],
+        "title": "steady-agent",
+        "position": {
+          "x": 660,
+          "y": 88
+        }
+      },
+      {
+        "sessionId": "chat-mvfqytbz",
+        "role": "Sentinelle",
+        "task": "Arbitrage central GO/NO-GO : consolide les 3 rapports d'audit (Qualité, Sécu, Infra) et tranche.",
+        "skills": [
+          "vulnerability-scanner",
+          "code-review-checklist"
+        ],
+        "title": "keen-agent",
+        "position": {
+          "x": 990,
+          "y": -132
+        }
+      },
+      {
+        "sessionId": "chat-mvfj773t",
+        "role": "Verif-Submodules",
+        "task": "Contrôle Git : arborescence, sous-modules et propreté du working tree.",
+        "skills": [
+          "git-history",
+          "lint-and-validate"
+        ],
+        "title": "xenial-agent",
+        "position": {
+          "x": 1320,
+          "y": -132
+        }
+      },
+      {
+        "sessionId": "acp/devin-cli/sugary-shoemaker",
+        "role": "Integrateur-Git",
+        "task": "Livraison Git : commit conventionnel et double push vers origin et personal.",
+        "skills": [
+          "testing-patterns",
+          "lint-and-validate"
+        ],
+        "title": "sugary-shoemaker",
+        "position": {
+          "x": 1650,
+          "y": -132
+        }
+      },
+      {
+        "sessionId": "chat-mvflr6cn",
+        "role": "Documentaliste-Vault",
+        "task": "Documentation Vault : consigne la note technique dans le Vault Obsidian.",
+        "skills": [
+          "obsidian",
+          "vault-ingest"
+        ],
+        "title": "rapid-agent",
+        "position": {
+          "x": 1980,
+          "y": -220
+        }
+      },
+      {
+        "sessionId": "chat-mvp0beacon",
+        "role": "Feedback-Beacon-Knowledge",
+        "task": "Capitalisation Hephaistos : consigne les enseignements et patterns dans agentmemory.",
+        "skills": [
+          "vault-ingest",
+          "obsidian"
+        ],
+        "title": "beacon-agent",
+        "position": {
+          "x": 1980,
+          "y": -44
+        }
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge:orchestrateur->architecte",
+        "source": "acp/devin-cli/ionian-helicopter",
+        "target": "acp/devin-cli/bloom-settee"
+      },
+      {
+        "id": "edge:architecte->codeur",
+        "source": "acp/devin-cli/bloom-settee",
+        "target": "chat-mvmw59wa"
+      },
+      {
+        "id": "edge:codeur->testeur",
+        "source": "chat-mvmw59wa",
+        "target": "chat-mvfj8b4m"
+      },
+      {
+        "id": "edge:testeur->reviewer",
+        "source": "chat-mvfj8b4m",
+        "target": "chat-mvmw5chd"
+      },
+      {
+        "id": "edge:testeur->auditeur-secu",
+        "source": "chat-mvfj8b4m",
+        "target": "chat-mvmtldvy"
+      },
+      {
+        "id": "edge:testeur->infra-perf",
+        "source": "chat-mvfj8b4m",
+        "target": "chat-mvpfinfra"
+      },
+      {
+        "id": "edge:reviewer->sentinelle",
+        "source": "chat-mvmw5chd",
+        "target": "chat-mvfqytbz"
+      },
+      {
+        "id": "edge:auditeur-secu->sentinelle",
+        "source": "chat-mvmtldvy",
+        "target": "chat-mvfqytbz"
+      },
+      {
+        "id": "edge:infra-perf->sentinelle",
+        "source": "chat-mvpfinfra",
+        "target": "chat-mvfqytbz"
+      },
+      {
+        "id": "edge:sentinelle->verif-submodules",
+        "source": "chat-mvfqytbz",
+        "target": "chat-mvfj773t"
+      },
+      {
+        "id": "edge:verif-submodules->integrateur",
+        "source": "chat-mvfj773t",
+        "target": "acp/devin-cli/sugary-shoemaker"
+      },
+      {
+        "id": "edge:integrateur->documentaliste",
+        "source": "acp/devin-cli/sugary-shoemaker",
+        "target": "chat-mvflr6cn"
+      },
+      {
+        "id": "edge:integrateur->feedback-beacon",
+        "source": "acp/devin-cli/sugary-shoemaker",
+        "target": "chat-mvp0beacon"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "_comment": "Configuration MCP Hephaistos2-Kit — la SEULE entrée à déclarer dans la config GLOBALE de l'IDE. Tous les serveurs (hphe-mcp, sqlite-node, antigravity-obsidian, beacon, rea, puppeteer…) sont hébergés par le broker mcp-mux partagé, provisionné par .agent/setup/setup-mcp-mux.mjs (appelé aussi par install.ps1). Ne JAMAIS ajouter d'entrée MCP directe au niveau workspace : la config globale de l'IDE fait foi.",
+  "mcpServers": {
+    "mcp-mux": {
+      "command": "node",
+      "args": [
+        "%APPDATA%/npm/node_modules/mcp-mux/src/shim.mjs",
+        "--config",
+        "%USERPROFILE%/.config/mcp-mux/mcp-mux.json"
+      ]
+    }
+  }
+}
